@@ -1,7 +1,7 @@
 # Qt 4.8.7 statically compiled (for our need and our respect to GPLv3 )
-This is a statically compiled version of QT4.8.7 for Windows XP, compiled with MSC_VER 1916 ( latest Visual Studio 2017), running with MSVC runtime 14.27 ( VS2015-2019)
-Compiled with -Zc:wchar_t- -D_MSC_VER=1916 -DWIN32 -D_USING_V140_SDK71_ -DUNICODE -DWIN32
-For using static libs (stored in lib) you need in VS2017
+This is a statically compiled version of QT4.8.7 for Windows XP, compiled with MSC_VER 1916 ( latest Visual Studio 2017), running with MSVC runtime 14.27 ( VS2015-2019).  
+Compiled with -Zc:wchar_t- -D_MSC_VER=1916 -DWIN32 -D_USING_V140_SDK71_ -DUNICODE -DWIN32  
+For using static libs (stored in lib) you need in VS2017:
 - use toolset and platform
 - in c++ language select to NOT use Wchar_t as an internal type
 - in c++ code generation choose /MD (or /MDd) for multithread DLL
