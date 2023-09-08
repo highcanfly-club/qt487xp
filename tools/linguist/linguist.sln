@@ -1,0 +1,39 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lrelease", "C:/novasulf-II/qt-everywhere-opensource-src-4.8.7/tools/linguist/lrelease\lrelease.vcxproj", "{60A648BB-934D-3ECE-AB1C-B7A0086AADEC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lupdate", "C:/novasulf-II/qt-everywhere-opensource-src-4.8.7/tools/linguist/lupdate\lupdate.vcxproj", "{4C914374-2EAA-31A4-959D-A5B164289337}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lconvert", "C:/novasulf-II/qt-everywhere-opensource-src-4.8.7/tools/linguist/lconvert\lconvert.vcxproj", "{F8980AAF-3E01-3F1C-9B06-8ED229774C3B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "linguist", "C:/novasulf-II/qt-everywhere-opensource-src-4.8.7/tools/linguist/linguist\linguist.vcxproj", "{5CD581BB-5C2B-3F6A-83E8-CAEA902E1DDF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{60A648BB-934D-3ECE-AB1C-B7A0086AADEC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{60A648BB-934D-3ECE-AB1C-B7A0086AADEC}.Debug|Win32.Build.0 = Debug|Win32
+		{60A648BB-934D-3ECE-AB1C-B7A0086AADEC}.Release|Win32.ActiveCfg = Release|Win32
+		{60A648BB-934D-3ECE-AB1C-B7A0086AADEC}.Release|Win32.Build.0 = Release|Win32
+		{4C914374-2EAA-31A4-959D-A5B164289337}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4C914374-2EAA-31A4-959D-A5B164289337}.Debug|Win32.Build.0 = Debug|Win32
+		{4C914374-2EAA-31A4-959D-A5B164289337}.Release|Win32.ActiveCfg = Release|Win32
+		{4C914374-2EAA-31A4-959D-A5B164289337}.Release|Win32.Build.0 = Release|Win32
+		{F8980AAF-3E01-3F1C-9B06-8ED229774C3B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F8980AAF-3E01-3F1C-9B06-8ED229774C3B}.Debug|Win32.Build.0 = Debug|Win32
+		{F8980AAF-3E01-3F1C-9B06-8ED229774C3B}.Release|Win32.ActiveCfg = Release|Win32
+		{F8980AAF-3E01-3F1C-9B06-8ED229774C3B}.Release|Win32.Build.0 = Release|Win32
+		{5CD581BB-5C2B-3F6A-83E8-CAEA902E1DDF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5CD581BB-5C2B-3F6A-83E8-CAEA902E1DDF}.Debug|Win32.Build.0 = Debug|Win32
+		{5CD581BB-5C2B-3F6A-83E8-CAEA902E1DDF}.Release|Win32.ActiveCfg = Release|Win32
+		{5CD581BB-5C2B-3F6A-83E8-CAEA902E1DDF}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

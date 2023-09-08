@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E2D89BB1-2FF1-3D18-BFC1-EBAF535DDE2B}</ProjectGuid>
+    <RootNamespace>qt3supportwidgets</RootNamespace>
+    <Keyword>Qt4VSv1.0</Keyword>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <OutputDirectory>..\..\..\..\..\plugins\designer\</OutputDirectory>
+    <ATLMinimizesCRunTimeLibraryUsage>false</ATLMinimizesCRunTimeLibraryUsage>
+    <CharacterSet>NotSet</CharacterSet>
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <IntermediateDirectory>tmp\obj\release_shared\</IntermediateDirectory>
+    <PlatformToolset>v141_xp</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <OutputDirectory>..\..\..\..\..\plugins\designer\</OutputDirectory>
+    <ATLMinimizesCRunTimeLibraryUsage>false</ATLMinimizesCRunTimeLibraryUsage>
+    <CharacterSet>NotSet</CharacterSet>
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <IntermediateDirectory>tmp\obj\debug_shared\</IntermediateDirectory>
+    <PlatformToolset>v141_xp</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\..\..\..\plugins\designer\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">tmp\obj\release_shared\</IntDir>
+    <IgnoreImportLibrary Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</IgnoreImportLibrary>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\..\..\..\plugins\designer\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">tmp\obj\debug_shared\</IntDir>
+    <IgnoreImportLibrary Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</IgnoreImportLibrary>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>"..\..\..\..\..\include\QtDesigner";"..\..\..\..\..\include\QtCore";"..\..\..\..\..\include\QtGui";"..\..\..\..\..\include\QtXml";"..\..\..\..\..\include\Qt3Support";"..\..\..\..\..\include";".";"q3iconview";"q3listview";"q3mainwindow";"q3toolbar";"q3widgetstack";"q3wizard";"q3listbox";"q3table";"q3textedit";"q3widgets";"..\..\..\..\..\include\ActiveQt";"tmp\moc\release_shared";..\..\..\..\..\mkspecs\win32-msvc2017;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>-Zm200 -w34100 -w34189 %(AdditionalOptions)</AdditionalOptions>
+      <AssemblerListingLocation>tmp\obj\release_shared\</AssemblerListingLocation>
+      <BrowseInformation>false</BrowseInformation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ObjectFileName>tmp\obj\release_shared\</ObjectFileName>
+      <Optimization>MaxSpeed</Optimization>
+      <PreprocessorDefinitions>_MSC_VER=1915;WIN32;_USING_V140_SDK71_;_WINDOWS;UNICODE;WIN32;QT_DLL;QT_NO_DEBUG;QT_PLUGIN;QT_QT3SUPPORT_LIB;QT3_SUPPORT;QT_XML_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_HAVE_MMX;QT_HAVE_3DNOW;QT_HAVE_SSE;QT_HAVE_MMXEXT;QT_HAVE_SSE2;QDESIGNER_EXPORT_WIDGETS;QT_THREAD_SUPPORT;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessToFile>false</PreprocessToFile>
+      <ProgramDataBaseFileName>.\</ProgramDataBaseFileName>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\lib\Qt3Support4.lib;$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\lib\QtXml4.lib;$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\lib\QtGui4.lib;$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\lib\QtCore4.lib;$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\lib\QtDesigner4.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\lib;$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <DataExecutionPrevention>true</DataExecutionPrevention>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreImportLibrary>true</IgnoreImportLibrary>
+      <LinkDLL>true</LinkDLL>
+      <LinkIncremental>false</LinkIncremental>
+      <OptimizeReferences>true</OptimizeReferences>
+      <OutputFile>$(OutDir)\qt3supportwidgets.dll</OutputFile>
+      <RandomizedBaseAddress>true</RandomizedBaseAddress>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Link>
+    <Midl>
+      <DefaultCharType>Unsigned</DefaultCharType>
+      <EnableErrorChecks>None</EnableErrorChecks>
+      <WarningLevel>0</WarningLevel>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_MSC_VER=1915;WIN32;_USING_V140_SDK71_;_WINDOWS;UNICODE;WIN32;QT_DLL;QT_NO_DEBUG;QT_PLUGIN;QT_QT3SUPPORT_LIB;QT3_SUPPORT;QT_XML_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_HAVE_MMX;QT_HAVE_3DNOW;QT_HAVE_SSE;QT_HAVE_MMXEXT;QT_HAVE_SSE2;QDESIGNER_EXPORT_WIDGETS;QT_THREAD_SUPPORT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>"..\..\..\..\..\include\QtDesigner";"..\..\..\..\..\include\QtCore";"..\..\..\..\..\include\QtGui";"..\..\..\..\..\include\QtXml";"..\..\..\..\..\include\Qt3Support";"..\..\..\..\..\include";".";"q3iconview";"q3listview";"q3mainwindow";"q3toolbar";"q3widgetstack";"q3wizard";"q3listbox";"q3table";"q3textedit";"q3widgets";"..\..\..\..\..\include\ActiveQt";"tmp\moc\debug_shared";..\..\..\..\..\mkspecs\win32-msvc2017;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>-Zm200 -w34100 -w34189 %(AdditionalOptions)</AdditionalOptions>
+      <AssemblerListingLocation>tmp\obj\debug_shared\</AssemblerListingLocation>
+      <BrowseInformation>false</BrowseInformation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ObjectFileName>tmp\obj\debug_shared\</ObjectFileName>
+      <PreprocessorDefinitions>_MSC_VER=1915;WIN32;_USING_V140_SDK71_;_WINDOWS;UNICODE;WIN32;QT_DLL;QT_PLUGIN;QT_QT3SUPPORT_LIB;QT3_SUPPORT;QT_XML_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_HAVE_MMX;QT_HAVE_3DNOW;QT_HAVE_SSE;QT_HAVE_MMXEXT;QT_HAVE_SSE2;QDESIGNER_EXPORT_WIDGETS;QT_THREAD_SUPPORT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessToFile>false</PreprocessToFile>
+      <ProgramDataBaseFileName>.\</ProgramDataBaseFileName>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\lib\Qt3Supportd4.lib;$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\lib\QtXmld4.lib;$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\lib\QtGuid4.lib;$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\lib\QtCored4.lib;$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\lib\QtDesignerd4.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\lib;$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <DataExecutionPrevention>true</DataExecutionPrevention>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreImportLibrary>true</IgnoreImportLibrary>
+      <LinkDLL>true</LinkDLL>
+      <OutputFile>$(OutDir)\qt3supportwidgetsd.dll</OutputFile>
+      <RandomizedBaseAddress>true</RandomizedBaseAddress>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Link>
+    <Midl>
+      <DefaultCharType>Unsigned</DefaultCharType>
+      <EnableErrorChecks>None</EnableErrorChecks>
+      <WarningLevel>0</WarningLevel>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_MSC_VER=1915;WIN32;_USING_V140_SDK71_;_WINDOWS;UNICODE;WIN32;QT_DLL;QT_PLUGIN;QT_QT3SUPPORT_LIB;QT3_SUPPORT;QT_XML_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_HAVE_MMX;QT_HAVE_3DNOW;QT_HAVE_SSE;QT_HAVE_MMXEXT;QT_HAVE_SSE2;QDESIGNER_EXPORT_WIDGETS;QT_THREAD_SUPPORT;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="q3iconview\q3iconview_extrainfo.cpp" />
+    <ClCompile Include="q3iconview\q3iconview_plugin.cpp" />
+    <ClCompile Include="q3listbox\q3listbox_extrainfo.cpp" />
+    <ClCompile Include="q3listbox\q3listbox_plugin.cpp" />
+    <ClCompile Include="q3listview\q3listview_extrainfo.cpp" />
+    <ClCompile Include="q3listview\q3listview_plugin.cpp" />
+    <ClCompile Include="q3mainwindow\q3mainwindow_container.cpp" />
+    <ClCompile Include="q3mainwindow\q3mainwindow_plugin.cpp" />
+    <ClCompile Include="q3table\q3table_extrainfo.cpp" />
+    <ClCompile Include="q3table\q3table_plugin.cpp" />
+    <ClCompile Include="q3textedit\q3textedit_extrainfo.cpp" />
+    <ClCompile Include="q3textedit\q3textedit_plugin.cpp" />
+    <ClCompile Include="q3toolbar\q3toolbar_extrainfo.cpp" />
+    <ClCompile Include="q3toolbar\q3toolbar_plugin.cpp" />
+    <ClCompile Include="q3widgets\q3widget_plugins.cpp" />
+    <ClCompile Include="q3widgetstack\q3widgetstack_container.cpp" />
+    <ClCompile Include="q3widgetstack\q3widgetstack_plugin.cpp" />
+    <ClCompile Include="q3wizard\q3wizard_container.cpp" />
+    <ClCompile Include="q3wizard\q3wizard_plugin.cpp" />
+    <ClCompile Include="q3widgetstack\qdesigner_q3widgetstack.cpp" />
+    <ClCompile Include="qt3supportwidgets.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="q3iconview\q3iconview_extrainfo.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;q3iconview\q3iconview_extrainfo.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_NO_DEBUG -DQT_PLUGIN -DQT_QT3SUPPORT_LIB -DQT3_SUPPORT -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQDESIGNER_EXPORT_WIDGETS -DQT_THREAD_SUPPORT -I"..\..\..\..\..\include\QtDesigner" -I"..\..\..\..\..\include\QtCore" -I"..\..\..\..\..\include\QtGui" -I"..\..\..\..\..\include\QtXml" -I"..\..\..\..\..\include\Qt3Support" -I"..\..\..\..\..\include" -I"." -I"q3iconview" -I"q3listview" -I"q3mainwindow" -I"q3toolbar" -I"q3widgetstack" -I"q3wizard" -I"q3listbox" -I"q3table" -I"q3textedit" -I"q3widgets" -I"..\..\..\..\..\include\ActiveQt" -I"tmp\moc\release_shared" -I..\..\..\..\..\mkspecs\win32-msvc2017 -D_MSC_VER=1915 -DWIN32 -D_USING_V140_SDK71_ q3iconview\q3iconview_extrainfo.h -o tmp\moc\release_shared\moc_q3iconview_extrainfo.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MOC q3iconview\q3iconview_extrainfo.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">tmp\moc\release_shared\moc_q3iconview_extrainfo.cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;q3iconview\q3iconview_extrainfo.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_PLUGIN -DQT_QT3SUPPORT_LIB -DQT3_SUPPORT -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQDESIGNER_EXPORT_WIDGETS -DQT_THREAD_SUPPORT -I"..\..\..\..\..\include\QtDesigner" -I"..\..\..\..\..\include\QtCore" -I"..\..\..\..\..\include\QtGui" -I"..\..\..\..\..\include\QtXml" -I"..\..\..\..\..\include\Qt3Support" -I"..\..\..\..\..\include" -I"." -I"q3iconview" -I"q3listview" -I"q3mainwindow" -I"q3toolbar" -I"q3widgetstack" -I"q3wizard" -I"q3listbox" -I"q3table" -I"q3textedit" -I"q3widgets" -I"..\..\..\..\..\include\ActiveQt" -I"tmp\moc\debug_shared" -I..\..\..\..\..\mkspecs\win32-msvc2017 -D_MSC_VER=1915 -DWIN32 -D_USING_V140_SDK71_ q3iconview\q3iconview_extrainfo.h -o tmp\moc\debug_shared\moc_q3iconview_extrainfo.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MOC q3iconview\q3iconview_extrainfo.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">tmp\moc\debug_shared\moc_q3iconview_extrainfo.cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="q3iconview\q3iconview_plugin.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;q3iconview\q3iconview_plugin.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_NO_DEBUG -DQT_PLUGIN -DQT_QT3SUPPORT_LIB -DQT3_SUPPORT -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQDESIGNER_EXPORT_WIDGETS -DQT_THREAD_SUPPORT -I"..\..\..\..\..\include\QtDesigner" -I"..\..\..\..\..\include\QtCore" -I"..\..\..\..\..\include\QtGui" -I"..\..\..\..\..\include\QtXml" -I"..\..\..\..\..\include\Qt3Support" -I"..\..\..\..\..\include" -I"." -I"q3iconview" -I"q3listview" -I"q3mainwindow" -I"q3toolbar" -I"q3widgetstack" -I"q3wizard" -I"q3listbox" -I"q3table" -I"q3textedit" -I"q3widgets" -I"..\..\..\..\..\include\ActiveQt" -I"tmp\moc\release_shared" -I..\..\..\..\..\mkspecs\win32-msvc2017 -D_MSC_VER=1915 -DWIN32 -D_USING_V140_SDK71_ q3iconview\q3iconview_plugin.h -o tmp\moc\release_shared\moc_q3iconview_plugin.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MOC q3iconview\q3iconview_plugin.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">tmp\moc\release_shared\moc_q3iconview_plugin.cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;q3iconview\q3iconview_plugin.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_PLUGIN -DQT_QT3SUPPORT_LIB -DQT3_SUPPORT -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQDESIGNER_EXPORT_WIDGETS -DQT_THREAD_SUPPORT -I"..\..\..\..\..\include\QtDesigner" -I"..\..\..\..\..\include\QtCore" -I"..\..\..\..\..\include\QtGui" -I"..\..\..\..\..\include\QtXml" -I"..\..\..\..\..\include\Qt3Support" -I"..\..\..\..\..\include" -I"." -I"q3iconview" -I"q3listview" -I"q3mainwindow" -I"q3toolbar" -I"q3widgetstack" -I"q3wizard" -I"q3listbox" -I"q3table" -I"q3textedit" -I"q3widgets" -I"..\..\..\..\..\include\ActiveQt" -I"tmp\moc\debug_shared" -I..\..\..\..\..\mkspecs\win32-msvc2017 -D_MSC_VER=1915 -DWIN32 -D_USING_V140_SDK71_ q3iconview\q3iconview_plugin.h -o tmp\moc\debug_shared\moc_q3iconview_plugin.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MOC q3iconview\q3iconview_plugin.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">tmp\moc\debug_shared\moc_q3iconview_plugin.cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="q3listbox\q3listbox_extrainfo.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;q3listbox\q3listbox_extrainfo.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_NO_DEBUG -DQT_PLUGIN -DQT_QT3SUPPORT_LIB -DQT3_SUPPORT -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQDESIGNER_EXPORT_WIDGETS -DQT_THREAD_SUPPORT -I"..\..\..\..\..\include\QtDesigner" -I"..\..\..\..\..\include\QtCore" -I"..\..\..\..\..\include\QtGui" -I"..\..\..\..\..\include\QtXml" -I"..\..\..\..\..\include\Qt3Support" -I"..\..\..\..\..\include" -I"." -I"q3iconview" -I"q3listview" -I"q3mainwindow" -I"q3toolbar" -I"q3widgetstack" -I"q3wizard" -I"q3listbox" -I"q3table" -I"q3textedit" -I"q3widgets" -I"..\..\..\..\..\include\ActiveQt" -I"tmp\moc\release_shared" -I..\..\..\..\..\mkspecs\win32-msvc2017 -D_MSC_VER=1915 -DWIN32 -D_USING_V140_SDK71_ q3listbox\q3listbox_extrainfo.h -o tmp\moc\release_shared\moc_q3listbox_extrainfo.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MOC q3listbox\q3listbox_extrainfo.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">tmp\moc\release_shared\moc_q3listbox_extrainfo.cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;q3listbox\q3listbox_extrainfo.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_PLUGIN -DQT_QT3SUPPORT_LIB -DQT3_SUPPORT -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQDESIGNER_EXPORT_WIDGETS -DQT_THREAD_SUPPORT -I"..\..\..\..\..\include\QtDesigner" -I"..\..\..\..\..\include\QtCore" -I"..\..\..\..\..\include\QtGui" -I"..\..\..\..\..\include\QtXml" -I"..\..\..\..\..\include\Qt3Support" -I"..\..\..\..\..\include" -I"." -I"q3iconview" -I"q3listview" -I"q3mainwindow" -I"q3toolbar" -I"q3widgetstack" -I"q3wizard" -I"q3listbox" -I"q3table" -I"q3textedit" -I"q3widgets" -I"..\..\..\..\..\include\ActiveQt" -I"tmp\moc\debug_shared" -I..\..\..\..\..\mkspecs\win32-msvc2017 -D_MSC_VER=1915 -DWIN32 -D_USING_V140_SDK71_ q3listbox\q3listbox_extrainfo.h -o tmp\moc\debug_shared\moc_q3listbox_extrainfo.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MOC q3listbox\q3listbox_extrainfo.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">tmp\moc\debug_shared\moc_q3listbox_extrainfo.cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="q3listbox\q3listbox_plugin.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;q3listbox\q3listbox_plugin.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_NO_DEBUG -DQT_PLUGIN -DQT_QT3SUPPORT_LIB -DQT3_SUPPORT -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQDESIGNER_EXPORT_WIDGETS -DQT_THREAD_SUPPORT -I"..\..\..\..\..\include\QtDesigner" -I"..\..\..\..\..\include\QtCore" -I"..\..\..\..\..\include\QtGui" -I"..\..\..\..\..\include\QtXml" -I"..\..\..\..\..\include\Qt3Support" -I"..\..\..\..\..\include" -I"." -I"q3iconview" -I"q3listview" -I"q3mainwindow" -I"q3toolbar" -I"q3widgetstack" -I"q3wizard" -I"q3listbox" -I"q3table" -I"q3textedit" -I"q3widgets" -I"..\..\..\..\..\include\ActiveQt" -I"tmp\moc\release_shared" -I..\..\..\..\..\mkspecs\win32-msvc2017 -D_MSC_VER=1915 -DWIN32 -D_USING_V140_SDK71_ q3listbox\q3listbox_plugin.h -o tmp\moc\release_shared\moc_q3listbox_plugin.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MOC q3listbox\q3listbox_plugin.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">tmp\moc\release_shared\moc_q3listbox_plugin.cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;q3listbox\q3listbox_plugin.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_PLUGIN -DQT_QT3SUPPORT_LIB -DQT3_SUPPORT -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQDESIGNER_EXPORT_WIDGETS -DQT_THREAD_SUPPORT -I"..\..\..\..\..\include\QtDesigner" -I"..\..\..\..\..\include\QtCore" -I"..\..\..\..\..\include\QtGui" -I"..\..\..\..\..\include\QtXml" -I"..\..\..\..\..\include\Qt3Support" -I"..\..\..\..\..\include" -I"." -I"q3iconview" -I"q3listview" -I"q3mainwindow" -I"q3toolbar" -I"q3widgetstack" -I"q3wizard" -I"q3listbox" -I"q3table" -I"q3textedit" -I"q3widgets" -I"..\..\..\..\..\include\ActiveQt" -I"tmp\moc\debug_shared" -I..\..\..\..\..\mkspecs\win32-msvc2017 -D_MSC_VER=1915 -DWIN32 -D_USING_V140_SDK71_ q3listbox\q3listbox_plugin.h -o tmp\moc\debug_shared\moc_q3listbox_plugin.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MOC q3listbox\q3listbox_plugin.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">tmp\moc\debug_shared\moc_q3listbox_plugin.cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="q3listview\q3listview_extrainfo.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;q3listview\q3listview_extrainfo.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_NO_DEBUG -DQT_PLUGIN -DQT_QT3SUPPORT_LIB -DQT3_SUPPORT -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQDESIGNER_EXPORT_WIDGETS -DQT_THREAD_SUPPORT -I"..\..\..\..\..\include\QtDesigner" -I"..\..\..\..\..\include\QtCore" -I"..\..\..\..\..\include\QtGui" -I"..\..\..\..\..\include\QtXml" -I"..\..\..\..\..\include\Qt3Support" -I"..\..\..\..\..\include" -I"." -I"q3iconview" -I"q3listview" -I"q3mainwindow" -I"q3toolbar" -I"q3widgetstack" -I"q3wizard" -I"q3listbox" -I"q3table" -I"q3textedit" -I"q3widgets" -I"..\..\..\..\..\include\ActiveQt" -I"tmp\moc\release_shared" -I..\..\..\..\..\mkspecs\win32-msvc2017 -D_MSC_VER=1915 -DWIN32 -D_USING_V140_SDK71_ q3listview\q3listview_extrainfo.h -o tmp\moc\release_shared\moc_q3listview_extrainfo.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MOC q3listview\q3listview_extrainfo.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">tmp\moc\release_shared\moc_q3listview_extrainfo.cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;q3listview\q3listview_extrainfo.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_PLUGIN -DQT_QT3SUPPORT_LIB -DQT3_SUPPORT -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQDESIGNER_EXPORT_WIDGETS -DQT_THREAD_SUPPORT -I"..\..\..\..\..\include\QtDesigner" -I"..\..\..\..\..\include\QtCore" -I"..\..\..\..\..\include\QtGui" -I"..\..\..\..\..\include\QtXml" -I"..\..\..\..\..\include\Qt3Support" -I"..\..\..\..\..\include" -I"." -I"q3iconview" -I"q3listview" -I"q3mainwindow" -I"q3toolbar" -I"q3widgetstack" -I"q3wizard" -I"q3listbox" -I"q3table" -I"q3textedit" -I"q3widgets" -I"..\..\..\..\..\include\ActiveQt" -I"tmp\moc\debug_shared" -I..\..\..\..\..\mkspecs\win32-msvc2017 -D_MSC_VER=1915 -DWIN32 -D_USING_V140_SDK71_ q3listview\q3listview_extrainfo.h -o tmp\moc\debug_shared\moc_q3listview_extrainfo.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MOC q3listview\q3listview_extrainfo.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">tmp\moc\debug_shared\moc_q3listview_extrainfo.cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="q3listview\q3listview_plugin.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;q3listview\q3listview_plugin.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_NO_DEBUG -DQT_PLUGIN -DQT_QT3SUPPORT_LIB -DQT3_SUPPORT -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQDESIGNER_EXPORT_WIDGETS -DQT_THREAD_SUPPORT -I"..\..\..\..\..\include\QtDesigner" -I"..\..\..\..\..\include\QtCore" -I"..\..\..\..\..\include\QtGui" -I"..\..\..\..\..\include\QtXml" -I"..\..\..\..\..\include\Qt3Support" -I"..\..\..\..\..\include" -I"." -I"q3iconview" -I"q3listview" -I"q3mainwindow" -I"q3toolbar" -I"q3widgetstack" -I"q3wizard" -I"q3listbox" -I"q3table" -I"q3textedit" -I"q3widgets" -I"..\..\..\..\..\include\ActiveQt" -I"tmp\moc\release_shared" -I..\..\..\..\..\mkspecs\win32-msvc2017 -D_MSC_VER=1915 -DWIN32 -D_USING_V140_SDK71_ q3listview\q3listview_plugin.h -o tmp\moc\release_shared\moc_q3listview_plugin.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MOC q3listview\q3listview_plugin.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">tmp\moc\release_shared\moc_q3listview_plugin.cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;q3listview\q3listview_plugin.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_PLUGIN -DQT_QT3SUPPORT_LIB -DQT3_SUPPORT -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQDESIGNER_EXPORT_WIDGETS -DQT_THREAD_SUPPORT -I"..\..\..\..\..\include\QtDesigner" -I"..\..\..\..\..\include\QtCore" -I"..\..\..\..\..\include\QtGui" -I"..\..\..\..\..\include\QtXml" -I"..\..\..\..\..\include\Qt3Support" -I"..\..\..\..\..\include" -I"." -I"q3iconview" -I"q3listview" -I"q3mainwindow" -I"q3toolbar" -I"q3widgetstack" -I"q3wizard" -I"q3listbox" -I"q3table" -I"q3textedit" -I"q3widgets" -I"..\..\..\..\..\include\ActiveQt" -I"tmp\moc\debug_shared" -I..\..\..\..\..\mkspecs\win32-msvc2017 -D_MSC_VER=1915 -DWIN32 -D_USING_V140_SDK71_ q3listview\q3listview_plugin.h -o tmp\moc\debug_shared\moc_q3listview_plugin.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MOC q3listview\q3listview_plugin.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">tmp\moc\debug_shared\moc_q3listview_plugin.cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="q3mainwindow\q3mainwindow_container.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;q3mainwindow\q3mainwindow_container.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_NO_DEBUG -DQT_PLUGIN -DQT_QT3SUPPORT_LIB -DQT3_SUPPORT -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQDESIGNER_EXPORT_WIDGETS -DQT_THREAD_SUPPORT -I"..\..\..\..\..\include\QtDesigner" -I"..\..\..\..\..\include\QtCore" -I"..\..\..\..\..\include\QtGui" -I"..\..\..\..\..\include\QtXml" -I"..\..\..\..\..\include\Qt3Support" -I"..\..\..\..\..\include" -I"." -I"q3iconview" -I"q3listview" -I"q3mainwindow" -I"q3toolbar" -I"q3widgetstack" -I"q3wizard" -I"q3listbox" -I"q3table" -I"q3textedit" -I"q3widgets" -I"..\..\..\..\..\include\ActiveQt" -I"tmp\moc\release_shared" -I..\..\..\..\..\mkspecs\win32-msvc2017 -D_MSC_VER=1915 -DWIN32 -D_USING_V140_SDK71_ q3mainwindow\q3mainwindow_container.h -o tmp\moc\release_shared\moc_q3mainwindow_container.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MOC q3mainwindow\q3mainwindow_container.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">tmp\moc\release_shared\moc_q3mainwindow_container.cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;q3mainwindow\q3mainwindow_container.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_PLUGIN -DQT_QT3SUPPORT_LIB -DQT3_SUPPORT -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQDESIGNER_EXPORT_WIDGETS -DQT_THREAD_SUPPORT -I"..\..\..\..\..\include\QtDesigner" -I"..\..\..\..\..\include\QtCore" -I"..\..\..\..\..\include\QtGui" -I"..\..\..\..\..\include\QtXml" -I"..\..\..\..\..\include\Qt3Support" -I"..\..\..\..\..\include" -I"." -I"q3iconview" -I"q3listview" -I"q3mainwindow" -I"q3toolbar" -I"q3widgetstack" -I"q3wizard" -I"q3listbox" -I"q3table" -I"q3textedit" -I"q3widgets" -I"..\..\..\..\..\include\ActiveQt" -I"tmp\moc\debug_shared" -I..\..\..\..\..\mkspecs\win32-msvc2017 -D_MSC_VER=1915 -DWIN32 -D_USING_V140_SDK71_ q3mainwindow\q3mainwindow_container.h -o tmp\moc\debug_shared\moc_q3mainwindow_container.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MOC q3mainwindow\q3mainwindow_container.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">tmp\moc\debug_shared\moc_q3mainwindow_container.cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="q3mainwindow\q3mainwindow_plugin.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;q3mainwindow\q3mainwindow_plugin.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_NO_DEBUG -DQT_PLUGIN -DQT_QT3SUPPORT_LIB -DQT3_SUPPORT -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQDESIGNER_EXPORT_WIDGETS -DQT_THREAD_SUPPORT -I"..\..\..\..\..\include\QtDesigner" -I"..\..\..\..\..\include\QtCore" -I"..\..\..\..\..\include\QtGui" -I"..\..\..\..\..\include\QtXml" -I"..\..\..\..\..\include\Qt3Support" -I"..\..\..\..\..\include" -I"." -I"q3iconview" -I"q3listview" -I"q3mainwindow" -I"q3toolbar" -I"q3widgetstack" -I"q3wizard" -I"q3listbox" -I"q3table" -I"q3textedit" -I"q3widgets" -I"..\..\..\..\..\include\ActiveQt" -I"tmp\moc\release_shared" -I..\..\..\..\..\mkspecs\win32-msvc2017 -D_MSC_VER=1915 -DWIN32 -D_USING_V140_SDK71_ q3mainwindow\q3mainwindow_plugin.h -o tmp\moc\release_shared\moc_q3mainwindow_plugin.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MOC q3mainwindow\q3mainwindow_plugin.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">tmp\moc\release_shared\moc_q3mainwindow_plugin.cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;q3mainwindow\q3mainwindow_plugin.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_PLUGIN -DQT_QT3SUPPORT_LIB -DQT3_SUPPORT -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQDESIGNER_EXPORT_WIDGETS -DQT_THREAD_SUPPORT -I"..\..\..\..\..\include\QtDesigner" -I"..\..\..\..\..\include\QtCore" -I"..\..\..\..\..\include\QtGui" -I"..\..\..\..\..\include\QtXml" -I"..\..\..\..\..\include\Qt3Support" -I"..\..\..\..\..\include" -I"." -I"q3iconview" -I"q3listview" -I"q3mainwindow" -I"q3toolbar" -I"q3widgetstack" -I"q3wizard" -I"q3listbox" -I"q3table" -I"q3textedit" -I"q3widgets" -I"..\..\..\..\..\include\ActiveQt" -I"tmp\moc\debug_shared" -I..\..\..\..\..\mkspecs\win32-msvc2017 -D_MSC_VER=1915 -DWIN32 -D_USING_V140_SDK71_ q3mainwindow\q3mainwindow_plugin.h -o tmp\moc\debug_shared\moc_q3mainwindow_plugin.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MOC q3mainwindow\q3mainwindow_plugin.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">tmp\moc\debug_shared\moc_q3mainwindow_plugin.cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="q3table\q3table_extrainfo.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;q3table\q3table_extrainfo.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_NO_DEBUG -DQT_PLUGIN -DQT_QT3SUPPORT_LIB -DQT3_SUPPORT -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQDESIGNER_EXPORT_WIDGETS -DQT_THREAD_SUPPORT -I"..\..\..\..\..\include\QtDesigner" -I"..\..\..\..\..\include\QtCore" -I"..\..\..\..\..\include\QtGui" -I"..\..\..\..\..\include\QtXml" -I"..\..\..\..\..\include\Qt3Support" -I"..\..\..\..\..\include" -I"." -I"q3iconview" -I"q3listview" -I"q3mainwindow" -I"q3toolbar" -I"q3widgetstack" -I"q3wizard" -I"q3listbox" -I"q3table" -I"q3textedit" -I"q3widgets" -I"..\..\..\..\..\include\ActiveQt" -I"tmp\moc\release_shared" -I..\..\..\..\..\mkspecs\win32-msvc2017 -D_MSC_VER=1915 -DWIN32 -D_USING_V140_SDK71_ q3table\q3table_extrainfo.h -o tmp\moc\release_shared\moc_q3table_extrainfo.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MOC q3table\q3table_extrainfo.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">tmp\moc\release_shared\moc_q3table_extrainfo.cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;q3table\q3table_extrainfo.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_PLUGIN -DQT_QT3SUPPORT_LIB -DQT3_SUPPORT -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQDESIGNER_EXPORT_WIDGETS -DQT_THREAD_SUPPORT -I"..\..\..\..\..\include\QtDesigner" -I"..\..\..\..\..\include\QtCore" -I"..\..\..\..\..\include\QtGui" -I"..\..\..\..\..\include\QtXml" -I"..\..\..\..\..\include\Qt3Support" -I"..\..\..\..\..\include" -I"." -I"q3iconview" -I"q3listview" -I"q3mainwindow" -I"q3toolbar" -I"q3widgetstack" -I"q3wizard" -I"q3listbox" -I"q3table" -I"q3textedit" -I"q3widgets" -I"..\..\..\..\..\include\ActiveQt" -I"tmp\moc\debug_shared" -I..\..\..\..\..\mkspecs\win32-msvc2017 -D_MSC_VER=1915 -DWIN32 -D_USING_V140_SDK71_ q3table\q3table_extrainfo.h -o tmp\moc\debug_shared\moc_q3table_extrainfo.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MOC q3table\q3table_extrainfo.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">tmp\moc\debug_shared\moc_q3table_extrainfo.cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="q3table\q3table_plugin.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;q3table\q3table_plugin.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_NO_DEBUG -DQT_PLUGIN -DQT_QT3SUPPORT_LIB -DQT3_SUPPORT -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQDESIGNER_EXPORT_WIDGETS -DQT_THREAD_SUPPORT -I"..\..\..\..\..\include\QtDesigner" -I"..\..\..\..\..\include\QtCore" -I"..\..\..\..\..\include\QtGui" -I"..\..\..\..\..\include\QtXml" -I"..\..\..\..\..\include\Qt3Support" -I"..\..\..\..\..\include" -I"." -I"q3iconview" -I"q3listview" -I"q3mainwindow" -I"q3toolbar" -I"q3widgetstack" -I"q3wizard" -I"q3listbox" -I"q3table" -I"q3textedit" -I"q3widgets" -I"..\..\..\..\..\include\ActiveQt" -I"tmp\moc\release_shared" -I..\..\..\..\..\mkspecs\win32-msvc2017 -D_MSC_VER=1915 -DWIN32 -D_USING_V140_SDK71_ q3table\q3table_plugin.h -o tmp\moc\release_shared\moc_q3table_plugin.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MOC q3table\q3table_plugin.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">tmp\moc\release_shared\moc_q3table_plugin.cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;q3table\q3table_plugin.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_PLUGIN -DQT_QT3SUPPORT_LIB -DQT3_SUPPORT -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQDESIGNER_EXPORT_WIDGETS -DQT_THREAD_SUPPORT -I"..\..\..\..\..\include\QtDesigner" -I"..\..\..\..\..\include\QtCore" -I"..\..\..\..\..\include\QtGui" -I"..\..\..\..\..\include\QtXml" -I"..\..\..\..\..\include\Qt3Support" -I"..\..\..\..\..\include" -I"." -I"q3iconview" -I"q3listview" -I"q3mainwindow" -I"q3toolbar" -I"q3widgetstack" -I"q3wizard" -I"q3listbox" -I"q3table" -I"q3textedit" -I"q3widgets" -I"..\..\..\..\..\include\ActiveQt" -I"tmp\moc\debug_shared" -I..\..\..\..\..\mkspecs\win32-msvc2017 -D_MSC_VER=1915 -DWIN32 -D_USING_V140_SDK71_ q3table\q3table_plugin.h -o tmp\moc\debug_shared\moc_q3table_plugin.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MOC q3table\q3table_plugin.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">tmp\moc\debug_shared\moc_q3table_plugin.cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="q3textedit\q3textedit_extrainfo.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;q3textedit\q3textedit_extrainfo.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_NO_DEBUG -DQT_PLUGIN -DQT_QT3SUPPORT_LIB -DQT3_SUPPORT -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQDESIGNER_EXPORT_WIDGETS -DQT_THREAD_SUPPORT -I"..\..\..\..\..\include\QtDesigner" -I"..\..\..\..\..\include\QtCore" -I"..\..\..\..\..\include\QtGui" -I"..\..\..\..\..\include\QtXml" -I"..\..\..\..\..\include\Qt3Support" -I"..\..\..\..\..\include" -I"." -I"q3iconview" -I"q3listview" -I"q3mainwindow" -I"q3toolbar" -I"q3widgetstack" -I"q3wizard" -I"q3listbox" -I"q3table" -I"q3textedit" -I"q3widgets" -I"..\..\..\..\..\include\ActiveQt" -I"tmp\moc\release_shared" -I..\..\..\..\..\mkspecs\win32-msvc2017 -D_MSC_VER=1915 -DWIN32 -D_USING_V140_SDK71_ q3textedit\q3textedit_extrainfo.h -o tmp\moc\release_shared\moc_q3textedit_extrainfo.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MOC q3textedit\q3textedit_extrainfo.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">tmp\moc\release_shared\moc_q3textedit_extrainfo.cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;q3textedit\q3textedit_extrainfo.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_PLUGIN -DQT_QT3SUPPORT_LIB -DQT3_SUPPORT -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQDESIGNER_EXPORT_WIDGETS -DQT_THREAD_SUPPORT -I"..\..\..\..\..\include\QtDesigner" -I"..\..\..\..\..\include\QtCore" -I"..\..\..\..\..\include\QtGui" -I"..\..\..\..\..\include\QtXml" -I"..\..\..\..\..\include\Qt3Support" -I"..\..\..\..\..\include" -I"." -I"q3iconview" -I"q3listview" -I"q3mainwindow" -I"q3toolbar" -I"q3widgetstack" -I"q3wizard" -I"q3listbox" -I"q3table" -I"q3textedit" -I"q3widgets" -I"..\..\..\..\..\include\ActiveQt" -I"tmp\moc\debug_shared" -I..\..\..\..\..\mkspecs\win32-msvc2017 -D_MSC_VER=1915 -DWIN32 -D_USING_V140_SDK71_ q3textedit\q3textedit_extrainfo.h -o tmp\moc\debug_shared\moc_q3textedit_extrainfo.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MOC q3textedit\q3textedit_extrainfo.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">tmp\moc\debug_shared\moc_q3textedit_extrainfo.cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="q3textedit\q3textedit_plugin.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;q3textedit\q3textedit_plugin.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_NO_DEBUG -DQT_PLUGIN -DQT_QT3SUPPORT_LIB -DQT3_SUPPORT -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQDESIGNER_EXPORT_WIDGETS -DQT_THREAD_SUPPORT -I"..\..\..\..\..\include\QtDesigner" -I"..\..\..\..\..\include\QtCore" -I"..\..\..\..\..\include\QtGui" -I"..\..\..\..\..\include\QtXml" -I"..\..\..\..\..\include\Qt3Support" -I"..\..\..\..\..\include" -I"." -I"q3iconview" -I"q3listview" -I"q3mainwindow" -I"q3toolbar" -I"q3widgetstack" -I"q3wizard" -I"q3listbox" -I"q3table" -I"q3textedit" -I"q3widgets" -I"..\..\..\..\..\include\ActiveQt" -I"tmp\moc\release_shared" -I..\..\..\..\..\mkspecs\win32-msvc2017 -D_MSC_VER=1915 -DWIN32 -D_USING_V140_SDK71_ q3textedit\q3textedit_plugin.h -o tmp\moc\release_shared\moc_q3textedit_plugin.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MOC q3textedit\q3textedit_plugin.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">tmp\moc\release_shared\moc_q3textedit_plugin.cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;q3textedit\q3textedit_plugin.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_PLUGIN -DQT_QT3SUPPORT_LIB -DQT3_SUPPORT -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQDESIGNER_EXPORT_WIDGETS -DQT_THREAD_SUPPORT -I"..\..\..\..\..\include\QtDesigner" -I"..\..\..\..\..\include\QtCore" -I"..\..\..\..\..\include\QtGui" -I"..\..\..\..\..\include\QtXml" -I"..\..\..\..\..\include\Qt3Support" -I"..\..\..\..\..\include" -I"." -I"q3iconview" -I"q3listview" -I"q3mainwindow" -I"q3toolbar" -I"q3widgetstack" -I"q3wizard" -I"q3listbox" -I"q3table" -I"q3textedit" -I"q3widgets" -I"..\..\..\..\..\include\ActiveQt" -I"tmp\moc\debug_shared" -I..\..\..\..\..\mkspecs\win32-msvc2017 -D_MSC_VER=1915 -DWIN32 -D_USING_V140_SDK71_ q3textedit\q3textedit_plugin.h -o tmp\moc\debug_shared\moc_q3textedit_plugin.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MOC q3textedit\q3textedit_plugin.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">tmp\moc\debug_shared\moc_q3textedit_plugin.cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="q3toolbar\q3toolbar_extrainfo.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;q3toolbar\q3toolbar_extrainfo.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_NO_DEBUG -DQT_PLUGIN -DQT_QT3SUPPORT_LIB -DQT3_SUPPORT -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQDESIGNER_EXPORT_WIDGETS -DQT_THREAD_SUPPORT -I"..\..\..\..\..\include\QtDesigner" -I"..\..\..\..\..\include\QtCore" -I"..\..\..\..\..\include\QtGui" -I"..\..\..\..\..\include\QtXml" -I"..\..\..\..\..\include\Qt3Support" -I"..\..\..\..\..\include" -I"." -I"q3iconview" -I"q3listview" -I"q3mainwindow" -I"q3toolbar" -I"q3widgetstack" -I"q3wizard" -I"q3listbox" -I"q3table" -I"q3textedit" -I"q3widgets" -I"..\..\..\..\..\include\ActiveQt" -I"tmp\moc\release_shared" -I..\..\..\..\..\mkspecs\win32-msvc2017 -D_MSC_VER=1915 -DWIN32 -D_USING_V140_SDK71_ q3toolbar\q3toolbar_extrainfo.h -o tmp\moc\release_shared\moc_q3toolbar_extrainfo.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MOC q3toolbar\q3toolbar_extrainfo.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">tmp\moc\release_shared\moc_q3toolbar_extrainfo.cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;q3toolbar\q3toolbar_extrainfo.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_PLUGIN -DQT_QT3SUPPORT_LIB -DQT3_SUPPORT -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQDESIGNER_EXPORT_WIDGETS -DQT_THREAD_SUPPORT -I"..\..\..\..\..\include\QtDesigner" -I"..\..\..\..\..\include\QtCore" -I"..\..\..\..\..\include\QtGui" -I"..\..\..\..\..\include\QtXml" -I"..\..\..\..\..\include\Qt3Support" -I"..\..\..\..\..\include" -I"." -I"q3iconview" -I"q3listview" -I"q3mainwindow" -I"q3toolbar" -I"q3widgetstack" -I"q3wizard" -I"q3listbox" -I"q3table" -I"q3textedit" -I"q3widgets" -I"..\..\..\..\..\include\ActiveQt" -I"tmp\moc\debug_shared" -I..\..\..\..\..\mkspecs\win32-msvc2017 -D_MSC_VER=1915 -DWIN32 -D_USING_V140_SDK71_ q3toolbar\q3toolbar_extrainfo.h -o tmp\moc\debug_shared\moc_q3toolbar_extrainfo.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MOC q3toolbar\q3toolbar_extrainfo.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">tmp\moc\debug_shared\moc_q3toolbar_extrainfo.cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="q3toolbar\q3toolbar_plugin.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;q3toolbar\q3toolbar_plugin.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_NO_DEBUG -DQT_PLUGIN -DQT_QT3SUPPORT_LIB -DQT3_SUPPORT -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQDESIGNER_EXPORT_WIDGETS -DQT_THREAD_SUPPORT -I"..\..\..\..\..\include\QtDesigner" -I"..\..\..\..\..\include\QtCore" -I"..\..\..\..\..\include\QtGui" -I"..\..\..\..\..\include\QtXml" -I"..\..\..\..\..\include\Qt3Support" -I"..\..\..\..\..\include" -I"." -I"q3iconview" -I"q3listview" -I"q3mainwindow" -I"q3toolbar" -I"q3widgetstack" -I"q3wizard" -I"q3listbox" -I"q3table" -I"q3textedit" -I"q3widgets" -I"..\..\..\..\..\include\ActiveQt" -I"tmp\moc\release_shared" -I..\..\..\..\..\mkspecs\win32-msvc2017 -D_MSC_VER=1915 -DWIN32 -D_USING_V140_SDK71_ q3toolbar\q3toolbar_plugin.h -o tmp\moc\release_shared\moc_q3toolbar_plugin.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MOC q3toolbar\q3toolbar_plugin.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">tmp\moc\release_shared\moc_q3toolbar_plugin.cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;q3toolbar\q3toolbar_plugin.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_PLUGIN -DQT_QT3SUPPORT_LIB -DQT3_SUPPORT -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQDESIGNER_EXPORT_WIDGETS -DQT_THREAD_SUPPORT -I"..\..\..\..\..\include\QtDesigner" -I"..\..\..\..\..\include\QtCore" -I"..\..\..\..\..\include\QtGui" -I"..\..\..\..\..\include\QtXml" -I"..\..\..\..\..\include\Qt3Support" -I"..\..\..\..\..\include" -I"." -I"q3iconview" -I"q3listview" -I"q3mainwindow" -I"q3toolbar" -I"q3widgetstack" -I"q3wizard" -I"q3listbox" -I"q3table" -I"q3textedit" -I"q3widgets" -I"..\..\..\..\..\include\ActiveQt" -I"tmp\moc\debug_shared" -I..\..\..\..\..\mkspecs\win32-msvc2017 -D_MSC_VER=1915 -DWIN32 -D_USING_V140_SDK71_ q3toolbar\q3toolbar_plugin.h -o tmp\moc\debug_shared\moc_q3toolbar_plugin.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MOC q3toolbar\q3toolbar_plugin.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">tmp\moc\debug_shared\moc_q3toolbar_plugin.cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="q3widgets\q3widget_plugins.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;q3widgets\q3widget_plugins.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_NO_DEBUG -DQT_PLUGIN -DQT_QT3SUPPORT_LIB -DQT3_SUPPORT -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQDESIGNER_EXPORT_WIDGETS -DQT_THREAD_SUPPORT -I"..\..\..\..\..\include\QtDesigner" -I"..\..\..\..\..\include\QtCore" -I"..\..\..\..\..\include\QtGui" -I"..\..\..\..\..\include\QtXml" -I"..\..\..\..\..\include\Qt3Support" -I"..\..\..\..\..\include" -I"." -I"q3iconview" -I"q3listview" -I"q3mainwindow" -I"q3toolbar" -I"q3widgetstack" -I"q3wizard" -I"q3listbox" -I"q3table" -I"q3textedit" -I"q3widgets" -I"..\..\..\..\..\include\ActiveQt" -I"tmp\moc\release_shared" -I..\..\..\..\..\mkspecs\win32-msvc2017 -D_MSC_VER=1915 -DWIN32 -D_USING_V140_SDK71_ q3widgets\q3widget_plugins.h -o tmp\moc\release_shared\moc_q3widget_plugins.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MOC q3widgets\q3widget_plugins.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">tmp\moc\release_shared\moc_q3widget_plugins.cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;q3widgets\q3widget_plugins.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_PLUGIN -DQT_QT3SUPPORT_LIB -DQT3_SUPPORT -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQDESIGNER_EXPORT_WIDGETS -DQT_THREAD_SUPPORT -I"..\..\..\..\..\include\QtDesigner" -I"..\..\..\..\..\include\QtCore" -I"..\..\..\..\..\include\QtGui" -I"..\..\..\..\..\include\QtXml" -I"..\..\..\..\..\include\Qt3Support" -I"..\..\..\..\..\include" -I"." -I"q3iconview" -I"q3listview" -I"q3mainwindow" -I"q3toolbar" -I"q3widgetstack" -I"q3wizard" -I"q3listbox" -I"q3table" -I"q3textedit" -I"q3widgets" -I"..\..\..\..\..\include\ActiveQt" -I"tmp\moc\debug_shared" -I..\..\..\..\..\mkspecs\win32-msvc2017 -D_MSC_VER=1915 -DWIN32 -D_USING_V140_SDK71_ q3widgets\q3widget_plugins.h -o tmp\moc\debug_shared\moc_q3widget_plugins.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MOC q3widgets\q3widget_plugins.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">tmp\moc\debug_shared\moc_q3widget_plugins.cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="q3widgetstack\q3widgetstack_container.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;q3widgetstack\q3widgetstack_container.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_NO_DEBUG -DQT_PLUGIN -DQT_QT3SUPPORT_LIB -DQT3_SUPPORT -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQDESIGNER_EXPORT_WIDGETS -DQT_THREAD_SUPPORT -I"..\..\..\..\..\include\QtDesigner" -I"..\..\..\..\..\include\QtCore" -I"..\..\..\..\..\include\QtGui" -I"..\..\..\..\..\include\QtXml" -I"..\..\..\..\..\include\Qt3Support" -I"..\..\..\..\..\include" -I"." -I"q3iconview" -I"q3listview" -I"q3mainwindow" -I"q3toolbar" -I"q3widgetstack" -I"q3wizard" -I"q3listbox" -I"q3table" -I"q3textedit" -I"q3widgets" -I"..\..\..\..\..\include\ActiveQt" -I"tmp\moc\release_shared" -I..\..\..\..\..\mkspecs\win32-msvc2017 -D_MSC_VER=1915 -DWIN32 -D_USING_V140_SDK71_ q3widgetstack\q3widgetstack_container.h -o tmp\moc\release_shared\moc_q3widgetstack_container.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MOC q3widgetstack\q3widgetstack_container.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">tmp\moc\release_shared\moc_q3widgetstack_container.cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;q3widgetstack\q3widgetstack_container.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_PLUGIN -DQT_QT3SUPPORT_LIB -DQT3_SUPPORT -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQDESIGNER_EXPORT_WIDGETS -DQT_THREAD_SUPPORT -I"..\..\..\..\..\include\QtDesigner" -I"..\..\..\..\..\include\QtCore" -I"..\..\..\..\..\include\QtGui" -I"..\..\..\..\..\include\QtXml" -I"..\..\..\..\..\include\Qt3Support" -I"..\..\..\..\..\include" -I"." -I"q3iconview" -I"q3listview" -I"q3mainwindow" -I"q3toolbar" -I"q3widgetstack" -I"q3wizard" -I"q3listbox" -I"q3table" -I"q3textedit" -I"q3widgets" -I"..\..\..\..\..\include\ActiveQt" -I"tmp\moc\debug_shared" -I..\..\..\..\..\mkspecs\win32-msvc2017 -D_MSC_VER=1915 -DWIN32 -D_USING_V140_SDK71_ q3widgetstack\q3widgetstack_container.h -o tmp\moc\debug_shared\moc_q3widgetstack_container.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MOC q3widgetstack\q3widgetstack_container.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">tmp\moc\debug_shared\moc_q3widgetstack_container.cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="q3widgetstack\q3widgetstack_plugin.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;q3widgetstack\q3widgetstack_plugin.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_NO_DEBUG -DQT_PLUGIN -DQT_QT3SUPPORT_LIB -DQT3_SUPPORT -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQDESIGNER_EXPORT_WIDGETS -DQT_THREAD_SUPPORT -I"..\..\..\..\..\include\QtDesigner" -I"..\..\..\..\..\include\QtCore" -I"..\..\..\..\..\include\QtGui" -I"..\..\..\..\..\include\QtXml" -I"..\..\..\..\..\include\Qt3Support" -I"..\..\..\..\..\include" -I"." -I"q3iconview" -I"q3listview" -I"q3mainwindow" -I"q3toolbar" -I"q3widgetstack" -I"q3wizard" -I"q3listbox" -I"q3table" -I"q3textedit" -I"q3widgets" -I"..\..\..\..\..\include\ActiveQt" -I"tmp\moc\release_shared" -I..\..\..\..\..\mkspecs\win32-msvc2017 -D_MSC_VER=1915 -DWIN32 -D_USING_V140_SDK71_ q3widgetstack\q3widgetstack_plugin.h -o tmp\moc\release_shared\moc_q3widgetstack_plugin.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MOC q3widgetstack\q3widgetstack_plugin.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">tmp\moc\release_shared\moc_q3widgetstack_plugin.cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;q3widgetstack\q3widgetstack_plugin.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_PLUGIN -DQT_QT3SUPPORT_LIB -DQT3_SUPPORT -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQDESIGNER_EXPORT_WIDGETS -DQT_THREAD_SUPPORT -I"..\..\..\..\..\include\QtDesigner" -I"..\..\..\..\..\include\QtCore" -I"..\..\..\..\..\include\QtGui" -I"..\..\..\..\..\include\QtXml" -I"..\..\..\..\..\include\Qt3Support" -I"..\..\..\..\..\include" -I"." -I"q3iconview" -I"q3listview" -I"q3mainwindow" -I"q3toolbar" -I"q3widgetstack" -I"q3wizard" -I"q3listbox" -I"q3table" -I"q3textedit" -I"q3widgets" -I"..\..\..\..\..\include\ActiveQt" -I"tmp\moc\debug_shared" -I..\..\..\..\..\mkspecs\win32-msvc2017 -D_MSC_VER=1915 -DWIN32 -D_USING_V140_SDK71_ q3widgetstack\q3widgetstack_plugin.h -o tmp\moc\debug_shared\moc_q3widgetstack_plugin.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MOC q3widgetstack\q3widgetstack_plugin.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">tmp\moc\debug_shared\moc_q3widgetstack_plugin.cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="q3wizard\q3wizard_container.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;q3wizard\q3wizard_container.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_NO_DEBUG -DQT_PLUGIN -DQT_QT3SUPPORT_LIB -DQT3_SUPPORT -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQDESIGNER_EXPORT_WIDGETS -DQT_THREAD_SUPPORT -I"..\..\..\..\..\include\QtDesigner" -I"..\..\..\..\..\include\QtCore" -I"..\..\..\..\..\include\QtGui" -I"..\..\..\..\..\include\QtXml" -I"..\..\..\..\..\include\Qt3Support" -I"..\..\..\..\..\include" -I"." -I"q3iconview" -I"q3listview" -I"q3mainwindow" -I"q3toolbar" -I"q3widgetstack" -I"q3wizard" -I"q3listbox" -I"q3table" -I"q3textedit" -I"q3widgets" -I"..\..\..\..\..\include\ActiveQt" -I"tmp\moc\release_shared" -I..\..\..\..\..\mkspecs\win32-msvc2017 -D_MSC_VER=1915 -DWIN32 -D_USING_V140_SDK71_ q3wizard\q3wizard_container.h -o tmp\moc\release_shared\moc_q3wizard_container.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MOC q3wizard\q3wizard_container.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">tmp\moc\release_shared\moc_q3wizard_container.cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;q3wizard\q3wizard_container.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_PLUGIN -DQT_QT3SUPPORT_LIB -DQT3_SUPPORT -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQDESIGNER_EXPORT_WIDGETS -DQT_THREAD_SUPPORT -I"..\..\..\..\..\include\QtDesigner" -I"..\..\..\..\..\include\QtCore" -I"..\..\..\..\..\include\QtGui" -I"..\..\..\..\..\include\QtXml" -I"..\..\..\..\..\include\Qt3Support" -I"..\..\..\..\..\include" -I"." -I"q3iconview" -I"q3listview" -I"q3mainwindow" -I"q3toolbar" -I"q3widgetstack" -I"q3wizard" -I"q3listbox" -I"q3table" -I"q3textedit" -I"q3widgets" -I"..\..\..\..\..\include\ActiveQt" -I"tmp\moc\debug_shared" -I..\..\..\..\..\mkspecs\win32-msvc2017 -D_MSC_VER=1915 -DWIN32 -D_USING_V140_SDK71_ q3wizard\q3wizard_container.h -o tmp\moc\debug_shared\moc_q3wizard_container.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MOC q3wizard\q3wizard_container.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">tmp\moc\debug_shared\moc_q3wizard_container.cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="q3wizard\q3wizard_plugin.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;q3wizard\q3wizard_plugin.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_NO_DEBUG -DQT_PLUGIN -DQT_QT3SUPPORT_LIB -DQT3_SUPPORT -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQDESIGNER_EXPORT_WIDGETS -DQT_THREAD_SUPPORT -I"..\..\..\..\..\include\QtDesigner" -I"..\..\..\..\..\include\QtCore" -I"..\..\..\..\..\include\QtGui" -I"..\..\..\..\..\include\QtXml" -I"..\..\..\..\..\include\Qt3Support" -I"..\..\..\..\..\include" -I"." -I"q3iconview" -I"q3listview" -I"q3mainwindow" -I"q3toolbar" -I"q3widgetstack" -I"q3wizard" -I"q3listbox" -I"q3table" -I"q3textedit" -I"q3widgets" -I"..\..\..\..\..\include\ActiveQt" -I"tmp\moc\release_shared" -I..\..\..\..\..\mkspecs\win32-msvc2017 -D_MSC_VER=1915 -DWIN32 -D_USING_V140_SDK71_ q3wizard\q3wizard_plugin.h -o tmp\moc\release_shared\moc_q3wizard_plugin.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MOC q3wizard\q3wizard_plugin.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">tmp\moc\release_shared\moc_q3wizard_plugin.cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;q3wizard\q3wizard_plugin.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_PLUGIN -DQT_QT3SUPPORT_LIB -DQT3_SUPPORT -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQDESIGNER_EXPORT_WIDGETS -DQT_THREAD_SUPPORT -I"..\..\..\..\..\include\QtDesigner" -I"..\..\..\..\..\include\QtCore" -I"..\..\..\..\..\include\QtGui" -I"..\..\..\..\..\include\QtXml" -I"..\..\..\..\..\include\Qt3Support" -I"..\..\..\..\..\include" -I"." -I"q3iconview" -I"q3listview" -I"q3mainwindow" -I"q3toolbar" -I"q3widgetstack" -I"q3wizard" -I"q3listbox" -I"q3table" -I"q3textedit" -I"q3widgets" -I"..\..\..\..\..\include\ActiveQt" -I"tmp\moc\debug_shared" -I..\..\..\..\..\mkspecs\win32-msvc2017 -D_MSC_VER=1915 -DWIN32 -D_USING_V140_SDK71_ q3wizard\q3wizard_plugin.h -o tmp\moc\debug_shared\moc_q3wizard_plugin.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MOC q3wizard\q3wizard_plugin.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">tmp\moc\debug_shared\moc_q3wizard_plugin.cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="q3widgetstack\qdesigner_q3widgetstack_p.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;q3widgetstack\qdesigner_q3widgetstack_p.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_NO_DEBUG -DQT_PLUGIN -DQT_QT3SUPPORT_LIB -DQT3_SUPPORT -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQDESIGNER_EXPORT_WIDGETS -DQT_THREAD_SUPPORT -I"..\..\..\..\..\include\QtDesigner" -I"..\..\..\..\..\include\QtCore" -I"..\..\..\..\..\include\QtGui" -I"..\..\..\..\..\include\QtXml" -I"..\..\..\..\..\include\Qt3Support" -I"..\..\..\..\..\include" -I"." -I"q3iconview" -I"q3listview" -I"q3mainwindow" -I"q3toolbar" -I"q3widgetstack" -I"q3wizard" -I"q3listbox" -I"q3table" -I"q3textedit" -I"q3widgets" -I"..\..\..\..\..\include\ActiveQt" -I"tmp\moc\release_shared" -I..\..\..\..\..\mkspecs\win32-msvc2017 -D_MSC_VER=1915 -DWIN32 -D_USING_V140_SDK71_ q3widgetstack\qdesigner_q3widgetstack_p.h -o tmp\moc\release_shared\moc_qdesigner_q3widgetstack_p.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MOC q3widgetstack\qdesigner_q3widgetstack_p.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">tmp\moc\release_shared\moc_qdesigner_q3widgetstack_p.cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;q3widgetstack\qdesigner_q3widgetstack_p.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_PLUGIN -DQT_QT3SUPPORT_LIB -DQT3_SUPPORT -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQDESIGNER_EXPORT_WIDGETS -DQT_THREAD_SUPPORT -I"..\..\..\..\..\include\QtDesigner" -I"..\..\..\..\..\include\QtCore" -I"..\..\..\..\..\include\QtGui" -I"..\..\..\..\..\include\QtXml" -I"..\..\..\..\..\include\Qt3Support" -I"..\..\..\..\..\include" -I"." -I"q3iconview" -I"q3listview" -I"q3mainwindow" -I"q3toolbar" -I"q3widgetstack" -I"q3wizard" -I"q3listbox" -I"q3table" -I"q3textedit" -I"q3widgets" -I"..\..\..\..\..\include\ActiveQt" -I"tmp\moc\debug_shared" -I..\..\..\..\..\mkspecs\win32-msvc2017 -D_MSC_VER=1915 -DWIN32 -D_USING_V140_SDK71_ q3widgetstack\qdesigner_q3widgetstack_p.h -o tmp\moc\debug_shared\moc_qdesigner_q3widgetstack_p.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MOC q3widgetstack\qdesigner_q3widgetstack_p.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">tmp\moc\debug_shared\moc_qdesigner_q3widgetstack_p.cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="tmp\moc\debug_shared\moc_q3iconview_extrainfo.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tmp\moc\release_shared\moc_q3iconview_extrainfo.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tmp\moc\debug_shared\moc_q3iconview_plugin.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tmp\moc\release_shared\moc_q3iconview_plugin.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tmp\moc\debug_shared\moc_q3listbox_extrainfo.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tmp\moc\release_shared\moc_q3listbox_extrainfo.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tmp\moc\debug_shared\moc_q3listbox_plugin.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tmp\moc\release_shared\moc_q3listbox_plugin.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tmp\moc\debug_shared\moc_q3listview_extrainfo.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tmp\moc\release_shared\moc_q3listview_extrainfo.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tmp\moc\debug_shared\moc_q3listview_plugin.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tmp\moc\release_shared\moc_q3listview_plugin.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tmp\moc\debug_shared\moc_q3mainwindow_container.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tmp\moc\release_shared\moc_q3mainwindow_container.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tmp\moc\debug_shared\moc_q3mainwindow_plugin.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tmp\moc\release_shared\moc_q3mainwindow_plugin.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tmp\moc\debug_shared\moc_q3table_extrainfo.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tmp\moc\release_shared\moc_q3table_extrainfo.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tmp\moc\debug_shared\moc_q3table_plugin.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tmp\moc\release_shared\moc_q3table_plugin.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tmp\moc\debug_shared\moc_q3textedit_extrainfo.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tmp\moc\release_shared\moc_q3textedit_extrainfo.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tmp\moc\debug_shared\moc_q3textedit_plugin.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tmp\moc\release_shared\moc_q3textedit_plugin.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tmp\moc\debug_shared\moc_q3toolbar_extrainfo.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tmp\moc\release_shared\moc_q3toolbar_extrainfo.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tmp\moc\debug_shared\moc_q3toolbar_plugin.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tmp\moc\release_shared\moc_q3toolbar_plugin.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tmp\moc\debug_shared\moc_q3widget_plugins.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tmp\moc\release_shared\moc_q3widget_plugins.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tmp\moc\debug_shared\moc_q3widgetstack_container.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tmp\moc\release_shared\moc_q3widgetstack_container.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tmp\moc\debug_shared\moc_q3widgetstack_plugin.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tmp\moc\release_shared\moc_q3widgetstack_plugin.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tmp\moc\debug_shared\moc_q3wizard_container.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tmp\moc\release_shared\moc_q3wizard_container.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tmp\moc\debug_shared\moc_q3wizard_plugin.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tmp\moc\release_shared\moc_q3wizard_plugin.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tmp\moc\debug_shared\moc_qdesigner_q3widgetstack_p.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tmp\moc\release_shared\moc_qdesigner_q3widgetstack_p.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <CustomBuild Include="tmp\moc\debug_shared\qt3supportwidgets.moc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;qt3supportwidgets.cpp;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_PLUGIN -DQT_QT3SUPPORT_LIB -DQT3_SUPPORT -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQDESIGNER_EXPORT_WIDGETS -DQT_THREAD_SUPPORT -I"..\..\..\..\..\include\QtDesigner" -I"..\..\..\..\..\include\QtCore" -I"..\..\..\..\..\include\QtGui" -I"..\..\..\..\..\include\QtXml" -I"..\..\..\..\..\include\Qt3Support" -I"..\..\..\..\..\include" -I"." -I"q3iconview" -I"q3listview" -I"q3mainwindow" -I"q3toolbar" -I"q3widgetstack" -I"q3wizard" -I"q3listbox" -I"q3table" -I"q3textedit" -I"q3widgets" -I"..\..\..\..\..\include\ActiveQt" -I"tmp\moc\debug_shared" -I..\..\..\..\..\mkspecs\win32-msvc2017 -D_MSC_VER=1915 -DWIN32 -D_USING_V140_SDK71_ qt3supportwidgets.cpp -o tmp\moc\debug_shared\qt3supportwidgets.moc</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MOC qt3supportwidgets.cpp</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">tmp\moc\debug_shared\qt3supportwidgets.moc;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="tmp\moc\release_shared\qt3supportwidgets.moc">
+      <FileType>Document</FileType>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;qt3supportwidgets.cpp;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_NO_DEBUG -DQT_PLUGIN -DQT_QT3SUPPORT_LIB -DQT3_SUPPORT -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQDESIGNER_EXPORT_WIDGETS -DQT_THREAD_SUPPORT -I"..\..\..\..\..\include\QtDesigner" -I"..\..\..\..\..\include\QtCore" -I"..\..\..\..\..\include\QtGui" -I"..\..\..\..\..\include\QtXml" -I"..\..\..\..\..\include\Qt3Support" -I"..\..\..\..\..\include" -I"." -I"q3iconview" -I"q3listview" -I"q3mainwindow" -I"q3toolbar" -I"q3widgetstack" -I"q3wizard" -I"q3listbox" -I"q3table" -I"q3textedit" -I"q3widgets" -I"..\..\..\..\..\include\ActiveQt" -I"tmp\moc\release_shared" -I..\..\..\..\..\mkspecs\win32-msvc2017 -D_MSC_VER=1915 -DWIN32 -D_USING_V140_SDK71_ qt3supportwidgets.cpp -o tmp\moc\release_shared\qt3supportwidgets.moc</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MOC qt3supportwidgets.cpp</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">tmp\moc\release_shared\qt3supportwidgets.moc;%(Outputs)</Outputs>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </CustomBuild>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets" />
+</Project>

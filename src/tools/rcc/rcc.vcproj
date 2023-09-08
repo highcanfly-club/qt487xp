@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="7.00"
+	Name="rcc"
+	ProjectGUID="{B1CB1423-706D-30E6-9682-A13CCCEC397B}"
+	Keyword="Qt4VSv1.0">
+	<Platforms>
+		<Platform
+			Name="Win32" />
+	</Platforms>
+	<Configurations>
+		<Configuration
+			Name="Debug|Win32"
+			OutputDirectory="..\..\..\bin\"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			ConfigurationType="1"
+			IntermediateDirectory="tmp\obj\debug_shared\"
+			UseOfMfc="0">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="&quot;.&quot;,&quot;.&quot;,&quot;..\..\..\include&quot;,&quot;..\..\..\include\QtCore&quot;,&quot;..\..\..\include\QtXml&quot;,&quot;..\..\xml&quot;,..\..\..\mkspecs\win32-msvc2003"
+				AdditionalOptions="-Zm300 -w34100 -w34189"
+				AssemblerListingLocation="tmp\obj\debug_shared\"
+				DebugInformationFormat="3"
+				ExceptionHandling="true"
+				GeneratePreprocessedFile="0"
+				ObjectFile="tmp\obj\debug_shared\"
+				Optimization ="4"
+				PreprocessorDefinitions="_CONSOLE,UNICODE,WIN32,QT_RCC,QT_BOOTSTRAPPED,QT_LITE_UNICODE,QT_TEXTCODEC,QT_NO_CAST_FROM_ASCII,QT_NO_CAST_TO_ASCII,QT_NO_CODECS,QT_NO_DATASTREAM,QT_NO_GEOM_VARIANT,QT_NO_LIBRARY,QT_NO_QOBJECT,QT_NO_STL,QT_NO_SYSTEMLOCALE,QT_NO_TEXTSTREAM,QT_NO_THREAD,QT_NO_UNICODETABLES,QT_NO_USING_NAMESPACE,QT_NO_DEPRECATED,QT_NODLL"
+				ProgramDataBaseFileName=".\"
+				RuntimeLibrary="3"
+				RuntimeTypeInfo="true"
+				SuppressStartupBanner="true"
+				WarningLevel="3" />
+			<Tool
+				Name="VCCustomBuildTool" />
+			<Tool
+				Name="VCLinkerTool"
+				AdditionalDependencies="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\src\tools\bootstrap\debug\bootstrap.lib user32.lib"
+				AdditionalLibraryDirectories="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\src\tools\bootstrap\debug"
+				GenerateDebugInformation="true"
+				IgnoreImportLibrary="true"
+				LinkTimeCodeGeneration="0"
+				OutputFile="$(OutDir)\rcc.exe"
+				ProgramDatabaseFile=""
+				SubSystem="1"
+				SuppressStartupBanner="true" />
+			<Tool
+				Name="VCMIDLTool"
+				DefaultCharType="0"
+				EnableErrorChecks="1"
+				WarningLevel="0" />
+			<Tool
+				Name="VCPostBuildEventTool" />
+			<Tool
+				Name="VCPreBuildEventTool" />
+			<Tool
+				Name="VCPreLinkEventTool" />
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_CONSOLE,UNICODE,WIN32,QT_RCC,QT_BOOTSTRAPPED,QT_LITE_UNICODE,QT_TEXTCODEC,QT_NO_CAST_FROM_ASCII,QT_NO_CAST_TO_ASCII,QT_NO_CODECS,QT_NO_DATASTREAM,QT_NO_GEOM_VARIANT,QT_NO_LIBRARY,QT_NO_QOBJECT,QT_NO_STL,QT_NO_SYSTEMLOCALE,QT_NO_TEXTSTREAM,QT_NO_THREAD,QT_NO_UNICODETABLES,QT_NO_USING_NAMESPACE,QT_NO_DEPRECATED,QT_NODLL,_DEBUG" />
+		</Configuration>
+		<Configuration
+			Name="Release|Win32"
+			OutputDirectory="..\..\..\bin\"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			ConfigurationType="1"
+			IntermediateDirectory="tmp\obj\release_shared\"
+			UseOfMfc="0">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="&quot;.&quot;,&quot;.&quot;,&quot;..\..\..\include&quot;,&quot;..\..\..\include\QtCore&quot;,&quot;..\..\..\include\QtXml&quot;,&quot;..\..\xml&quot;,..\..\..\mkspecs\win32-msvc2003"
+				AdditionalOptions="-Zm300 -w34100 -w34189"
+				AssemblerListingLocation="tmp\obj\release_shared\"
+				DebugInformationFormat="0"
+				ExceptionHandling="true"
+				GeneratePreprocessedFile="0"
+				ObjectFile="tmp\obj\release_shared\"
+				Optimization ="2"
+				PreprocessorDefinitions="_CONSOLE,UNICODE,WIN32,QT_RCC,QT_BOOTSTRAPPED,QT_LITE_UNICODE,QT_TEXTCODEC,QT_NO_CAST_FROM_ASCII,QT_NO_CAST_TO_ASCII,QT_NO_CODECS,QT_NO_DATASTREAM,QT_NO_GEOM_VARIANT,QT_NO_LIBRARY,QT_NO_QOBJECT,QT_NO_STL,QT_NO_SYSTEMLOCALE,QT_NO_TEXTSTREAM,QT_NO_THREAD,QT_NO_UNICODETABLES,QT_NO_USING_NAMESPACE,QT_NO_DEPRECATED,QT_NODLL,NDEBUG"
+				ProgramDataBaseFileName=".\"
+				RuntimeLibrary="2"
+				RuntimeTypeInfo="true"
+				SuppressStartupBanner="true"
+				WarningLevel="3" />
+			<Tool
+				Name="VCCustomBuildTool" />
+			<Tool
+				Name="VCLinkerTool"
+				AdditionalDependencies="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\src\tools\bootstrap\release\bootstrap.lib user32.lib"
+				AdditionalLibraryDirectories="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\src\tools\bootstrap\release"
+				GenerateDebugInformation="false"
+				IgnoreImportLibrary="true"
+				LinkIncremental="1"
+				LinkTimeCodeGeneration="0"
+				OutputFile="$(OutDir)\rcc.exe"
+				ProgramDatabaseFile=""
+				SubSystem="1"
+				SuppressStartupBanner="true" />
+			<Tool
+				Name="VCMIDLTool"
+				DefaultCharType="0"
+				EnableErrorChecks="1"
+				WarningLevel="0" />
+			<Tool
+				Name="VCPostBuildEventTool" />
+			<Tool
+				Name="VCPreBuildEventTool" />
+			<Tool
+				Name="VCPreLinkEventTool" />
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_CONSOLE,UNICODE,WIN32,QT_RCC,QT_BOOTSTRAPPED,QT_LITE_UNICODE,QT_TEXTCODEC,QT_NO_CAST_FROM_ASCII,QT_NO_CAST_TO_ASCII,QT_NO_CODECS,QT_NO_DATASTREAM,QT_NO_GEOM_VARIANT,QT_NO_LIBRARY,QT_NO_QOBJECT,QT_NO_STL,QT_NO_SYSTEMLOCALE,QT_NO_TEXTSTREAM,QT_NO_THREAD,QT_NO_UNICODETABLES,QT_NO_USING_NAMESPACE,QT_NO_DEPRECATED,QT_NODLL" />
+		</Configuration>
+	</Configurations>
+	<Files>
+		<Filter
+			Name="Source Files"
+			Filter="cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx"
+			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}">
+			<File
+				RelativePath="main.cpp" />
+			<File
+				RelativePath="rcc.cpp" />
+		</Filter>
+		<Filter
+			Name="Header Files"
+			Filter="h;hpp;hxx;hm;inl;inc;xsd"
+			UniqueIdentifier="{93995380-89BD-4b04-88EB-625FBE52EBFB}">
+			<File
+				RelativePath="..\..\corelib\kernel\qcorecmdlineargs_p.h" />
+			<File
+				RelativePath="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\src\tools\rcc\rcc.h" />
+		</Filter>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>

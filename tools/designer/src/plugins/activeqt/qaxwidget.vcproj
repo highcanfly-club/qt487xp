@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="7.00"
+	Name="qaxwidget"
+	ProjectGUID="{1997F607-770B-3D9F-ACA5-A2DB7F993A09}"
+	Keyword="Qt4VSv1.0">
+	<Platforms>
+		<Platform
+			Name="Win32" />
+	</Platforms>
+	<Configurations>
+		<Configuration
+			Name="Debug|Win32"
+			OutputDirectory="..\..\..\..\..\plugins\designer\"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			ConfigurationType="2"
+			IntermediateDirectory="tmp\obj\debug_shared\"
+			UseOfMfc="0">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="&quot;..\..\..\..\..\include\QtDesigner&quot;,&quot;..\..\..\..\..\include\QtCore&quot;,&quot;..\..\..\..\..\include\QtGui&quot;,&quot;..\..\..\..\..\include\QtXml&quot;,&quot;..\..\..\..\..\include\QtScript&quot;,&quot;..\..\..\..\..\include&quot;,&quot;..\..\..\..\..\src\activeqt\shared&quot;,&quot;..\..\..\..\..\src\activeqt\container&quot;,&quot;..\..\lib\uilib&quot;,&quot;..\..\..\..\..\include\ActiveQt&quot;,&quot;tmp\moc\debug_shared&quot;,..\..\..\..\..\mkspecs\win32-msvc2003"
+				AdditionalOptions="-Zm300 -w34100 -w34189"
+				AssemblerListingLocation="tmp\obj\debug_shared\"
+				DebugInformationFormat="3"
+				ExceptionHandling="true"
+				GeneratePreprocessedFile="0"
+				ObjectFile="tmp\obj\debug_shared\"
+				Optimization ="4"
+				PreprocessorDefinitions="_WINDOWS,UNICODE,WIN32,QT_DLL,QT_PLUGIN,QT_SCRIPT_LIB,QT_XML_LIB,QT_GUI_LIB,QT_CORE_LIB,QT_HAVE_MMX,QT_HAVE_3DNOW,QT_HAVE_SSE,QT_HAVE_MMXEXT,QT_HAVE_SSE2,QDESIGNER_EXPORT_WIDGETS,QT_THREAD_SUPPORT"
+				ProgramDataBaseFileName=".\"
+				RuntimeLibrary="3"
+				RuntimeTypeInfo="true"
+				SuppressStartupBanner="true"
+				WarningLevel="3" />
+			<Tool
+				Name="VCCustomBuildTool" />
+			<Tool
+				Name="VCLinkerTool"
+				AdditionalDependencies="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib\QtScriptd4.lib c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib\QtXmld4.lib c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib\QtGuid4.lib c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib\QtCored4.lib c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib\QtDesignerd4.lib c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib\QAxContainerd.lib ole32.lib oleaut32.lib user32.lib gdi32.lib advapi32.lib"
+				AdditionalLibraryDirectories="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib,c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib"
+				GenerateDebugInformation="true"
+				IgnoreImportLibrary="true"
+				LinkTimeCodeGeneration="0"
+				OutputFile="$(OutDir)\qaxwidget.dll"
+				ProgramDatabaseFile=""
+				SubSystem="0"
+				SuppressStartupBanner="true" />
+			<Tool
+				Name="VCMIDLTool"
+				DefaultCharType="0"
+				EnableErrorChecks="1"
+				WarningLevel="0" />
+			<Tool
+				Name="VCPostBuildEventTool" />
+			<Tool
+				Name="VCPreBuildEventTool" />
+			<Tool
+				Name="VCPreLinkEventTool" />
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_WINDOWS,UNICODE,WIN32,QT_DLL,QT_PLUGIN,QT_SCRIPT_LIB,QT_XML_LIB,QT_GUI_LIB,QT_CORE_LIB,QT_HAVE_MMX,QT_HAVE_3DNOW,QT_HAVE_SSE,QT_HAVE_MMXEXT,QT_HAVE_SSE2,QDESIGNER_EXPORT_WIDGETS,QT_THREAD_SUPPORT,_DEBUG" />
+		</Configuration>
+		<Configuration
+			Name="Release|Win32"
+			OutputDirectory="..\..\..\..\..\plugins\designer\"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			ConfigurationType="2"
+			IntermediateDirectory="tmp\obj\release_shared\"
+			UseOfMfc="0">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="&quot;..\..\..\..\..\include\QtDesigner&quot;,&quot;..\..\..\..\..\include\QtCore&quot;,&quot;..\..\..\..\..\include\QtGui&quot;,&quot;..\..\..\..\..\include\QtXml&quot;,&quot;..\..\..\..\..\include\QtScript&quot;,&quot;..\..\..\..\..\include&quot;,&quot;..\..\..\..\..\src\activeqt\shared&quot;,&quot;..\..\..\..\..\src\activeqt\container&quot;,&quot;..\..\lib\uilib&quot;,&quot;..\..\..\..\..\include\ActiveQt&quot;,&quot;tmp\moc\release_shared&quot;,..\..\..\..\..\mkspecs\win32-msvc2003"
+				AdditionalOptions="-Zm300 -w34100 -w34189"
+				AssemblerListingLocation="tmp\obj\release_shared\"
+				DebugInformationFormat="0"
+				ExceptionHandling="true"
+				GeneratePreprocessedFile="0"
+				ObjectFile="tmp\obj\release_shared\"
+				Optimization ="2"
+				PreprocessorDefinitions="_WINDOWS,UNICODE,WIN32,QT_DLL,QT_NO_DEBUG,QT_PLUGIN,QT_SCRIPT_LIB,QT_XML_LIB,QT_GUI_LIB,QT_CORE_LIB,QT_HAVE_MMX,QT_HAVE_3DNOW,QT_HAVE_SSE,QT_HAVE_MMXEXT,QT_HAVE_SSE2,QDESIGNER_EXPORT_WIDGETS,QT_THREAD_SUPPORT,NDEBUG"
+				ProgramDataBaseFileName=".\"
+				RuntimeLibrary="2"
+				RuntimeTypeInfo="true"
+				SuppressStartupBanner="true"
+				WarningLevel="3" />
+			<Tool
+				Name="VCCustomBuildTool" />
+			<Tool
+				Name="VCLinkerTool"
+				AdditionalDependencies="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib\QtScript4.lib c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib\QtXml4.lib c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib\QtGui4.lib c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib\QtCore4.lib c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib\QtDesigner4.lib c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib\QAxContainer.lib ole32.lib oleaut32.lib user32.lib gdi32.lib advapi32.lib"
+				AdditionalLibraryDirectories="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib,c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib"
+				GenerateDebugInformation="false"
+				IgnoreImportLibrary="true"
+				LinkIncremental="1"
+				LinkTimeCodeGeneration="0"
+				OutputFile="$(OutDir)\qaxwidget.dll"
+				ProgramDatabaseFile=""
+				SubSystem="0"
+				SuppressStartupBanner="true" />
+			<Tool
+				Name="VCMIDLTool"
+				DefaultCharType="0"
+				EnableErrorChecks="1"
+				WarningLevel="0" />
+			<Tool
+				Name="VCPostBuildEventTool" />
+			<Tool
+				Name="VCPreBuildEventTool" />
+			<Tool
+				Name="VCPreLinkEventTool" />
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_WINDOWS,UNICODE,WIN32,QT_DLL,QT_NO_DEBUG,QT_PLUGIN,QT_SCRIPT_LIB,QT_XML_LIB,QT_GUI_LIB,QT_CORE_LIB,QT_HAVE_MMX,QT_HAVE_3DNOW,QT_HAVE_SSE,QT_HAVE_MMXEXT,QT_HAVE_SSE2,QDESIGNER_EXPORT_WIDGETS,QT_THREAD_SUPPORT" />
+		</Configuration>
+	</Configurations>
+	<Files>
+		<Filter
+			Name="Source Files"
+			Filter="cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx"
+			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}">
+			<File
+				RelativePath="..\..\..\..\..\src\activeqt\shared\qaxtypes.cpp" />
+			<File
+				RelativePath="qaxwidgetextrainfo.cpp" />
+			<File
+				RelativePath="qaxwidgetplugin.cpp" />
+			<File
+				RelativePath="qaxwidgetpropertysheet.cpp" />
+			<File
+				RelativePath="qaxwidgettaskmenu.cpp" />
+			<File
+				RelativePath="qdesigneraxwidget.cpp" />
+		</Filter>
+		<Filter
+			Name="Header Files"
+			Filter="h;hpp;hxx;hm;inl;inc;xsd"
+			UniqueIdentifier="{93995380-89BD-4b04-88EB-625FBE52EBFB}">
+			<File
+				RelativePath="..\..\..\..\..\src\activeqt\shared\qaxtypes.h" />
+			<File
+				RelativePath="qaxwidgetextrainfo.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;qaxwidgetextrainfo.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_PLUGIN -DQT_SCRIPT_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQDESIGNER_EXPORT_WIDGETS -DQT_THREAD_SUPPORT -I&quot;..\..\..\..\..\include\QtDesigner&quot; -I&quot;..\..\..\..\..\include\QtCore&quot; -I&quot;..\..\..\..\..\include\QtGui&quot; -I&quot;..\..\..\..\..\include\QtXml&quot; -I&quot;..\..\..\..\..\include\QtScript&quot; -I&quot;..\..\..\..\..\include&quot; -I&quot;..\..\..\..\..\src\activeqt\shared&quot; -I&quot;..\..\..\..\..\src\activeqt\container&quot; -I&quot;..\..\lib\uilib&quot; -I&quot;..\..\..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 qaxwidgetextrainfo.h -o tmp\moc\debug_shared\moc_qaxwidgetextrainfo.cpp"
+						Description="MOC qaxwidgetextrainfo.h"
+						Outputs="tmp\moc\debug_shared\moc_qaxwidgetextrainfo.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;qaxwidgetextrainfo.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_NO_DEBUG -DQT_PLUGIN -DQT_SCRIPT_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQDESIGNER_EXPORT_WIDGETS -DQT_THREAD_SUPPORT -I&quot;..\..\..\..\..\include\QtDesigner&quot; -I&quot;..\..\..\..\..\include\QtCore&quot; -I&quot;..\..\..\..\..\include\QtGui&quot; -I&quot;..\..\..\..\..\include\QtXml&quot; -I&quot;..\..\..\..\..\include\QtScript&quot; -I&quot;..\..\..\..\..\include&quot; -I&quot;..\..\..\..\..\src\activeqt\shared&quot; -I&quot;..\..\..\..\..\src\activeqt\container&quot; -I&quot;..\..\lib\uilib&quot; -I&quot;..\..\..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 qaxwidgetextrainfo.h -o tmp\moc\release_shared\moc_qaxwidgetextrainfo.cpp"
+						Description="MOC qaxwidgetextrainfo.h"
+						Outputs="tmp\moc\release_shared\moc_qaxwidgetextrainfo.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="qaxwidgetplugin.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;qaxwidgetplugin.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_PLUGIN -DQT_SCRIPT_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQDESIGNER_EXPORT_WIDGETS -DQT_THREAD_SUPPORT -I&quot;..\..\..\..\..\include\QtDesigner&quot; -I&quot;..\..\..\..\..\include\QtCore&quot; -I&quot;..\..\..\..\..\include\QtGui&quot; -I&quot;..\..\..\..\..\include\QtXml&quot; -I&quot;..\..\..\..\..\include\QtScript&quot; -I&quot;..\..\..\..\..\include&quot; -I&quot;..\..\..\..\..\src\activeqt\shared&quot; -I&quot;..\..\..\..\..\src\activeqt\container&quot; -I&quot;..\..\lib\uilib&quot; -I&quot;..\..\..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 qaxwidgetplugin.h -o tmp\moc\debug_shared\moc_qaxwidgetplugin.cpp"
+						Description="MOC qaxwidgetplugin.h"
+						Outputs="tmp\moc\debug_shared\moc_qaxwidgetplugin.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;qaxwidgetplugin.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_NO_DEBUG -DQT_PLUGIN -DQT_SCRIPT_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQDESIGNER_EXPORT_WIDGETS -DQT_THREAD_SUPPORT -I&quot;..\..\..\..\..\include\QtDesigner&quot; -I&quot;..\..\..\..\..\include\QtCore&quot; -I&quot;..\..\..\..\..\include\QtGui&quot; -I&quot;..\..\..\..\..\include\QtXml&quot; -I&quot;..\..\..\..\..\include\QtScript&quot; -I&quot;..\..\..\..\..\include&quot; -I&quot;..\..\..\..\..\src\activeqt\shared&quot; -I&quot;..\..\..\..\..\src\activeqt\container&quot; -I&quot;..\..\lib\uilib&quot; -I&quot;..\..\..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 qaxwidgetplugin.h -o tmp\moc\release_shared\moc_qaxwidgetplugin.cpp"
+						Description="MOC qaxwidgetplugin.h"
+						Outputs="tmp\moc\release_shared\moc_qaxwidgetplugin.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="qaxwidgetpropertysheet.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;qaxwidgetpropertysheet.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_PLUGIN -DQT_SCRIPT_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQDESIGNER_EXPORT_WIDGETS -DQT_THREAD_SUPPORT -I&quot;..\..\..\..\..\include\QtDesigner&quot; -I&quot;..\..\..\..\..\include\QtCore&quot; -I&quot;..\..\..\..\..\include\QtGui&quot; -I&quot;..\..\..\..\..\include\QtXml&quot; -I&quot;..\..\..\..\..\include\QtScript&quot; -I&quot;..\..\..\..\..\include&quot; -I&quot;..\..\..\..\..\src\activeqt\shared&quot; -I&quot;..\..\..\..\..\src\activeqt\container&quot; -I&quot;..\..\lib\uilib&quot; -I&quot;..\..\..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 qaxwidgetpropertysheet.h -o tmp\moc\debug_shared\moc_qaxwidgetpropertysheet.cpp"
+						Description="MOC qaxwidgetpropertysheet.h"
+						Outputs="tmp\moc\debug_shared\moc_qaxwidgetpropertysheet.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;qaxwidgetpropertysheet.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_NO_DEBUG -DQT_PLUGIN -DQT_SCRIPT_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQDESIGNER_EXPORT_WIDGETS -DQT_THREAD_SUPPORT -I&quot;..\..\..\..\..\include\QtDesigner&quot; -I&quot;..\..\..\..\..\include\QtCore&quot; -I&quot;..\..\..\..\..\include\QtGui&quot; -I&quot;..\..\..\..\..\include\QtXml&quot; -I&quot;..\..\..\..\..\include\QtScript&quot; -I&quot;..\..\..\..\..\include&quot; -I&quot;..\..\..\..\..\src\activeqt\shared&quot; -I&quot;..\..\..\..\..\src\activeqt\container&quot; -I&quot;..\..\lib\uilib&quot; -I&quot;..\..\..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 qaxwidgetpropertysheet.h -o tmp\moc\release_shared\moc_qaxwidgetpropertysheet.cpp"
+						Description="MOC qaxwidgetpropertysheet.h"
+						Outputs="tmp\moc\release_shared\moc_qaxwidgetpropertysheet.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="qaxwidgettaskmenu.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;qaxwidgettaskmenu.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_PLUGIN -DQT_SCRIPT_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQDESIGNER_EXPORT_WIDGETS -DQT_THREAD_SUPPORT -I&quot;..\..\..\..\..\include\QtDesigner&quot; -I&quot;..\..\..\..\..\include\QtCore&quot; -I&quot;..\..\..\..\..\include\QtGui&quot; -I&quot;..\..\..\..\..\include\QtXml&quot; -I&quot;..\..\..\..\..\include\QtScript&quot; -I&quot;..\..\..\..\..\include&quot; -I&quot;..\..\..\..\..\src\activeqt\shared&quot; -I&quot;..\..\..\..\..\src\activeqt\container&quot; -I&quot;..\..\lib\uilib&quot; -I&quot;..\..\..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 qaxwidgettaskmenu.h -o tmp\moc\debug_shared\moc_qaxwidgettaskmenu.cpp"
+						Description="MOC qaxwidgettaskmenu.h"
+						Outputs="tmp\moc\debug_shared\moc_qaxwidgettaskmenu.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;qaxwidgettaskmenu.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_NO_DEBUG -DQT_PLUGIN -DQT_SCRIPT_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQDESIGNER_EXPORT_WIDGETS -DQT_THREAD_SUPPORT -I&quot;..\..\..\..\..\include\QtDesigner&quot; -I&quot;..\..\..\..\..\include\QtCore&quot; -I&quot;..\..\..\..\..\include\QtGui&quot; -I&quot;..\..\..\..\..\include\QtXml&quot; -I&quot;..\..\..\..\..\include\QtScript&quot; -I&quot;..\..\..\..\..\include&quot; -I&quot;..\..\..\..\..\src\activeqt\shared&quot; -I&quot;..\..\..\..\..\src\activeqt\container&quot; -I&quot;..\..\lib\uilib&quot; -I&quot;..\..\..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 qaxwidgettaskmenu.h -o tmp\moc\release_shared\moc_qaxwidgettaskmenu.cpp"
+						Description="MOC qaxwidgettaskmenu.h"
+						Outputs="tmp\moc\release_shared\moc_qaxwidgettaskmenu.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="qdesigneraxwidget.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;qdesigneraxwidget.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_PLUGIN -DQT_SCRIPT_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQDESIGNER_EXPORT_WIDGETS -DQT_THREAD_SUPPORT -I&quot;..\..\..\..\..\include\QtDesigner&quot; -I&quot;..\..\..\..\..\include\QtCore&quot; -I&quot;..\..\..\..\..\include\QtGui&quot; -I&quot;..\..\..\..\..\include\QtXml&quot; -I&quot;..\..\..\..\..\include\QtScript&quot; -I&quot;..\..\..\..\..\include&quot; -I&quot;..\..\..\..\..\src\activeqt\shared&quot; -I&quot;..\..\..\..\..\src\activeqt\container&quot; -I&quot;..\..\lib\uilib&quot; -I&quot;..\..\..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 qdesigneraxwidget.h -o tmp\moc\debug_shared\moc_qdesigneraxwidget.cpp"
+						Description="MOC qdesigneraxwidget.h"
+						Outputs="tmp\moc\debug_shared\moc_qdesigneraxwidget.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;qdesigneraxwidget.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_NO_DEBUG -DQT_PLUGIN -DQT_SCRIPT_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQDESIGNER_EXPORT_WIDGETS -DQT_THREAD_SUPPORT -I&quot;..\..\..\..\..\include\QtDesigner&quot; -I&quot;..\..\..\..\..\include\QtCore&quot; -I&quot;..\..\..\..\..\include\QtGui&quot; -I&quot;..\..\..\..\..\include\QtXml&quot; -I&quot;..\..\..\..\..\include\QtScript&quot; -I&quot;..\..\..\..\..\include&quot; -I&quot;..\..\..\..\..\src\activeqt\shared&quot; -I&quot;..\..\..\..\..\src\activeqt\container&quot; -I&quot;..\..\lib\uilib&quot; -I&quot;..\..\..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 qdesigneraxwidget.h -o tmp\moc\release_shared\moc_qdesigneraxwidget.cpp"
+						Description="MOC qdesigneraxwidget.h"
+						Outputs="tmp\moc\release_shared\moc_qdesigneraxwidget.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+		</Filter>
+		<Filter
+			Name="Generated Files"
+			Filter="cpp;c;cxx;moc;h;def;odl;idl;res;"
+			UniqueIdentifier="{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}">
+			<File
+				RelativePath="tmp\moc\debug_shared\moc_qaxwidgetextrainfo.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\moc_qaxwidgetextrainfo.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\debug_shared\moc_qaxwidgetplugin.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\moc_qaxwidgetplugin.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\debug_shared\moc_qaxwidgetpropertysheet.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\moc_qaxwidgetpropertysheet.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\debug_shared\moc_qaxwidgettaskmenu.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\moc_qaxwidgettaskmenu.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\debug_shared\moc_qdesigneraxwidget.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\moc_qdesigneraxwidget.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+		</Filter>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>

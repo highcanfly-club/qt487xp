@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B0C69C01-015D-3E76-A102-BACE8F0E75FC}</ProjectGuid>
+    <RootNamespace>qaxwidget</RootNamespace>
+    <Keyword>Qt4VSv1.0</Keyword>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <OutputDirectory>..\..\..\..\..\plugins\designer\</OutputDirectory>
+    <ATLMinimizesCRunTimeLibraryUsage>false</ATLMinimizesCRunTimeLibraryUsage>
+    <CharacterSet>NotSet</CharacterSet>
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <IntermediateDirectory>tmp\obj\release_shared\</IntermediateDirectory>
+    <PlatformToolset>v141_xp</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <OutputDirectory>..\..\..\..\..\plugins\designer\</OutputDirectory>
+    <ATLMinimizesCRunTimeLibraryUsage>false</ATLMinimizesCRunTimeLibraryUsage>
+    <CharacterSet>NotSet</CharacterSet>
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <IntermediateDirectory>tmp\obj\debug_shared\</IntermediateDirectory>
+    <PlatformToolset>v141_xp</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\..\..\..\plugins\designer\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">tmp\obj\release_shared\</IntDir>
+    <IgnoreImportLibrary Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</IgnoreImportLibrary>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\..\..\..\plugins\designer\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">tmp\obj\debug_shared\</IntDir>
+    <IgnoreImportLibrary Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</IgnoreImportLibrary>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>"..\..\..\..\..\include\QtDesigner";"..\..\..\..\..\include\QtCore";"..\..\..\..\..\include\QtGui";"..\..\..\..\..\include\QtXml";"..\..\..\..\..\include";"..\..\..\..\..\src\activeqt\shared";"..\..\..\..\..\src\activeqt\container";"..\..\lib\uilib";"..\..\..\..\..\include\ActiveQt";"tmp\moc\release_shared";..\..\..\..\..\mkspecs\win32-msvc2017;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>-Zm200 -w34100 -w34189 %(AdditionalOptions)</AdditionalOptions>
+      <AssemblerListingLocation>tmp\obj\release_shared\</AssemblerListingLocation>
+      <BrowseInformation>false</BrowseInformation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ObjectFileName>tmp\obj\release_shared\</ObjectFileName>
+      <Optimization>MaxSpeed</Optimization>
+      <PreprocessorDefinitions>_MSC_VER=1915;WIN32;_USING_V140_SDK71_;_WINDOWS;UNICODE;WIN32;QT_DLL;QT_NO_DEBUG;QT_PLUGIN;QT_XML_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_HAVE_MMX;QT_HAVE_3DNOW;QT_HAVE_SSE;QT_HAVE_MMXEXT;QT_HAVE_SSE2;QDESIGNER_EXPORT_WIDGETS;QT_THREAD_SUPPORT;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessToFile>false</PreprocessToFile>
+      <ProgramDataBaseFileName>.\</ProgramDataBaseFileName>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\lib\QtXml4.lib;$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\lib\QtGui4.lib;$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\lib\QtCore4.lib;$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\lib\QtDesigner4.lib;$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\lib\QAxContainer.lib;ole32.lib;oleaut32.lib;user32.lib;gdi32.lib;advapi32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\lib;$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <DataExecutionPrevention>true</DataExecutionPrevention>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreImportLibrary>true</IgnoreImportLibrary>
+      <LinkDLL>true</LinkDLL>
+      <LinkIncremental>false</LinkIncremental>
+      <OptimizeReferences>true</OptimizeReferences>
+      <OutputFile>$(OutDir)\qaxwidget.dll</OutputFile>
+      <RandomizedBaseAddress>true</RandomizedBaseAddress>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Link>
+    <Midl>
+      <DefaultCharType>Unsigned</DefaultCharType>
+      <EnableErrorChecks>None</EnableErrorChecks>
+      <WarningLevel>0</WarningLevel>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_MSC_VER=1915;WIN32;_USING_V140_SDK71_;_WINDOWS;UNICODE;WIN32;QT_DLL;QT_NO_DEBUG;QT_PLUGIN;QT_XML_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_HAVE_MMX;QT_HAVE_3DNOW;QT_HAVE_SSE;QT_HAVE_MMXEXT;QT_HAVE_SSE2;QDESIGNER_EXPORT_WIDGETS;QT_THREAD_SUPPORT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>"..\..\..\..\..\include\QtDesigner";"..\..\..\..\..\include\QtCore";"..\..\..\..\..\include\QtGui";"..\..\..\..\..\include\QtXml";"..\..\..\..\..\include";"..\..\..\..\..\src\activeqt\shared";"..\..\..\..\..\src\activeqt\container";"..\..\lib\uilib";"..\..\..\..\..\include\ActiveQt";"tmp\moc\debug_shared";..\..\..\..\..\mkspecs\win32-msvc2017;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>-Zm200 -w34100 -w34189 %(AdditionalOptions)</AdditionalOptions>
+      <AssemblerListingLocation>tmp\obj\debug_shared\</AssemblerListingLocation>
+      <BrowseInformation>false</BrowseInformation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ObjectFileName>tmp\obj\debug_shared\</ObjectFileName>
+      <PreprocessorDefinitions>_MSC_VER=1915;WIN32;_USING_V140_SDK71_;_WINDOWS;UNICODE;WIN32;QT_DLL;QT_PLUGIN;QT_XML_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_HAVE_MMX;QT_HAVE_3DNOW;QT_HAVE_SSE;QT_HAVE_MMXEXT;QT_HAVE_SSE2;QDESIGNER_EXPORT_WIDGETS;QT_THREAD_SUPPORT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessToFile>false</PreprocessToFile>
+      <ProgramDataBaseFileName>.\</ProgramDataBaseFileName>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\lib\QtXmld4.lib;$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\lib\QtGuid4.lib;$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\lib\QtCored4.lib;$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\lib\QtDesignerd4.lib;$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\lib\QAxContainerd.lib;ole32.lib;oleaut32.lib;user32.lib;gdi32.lib;advapi32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\lib;$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <DataExecutionPrevention>true</DataExecutionPrevention>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreImportLibrary>true</IgnoreImportLibrary>
+      <LinkDLL>true</LinkDLL>
+      <OutputFile>$(OutDir)\qaxwidget.dll</OutputFile>
+      <RandomizedBaseAddress>true</RandomizedBaseAddress>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Link>
+    <Midl>
+      <DefaultCharType>Unsigned</DefaultCharType>
+      <EnableErrorChecks>None</EnableErrorChecks>
+      <WarningLevel>0</WarningLevel>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_MSC_VER=1915;WIN32;_USING_V140_SDK71_;_WINDOWS;UNICODE;WIN32;QT_DLL;QT_PLUGIN;QT_XML_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_HAVE_MMX;QT_HAVE_3DNOW;QT_HAVE_SSE;QT_HAVE_MMXEXT;QT_HAVE_SSE2;QDESIGNER_EXPORT_WIDGETS;QT_THREAD_SUPPORT;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\activeqt\shared\qaxtypes.cpp" />
+    <ClCompile Include="qaxwidgetextrainfo.cpp" />
+    <ClCompile Include="qaxwidgetplugin.cpp" />
+    <ClCompile Include="qaxwidgetpropertysheet.cpp" />
+    <ClCompile Include="qaxwidgettaskmenu.cpp" />
+    <ClCompile Include="qdesigneraxwidget.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\activeqt\shared\qaxtypes.h" />
+    <CustomBuild Include="qaxwidgetextrainfo.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;qaxwidgetextrainfo.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_NO_DEBUG -DQT_PLUGIN -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQDESIGNER_EXPORT_WIDGETS -DQT_THREAD_SUPPORT -I"..\..\..\..\..\include\QtDesigner" -I"..\..\..\..\..\include\QtCore" -I"..\..\..\..\..\include\QtGui" -I"..\..\..\..\..\include\QtXml" -I"..\..\..\..\..\include" -I"..\..\..\..\..\src\activeqt\shared" -I"..\..\..\..\..\src\activeqt\container" -I"..\..\lib\uilib" -I"..\..\..\..\..\include\ActiveQt" -I"tmp\moc\release_shared" -I..\..\..\..\..\mkspecs\win32-msvc2017 -D_MSC_VER=1915 -DWIN32 -D_USING_V140_SDK71_ qaxwidgetextrainfo.h -o tmp\moc\release_shared\moc_qaxwidgetextrainfo.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MOC qaxwidgetextrainfo.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">tmp\moc\release_shared\moc_qaxwidgetextrainfo.cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;qaxwidgetextrainfo.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_PLUGIN -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQDESIGNER_EXPORT_WIDGETS -DQT_THREAD_SUPPORT -I"..\..\..\..\..\include\QtDesigner" -I"..\..\..\..\..\include\QtCore" -I"..\..\..\..\..\include\QtGui" -I"..\..\..\..\..\include\QtXml" -I"..\..\..\..\..\include" -I"..\..\..\..\..\src\activeqt\shared" -I"..\..\..\..\..\src\activeqt\container" -I"..\..\lib\uilib" -I"..\..\..\..\..\include\ActiveQt" -I"tmp\moc\debug_shared" -I..\..\..\..\..\mkspecs\win32-msvc2017 -D_MSC_VER=1915 -DWIN32 -D_USING_V140_SDK71_ qaxwidgetextrainfo.h -o tmp\moc\debug_shared\moc_qaxwidgetextrainfo.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MOC qaxwidgetextrainfo.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">tmp\moc\debug_shared\moc_qaxwidgetextrainfo.cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="qaxwidgetplugin.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;qaxwidgetplugin.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_NO_DEBUG -DQT_PLUGIN -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQDESIGNER_EXPORT_WIDGETS -DQT_THREAD_SUPPORT -I"..\..\..\..\..\include\QtDesigner" -I"..\..\..\..\..\include\QtCore" -I"..\..\..\..\..\include\QtGui" -I"..\..\..\..\..\include\QtXml" -I"..\..\..\..\..\include" -I"..\..\..\..\..\src\activeqt\shared" -I"..\..\..\..\..\src\activeqt\container" -I"..\..\lib\uilib" -I"..\..\..\..\..\include\ActiveQt" -I"tmp\moc\release_shared" -I..\..\..\..\..\mkspecs\win32-msvc2017 -D_MSC_VER=1915 -DWIN32 -D_USING_V140_SDK71_ qaxwidgetplugin.h -o tmp\moc\release_shared\moc_qaxwidgetplugin.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MOC qaxwidgetplugin.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">tmp\moc\release_shared\moc_qaxwidgetplugin.cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;qaxwidgetplugin.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_PLUGIN -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQDESIGNER_EXPORT_WIDGETS -DQT_THREAD_SUPPORT -I"..\..\..\..\..\include\QtDesigner" -I"..\..\..\..\..\include\QtCore" -I"..\..\..\..\..\include\QtGui" -I"..\..\..\..\..\include\QtXml" -I"..\..\..\..\..\include" -I"..\..\..\..\..\src\activeqt\shared" -I"..\..\..\..\..\src\activeqt\container" -I"..\..\lib\uilib" -I"..\..\..\..\..\include\ActiveQt" -I"tmp\moc\debug_shared" -I..\..\..\..\..\mkspecs\win32-msvc2017 -D_MSC_VER=1915 -DWIN32 -D_USING_V140_SDK71_ qaxwidgetplugin.h -o tmp\moc\debug_shared\moc_qaxwidgetplugin.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MOC qaxwidgetplugin.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">tmp\moc\debug_shared\moc_qaxwidgetplugin.cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="qaxwidgetpropertysheet.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;qaxwidgetpropertysheet.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_NO_DEBUG -DQT_PLUGIN -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQDESIGNER_EXPORT_WIDGETS -DQT_THREAD_SUPPORT -I"..\..\..\..\..\include\QtDesigner" -I"..\..\..\..\..\include\QtCore" -I"..\..\..\..\..\include\QtGui" -I"..\..\..\..\..\include\QtXml" -I"..\..\..\..\..\include" -I"..\..\..\..\..\src\activeqt\shared" -I"..\..\..\..\..\src\activeqt\container" -I"..\..\lib\uilib" -I"..\..\..\..\..\include\ActiveQt" -I"tmp\moc\release_shared" -I..\..\..\..\..\mkspecs\win32-msvc2017 -D_MSC_VER=1915 -DWIN32 -D_USING_V140_SDK71_ qaxwidgetpropertysheet.h -o tmp\moc\release_shared\moc_qaxwidgetpropertysheet.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MOC qaxwidgetpropertysheet.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">tmp\moc\release_shared\moc_qaxwidgetpropertysheet.cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;qaxwidgetpropertysheet.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_PLUGIN -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQDESIGNER_EXPORT_WIDGETS -DQT_THREAD_SUPPORT -I"..\..\..\..\..\include\QtDesigner" -I"..\..\..\..\..\include\QtCore" -I"..\..\..\..\..\include\QtGui" -I"..\..\..\..\..\include\QtXml" -I"..\..\..\..\..\include" -I"..\..\..\..\..\src\activeqt\shared" -I"..\..\..\..\..\src\activeqt\container" -I"..\..\lib\uilib" -I"..\..\..\..\..\include\ActiveQt" -I"tmp\moc\debug_shared" -I..\..\..\..\..\mkspecs\win32-msvc2017 -D_MSC_VER=1915 -DWIN32 -D_USING_V140_SDK71_ qaxwidgetpropertysheet.h -o tmp\moc\debug_shared\moc_qaxwidgetpropertysheet.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MOC qaxwidgetpropertysheet.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">tmp\moc\debug_shared\moc_qaxwidgetpropertysheet.cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="qaxwidgettaskmenu.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;qaxwidgettaskmenu.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_NO_DEBUG -DQT_PLUGIN -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQDESIGNER_EXPORT_WIDGETS -DQT_THREAD_SUPPORT -I"..\..\..\..\..\include\QtDesigner" -I"..\..\..\..\..\include\QtCore" -I"..\..\..\..\..\include\QtGui" -I"..\..\..\..\..\include\QtXml" -I"..\..\..\..\..\include" -I"..\..\..\..\..\src\activeqt\shared" -I"..\..\..\..\..\src\activeqt\container" -I"..\..\lib\uilib" -I"..\..\..\..\..\include\ActiveQt" -I"tmp\moc\release_shared" -I..\..\..\..\..\mkspecs\win32-msvc2017 -D_MSC_VER=1915 -DWIN32 -D_USING_V140_SDK71_ qaxwidgettaskmenu.h -o tmp\moc\release_shared\moc_qaxwidgettaskmenu.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MOC qaxwidgettaskmenu.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">tmp\moc\release_shared\moc_qaxwidgettaskmenu.cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;qaxwidgettaskmenu.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_PLUGIN -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQDESIGNER_EXPORT_WIDGETS -DQT_THREAD_SUPPORT -I"..\..\..\..\..\include\QtDesigner" -I"..\..\..\..\..\include\QtCore" -I"..\..\..\..\..\include\QtGui" -I"..\..\..\..\..\include\QtXml" -I"..\..\..\..\..\include" -I"..\..\..\..\..\src\activeqt\shared" -I"..\..\..\..\..\src\activeqt\container" -I"..\..\lib\uilib" -I"..\..\..\..\..\include\ActiveQt" -I"tmp\moc\debug_shared" -I..\..\..\..\..\mkspecs\win32-msvc2017 -D_MSC_VER=1915 -DWIN32 -D_USING_V140_SDK71_ qaxwidgettaskmenu.h -o tmp\moc\debug_shared\moc_qaxwidgettaskmenu.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MOC qaxwidgettaskmenu.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">tmp\moc\debug_shared\moc_qaxwidgettaskmenu.cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="qdesigneraxwidget.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;qdesigneraxwidget.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_NO_DEBUG -DQT_PLUGIN -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQDESIGNER_EXPORT_WIDGETS -DQT_THREAD_SUPPORT -I"..\..\..\..\..\include\QtDesigner" -I"..\..\..\..\..\include\QtCore" -I"..\..\..\..\..\include\QtGui" -I"..\..\..\..\..\include\QtXml" -I"..\..\..\..\..\include" -I"..\..\..\..\..\src\activeqt\shared" -I"..\..\..\..\..\src\activeqt\container" -I"..\..\lib\uilib" -I"..\..\..\..\..\include\ActiveQt" -I"tmp\moc\release_shared" -I..\..\..\..\..\mkspecs\win32-msvc2017 -D_MSC_VER=1915 -DWIN32 -D_USING_V140_SDK71_ qdesigneraxwidget.h -o tmp\moc\release_shared\moc_qdesigneraxwidget.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MOC qdesigneraxwidget.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">tmp\moc\release_shared\moc_qdesigneraxwidget.cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;qdesigneraxwidget.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_PLUGIN -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQDESIGNER_EXPORT_WIDGETS -DQT_THREAD_SUPPORT -I"..\..\..\..\..\include\QtDesigner" -I"..\..\..\..\..\include\QtCore" -I"..\..\..\..\..\include\QtGui" -I"..\..\..\..\..\include\QtXml" -I"..\..\..\..\..\include" -I"..\..\..\..\..\src\activeqt\shared" -I"..\..\..\..\..\src\activeqt\container" -I"..\..\lib\uilib" -I"..\..\..\..\..\include\ActiveQt" -I"tmp\moc\debug_shared" -I..\..\..\..\..\mkspecs\win32-msvc2017 -D_MSC_VER=1915 -DWIN32 -D_USING_V140_SDK71_ qdesigneraxwidget.h -o tmp\moc\debug_shared\moc_qdesigneraxwidget.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MOC qdesigneraxwidget.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">tmp\moc\debug_shared\moc_qdesigneraxwidget.cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="tmp\moc\debug_shared\moc_qaxwidgetextrainfo.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tmp\moc\release_shared\moc_qaxwidgetextrainfo.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tmp\moc\debug_shared\moc_qaxwidgetplugin.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tmp\moc\release_shared\moc_qaxwidgetplugin.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tmp\moc\debug_shared\moc_qaxwidgetpropertysheet.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tmp\moc\release_shared\moc_qaxwidgetpropertysheet.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tmp\moc\debug_shared\moc_qaxwidgettaskmenu.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tmp\moc\release_shared\moc_qaxwidgettaskmenu.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tmp\moc\debug_shared\moc_qdesigneraxwidget.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tmp\moc\release_shared\moc_qdesigneraxwidget.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets" />
+</Project>

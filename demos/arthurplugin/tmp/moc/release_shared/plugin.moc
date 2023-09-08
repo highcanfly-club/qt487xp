@@ -1,0 +1,705 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'plugin.cpp'
+**
+** Created by: The Qt Meta Object Compiler version 63 (Qt 4.8.7)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'plugin.cpp' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 63
+#error "This file was generated using the moc from 4.8.7. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+static const uint qt_meta_data_PathDeformRendererEx[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_PathDeformRendererEx[] = {
+    "PathDeformRendererEx\0"
+};
+
+void PathDeformRendererEx::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+const QMetaObjectExtraData PathDeformRendererEx::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject PathDeformRendererEx::staticMetaObject = {
+    { &PathDeformRenderer::staticMetaObject, qt_meta_stringdata_PathDeformRendererEx,
+      qt_meta_data_PathDeformRendererEx, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &PathDeformRendererEx::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *PathDeformRendererEx::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *PathDeformRendererEx::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_PathDeformRendererEx))
+        return static_cast<void*>(const_cast< PathDeformRendererEx*>(this));
+    return PathDeformRenderer::qt_metacast(_clname);
+}
+
+int PathDeformRendererEx::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = PathDeformRenderer::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    return _id;
+}
+static const uint qt_meta_data_DeformPlugin[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_DeformPlugin[] = {
+    "DeformPlugin\0"
+};
+
+void DeformPlugin::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+const QMetaObjectExtraData DeformPlugin::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject DeformPlugin::staticMetaObject = {
+    { &QObject::staticMetaObject, qt_meta_stringdata_DeformPlugin,
+      qt_meta_data_DeformPlugin, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &DeformPlugin::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *DeformPlugin::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *DeformPlugin::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_DeformPlugin))
+        return static_cast<void*>(const_cast< DeformPlugin*>(this));
+    if (!strcmp(_clname, "DemoPlugin"))
+        return static_cast< DemoPlugin*>(const_cast< DeformPlugin*>(this));
+    return QObject::qt_metacast(_clname);
+}
+
+int DeformPlugin::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    return _id;
+}
+static const uint qt_meta_data_XFormRendererEx[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_XFormRendererEx[] = {
+    "XFormRendererEx\0"
+};
+
+void XFormRendererEx::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+const QMetaObjectExtraData XFormRendererEx::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject XFormRendererEx::staticMetaObject = {
+    { &XFormView::staticMetaObject, qt_meta_stringdata_XFormRendererEx,
+      qt_meta_data_XFormRendererEx, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &XFormRendererEx::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *XFormRendererEx::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *XFormRendererEx::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_XFormRendererEx))
+        return static_cast<void*>(const_cast< XFormRendererEx*>(this));
+    return XFormView::qt_metacast(_clname);
+}
+
+int XFormRendererEx::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = XFormView::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    return _id;
+}
+static const uint qt_meta_data_XFormPlugin[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_XFormPlugin[] = {
+    "XFormPlugin\0"
+};
+
+void XFormPlugin::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+const QMetaObjectExtraData XFormPlugin::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject XFormPlugin::staticMetaObject = {
+    { &QObject::staticMetaObject, qt_meta_stringdata_XFormPlugin,
+      qt_meta_data_XFormPlugin, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &XFormPlugin::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *XFormPlugin::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *XFormPlugin::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_XFormPlugin))
+        return static_cast<void*>(const_cast< XFormPlugin*>(this));
+    if (!strcmp(_clname, "DemoPlugin"))
+        return static_cast< DemoPlugin*>(const_cast< XFormPlugin*>(this));
+    return QObject::qt_metacast(_clname);
+}
+
+int XFormPlugin::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    return _id;
+}
+static const uint qt_meta_data_GradientEditorPlugin[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_GradientEditorPlugin[] = {
+    "GradientEditorPlugin\0"
+};
+
+void GradientEditorPlugin::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+const QMetaObjectExtraData GradientEditorPlugin::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject GradientEditorPlugin::staticMetaObject = {
+    { &QObject::staticMetaObject, qt_meta_stringdata_GradientEditorPlugin,
+      qt_meta_data_GradientEditorPlugin, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &GradientEditorPlugin::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *GradientEditorPlugin::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *GradientEditorPlugin::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_GradientEditorPlugin))
+        return static_cast<void*>(const_cast< GradientEditorPlugin*>(this));
+    if (!strcmp(_clname, "DemoPlugin"))
+        return static_cast< DemoPlugin*>(const_cast< GradientEditorPlugin*>(this));
+    return QObject::qt_metacast(_clname);
+}
+
+int GradientEditorPlugin::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    return _id;
+}
+static const uint qt_meta_data_GradientRendererEx[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_GradientRendererEx[] = {
+    "GradientRendererEx\0"
+};
+
+void GradientRendererEx::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+const QMetaObjectExtraData GradientRendererEx::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject GradientRendererEx::staticMetaObject = {
+    { &GradientRenderer::staticMetaObject, qt_meta_stringdata_GradientRendererEx,
+      qt_meta_data_GradientRendererEx, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &GradientRendererEx::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *GradientRendererEx::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *GradientRendererEx::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_GradientRendererEx))
+        return static_cast<void*>(const_cast< GradientRendererEx*>(this));
+    return GradientRenderer::qt_metacast(_clname);
+}
+
+int GradientRendererEx::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = GradientRenderer::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    return _id;
+}
+static const uint qt_meta_data_GradientRendererPlugin[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_GradientRendererPlugin[] = {
+    "GradientRendererPlugin\0"
+};
+
+void GradientRendererPlugin::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+const QMetaObjectExtraData GradientRendererPlugin::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject GradientRendererPlugin::staticMetaObject = {
+    { &QObject::staticMetaObject, qt_meta_stringdata_GradientRendererPlugin,
+      qt_meta_data_GradientRendererPlugin, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &GradientRendererPlugin::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *GradientRendererPlugin::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *GradientRendererPlugin::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_GradientRendererPlugin))
+        return static_cast<void*>(const_cast< GradientRendererPlugin*>(this));
+    if (!strcmp(_clname, "DemoPlugin"))
+        return static_cast< DemoPlugin*>(const_cast< GradientRendererPlugin*>(this));
+    return QObject::qt_metacast(_clname);
+}
+
+int GradientRendererPlugin::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    return _id;
+}
+static const uint qt_meta_data_PathStrokeRendererEx[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_PathStrokeRendererEx[] = {
+    "PathStrokeRendererEx\0"
+};
+
+void PathStrokeRendererEx::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+const QMetaObjectExtraData PathStrokeRendererEx::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject PathStrokeRendererEx::staticMetaObject = {
+    { &PathStrokeRenderer::staticMetaObject, qt_meta_stringdata_PathStrokeRendererEx,
+      qt_meta_data_PathStrokeRendererEx, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &PathStrokeRendererEx::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *PathStrokeRendererEx::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *PathStrokeRendererEx::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_PathStrokeRendererEx))
+        return static_cast<void*>(const_cast< PathStrokeRendererEx*>(this));
+    return PathStrokeRenderer::qt_metacast(_clname);
+}
+
+int PathStrokeRendererEx::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = PathStrokeRenderer::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    return _id;
+}
+static const uint qt_meta_data_StrokeRenderPlugin[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_StrokeRenderPlugin[] = {
+    "StrokeRenderPlugin\0"
+};
+
+void StrokeRenderPlugin::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+const QMetaObjectExtraData StrokeRenderPlugin::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject StrokeRenderPlugin::staticMetaObject = {
+    { &QObject::staticMetaObject, qt_meta_stringdata_StrokeRenderPlugin,
+      qt_meta_data_StrokeRenderPlugin, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &StrokeRenderPlugin::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *StrokeRenderPlugin::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *StrokeRenderPlugin::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_StrokeRenderPlugin))
+        return static_cast<void*>(const_cast< StrokeRenderPlugin*>(this));
+    if (!strcmp(_clname, "DemoPlugin"))
+        return static_cast< DemoPlugin*>(const_cast< StrokeRenderPlugin*>(this));
+    return QObject::qt_metacast(_clname);
+}
+
+int StrokeRenderPlugin::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    return _id;
+}
+static const uint qt_meta_data_CompositionModePlugin[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_CompositionModePlugin[] = {
+    "CompositionModePlugin\0"
+};
+
+void CompositionModePlugin::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+const QMetaObjectExtraData CompositionModePlugin::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject CompositionModePlugin::staticMetaObject = {
+    { &QObject::staticMetaObject, qt_meta_stringdata_CompositionModePlugin,
+      qt_meta_data_CompositionModePlugin, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &CompositionModePlugin::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *CompositionModePlugin::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *CompositionModePlugin::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_CompositionModePlugin))
+        return static_cast<void*>(const_cast< CompositionModePlugin*>(this));
+    if (!strcmp(_clname, "DemoPlugin"))
+        return static_cast< DemoPlugin*>(const_cast< CompositionModePlugin*>(this));
+    return QObject::qt_metacast(_clname);
+}
+
+int CompositionModePlugin::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    return _id;
+}
+static const uint qt_meta_data_ArthurPlugins[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_ArthurPlugins[] = {
+    "ArthurPlugins\0"
+};
+
+void ArthurPlugins::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+const QMetaObjectExtraData ArthurPlugins::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject ArthurPlugins::staticMetaObject = {
+    { &QObject::staticMetaObject, qt_meta_stringdata_ArthurPlugins,
+      qt_meta_data_ArthurPlugins, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &ArthurPlugins::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *ArthurPlugins::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *ArthurPlugins::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_ArthurPlugins))
+        return static_cast<void*>(const_cast< ArthurPlugins*>(this));
+    if (!strcmp(_clname, "QDesignerCustomWidgetCollectionInterface"))
+        return static_cast< QDesignerCustomWidgetCollectionInterface*>(const_cast< ArthurPlugins*>(this));
+    if (!strcmp(_clname, "com.trolltech.Qt.Designer.CustomWidgetCollection"))
+        return static_cast< QDesignerCustomWidgetCollectionInterface*>(const_cast< ArthurPlugins*>(this));
+    return QObject::qt_metacast(_clname);
+}
+
+int ArthurPlugins::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    return _id;
+}
+QT_END_MOC_NAMESPACE

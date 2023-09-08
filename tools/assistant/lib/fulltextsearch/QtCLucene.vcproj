@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="7.00"
+	Name="QtCLucene"
+	ProjectGUID="{BE4717A1-3FA9-397D-9653-319C247EE414}"
+	Keyword="Qt4VSv1.0">
+	<Platforms>
+		<Platform
+			Name="Win32" />
+	</Platforms>
+	<Configurations>
+		<Configuration
+			Name="Debug|Win32"
+			OutputDirectory="..\..\..\..\lib\"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			ConfigurationType="2"
+			IntermediateDirectory="tmp\obj\debug_shared\"
+			UseOfMfc="0">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="&quot;..\..\..\..\include\QtCore&quot;,&quot;..\..\..\..\include&quot;,&quot;c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\include\QtCLucene&quot;,&quot;tmp\rcc\debug_shared&quot;,&quot;tmp&quot;,&quot;.&quot;,&quot;..&quot;,&quot;..\..\..\..\src\3rdparty\clucene\src\CLucene&quot;,&quot;..\..\..\..\src\3rdparty\clucene\src&quot;,&quot;..\..\..\..\src\3rdparty\clucene\src\CLucene\analysis&quot;,&quot;..\..\..\..\src\3rdparty\clucene\src\CLucene\analysis\standard&quot;,&quot;..\..\..\..\src\3rdparty\clucene\src\CLucene\config&quot;,&quot;..\..\..\..\src\3rdparty\clucene\src\CLucene\debug&quot;,&quot;..\..\..\..\src\3rdparty\clucene\src\CLucene\document&quot;,&quot;..\..\..\..\src\3rdparty\clucene\src\CLucene\index&quot;,&quot;..\..\..\..\src\3rdparty\clucene\src\CLucene\queryParser&quot;,&quot;..\..\..\..\src\3rdparty\clucene\src\CLucene\search&quot;,&quot;..\..\..\..\src\3rdparty\clucene\src\CLucene\store&quot;,&quot;..\..\..\..\src\3rdparty\clucene\src\CLucene\util&quot;,&quot;..\..\..\..\include\ActiveQt&quot;,&quot;tmp\moc\debug_shared&quot;,..\..\..\..\mkspecs\win32-msvc2003"
+				AdditionalOptions="-Zm300"
+				AssemblerListingLocation="tmp\obj\debug_shared\"
+				DebugInformationFormat="3"
+				ExceptionHandling="true"
+				GeneratePreprocessedFile="0"
+				ObjectFile="tmp\obj\debug_shared\"
+				Optimization ="4"
+				PreprocessorDefinitions="_WINDOWS,UNICODE,WIN32,QHELP_LIB,QT_MAKEDLL,QT_NO_CAST_TO_ASCII,QT_ASCII_CAST_WARNINGS,QT3_SUPPORT,QT_MOC_COMPAT,QT_USE_QSTRINGBUILDER,_USE_MATH_DEFINES,_BUILD_FOR_QT_,LUCENE_DISABLE_MEMTRACKING,_CRT_SECURE_NO_DEPRECATE,_MT,QT_DLL,QT_CORE_LIB,QT_HAVE_MMX,QT_HAVE_3DNOW,QT_HAVE_SSE,QT_HAVE_MMXEXT,QT_HAVE_SSE2,QT_SHARED,QT_THREAD_SUPPORT"
+				ProgramDataBaseFileName=".\"
+				RuntimeLibrary="3"
+				RuntimeTypeInfo="true"
+				SuppressStartupBanner="true"
+				WarningLevel="0" />
+			<Tool
+				Name="VCCustomBuildTool" />
+			<Tool
+				Name="VCLinkerTool"
+				AdditionalDependencies="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib\QtCored4.lib"
+				AdditionalLibraryDirectories="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib,c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib"
+				GenerateDebugInformation="true"
+				IgnoreImportLibrary="true"
+				LinkTimeCodeGeneration="0"
+				OutputFile="$(OutDir)\QtCLucened4.dll"
+				ProgramDatabaseFile=""
+				SubSystem="0"
+				SuppressStartupBanner="true"
+				Version="4.87" />
+			<Tool
+				Name="VCMIDLTool"
+				DefaultCharType="0"
+				EnableErrorChecks="1"
+				WarningLevel="0" />
+			<Tool
+				Name="VCPostBuildEventTool"
+				CommandLine="copy  &quot;$(TargetPath)&quot; &quot;..\..\..\..\bin&quot;"
+				Description="Copy QtCLucened4.dll to ..\..\..\..\bin"
+				ExcludedFromBuild="false" />
+			<Tool
+				Name="VCPreBuildEventTool" />
+			<Tool
+				Name="VCPreLinkEventTool" />
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_WINDOWS,UNICODE,WIN32,QHELP_LIB,QT_MAKEDLL,QT_NO_CAST_TO_ASCII,QT_ASCII_CAST_WARNINGS,QT3_SUPPORT,QT_MOC_COMPAT,QT_USE_QSTRINGBUILDER,_USE_MATH_DEFINES,_BUILD_FOR_QT_,LUCENE_DISABLE_MEMTRACKING,_CRT_SECURE_NO_DEPRECATE,_MT,QT_DLL,QT_CORE_LIB,QT_HAVE_MMX,QT_HAVE_3DNOW,QT_HAVE_SSE,QT_HAVE_MMXEXT,QT_HAVE_SSE2,QT_SHARED,QT_THREAD_SUPPORT,_DEBUG" />
+		</Configuration>
+		<Configuration
+			Name="Release|Win32"
+			OutputDirectory="..\..\..\..\lib\"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			ConfigurationType="2"
+			IntermediateDirectory="tmp\obj\release_shared\"
+			UseOfMfc="0">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="&quot;..\..\..\..\include\QtCore&quot;,&quot;..\..\..\..\include&quot;,&quot;c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\include\QtCLucene&quot;,&quot;tmp\rcc\debug_shared&quot;,&quot;tmp&quot;,&quot;.&quot;,&quot;..&quot;,&quot;..\..\..\..\src\3rdparty\clucene\src\CLucene&quot;,&quot;..\..\..\..\src\3rdparty\clucene\src&quot;,&quot;..\..\..\..\src\3rdparty\clucene\src\CLucene\analysis&quot;,&quot;..\..\..\..\src\3rdparty\clucene\src\CLucene\analysis\standard&quot;,&quot;..\..\..\..\src\3rdparty\clucene\src\CLucene\config&quot;,&quot;..\..\..\..\src\3rdparty\clucene\src\CLucene\debug&quot;,&quot;..\..\..\..\src\3rdparty\clucene\src\CLucene\document&quot;,&quot;..\..\..\..\src\3rdparty\clucene\src\CLucene\index&quot;,&quot;..\..\..\..\src\3rdparty\clucene\src\CLucene\queryParser&quot;,&quot;..\..\..\..\src\3rdparty\clucene\src\CLucene\search&quot;,&quot;..\..\..\..\src\3rdparty\clucene\src\CLucene\store&quot;,&quot;..\..\..\..\src\3rdparty\clucene\src\CLucene\util&quot;,&quot;..\..\..\..\include\ActiveQt&quot;,&quot;tmp\moc\release_shared&quot;,..\..\..\..\mkspecs\win32-msvc2003"
+				AdditionalOptions="-Zm300"
+				AssemblerListingLocation="tmp\obj\release_shared\"
+				DebugInformationFormat="0"
+				ExceptionHandling="true"
+				GeneratePreprocessedFile="0"
+				ObjectFile="tmp\obj\release_shared\"
+				Optimization ="4"
+				PreprocessorDefinitions="_WINDOWS,UNICODE,WIN32,QHELP_LIB,QT_MAKEDLL,QT_NO_CAST_TO_ASCII,QT_ASCII_CAST_WARNINGS,QT3_SUPPORT,QT_MOC_COMPAT,QT_USE_QSTRINGBUILDER,_USE_MATH_DEFINES,_BUILD_FOR_QT_,LUCENE_DISABLE_MEMTRACKING,_CRT_SECURE_NO_DEPRECATE,_MT,QT_DLL,QT_NO_DEBUG,QT_CORE_LIB,QT_HAVE_MMX,QT_HAVE_3DNOW,QT_HAVE_SSE,QT_HAVE_MMXEXT,QT_HAVE_SSE2,QT_SHARED,QT_THREAD_SUPPORT,NDEBUG"
+				ProgramDataBaseFileName=".\"
+				RuntimeLibrary="2"
+				RuntimeTypeInfo="true"
+				SuppressStartupBanner="true"
+				WarningLevel="0" />
+			<Tool
+				Name="VCCustomBuildTool" />
+			<Tool
+				Name="VCLinkerTool"
+				AdditionalDependencies="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib\QtCore4.lib"
+				AdditionalLibraryDirectories="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib,c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib"
+				GenerateDebugInformation="false"
+				IgnoreImportLibrary="true"
+				LinkIncremental="1"
+				LinkTimeCodeGeneration="0"
+				OutputFile="$(OutDir)\QtCLucene4.dll"
+				ProgramDatabaseFile=""
+				SubSystem="0"
+				SuppressStartupBanner="true"
+				Version="4.87" />
+			<Tool
+				Name="VCMIDLTool"
+				DefaultCharType="0"
+				EnableErrorChecks="1"
+				WarningLevel="0" />
+			<Tool
+				Name="VCPostBuildEventTool"
+				CommandLine="copy  &quot;$(TargetPath)&quot; &quot;..\..\..\..\bin&quot;"
+				Description="Copy QtCLucene4.dll to ..\..\..\..\bin"
+				ExcludedFromBuild="false" />
+			<Tool
+				Name="VCPreBuildEventTool" />
+			<Tool
+				Name="VCPreLinkEventTool" />
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_WINDOWS,UNICODE,WIN32,QHELP_LIB,QT_MAKEDLL,QT_NO_CAST_TO_ASCII,QT_ASCII_CAST_WARNINGS,QT3_SUPPORT,QT_MOC_COMPAT,QT_USE_QSTRINGBUILDER,_USE_MATH_DEFINES,_BUILD_FOR_QT_,LUCENE_DISABLE_MEMTRACKING,_CRT_SECURE_NO_DEPRECATE,_MT,QT_DLL,QT_NO_DEBUG,QT_CORE_LIB,QT_HAVE_MMX,QT_HAVE_3DNOW,QT_HAVE_SSE,QT_HAVE_MMXEXT,QT_HAVE_SSE2,QT_SHARED,QT_THREAD_SUPPORT" />
+		</Configuration>
+	</Configurations>
+	<Files>
+		<Filter
+			Name="Source Files"
+			Filter="cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx"
+			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}">
+			<File
+				RelativePath="..\..\..\..\src\3rdparty\clucene\src\CLucene\analysis\AnalysisHeader.cpp" />
+			<File
+				RelativePath="..\..\..\..\src\3rdparty\clucene\src\CLucene\analysis\Analyzers.cpp" />
+			<File
+				RelativePath="..\..\..\..\src\3rdparty\clucene\src\CLucene\util\BitSet.cpp" />
+			<File
+				RelativePath="..\..\..\..\src\3rdparty\clucene\src\CLucene\search\BooleanQuery.cpp" />
+			<File
+				RelativePath="..\..\..\..\src\3rdparty\clucene\src\CLucene\search\BooleanScorer.cpp" />
+			<File
+				RelativePath="..\..\..\..\src\3rdparty\clucene\src\CLucene\search\CachingWrapperFilter.cpp" />
+			<File
+				RelativePath="..\..\..\..\src\3rdparty\clucene\src\CLucene\search\ChainedFilter.cpp" />
+			<File
+				RelativePath="..\..\..\..\src\3rdparty\clucene\src\CLucene\index\CompoundFile.cpp" />
+			<File
+				RelativePath="..\..\..\..\src\3rdparty\clucene\src\CLucene\search\ConjunctionScorer.cpp" />
+			<File
+				RelativePath="..\..\..\..\src\3rdparty\clucene\src\CLucene\document\DateField.cpp" />
+			<File
+				RelativePath="..\..\..\..\src\3rdparty\clucene\src\CLucene\search\DateFilter.cpp" />
+			<File
+				RelativePath="..\..\..\..\src\3rdparty\clucene\src\CLucene\document\Document.cpp" />
+			<File
+				RelativePath="..\..\..\..\src\3rdparty\clucene\src\CLucene\index\DocumentWriter.cpp" />
+			<File
+				RelativePath="..\..\..\..\src\3rdparty\clucene\src\CLucene\util\Equators.cpp" />
+			<File
+				RelativePath="..\..\..\..\src\3rdparty\clucene\src\CLucene\search\ExactPhraseScorer.cpp" />
+			<File
+				RelativePath="..\..\..\..\src\3rdparty\clucene\src\CLucene\search\Explanation.cpp" />
+			<File
+				RelativePath="..\..\..\..\src\3rdparty\clucene\src\CLucene\store\FSDirectory.cpp" />
+			<File
+				RelativePath="..\..\..\..\src\3rdparty\clucene\src\CLucene\util\FastCharStream.cpp" />
+			<File
+				RelativePath="..\..\..\..\src\3rdparty\clucene\src\CLucene\document\Field.cpp" />
+			<File
+				RelativePath="..\..\..\..\src\3rdparty\clucene\src\CLucene\search\FieldCache.cpp" />
+			<File
+				RelativePath="..\..\..\..\src\3rdparty\clucene\src\CLucene\search\FieldCacheImpl.cpp" />
+			<File
+				RelativePath="..\..\..\..\src\3rdparty\clucene\src\CLucene\search\FieldDocSortedHitQueue.cpp" />
+			<File
+				RelativePath="..\..\..\..\src\3rdparty\clucene\src\CLucene\index\FieldInfos.cpp" />
+			<File
+				RelativePath="..\..\..\..\src\3rdparty\clucene\src\CLucene\search\FieldSortedHitQueue.cpp" />
+			<File
+				RelativePath="..\..\..\..\src\3rdparty\clucene\src\CLucene\index\FieldsReader.cpp" />
+			<File
+				RelativePath="..\..\..\..\src\3rdparty\clucene\src\CLucene\index\FieldsWriter.cpp" />
+			<File
+				RelativePath="..\..\..\..\src\3rdparty\clucene\src\CLucene\search\FilteredTermEnum.cpp" />
+			<File
+				RelativePath="..\..\..\..\src\3rdparty\clucene\src\CLucene\search\FuzzyQuery.cpp" />
+			<File
+				RelativePath="..\..\..\..\src\3rdparty\clucene\src\CLucene\search\HitQueue.cpp" />
+			<File
+				RelativePath="..\..\..\..\src\3rdparty\clucene\src\CLucene\search\Hits.cpp" />
+			<File
+				RelativePath="..\..\..\..\src\3rdparty\clucene\src\CLucene\store\IndexInput.cpp" />
+			<File
+				RelativePath="..\..\..\..\src\3rdparty\clucene\src\CLucene\index\IndexModifier.cpp" />
+			<File
+				RelativePath="..\..\..\..\src\3rdparty\clucene\src\CLucene\store\IndexOutput.cpp" />
+			<File
+				RelativePath="..\..\..\..\src\3rdparty\clucene\src\CLucene\index\IndexReader.cpp" />
+			<File
+				RelativePath="..\..\..\..\src\3rdparty\clucene\src\CLucene\search\IndexSearcher.cpp" />
+			<File
+				RelativePath="..\..\..\..\src\3rdparty\clucene\src\CLucene\index\IndexWriter.cpp" />
+			<File
+				RelativePath="..\..\..\..\src\3rdparty\clucene\src\CLucene\queryParser\Lexer.cpp" />
+			<File
+				RelativePath="..\..\..\..\src\3rdparty\clucene\src\CLucene\store\Lock.cpp" />
+			<File
+				RelativePath="..\..\..\..\src\3rdparty\clucene\src\CLucene\store\MMapInput.cpp" />
+			<File
+				RelativePath="..\..\..\..\src\3rdparty\clucene\src\CLucene\util\Misc.cpp" />
+			<File
+				RelativePath="..\..\..\..\src\3rdparty\clucene\src\CLucene\queryParser\MultiFieldQueryParser.cpp" />
+			<File
+				RelativePath="..\..\..\..\src\3rdparty\clucene\src\CLucene\index\MultiReader.cpp" />
+			<File
+				RelativePath="..\..\..\..\src\3rdparty\clucene\src\CLucene\search\MultiSearcher.cpp" />
+			<File
+				RelativePath="..\..\..\..\src\3rdparty\clucene\src\CLucene\search\MultiTermQuery.cpp" />
+			<File
+				RelativePath="..\..\..\..\src\3rdparty\clucene\src\CLucene\search\PhrasePositions.cpp" />
+			<File
+				RelativePath="..\..\..\..\src\3rdparty\clucene\src\CLucene\search\PhraseQuery.cpp" />
+			<File
+				RelativePath="..\..\..\..\src\3rdparty\clucene\src\CLucene\search\PhraseScorer.cpp" />
+			<File
+				RelativePath="..\..\..\..\src\3rdparty\clucene\src\CLucene\search\PrefixQuery.cpp" />
+			<File
+				RelativePath="..\..\..\..\src\3rdparty\clucene\src\CLucene\search\QueryFilter.cpp" />
+			<File
+				RelativePath="..\..\..\..\src\3rdparty\clucene\src\CLucene\queryParser\QueryParser.cpp" />
+			<File
+				RelativePath="..\..\..\..\src\3rdparty\clucene\src\CLucene\queryParser\QueryParserBase.cpp" />
+			<File
+				RelativePath="..\..\..\..\src\3rdparty\clucene\src\CLucene\queryParser\QueryToken.cpp" />
+			<File
+				RelativePath="..\..\..\..\src\3rdparty\clucene\src\CLucene\store\RAMDirectory.cpp" />
+			<File
+				RelativePath="..\..\..\..\src\3rdparty\clucene\src\CLucene\search\RangeFilter.cpp" />
+			<File
+				RelativePath="..\..\..\..\src\3rdparty\clucene\src\CLucene\search\RangeQuery.cpp" />
+			<File
+				RelativePath="..\..\..\..\src\3rdparty\clucene\src\CLucene\util\Reader.cpp" />
+			<File
+				RelativePath="..\..\..\..\src\3rdparty\clucene\src\CLucene\search\SearchHeader.cpp" />
+			<File
+				RelativePath="..\..\..\..\src\3rdparty\clucene\src\CLucene\index\SegmentInfos.cpp" />
+			<File
+				RelativePath="..\..\..\..\src\3rdparty\clucene\src\CLucene\index\SegmentMergeInfo.cpp" />
+			<File
+				RelativePath="..\..\..\..\src\3rdparty\clucene\src\CLucene\index\SegmentMergeQueue.cpp" />
+			<File
+				RelativePath="..\..\..\..\src\3rdparty\clucene\src\CLucene\index\SegmentMerger.cpp" />
+			<File
+				RelativePath="..\..\..\..\src\3rdparty\clucene\src\CLucene\index\SegmentReader.cpp" />
+			<File
+				RelativePath="..\..\..\..\src\3rdparty\clucene\src\CLucene\index\SegmentTermDocs.cpp" />
+			<File
+				RelativePath="..\..\..\..\src\3rdparty\clucene\src\CLucene\index\SegmentTermEnum.cpp" />
+			<File
+				RelativePath="..\..\..\..\src\3rdparty\clucene\src\CLucene\index\SegmentTermPositions.cpp" />
+			<File
+				RelativePath="..\..\..\..\src\3rdparty\clucene\src\CLucene\index\SegmentTermVector.cpp" />
+			<File
+				RelativePath="..\..\..\..\src\3rdparty\clucene\src\CLucene\search\Similarity.cpp" />
+			<File
+				RelativePath="..\..\..\..\src\3rdparty\clucene\src\CLucene\search\SloppyPhraseScorer.cpp" />
+			<File
+				RelativePath="..\..\..\..\src\3rdparty\clucene\src\CLucene\search\Sort.cpp" />
+			<File
+				RelativePath="..\..\..\..\src\3rdparty\clucene\src\CLucene\analysis\standard\StandardAnalyzer.cpp" />
+			<File
+				RelativePath="..\..\..\..\src\3rdparty\clucene\src\CLucene\analysis\standard\StandardFilter.cpp" />
+			<File
+				RelativePath="..\..\..\..\src\3rdparty\clucene\src\CLucene\analysis\standard\StandardTokenizer.cpp" />
+			<File
+				RelativePath="..\..\..\..\src\3rdparty\clucene\src\CLucene\StdHeader.cpp" />
+			<File
+				RelativePath="..\..\..\..\src\3rdparty\clucene\src\CLucene\util\StringBuffer.cpp" />
+			<File
+				RelativePath="..\..\..\..\src\3rdparty\clucene\src\CLucene\util\StringIntern.cpp" />
+			<File
+				RelativePath="..\..\..\..\src\3rdparty\clucene\src\CLucene\index\Term.cpp" />
+			<File
+				RelativePath="..\..\..\..\src\3rdparty\clucene\src\CLucene\index\TermInfo.cpp" />
+			<File
+				RelativePath="..\..\..\..\src\3rdparty\clucene\src\CLucene\index\TermInfosReader.cpp" />
+			<File
+				RelativePath="..\..\..\..\src\3rdparty\clucene\src\CLucene\index\TermInfosWriter.cpp" />
+			<File
+				RelativePath="..\..\..\..\src\3rdparty\clucene\src\CLucene\search\TermQuery.cpp" />
+			<File
+				RelativePath="..\..\..\..\src\3rdparty\clucene\src\CLucene\search\TermScorer.cpp" />
+			<File
+				RelativePath="..\..\..\..\src\3rdparty\clucene\src\CLucene\index\TermVectorReader.cpp" />
+			<File
+				RelativePath="..\..\..\..\src\3rdparty\clucene\src\CLucene\index\TermVectorWriter.cpp" />
+			<File
+				RelativePath="..\..\..\..\src\3rdparty\clucene\src\CLucene\util\ThreadLocal.cpp" />
+			<File
+				RelativePath="..\..\..\..\src\3rdparty\clucene\src\CLucene\queryParser\TokenList.cpp" />
+			<File
+				RelativePath="..\..\..\..\src\3rdparty\clucene\src\CLucene\store\TransactionalRAMDirectory.cpp" />
+			<File
+				RelativePath="..\..\..\..\src\3rdparty\clucene\src\CLucene\search\WildcardQuery.cpp" />
+			<File
+				RelativePath="..\..\..\..\src\3rdparty\clucene\src\CLucene\search\WildcardTermEnum.cpp" />
+			<File
+				RelativePath="..\..\..\..\src\3rdparty\clucene\src\CLucene\debug\condition.cpp" />
+			<File
+				RelativePath="..\..\..\..\src\3rdparty\clucene\src\CLucene\debug\error.cpp" />
+			<File
+				RelativePath="..\..\..\..\src\3rdparty\clucene\src\CLucene\util\fileinputstream.cpp" />
+			<File
+				RelativePath="..\..\..\..\src\3rdparty\clucene\src\CLucene\config\gunichartables.cpp" />
+			<File
+				RelativePath="..\..\..\..\src\3rdparty\clucene\src\CLucene\debug\memtracking.cpp" />
+			<File
+				RelativePath="qanalyzer.cpp" />
+			<File
+				RelativePath="qdocument.cpp" />
+			<File
+				RelativePath="qfield.cpp" />
+			<File
+				RelativePath="qfilter.cpp" />
+			<File
+				RelativePath="qhits.cpp" />
+			<File
+				RelativePath="qindexreader.cpp" />
+			<File
+				RelativePath="qindexwriter.cpp" />
+			<File
+				RelativePath="qquery.cpp" />
+			<File
+				RelativePath="qqueryparser.cpp" />
+			<File
+				RelativePath="qreader.cpp" />
+			<File
+				RelativePath="qsearchable.cpp" />
+			<File
+				RelativePath="qsort.cpp" />
+			<File
+				RelativePath="qterm.cpp" />
+			<File
+				RelativePath="qtoken.cpp" />
+			<File
+				RelativePath="qtokenizer.cpp" />
+			<File
+				RelativePath="qtokenstream.cpp" />
+			<File
+				RelativePath="..\..\..\..\src\3rdparty\clucene\src\CLucene\config\repl_lltot.cpp" />
+			<File
+				RelativePath="..\..\..\..\src\3rdparty\clucene\src\CLucene\config\repl_tcscasecmp.cpp" />
+			<File
+				RelativePath="..\..\..\..\src\3rdparty\clucene\src\CLucene\config\repl_tcslwr.cpp" />
+			<File
+				RelativePath="..\..\..\..\src\3rdparty\clucene\src\CLucene\config\repl_tcstod.cpp" />
+			<File
+				RelativePath="..\..\..\..\src\3rdparty\clucene\src\CLucene\config\repl_tcstoll.cpp" />
+			<File
+				RelativePath="..\..\..\..\src\3rdparty\clucene\src\CLucene\config\repl_tprintf.cpp" />
+			<File
+				RelativePath="..\..\..\..\src\3rdparty\clucene\src\CLucene\config\threads.cpp" />
+			<File
+				RelativePath="..\..\..\..\src\3rdparty\clucene\src\CLucene\config\utf8.cpp" />
+		</Filter>
+		<Filter
+			Name="Header Files"
+			Filter="h;hpp;hxx;hm;inl;inc;xsd"
+			UniqueIdentifier="{93995380-89BD-4b04-88EB-625FBE52EBFB}">
+			<File
+				RelativePath="qanalyzer_p.h" />
+			<File
+				RelativePath="qclucene-config_p.h" />
+			<File
+				RelativePath="qclucene_global_p.h" />
+			<File
+				RelativePath="qdocument_p.h" />
+			<File
+				RelativePath="qfield_p.h" />
+			<File
+				RelativePath="qfilter_p.h" />
+			<File
+				RelativePath="qhits_p.h" />
+			<File
+				RelativePath="qindexreader_p.h" />
+			<File
+				RelativePath="qindexwriter_p.h" />
+			<File
+				RelativePath="qquery_p.h" />
+			<File
+				RelativePath="qqueryparser_p.h" />
+			<File
+				RelativePath="qreader_p.h" />
+			<File
+				RelativePath="qsearchable_p.h" />
+			<File
+				RelativePath="qsort_p.h" />
+			<File
+				RelativePath="qterm_p.h" />
+			<File
+				RelativePath="qtoken_p.h" />
+			<File
+				RelativePath="qtokenizer_p.h" />
+			<File
+				RelativePath="qtokenstream_p.h" />
+		</Filter>
+		<File
+			RelativePath="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\tools\assistant\lib\fulltextsearch\QtCLucene_resource.rc">
+			<FileConfiguration
+				Name="Debug|Win32"
+				ExcludedFromBuild="true" />
+		</File>
+		<File
+			RelativePath="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\tools\assistant\lib\fulltextsearch\QtCLucened_resource.rc">
+			<FileConfiguration
+				Name="Release|Win32"
+				ExcludedFromBuild="true" />
+		</File>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>

@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="7.00"
+	Name="QtMultimedia"
+	ProjectGUID="{77AACE07-8745-3699-B022-F7011B5DE25A}"
+	Keyword="Qt4VSv1.0">
+	<Platforms>
+		<Platform
+			Name="Win32" />
+	</Platforms>
+	<Configurations>
+		<Configuration
+			Name="Debug|Win32"
+			OutputDirectory="..\..\lib\"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			ConfigurationType="2"
+			IntermediateDirectory="tmp\obj\debug_shared\"
+			UseOfMfc="0">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="&quot;..\..\include\QtCore&quot;,&quot;..\..\include\QtGui&quot;,&quot;..\..\include&quot;,&quot;..\..\include\QtMultimedia&quot;,&quot;tmp\rcc\debug_shared&quot;,&quot;tmp&quot;,&quot;video&quot;,&quot;..\..\include\ActiveQt&quot;,&quot;tmp\moc\debug_shared&quot;,..\..\mkspecs\win32-msvc2003"
+				AdditionalOptions="-Zm300 -w34100 -w34189"
+				AssemblerListingLocation="tmp\obj\debug_shared\"
+				DebugInformationFormat="3"
+				ExceptionHandling="true"
+				GeneratePreprocessedFile="0"
+				ObjectFile="tmp\obj\debug_shared\"
+				Optimization ="4"
+				PreprocessorDefinitions="_WINDOWS,UNICODE,WIN32,QT_BUILD_MULTIMEDIA_LIB,QT_NO_USING_NAMESPACE,QT_MAKEDLL,QT_NO_CAST_TO_ASCII,QT_ASCII_CAST_WARNINGS,QT3_SUPPORT,QT_MOC_COMPAT,QT_USE_QSTRINGBUILDER,_USE_MATH_DEFINES,QT_DLL,QT_GUI_LIB,QT_CORE_LIB,QT_HAVE_MMX,QT_HAVE_3DNOW,QT_HAVE_SSE,QT_HAVE_MMXEXT,QT_HAVE_SSE2,QT_SHARED,QT_THREAD_SUPPORT"
+				ProgramDataBaseFileName=".\"
+				RuntimeLibrary="3"
+				RuntimeTypeInfo="true"
+				SuppressStartupBanner="true"
+				WarningLevel="3" />
+			<Tool
+				Name="VCCustomBuildTool" />
+			<Tool
+				Name="VCLinkerTool"
+				AdditionalDependencies="winmm.lib c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib\QtGuid4.lib c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib\QtCored4.lib"
+				AdditionalLibraryDirectories="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib,c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib"
+				GenerateDebugInformation="true"
+				IgnoreImportLibrary="true"
+				LinkTimeCodeGeneration="0"
+				OutputFile="$(OutDir)\QtMultimediad4.dll"
+				ProgramDatabaseFile=""
+				SubSystem="0"
+				SuppressStartupBanner="true"
+				Version="4.87" />
+			<Tool
+				Name="VCMIDLTool"
+				DefaultCharType="0"
+				EnableErrorChecks="1"
+				WarningLevel="0" />
+			<Tool
+				Name="VCPostBuildEventTool"
+				CommandLine="copy  &quot;$(TargetPath)&quot; &quot;..\..\bin&quot;"
+				Description="Copy QtMultimediad4.dll to ..\..\bin"
+				ExcludedFromBuild="false" />
+			<Tool
+				Name="VCPreBuildEventTool" />
+			<Tool
+				Name="VCPreLinkEventTool" />
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_WINDOWS,UNICODE,WIN32,QT_BUILD_MULTIMEDIA_LIB,QT_NO_USING_NAMESPACE,QT_MAKEDLL,QT_NO_CAST_TO_ASCII,QT_ASCII_CAST_WARNINGS,QT3_SUPPORT,QT_MOC_COMPAT,QT_USE_QSTRINGBUILDER,_USE_MATH_DEFINES,QT_DLL,QT_GUI_LIB,QT_CORE_LIB,QT_HAVE_MMX,QT_HAVE_3DNOW,QT_HAVE_SSE,QT_HAVE_MMXEXT,QT_HAVE_SSE2,QT_SHARED,QT_THREAD_SUPPORT,_DEBUG" />
+		</Configuration>
+		<Configuration
+			Name="Release|Win32"
+			OutputDirectory="..\..\lib\"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			ConfigurationType="2"
+			IntermediateDirectory="tmp\obj\release_shared\"
+			UseOfMfc="0">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="&quot;..\..\include\QtCore&quot;,&quot;..\..\include\QtGui&quot;,&quot;..\..\include&quot;,&quot;..\..\include\QtMultimedia&quot;,&quot;tmp\rcc\debug_shared&quot;,&quot;tmp&quot;,&quot;video&quot;,&quot;..\..\include\ActiveQt&quot;,&quot;tmp\moc\release_shared&quot;,..\..\mkspecs\win32-msvc2003"
+				AdditionalOptions="-Zm300 -w34100 -w34189"
+				AssemblerListingLocation="tmp\obj\release_shared\"
+				DebugInformationFormat="0"
+				ExceptionHandling="true"
+				GeneratePreprocessedFile="0"
+				ObjectFile="tmp\obj\release_shared\"
+				Optimization ="2"
+				PreprocessorDefinitions="_WINDOWS,UNICODE,WIN32,QT_BUILD_MULTIMEDIA_LIB,QT_NO_USING_NAMESPACE,QT_MAKEDLL,QT_NO_CAST_TO_ASCII,QT_ASCII_CAST_WARNINGS,QT3_SUPPORT,QT_MOC_COMPAT,QT_USE_QSTRINGBUILDER,_USE_MATH_DEFINES,QT_DLL,QT_NO_DEBUG,QT_GUI_LIB,QT_CORE_LIB,QT_HAVE_MMX,QT_HAVE_3DNOW,QT_HAVE_SSE,QT_HAVE_MMXEXT,QT_HAVE_SSE2,QT_SHARED,QT_THREAD_SUPPORT,NDEBUG"
+				ProgramDataBaseFileName=".\"
+				RuntimeLibrary="2"
+				RuntimeTypeInfo="true"
+				SuppressStartupBanner="true"
+				WarningLevel="3" />
+			<Tool
+				Name="VCCustomBuildTool" />
+			<Tool
+				Name="VCLinkerTool"
+				AdditionalDependencies="winmm.lib c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib\QtGui4.lib c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib\QtCore4.lib"
+				AdditionalLibraryDirectories="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib,c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib"
+				GenerateDebugInformation="false"
+				IgnoreImportLibrary="true"
+				LinkIncremental="1"
+				LinkTimeCodeGeneration="0"
+				OutputFile="$(OutDir)\QtMultimedia4.dll"
+				ProgramDatabaseFile=""
+				SubSystem="0"
+				SuppressStartupBanner="true"
+				Version="4.87" />
+			<Tool
+				Name="VCMIDLTool"
+				DefaultCharType="0"
+				EnableErrorChecks="1"
+				WarningLevel="0" />
+			<Tool
+				Name="VCPostBuildEventTool"
+				CommandLine="copy  &quot;$(TargetPath)&quot; &quot;..\..\bin&quot;"
+				Description="Copy QtMultimedia4.dll to ..\..\bin"
+				ExcludedFromBuild="false" />
+			<Tool
+				Name="VCPreBuildEventTool" />
+			<Tool
+				Name="VCPreLinkEventTool" />
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_WINDOWS,UNICODE,WIN32,QT_BUILD_MULTIMEDIA_LIB,QT_NO_USING_NAMESPACE,QT_MAKEDLL,QT_NO_CAST_TO_ASCII,QT_ASCII_CAST_WARNINGS,QT3_SUPPORT,QT_MOC_COMPAT,QT_USE_QSTRINGBUILDER,_USE_MATH_DEFINES,QT_DLL,QT_NO_DEBUG,QT_GUI_LIB,QT_CORE_LIB,QT_HAVE_MMX,QT_HAVE_3DNOW,QT_HAVE_SSE,QT_HAVE_MMXEXT,QT_HAVE_SSE2,QT_SHARED,QT_THREAD_SUPPORT" />
+		</Configuration>
+	</Configurations>
+	<Files>
+		<Filter
+			Name="Source Files"
+			Filter="cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx"
+			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}">
+			<File
+				RelativePath="video\qabstractvideobuffer.cpp" />
+			<File
+				RelativePath="video\qabstractvideosurface.cpp" />
+			<File
+				RelativePath="audio\qaudio.cpp" />
+			<File
+				RelativePath="audio\qaudiodevicefactory.cpp" />
+			<File
+				RelativePath="audio\qaudiodeviceinfo.cpp" />
+			<File
+				RelativePath="audio\qaudiodeviceinfo_win32_p.cpp" />
+			<File
+				RelativePath="audio\qaudioengine.cpp" />
+			<File
+				RelativePath="audio\qaudioengineplugin.cpp" />
+			<File
+				RelativePath="audio\qaudioformat.cpp" />
+			<File
+				RelativePath="audio\qaudioinput.cpp" />
+			<File
+				RelativePath="audio\qaudioinput_win32_p.cpp" />
+			<File
+				RelativePath="audio\qaudiooutput.cpp" />
+			<File
+				RelativePath="audio\qaudiooutput_win32_p.cpp" />
+			<File
+				RelativePath="video\qimagevideobuffer.cpp" />
+			<File
+				RelativePath="video\qmemoryvideobuffer.cpp" />
+			<File
+				RelativePath="video\qvideoframe.cpp" />
+			<File
+				RelativePath="video\qvideosurfaceformat.cpp" />
+		</Filter>
+		<Filter
+			Name="Header Files"
+			Filter="h;hpp;hxx;hm;inl;inc;xsd"
+			UniqueIdentifier="{93995380-89BD-4b04-88EB-625FBE52EBFB}">
+			<File
+				RelativePath="video\qabstractvideobuffer.h" />
+			<File
+				RelativePath="video\qabstractvideobuffer_p.h" />
+			<File
+				RelativePath="video\qabstractvideosurface.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;video\qabstractvideosurface.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_MULTIMEDIA_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include\QtGui&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtMultimedia&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;video&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 video\qabstractvideosurface.h -o tmp\moc\debug_shared\moc_qabstractvideosurface.cpp"
+						Description="MOC video\qabstractvideosurface.h"
+						Outputs="tmp\moc\debug_shared\moc_qabstractvideosurface.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;video\qabstractvideosurface.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_MULTIMEDIA_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include\QtGui&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtMultimedia&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;video&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 video\qabstractvideosurface.h -o tmp\moc\release_shared\moc_qabstractvideosurface.cpp"
+						Description="MOC video\qabstractvideosurface.h"
+						Outputs="tmp\moc\release_shared\moc_qabstractvideosurface.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="video\qabstractvideosurface_p.h" />
+			<File
+				RelativePath="audio\qaudio.h" />
+			<File
+				RelativePath="audio\qaudiodevicefactory_p.h" />
+			<File
+				RelativePath="audio\qaudiodeviceinfo.h" />
+			<File
+				RelativePath="audio\qaudiodeviceinfo_win32_p.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;audio\qaudiodeviceinfo_win32_p.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_MULTIMEDIA_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include\QtGui&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtMultimedia&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;video&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 audio\qaudiodeviceinfo_win32_p.h -o tmp\moc\debug_shared\moc_qaudiodeviceinfo_win32_p.cpp"
+						Description="MOC audio\qaudiodeviceinfo_win32_p.h"
+						Outputs="tmp\moc\debug_shared\moc_qaudiodeviceinfo_win32_p.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;audio\qaudiodeviceinfo_win32_p.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_MULTIMEDIA_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include\QtGui&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtMultimedia&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;video&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 audio\qaudiodeviceinfo_win32_p.h -o tmp\moc\release_shared\moc_qaudiodeviceinfo_win32_p.cpp"
+						Description="MOC audio\qaudiodeviceinfo_win32_p.h"
+						Outputs="tmp\moc\release_shared\moc_qaudiodeviceinfo_win32_p.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="audio\qaudioengine.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;audio\qaudioengine.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_MULTIMEDIA_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include\QtGui&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtMultimedia&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;video&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 audio\qaudioengine.h -o tmp\moc\debug_shared\moc_qaudioengine.cpp"
+						Description="MOC audio\qaudioengine.h"
+						Outputs="tmp\moc\debug_shared\moc_qaudioengine.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;audio\qaudioengine.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_MULTIMEDIA_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include\QtGui&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtMultimedia&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;video&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 audio\qaudioengine.h -o tmp\moc\release_shared\moc_qaudioengine.cpp"
+						Description="MOC audio\qaudioengine.h"
+						Outputs="tmp\moc\release_shared\moc_qaudioengine.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="audio\qaudioengineplugin.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;audio\qaudioengineplugin.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_MULTIMEDIA_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include\QtGui&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtMultimedia&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;video&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 audio\qaudioengineplugin.h -o tmp\moc\debug_shared\moc_qaudioengineplugin.cpp"
+						Description="MOC audio\qaudioengineplugin.h"
+						Outputs="tmp\moc\debug_shared\moc_qaudioengineplugin.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;audio\qaudioengineplugin.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_MULTIMEDIA_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include\QtGui&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtMultimedia&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;video&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 audio\qaudioengineplugin.h -o tmp\moc\release_shared\moc_qaudioengineplugin.cpp"
+						Description="MOC audio\qaudioengineplugin.h"
+						Outputs="tmp\moc\release_shared\moc_qaudioengineplugin.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="audio\qaudioformat.h" />
+			<File
+				RelativePath="audio\qaudioinput.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;audio\qaudioinput.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_MULTIMEDIA_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include\QtGui&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtMultimedia&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;video&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 audio\qaudioinput.h -o tmp\moc\debug_shared\moc_qaudioinput.cpp"
+						Description="MOC audio\qaudioinput.h"
+						Outputs="tmp\moc\debug_shared\moc_qaudioinput.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;audio\qaudioinput.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_MULTIMEDIA_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include\QtGui&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtMultimedia&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;video&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 audio\qaudioinput.h -o tmp\moc\release_shared\moc_qaudioinput.cpp"
+						Description="MOC audio\qaudioinput.h"
+						Outputs="tmp\moc\release_shared\moc_qaudioinput.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="audio\qaudioinput_win32_p.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;audio\qaudioinput_win32_p.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_MULTIMEDIA_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include\QtGui&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtMultimedia&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;video&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 audio\qaudioinput_win32_p.h -o tmp\moc\debug_shared\moc_qaudioinput_win32_p.cpp"
+						Description="MOC audio\qaudioinput_win32_p.h"
+						Outputs="tmp\moc\debug_shared\moc_qaudioinput_win32_p.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;audio\qaudioinput_win32_p.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_MULTIMEDIA_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include\QtGui&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtMultimedia&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;video&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 audio\qaudioinput_win32_p.h -o tmp\moc\release_shared\moc_qaudioinput_win32_p.cpp"
+						Description="MOC audio\qaudioinput_win32_p.h"
+						Outputs="tmp\moc\release_shared\moc_qaudioinput_win32_p.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="audio\qaudiooutput.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;audio\qaudiooutput.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_MULTIMEDIA_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include\QtGui&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtMultimedia&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;video&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 audio\qaudiooutput.h -o tmp\moc\debug_shared\moc_qaudiooutput.cpp"
+						Description="MOC audio\qaudiooutput.h"
+						Outputs="tmp\moc\debug_shared\moc_qaudiooutput.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;audio\qaudiooutput.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_MULTIMEDIA_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include\QtGui&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtMultimedia&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;video&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 audio\qaudiooutput.h -o tmp\moc\release_shared\moc_qaudiooutput.cpp"
+						Description="MOC audio\qaudiooutput.h"
+						Outputs="tmp\moc\release_shared\moc_qaudiooutput.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="audio\qaudiooutput_win32_p.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;audio\qaudiooutput_win32_p.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_MULTIMEDIA_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include\QtGui&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtMultimedia&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;video&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 audio\qaudiooutput_win32_p.h -o tmp\moc\debug_shared\moc_qaudiooutput_win32_p.cpp"
+						Description="MOC audio\qaudiooutput_win32_p.h"
+						Outputs="tmp\moc\debug_shared\moc_qaudiooutput_win32_p.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;audio\qaudiooutput_win32_p.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_MULTIMEDIA_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include\QtGui&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtMultimedia&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;video&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 audio\qaudiooutput_win32_p.h -o tmp\moc\release_shared\moc_qaudiooutput_win32_p.cpp"
+						Description="MOC audio\qaudiooutput_win32_p.h"
+						Outputs="tmp\moc\release_shared\moc_qaudiooutput_win32_p.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="video\qimagevideobuffer_p.h" />
+			<File
+				RelativePath="video\qmemoryvideobuffer_p.h" />
+			<File
+				RelativePath="video\qvideoframe.h" />
+			<File
+				RelativePath="video\qvideosurfaceformat.h" />
+		</Filter>
+		<Filter
+			Name="Generated Files"
+			Filter="cpp;c;cxx;moc;h;def;odl;idl;res;"
+			UniqueIdentifier="{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}">
+			<File
+				RelativePath="tmp\moc\debug_shared\moc_qabstractvideosurface.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\moc_qabstractvideosurface.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\debug_shared\moc_qaudiodeviceinfo_win32_p.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\moc_qaudiodeviceinfo_win32_p.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\debug_shared\moc_qaudioengine.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\moc_qaudioengine.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\debug_shared\moc_qaudioengineplugin.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\moc_qaudioengineplugin.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\debug_shared\moc_qaudioinput.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\moc_qaudioinput.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\debug_shared\moc_qaudioinput_win32_p.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\moc_qaudioinput_win32_p.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\debug_shared\moc_qaudiooutput.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\moc_qaudiooutput.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\debug_shared\moc_qaudiooutput_win32_p.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\moc_qaudiooutput_win32_p.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+		</Filter>
+		<File
+			RelativePath="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\src\multimedia\QtMultimedia_resource.rc">
+			<FileConfiguration
+				Name="Debug|Win32"
+				ExcludedFromBuild="true" />
+		</File>
+		<File
+			RelativePath="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\src\multimedia\QtMultimediad_resource.rc">
+			<FileConfiguration
+				Name="Release|Win32"
+				ExcludedFromBuild="true" />
+		</File>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>

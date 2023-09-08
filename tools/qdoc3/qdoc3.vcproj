@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="7.00"
+	Name="qdoc3"
+	ProjectGUID="{1A0252C8-5F52-3A82-8388-D50728BE4501}"
+	Keyword="Qt4VSv1.0">
+	<Platforms>
+		<Platform
+			Name="Win32" />
+	</Platforms>
+	<Configurations>
+		<Configuration
+			Name="Debug|Win32"
+			OutputDirectory="..\..\bin\"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			ConfigurationType="1"
+			IntermediateDirectory="tmp\obj\debug_shared\"
+			UseOfMfc="0">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="&quot;..\..\include\QtCore&quot;,&quot;..\..\include\QtXml&quot;,&quot;..\..\include&quot;,&quot;..\..\include\QtDeclarative&quot;,&quot;declarativeparser&quot;,&quot;..\..\include\ActiveQt&quot;,&quot;tmp\moc\debug_shared&quot;,..\..\mkspecs\win32-msvc2003"
+				AdditionalOptions="-Zm300 -w34100 -w34189"
+				AssemblerListingLocation="tmp\obj\debug_shared\"
+				DebugInformationFormat="3"
+				ExceptionHandling="true"
+				GeneratePreprocessedFile="0"
+				ObjectFile="tmp\obj\debug_shared\"
+				Optimization ="4"
+				PreprocessorDefinitions="_CONSOLE,UNICODE,WIN32,QDOC2_COMPAT,QT_NO_CAST_TO_ASCII,QT_DLL,QT_XML_LIB,QT_CORE_LIB,QT_HAVE_MMX,QT_HAVE_3DNOW,QT_HAVE_SSE,QT_HAVE_MMXEXT,QT_HAVE_SSE2,QT_THREAD_SUPPORT"
+				ProgramDataBaseFileName=".\"
+				RuntimeLibrary="3"
+				RuntimeTypeInfo="true"
+				SuppressStartupBanner="true"
+				WarningLevel="3" />
+			<Tool
+				Name="VCCustomBuildTool" />
+			<Tool
+				Name="VCLinkerTool"
+				AdditionalDependencies="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib\QtXmld4.lib c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib\QtCored4.lib"
+				AdditionalLibraryDirectories="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib,c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib"
+				GenerateDebugInformation="true"
+				IgnoreImportLibrary="true"
+				LinkTimeCodeGeneration="0"
+				OutputFile="$(OutDir)\qdoc3.exe"
+				ProgramDatabaseFile=""
+				StackReserveSize="4194304"
+				SubSystem="1"
+				SuppressStartupBanner="true" />
+			<Tool
+				Name="VCMIDLTool"
+				DefaultCharType="0"
+				EnableErrorChecks="1"
+				WarningLevel="0" />
+			<Tool
+				Name="VCPostBuildEventTool" />
+			<Tool
+				Name="VCPreBuildEventTool" />
+			<Tool
+				Name="VCPreLinkEventTool" />
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_CONSOLE,UNICODE,WIN32,QDOC2_COMPAT,QT_NO_CAST_TO_ASCII,QT_DLL,QT_XML_LIB,QT_CORE_LIB,QT_HAVE_MMX,QT_HAVE_3DNOW,QT_HAVE_SSE,QT_HAVE_MMXEXT,QT_HAVE_SSE2,QT_THREAD_SUPPORT,_DEBUG" />
+		</Configuration>
+		<Configuration
+			Name="Release|Win32"
+			OutputDirectory="..\..\bin\"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			ConfigurationType="1"
+			IntermediateDirectory="tmp\obj\release_shared\"
+			UseOfMfc="0">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="&quot;..\..\include\QtCore&quot;,&quot;..\..\include\QtXml&quot;,&quot;..\..\include&quot;,&quot;..\..\include\QtDeclarative&quot;,&quot;declarativeparser&quot;,&quot;..\..\include\ActiveQt&quot;,&quot;tmp\moc\release_shared&quot;,..\..\mkspecs\win32-msvc2003"
+				AdditionalOptions="-Zm300 -w34100 -w34189"
+				AssemblerListingLocation="tmp\obj\release_shared\"
+				DebugInformationFormat="0"
+				ExceptionHandling="true"
+				GeneratePreprocessedFile="0"
+				ObjectFile="tmp\obj\release_shared\"
+				Optimization ="2"
+				PreprocessorDefinitions="_CONSOLE,UNICODE,WIN32,QDOC2_COMPAT,QT_NO_CAST_TO_ASCII,QT_DLL,QT_NO_DEBUG,QT_XML_LIB,QT_CORE_LIB,QT_HAVE_MMX,QT_HAVE_3DNOW,QT_HAVE_SSE,QT_HAVE_MMXEXT,QT_HAVE_SSE2,QT_THREAD_SUPPORT,NDEBUG"
+				ProgramDataBaseFileName=".\"
+				RuntimeLibrary="2"
+				RuntimeTypeInfo="true"
+				SuppressStartupBanner="true"
+				WarningLevel="3" />
+			<Tool
+				Name="VCCustomBuildTool" />
+			<Tool
+				Name="VCLinkerTool"
+				AdditionalDependencies="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib\QtXml4.lib c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib\QtCore4.lib"
+				AdditionalLibraryDirectories="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib,c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib"
+				GenerateDebugInformation="false"
+				IgnoreImportLibrary="true"
+				LinkIncremental="1"
+				LinkTimeCodeGeneration="0"
+				OutputFile="$(OutDir)\qdoc3.exe"
+				ProgramDatabaseFile=""
+				StackReserveSize="4194304"
+				SubSystem="1"
+				SuppressStartupBanner="true" />
+			<Tool
+				Name="VCMIDLTool"
+				DefaultCharType="0"
+				EnableErrorChecks="1"
+				WarningLevel="0" />
+			<Tool
+				Name="VCPostBuildEventTool" />
+			<Tool
+				Name="VCPreBuildEventTool" />
+			<Tool
+				Name="VCPreLinkEventTool" />
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_CONSOLE,UNICODE,WIN32,QDOC2_COMPAT,QT_NO_CAST_TO_ASCII,QT_DLL,QT_NO_DEBUG,QT_XML_LIB,QT_CORE_LIB,QT_HAVE_MMX,QT_HAVE_3DNOW,QT_HAVE_SSE,QT_HAVE_MMXEXT,QT_HAVE_SSE2,QT_THREAD_SUPPORT" />
+		</Configuration>
+	</Configurations>
+	<Files>
+		<Filter
+			Name="Source Files"
+			Filter="cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx"
+			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}">
+			<File
+				RelativePath="atom.cpp" />
+			<File
+				RelativePath="codechunk.cpp" />
+			<File
+				RelativePath="codemarker.cpp" />
+			<File
+				RelativePath="codeparser.cpp" />
+			<File
+				RelativePath="config.cpp" />
+			<File
+				RelativePath="cppcodemarker.cpp" />
+			<File
+				RelativePath="cppcodeparser.cpp" />
+			<File
+				RelativePath="ditaxmlgenerator.cpp" />
+			<File
+				RelativePath="doc.cpp" />
+			<File
+				RelativePath="editdistance.cpp" />
+			<File
+				RelativePath="generator.cpp" />
+			<File
+				RelativePath="helpprojectwriter.cpp" />
+			<File
+				RelativePath="htmlgenerator.cpp" />
+			<File
+				RelativePath="jscodemarker.cpp" />
+			<File
+				RelativePath="location.cpp" />
+			<File
+				RelativePath="main.cpp" />
+			<File
+				RelativePath="node.cpp" />
+			<File
+				RelativePath="openedlist.cpp" />
+			<File
+				RelativePath="pagegenerator.cpp" />
+			<File
+				RelativePath="plaincodemarker.cpp" />
+			<File
+				RelativePath="puredocparser.cpp" />
+			<File
+				RelativePath="declarativeparser\qdeclarativejsast.cpp" />
+			<File
+				RelativePath="declarativeparser\qdeclarativejsastvisitor.cpp" />
+			<File
+				RelativePath="declarativeparser\qdeclarativejsengine_p.cpp" />
+			<File
+				RelativePath="declarativeparser\qdeclarativejsgrammar.cpp" />
+			<File
+				RelativePath="declarativeparser\qdeclarativejslexer.cpp" />
+			<File
+				RelativePath="declarativeparser\qdeclarativejsparser.cpp" />
+			<File
+				RelativePath="qmlcodemarker.cpp" />
+			<File
+				RelativePath="qmlcodeparser.cpp" />
+			<File
+				RelativePath="qmlmarkupvisitor.cpp" />
+			<File
+				RelativePath="qmlvisitor.cpp" />
+			<File
+				RelativePath="quoter.cpp" />
+			<File
+				RelativePath="separator.cpp" />
+			<File
+				RelativePath="text.cpp" />
+			<File
+				RelativePath="tokenizer.cpp" />
+			<File
+				RelativePath="tree.cpp" />
+			<File
+				RelativePath="yyindent.cpp" />
+		</Filter>
+		<Filter
+			Name="Header Files"
+			Filter="h;hpp;hxx;hm;inl;inc;xsd"
+			UniqueIdentifier="{93995380-89BD-4b04-88EB-625FBE52EBFB}">
+			<File
+				RelativePath="atom.h" />
+			<File
+				RelativePath="codechunk.h" />
+			<File
+				RelativePath="codemarker.h" />
+			<File
+				RelativePath="codeparser.h" />
+			<File
+				RelativePath="config.h" />
+			<File
+				RelativePath="cppcodemarker.h" />
+			<File
+				RelativePath="cppcodeparser.h" />
+			<File
+				RelativePath="ditaxmlgenerator.h" />
+			<File
+				RelativePath="doc.h" />
+			<File
+				RelativePath="editdistance.h" />
+			<File
+				RelativePath="generator.h" />
+			<File
+				RelativePath="helpprojectwriter.h" />
+			<File
+				RelativePath="htmlgenerator.h" />
+			<File
+				RelativePath="jscodemarker.h" />
+			<File
+				RelativePath="location.h" />
+			<File
+				RelativePath="node.h" />
+			<File
+				RelativePath="openedlist.h" />
+			<File
+				RelativePath="pagegenerator.h" />
+			<File
+				RelativePath="plaincodemarker.h" />
+			<File
+				RelativePath="puredocparser.h" />
+			<File
+				RelativePath="declarativeparser\qdeclarativejsast_p.h" />
+			<File
+				RelativePath="declarativeparser\qdeclarativejsastfwd_p.h" />
+			<File
+				RelativePath="declarativeparser\qdeclarativejsastvisitor_p.h" />
+			<File
+				RelativePath="declarativeparser\qdeclarativejsengine_p.h" />
+			<File
+				RelativePath="declarativeparser\qdeclarativejsglobal_p.h" />
+			<File
+				RelativePath="declarativeparser\qdeclarativejsgrammar_p.h" />
+			<File
+				RelativePath="declarativeparser\qdeclarativejslexer_p.h" />
+			<File
+				RelativePath="declarativeparser\qdeclarativejsmemorypool_p.h" />
+			<File
+				RelativePath="declarativeparser\qdeclarativejsnodepool_p.h" />
+			<File
+				RelativePath="declarativeparser\qdeclarativejsparser_p.h" />
+			<File
+				RelativePath="qmlcodemarker.h" />
+			<File
+				RelativePath="qmlcodeparser.h" />
+			<File
+				RelativePath="qmlmarkupvisitor.h" />
+			<File
+				RelativePath="qmlvisitor.h" />
+			<File
+				RelativePath="quoter.h" />
+			<File
+				RelativePath="separator.h" />
+			<File
+				RelativePath="text.h" />
+			<File
+				RelativePath="tokenizer.h" />
+			<File
+				RelativePath="tr.h" />
+			<File
+				RelativePath="tree.h" />
+		</Filter>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>

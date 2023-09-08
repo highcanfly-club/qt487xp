@@ -1,0 +1,28 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "fftreal", "C:/Users/dev/source/repos/eltorio/novasulf-II/qt-everywhere-opensource-src-4.8.7/demos/spectrum/3rdparty/fftreal\fftreal.vcxproj", "{0D1B0997-B805-3938-A766-4FC74A79FA3F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "spectrum", "C:/Users/dev/source/repos/eltorio/novasulf-II/qt-everywhere-opensource-src-4.8.7/demos/spectrum/app\spectrum.vcxproj", "{742D5ABC-0393-3967-9A34-A655682CBE3B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+		{742D5ABC-0393-3967-9A34-A655682CBE3B}.0 = {0D1B0997-B805-3938-A766-4FC74A79FA3F}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D1B0997-B805-3938-A766-4FC74A79FA3F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0D1B0997-B805-3938-A766-4FC74A79FA3F}.Debug|Win32.Build.0 = Debug|Win32
+		{0D1B0997-B805-3938-A766-4FC74A79FA3F}.Release|Win32.ActiveCfg = Release|Win32
+		{0D1B0997-B805-3938-A766-4FC74A79FA3F}.Release|Win32.Build.0 = Release|Win32
+		{742D5ABC-0393-3967-9A34-A655682CBE3B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{742D5ABC-0393-3967-9A34-A655682CBE3B}.Debug|Win32.Build.0 = Debug|Win32
+		{742D5ABC-0393-3967-9A34-A655682CBE3B}.Release|Win32.ActiveCfg = Release|Win32
+		{742D5ABC-0393-3967-9A34-A655682CBE3B}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

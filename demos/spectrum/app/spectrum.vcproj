@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="7.00"
+	Name="spectrum"
+	ProjectGUID="{26F07CFC-4F86-3729-BB6A-FAB3662CCFBD}"
+	Keyword="Qt4VSv1.0">
+	<Platforms>
+		<Platform
+			Name="Win32" />
+	</Platforms>
+	<Configurations>
+		<Configuration
+			Name="Debug|Win32"
+			OutputDirectory="..\debug\"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			ConfigurationType="1"
+			IntermediateDirectory="tmp\obj\debug_shared\"
+			UseOfMfc="0">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="&quot;..\..\..\include\QtCore&quot;,&quot;..\..\..\include\QtGui&quot;,&quot;..\..\..\include\QtMultimedia&quot;,&quot;..\..\..\include&quot;,&quot;..\3rdparty\fftreal&quot;,&quot;..\..\..\include\ActiveQt&quot;,&quot;tmp\moc\debug_shared&quot;,..\..\..\mkspecs\win32-msvc2003"
+				AdditionalOptions="-Zm300 -w34100 -w34189"
+				AssemblerListingLocation="tmp\obj\debug_shared\"
+				DebugInformationFormat="3"
+				ExceptionHandling="true"
+				GeneratePreprocessedFile="0"
+				ObjectFile="tmp\obj\debug_shared\"
+				Optimization ="4"
+				PreprocessorDefinitions="_WINDOWS,UNICODE,WIN32,LOG_SPECTRUMANALYSER,LOG_ENGINE,SUPERIMPOSE_PROGRESS_ON_WAVEFORM,SPECTRUM_ANALYSER_SEPARATE_THREAD,_CRT_SECURE_NO_WARNINGS,QT_DLL,QT_MULTIMEDIA_LIB,QT_GUI_LIB,QT_CORE_LIB,QT_HAVE_MMX,QT_HAVE_3DNOW,QT_HAVE_SSE,QT_HAVE_MMXEXT,QT_HAVE_SSE2,QT_THREAD_SUPPORT"
+				ProgramDataBaseFileName=".\"
+				RuntimeLibrary="3"
+				RuntimeTypeInfo="true"
+				SuppressStartupBanner="true"
+				WarningLevel="3" />
+			<Tool
+				Name="VCCustomBuildTool" />
+			<Tool
+				Name="VCLinkerTool"
+				AdditionalDependencies="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib\qtmaind.lib ../debug\fftreal.lib c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib\QtMultimediad4.lib c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib\QtGuid4.lib c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib\QtCored4.lib"
+				AdditionalLibraryDirectories="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib,c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib,../debug"
+				GenerateDebugInformation="true"
+				IgnoreImportLibrary="true"
+				LinkTimeCodeGeneration="0"
+				OutputFile="$(OutDir)\spectrum.exe"
+				ProgramDatabaseFile=""
+				SubSystem="2"
+				SuppressStartupBanner="true" />
+			<Tool
+				Name="VCMIDLTool"
+				DefaultCharType="0"
+				EnableErrorChecks="1"
+				WarningLevel="0" />
+			<Tool
+				Name="VCPostBuildEventTool" />
+			<Tool
+				Name="VCPreBuildEventTool" />
+			<Tool
+				Name="VCPreLinkEventTool" />
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_WINDOWS,UNICODE,WIN32,LOG_SPECTRUMANALYSER,LOG_ENGINE,SUPERIMPOSE_PROGRESS_ON_WAVEFORM,SPECTRUM_ANALYSER_SEPARATE_THREAD,_CRT_SECURE_NO_WARNINGS,QT_DLL,QT_MULTIMEDIA_LIB,QT_GUI_LIB,QT_CORE_LIB,QT_HAVE_MMX,QT_HAVE_3DNOW,QT_HAVE_SSE,QT_HAVE_MMXEXT,QT_HAVE_SSE2,QT_THREAD_SUPPORT,_DEBUG" />
+		</Configuration>
+		<Configuration
+			Name="Release|Win32"
+			OutputDirectory="..\release\"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			ConfigurationType="1"
+			IntermediateDirectory="tmp\obj\release_shared\"
+			UseOfMfc="0">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="&quot;..\..\..\include\QtCore&quot;,&quot;..\..\..\include\QtGui&quot;,&quot;..\..\..\include\QtMultimedia&quot;,&quot;..\..\..\include&quot;,&quot;..\3rdparty\fftreal&quot;,&quot;..\..\..\include\ActiveQt&quot;,&quot;tmp\moc\release_shared&quot;,..\..\..\mkspecs\win32-msvc2003"
+				AdditionalOptions="-Zm300 -w34100 -w34189"
+				AssemblerListingLocation="tmp\obj\release_shared\"
+				DebugInformationFormat="0"
+				ExceptionHandling="true"
+				GeneratePreprocessedFile="0"
+				ObjectFile="tmp\obj\release_shared\"
+				Optimization ="2"
+				PreprocessorDefinitions="_WINDOWS,UNICODE,WIN32,LOG_SPECTRUMANALYSER,LOG_ENGINE,SUPERIMPOSE_PROGRESS_ON_WAVEFORM,SPECTRUM_ANALYSER_SEPARATE_THREAD,_CRT_SECURE_NO_WARNINGS,QT_DLL,QT_NO_DEBUG,QT_MULTIMEDIA_LIB,QT_GUI_LIB,QT_CORE_LIB,QT_HAVE_MMX,QT_HAVE_3DNOW,QT_HAVE_SSE,QT_HAVE_MMXEXT,QT_HAVE_SSE2,QT_THREAD_SUPPORT,NDEBUG"
+				ProgramDataBaseFileName=".\"
+				RuntimeLibrary="2"
+				RuntimeTypeInfo="true"
+				SuppressStartupBanner="true"
+				WarningLevel="3" />
+			<Tool
+				Name="VCCustomBuildTool" />
+			<Tool
+				Name="VCLinkerTool"
+				AdditionalDependencies="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib\qtmain.lib ../release\fftreal.lib c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib\QtMultimedia4.lib c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib\QtGui4.lib c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib\QtCore4.lib"
+				AdditionalLibraryDirectories="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib,c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib,../release"
+				GenerateDebugInformation="false"
+				IgnoreImportLibrary="true"
+				LinkIncremental="1"
+				LinkTimeCodeGeneration="0"
+				OutputFile="$(OutDir)\spectrum.exe"
+				ProgramDatabaseFile=""
+				SubSystem="2"
+				SuppressStartupBanner="true" />
+			<Tool
+				Name="VCMIDLTool"
+				DefaultCharType="0"
+				EnableErrorChecks="1"
+				WarningLevel="0" />
+			<Tool
+				Name="VCPostBuildEventTool" />
+			<Tool
+				Name="VCPreBuildEventTool" />
+			<Tool
+				Name="VCPreLinkEventTool" />
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_WINDOWS,UNICODE,WIN32,LOG_SPECTRUMANALYSER,LOG_ENGINE,SUPERIMPOSE_PROGRESS_ON_WAVEFORM,SPECTRUM_ANALYSER_SEPARATE_THREAD,_CRT_SECURE_NO_WARNINGS,QT_DLL,QT_NO_DEBUG,QT_MULTIMEDIA_LIB,QT_GUI_LIB,QT_CORE_LIB,QT_HAVE_MMX,QT_HAVE_3DNOW,QT_HAVE_SSE,QT_HAVE_MMXEXT,QT_HAVE_SSE2,QT_THREAD_SUPPORT" />
+		</Configuration>
+	</Configurations>
+	<Files>
+		<Filter
+			Name="Source Files"
+			Filter="cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx"
+			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}">
+			<File
+				RelativePath="engine.cpp" />
+			<File
+				RelativePath="frequencyspectrum.cpp" />
+			<File
+				RelativePath="levelmeter.cpp" />
+			<File
+				RelativePath="main.cpp" />
+			<File
+				RelativePath="mainwidget.cpp" />
+			<File
+				RelativePath="progressbar.cpp" />
+			<File
+				RelativePath="settingsdialog.cpp" />
+			<File
+				RelativePath="spectrograph.cpp" />
+			<File
+				RelativePath="spectrumanalyser.cpp" />
+			<File
+				RelativePath="tonegenerator.cpp" />
+			<File
+				RelativePath="tonegeneratordialog.cpp" />
+			<File
+				RelativePath="utils.cpp" />
+			<File
+				RelativePath="waveform.cpp" />
+			<File
+				RelativePath="wavfile.cpp" />
+		</Filter>
+		<Filter
+			Name="Header Files"
+			Filter="h;hpp;hxx;hm;inl;inc;xsd"
+			UniqueIdentifier="{93995380-89BD-4b04-88EB-625FBE52EBFB}">
+			<File
+				RelativePath="engine.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;engine.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DLOG_SPECTRUMANALYSER -DLOG_ENGINE -DSUPERIMPOSE_PROGRESS_ON_WAVEFORM -DSPECTRUM_ANALYSER_SEPARATE_THREAD -D_CRT_SECURE_NO_WARNINGS -DQT_DLL -DQT_MULTIMEDIA_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;..\..\..\include\QtCore&quot; -I&quot;..\..\..\include\QtGui&quot; -I&quot;..\..\..\include\QtMultimedia&quot; -I&quot;..\..\..\include&quot; -I&quot;..\3rdparty\fftreal&quot; -I&quot;..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 engine.h -o tmp\moc\debug_shared\moc_engine.cpp"
+						Description="MOC engine.h"
+						Outputs="tmp\moc\debug_shared\moc_engine.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;engine.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DLOG_SPECTRUMANALYSER -DLOG_ENGINE -DSUPERIMPOSE_PROGRESS_ON_WAVEFORM -DSPECTRUM_ANALYSER_SEPARATE_THREAD -D_CRT_SECURE_NO_WARNINGS -DQT_DLL -DQT_NO_DEBUG -DQT_MULTIMEDIA_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;..\..\..\include\QtCore&quot; -I&quot;..\..\..\include\QtGui&quot; -I&quot;..\..\..\include\QtMultimedia&quot; -I&quot;..\..\..\include&quot; -I&quot;..\3rdparty\fftreal&quot; -I&quot;..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 engine.h -o tmp\moc\release_shared\moc_engine.cpp"
+						Description="MOC engine.h"
+						Outputs="tmp\moc\release_shared\moc_engine.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="frequencyspectrum.h" />
+			<File
+				RelativePath="levelmeter.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;levelmeter.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DLOG_SPECTRUMANALYSER -DLOG_ENGINE -DSUPERIMPOSE_PROGRESS_ON_WAVEFORM -DSPECTRUM_ANALYSER_SEPARATE_THREAD -D_CRT_SECURE_NO_WARNINGS -DQT_DLL -DQT_MULTIMEDIA_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;..\..\..\include\QtCore&quot; -I&quot;..\..\..\include\QtGui&quot; -I&quot;..\..\..\include\QtMultimedia&quot; -I&quot;..\..\..\include&quot; -I&quot;..\3rdparty\fftreal&quot; -I&quot;..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 levelmeter.h -o tmp\moc\debug_shared\moc_levelmeter.cpp"
+						Description="MOC levelmeter.h"
+						Outputs="tmp\moc\debug_shared\moc_levelmeter.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;levelmeter.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DLOG_SPECTRUMANALYSER -DLOG_ENGINE -DSUPERIMPOSE_PROGRESS_ON_WAVEFORM -DSPECTRUM_ANALYSER_SEPARATE_THREAD -D_CRT_SECURE_NO_WARNINGS -DQT_DLL -DQT_NO_DEBUG -DQT_MULTIMEDIA_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;..\..\..\include\QtCore&quot; -I&quot;..\..\..\include\QtGui&quot; -I&quot;..\..\..\include\QtMultimedia&quot; -I&quot;..\..\..\include&quot; -I&quot;..\3rdparty\fftreal&quot; -I&quot;..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 levelmeter.h -o tmp\moc\release_shared\moc_levelmeter.cpp"
+						Description="MOC levelmeter.h"
+						Outputs="tmp\moc\release_shared\moc_levelmeter.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="mainwidget.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;mainwidget.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DLOG_SPECTRUMANALYSER -DLOG_ENGINE -DSUPERIMPOSE_PROGRESS_ON_WAVEFORM -DSPECTRUM_ANALYSER_SEPARATE_THREAD -D_CRT_SECURE_NO_WARNINGS -DQT_DLL -DQT_MULTIMEDIA_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;..\..\..\include\QtCore&quot; -I&quot;..\..\..\include\QtGui&quot; -I&quot;..\..\..\include\QtMultimedia&quot; -I&quot;..\..\..\include&quot; -I&quot;..\3rdparty\fftreal&quot; -I&quot;..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 mainwidget.h -o tmp\moc\debug_shared\moc_mainwidget.cpp"
+						Description="MOC mainwidget.h"
+						Outputs="tmp\moc\debug_shared\moc_mainwidget.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;mainwidget.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DLOG_SPECTRUMANALYSER -DLOG_ENGINE -DSUPERIMPOSE_PROGRESS_ON_WAVEFORM -DSPECTRUM_ANALYSER_SEPARATE_THREAD -D_CRT_SECURE_NO_WARNINGS -DQT_DLL -DQT_NO_DEBUG -DQT_MULTIMEDIA_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;..\..\..\include\QtCore&quot; -I&quot;..\..\..\include\QtGui&quot; -I&quot;..\..\..\include\QtMultimedia&quot; -I&quot;..\..\..\include&quot; -I&quot;..\3rdparty\fftreal&quot; -I&quot;..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 mainwidget.h -o tmp\moc\release_shared\moc_mainwidget.cpp"
+						Description="MOC mainwidget.h"
+						Outputs="tmp\moc\release_shared\moc_mainwidget.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="progressbar.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;progressbar.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DLOG_SPECTRUMANALYSER -DLOG_ENGINE -DSUPERIMPOSE_PROGRESS_ON_WAVEFORM -DSPECTRUM_ANALYSER_SEPARATE_THREAD -D_CRT_SECURE_NO_WARNINGS -DQT_DLL -DQT_MULTIMEDIA_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;..\..\..\include\QtCore&quot; -I&quot;..\..\..\include\QtGui&quot; -I&quot;..\..\..\include\QtMultimedia&quot; -I&quot;..\..\..\include&quot; -I&quot;..\3rdparty\fftreal&quot; -I&quot;..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 progressbar.h -o tmp\moc\debug_shared\moc_progressbar.cpp"
+						Description="MOC progressbar.h"
+						Outputs="tmp\moc\debug_shared\moc_progressbar.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;progressbar.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DLOG_SPECTRUMANALYSER -DLOG_ENGINE -DSUPERIMPOSE_PROGRESS_ON_WAVEFORM -DSPECTRUM_ANALYSER_SEPARATE_THREAD -D_CRT_SECURE_NO_WARNINGS -DQT_DLL -DQT_NO_DEBUG -DQT_MULTIMEDIA_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;..\..\..\include\QtCore&quot; -I&quot;..\..\..\include\QtGui&quot; -I&quot;..\..\..\include\QtMultimedia&quot; -I&quot;..\..\..\include&quot; -I&quot;..\3rdparty\fftreal&quot; -I&quot;..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 progressbar.h -o tmp\moc\release_shared\moc_progressbar.cpp"
+						Description="MOC progressbar.h"
+						Outputs="tmp\moc\release_shared\moc_progressbar.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="settingsdialog.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;settingsdialog.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DLOG_SPECTRUMANALYSER -DLOG_ENGINE -DSUPERIMPOSE_PROGRESS_ON_WAVEFORM -DSPECTRUM_ANALYSER_SEPARATE_THREAD -D_CRT_SECURE_NO_WARNINGS -DQT_DLL -DQT_MULTIMEDIA_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;..\..\..\include\QtCore&quot; -I&quot;..\..\..\include\QtGui&quot; -I&quot;..\..\..\include\QtMultimedia&quot; -I&quot;..\..\..\include&quot; -I&quot;..\3rdparty\fftreal&quot; -I&quot;..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 settingsdialog.h -o tmp\moc\debug_shared\moc_settingsdialog.cpp"
+						Description="MOC settingsdialog.h"
+						Outputs="tmp\moc\debug_shared\moc_settingsdialog.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;settingsdialog.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DLOG_SPECTRUMANALYSER -DLOG_ENGINE -DSUPERIMPOSE_PROGRESS_ON_WAVEFORM -DSPECTRUM_ANALYSER_SEPARATE_THREAD -D_CRT_SECURE_NO_WARNINGS -DQT_DLL -DQT_NO_DEBUG -DQT_MULTIMEDIA_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;..\..\..\include\QtCore&quot; -I&quot;..\..\..\include\QtGui&quot; -I&quot;..\..\..\include\QtMultimedia&quot; -I&quot;..\..\..\include&quot; -I&quot;..\3rdparty\fftreal&quot; -I&quot;..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 settingsdialog.h -o tmp\moc\release_shared\moc_settingsdialog.cpp"
+						Description="MOC settingsdialog.h"
+						Outputs="tmp\moc\release_shared\moc_settingsdialog.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="spectrograph.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;spectrograph.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DLOG_SPECTRUMANALYSER -DLOG_ENGINE -DSUPERIMPOSE_PROGRESS_ON_WAVEFORM -DSPECTRUM_ANALYSER_SEPARATE_THREAD -D_CRT_SECURE_NO_WARNINGS -DQT_DLL -DQT_MULTIMEDIA_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;..\..\..\include\QtCore&quot; -I&quot;..\..\..\include\QtGui&quot; -I&quot;..\..\..\include\QtMultimedia&quot; -I&quot;..\..\..\include&quot; -I&quot;..\3rdparty\fftreal&quot; -I&quot;..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 spectrograph.h -o tmp\moc\debug_shared\moc_spectrograph.cpp"
+						Description="MOC spectrograph.h"
+						Outputs="tmp\moc\debug_shared\moc_spectrograph.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;spectrograph.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DLOG_SPECTRUMANALYSER -DLOG_ENGINE -DSUPERIMPOSE_PROGRESS_ON_WAVEFORM -DSPECTRUM_ANALYSER_SEPARATE_THREAD -D_CRT_SECURE_NO_WARNINGS -DQT_DLL -DQT_NO_DEBUG -DQT_MULTIMEDIA_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;..\..\..\include\QtCore&quot; -I&quot;..\..\..\include\QtGui&quot; -I&quot;..\..\..\include\QtMultimedia&quot; -I&quot;..\..\..\include&quot; -I&quot;..\3rdparty\fftreal&quot; -I&quot;..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 spectrograph.h -o tmp\moc\release_shared\moc_spectrograph.cpp"
+						Description="MOC spectrograph.h"
+						Outputs="tmp\moc\release_shared\moc_spectrograph.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="spectrum.h" />
+			<File
+				RelativePath="spectrumanalyser.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;spectrumanalyser.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DLOG_SPECTRUMANALYSER -DLOG_ENGINE -DSUPERIMPOSE_PROGRESS_ON_WAVEFORM -DSPECTRUM_ANALYSER_SEPARATE_THREAD -D_CRT_SECURE_NO_WARNINGS -DQT_DLL -DQT_MULTIMEDIA_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;..\..\..\include\QtCore&quot; -I&quot;..\..\..\include\QtGui&quot; -I&quot;..\..\..\include\QtMultimedia&quot; -I&quot;..\..\..\include&quot; -I&quot;..\3rdparty\fftreal&quot; -I&quot;..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 spectrumanalyser.h -o tmp\moc\debug_shared\moc_spectrumanalyser.cpp"
+						Description="MOC spectrumanalyser.h"
+						Outputs="tmp\moc\debug_shared\moc_spectrumanalyser.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;spectrumanalyser.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DLOG_SPECTRUMANALYSER -DLOG_ENGINE -DSUPERIMPOSE_PROGRESS_ON_WAVEFORM -DSPECTRUM_ANALYSER_SEPARATE_THREAD -D_CRT_SECURE_NO_WARNINGS -DQT_DLL -DQT_NO_DEBUG -DQT_MULTIMEDIA_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;..\..\..\include\QtCore&quot; -I&quot;..\..\..\include\QtGui&quot; -I&quot;..\..\..\include\QtMultimedia&quot; -I&quot;..\..\..\include&quot; -I&quot;..\3rdparty\fftreal&quot; -I&quot;..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 spectrumanalyser.h -o tmp\moc\release_shared\moc_spectrumanalyser.cpp"
+						Description="MOC spectrumanalyser.h"
+						Outputs="tmp\moc\release_shared\moc_spectrumanalyser.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="tonegenerator.h" />
+			<File
+				RelativePath="tonegeneratordialog.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;tonegeneratordialog.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DLOG_SPECTRUMANALYSER -DLOG_ENGINE -DSUPERIMPOSE_PROGRESS_ON_WAVEFORM -DSPECTRUM_ANALYSER_SEPARATE_THREAD -D_CRT_SECURE_NO_WARNINGS -DQT_DLL -DQT_MULTIMEDIA_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;..\..\..\include\QtCore&quot; -I&quot;..\..\..\include\QtGui&quot; -I&quot;..\..\..\include\QtMultimedia&quot; -I&quot;..\..\..\include&quot; -I&quot;..\3rdparty\fftreal&quot; -I&quot;..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 tonegeneratordialog.h -o tmp\moc\debug_shared\moc_tonegeneratordialog.cpp"
+						Description="MOC tonegeneratordialog.h"
+						Outputs="tmp\moc\debug_shared\moc_tonegeneratordialog.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;tonegeneratordialog.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DLOG_SPECTRUMANALYSER -DLOG_ENGINE -DSUPERIMPOSE_PROGRESS_ON_WAVEFORM -DSPECTRUM_ANALYSER_SEPARATE_THREAD -D_CRT_SECURE_NO_WARNINGS -DQT_DLL -DQT_NO_DEBUG -DQT_MULTIMEDIA_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;..\..\..\include\QtCore&quot; -I&quot;..\..\..\include\QtGui&quot; -I&quot;..\..\..\include\QtMultimedia&quot; -I&quot;..\..\..\include&quot; -I&quot;..\3rdparty\fftreal&quot; -I&quot;..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 tonegeneratordialog.h -o tmp\moc\release_shared\moc_tonegeneratordialog.cpp"
+						Description="MOC tonegeneratordialog.h"
+						Outputs="tmp\moc\release_shared\moc_tonegeneratordialog.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="utils.h" />
+			<File
+				RelativePath="waveform.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;waveform.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DLOG_SPECTRUMANALYSER -DLOG_ENGINE -DSUPERIMPOSE_PROGRESS_ON_WAVEFORM -DSPECTRUM_ANALYSER_SEPARATE_THREAD -D_CRT_SECURE_NO_WARNINGS -DQT_DLL -DQT_MULTIMEDIA_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;..\..\..\include\QtCore&quot; -I&quot;..\..\..\include\QtGui&quot; -I&quot;..\..\..\include\QtMultimedia&quot; -I&quot;..\..\..\include&quot; -I&quot;..\3rdparty\fftreal&quot; -I&quot;..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 waveform.h -o tmp\moc\debug_shared\moc_waveform.cpp"
+						Description="MOC waveform.h"
+						Outputs="tmp\moc\debug_shared\moc_waveform.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;waveform.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DLOG_SPECTRUMANALYSER -DLOG_ENGINE -DSUPERIMPOSE_PROGRESS_ON_WAVEFORM -DSPECTRUM_ANALYSER_SEPARATE_THREAD -D_CRT_SECURE_NO_WARNINGS -DQT_DLL -DQT_NO_DEBUG -DQT_MULTIMEDIA_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;..\..\..\include\QtCore&quot; -I&quot;..\..\..\include\QtGui&quot; -I&quot;..\..\..\include\QtMultimedia&quot; -I&quot;..\..\..\include&quot; -I&quot;..\3rdparty\fftreal&quot; -I&quot;..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 waveform.h -o tmp\moc\release_shared\moc_waveform.cpp"
+						Description="MOC waveform.h"
+						Outputs="tmp\moc\release_shared\moc_waveform.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="wavfile.h" />
+		</Filter>
+		<Filter
+			Name="Generated Files"
+			Filter="cpp;c;cxx;moc;h;def;odl;idl;res;"
+			UniqueIdentifier="{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}">
+			<File
+				RelativePath="tmp\moc\debug_shared\moc_engine.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\moc_engine.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\debug_shared\moc_levelmeter.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\moc_levelmeter.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\debug_shared\moc_mainwidget.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\moc_mainwidget.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\debug_shared\moc_progressbar.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\moc_progressbar.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\debug_shared\moc_settingsdialog.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\moc_settingsdialog.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\debug_shared\moc_spectrograph.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\moc_spectrograph.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\debug_shared\moc_spectrumanalyser.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\moc_spectrumanalyser.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\debug_shared\moc_tonegeneratordialog.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\moc_tonegeneratordialog.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\debug_shared\moc_waveform.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\moc_waveform.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\rcc\debug_shared\qrc_spectrum.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\rcc\release_shared\qrc_spectrum.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+		</Filter>
+		<Filter
+			Name="Resource Files"
+			Filter="qrc;*"
+			UniqueIdentifier="{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}"
+			ParseFiles="false">
+			<File
+				RelativePath="spectrum.qrc">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\rcc.exe;spectrum.qrc"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\rcc.exe -name spectrum spectrum.qrc -o tmp\rcc\debug_shared\qrc_spectrum.cpp"
+						Description="RCC spectrum.qrc"
+						Outputs="tmp\rcc\debug_shared\qrc_spectrum.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\rcc.exe;spectrum.qrc"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\rcc.exe -name spectrum spectrum.qrc -o tmp\rcc\release_shared\qrc_spectrum.cpp"
+						Description="RCC spectrum.qrc"
+						Outputs="tmp\rcc\release_shared\qrc_spectrum.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+		</Filter>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>

@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="7.00"
+	Name="qmlviewer"
+	ProjectGUID="{9AED5D28-5504-3C0B-9770-416137E3D4E0}"
+	Keyword="Qt4VSv1.0">
+	<Platforms>
+		<Platform
+			Name="Win32" />
+	</Platforms>
+	<Configurations>
+		<Configuration
+			Name="Debug|Win32"
+			OutputDirectory="..\..\bin\"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			ConfigurationType="1"
+			IntermediateDirectory="tmp\obj\debug_shared\"
+			UseOfMfc="0">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="&quot;..\..\include\QtCore&quot;,&quot;..\..\include\QtNetwork&quot;,&quot;..\..\include\QtGui&quot;,&quot;..\..\include\QtOpenGL&quot;,&quot;..\..\include\QtSql&quot;,&quot;..\..\include\QtScript&quot;,&quot;..\..\include\QtDeclarative&quot;,&quot;..\..\include&quot;,&quot;.&quot;,&quot;..\..\include\QtDeclarative&quot;,&quot;..\..\src\declarative\util&quot;,&quot;..\..\src\declarative\graphicsitems&quot;,&quot;.&quot;,&quot;..\..\include\ActiveQt&quot;,&quot;tmp\moc\debug_shared&quot;,..\..\mkspecs\win32-msvc2003"
+				AdditionalOptions="-Zm300 -w34100 -w34189"
+				AssemblerListingLocation="tmp\obj\debug_shared\"
+				DebugInformationFormat="3"
+				ExceptionHandling="true"
+				GeneratePreprocessedFile="0"
+				ObjectFile="tmp\obj\debug_shared\"
+				Optimization ="4"
+				PreprocessorDefinitions="_WINDOWS,UNICODE,WIN32,GL_SUPPORTED,QT_NO_CAST_FROM_ASCII,QT_NO_CAST_TO_ASCII,QT_DECLARATIVE_DEBUG,QT_DLL,QT_DECLARATIVE_LIB,QT_SCRIPT_LIB,QT_SQL_LIB,QT_OPENGL_LIB,QT_GUI_LIB,QT_NETWORK_LIB,QT_CORE_LIB,QT_HAVE_MMX,QT_HAVE_3DNOW,QT_HAVE_SSE,QT_HAVE_MMXEXT,QT_HAVE_SSE2,QT_THREAD_SUPPORT"
+				ProgramDataBaseFileName=".\"
+				RuntimeLibrary="3"
+				RuntimeTypeInfo="true"
+				SuppressStartupBanner="true"
+				WarningLevel="3" />
+			<Tool
+				Name="VCCustomBuildTool" />
+			<Tool
+				Name="VCLinkerTool"
+				AdditionalDependencies="glu32.lib opengl32.lib gdi32.lib user32.lib c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib\qtmaind.lib c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib\QtDeclaratived4.lib c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib\QtScriptd4.lib c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib\QtSqld4.lib c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib\QtOpenGLd4.lib c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib\QtGuid4.lib c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib\QtNetworkd4.lib c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib\QtCored4.lib"
+				AdditionalLibraryDirectories="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib,c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib"
+				GenerateDebugInformation="true"
+				IgnoreImportLibrary="true"
+				LinkTimeCodeGeneration="0"
+				OutputFile="$(OutDir)\qmlviewer.exe"
+				ProgramDatabaseFile=""
+				SubSystem="2"
+				SuppressStartupBanner="true" />
+			<Tool
+				Name="VCMIDLTool"
+				DefaultCharType="0"
+				EnableErrorChecks="1"
+				WarningLevel="0" />
+			<Tool
+				Name="VCPostBuildEventTool" />
+			<Tool
+				Name="VCPreBuildEventTool" />
+			<Tool
+				Name="VCPreLinkEventTool" />
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_WINDOWS,UNICODE,WIN32,GL_SUPPORTED,QT_NO_CAST_FROM_ASCII,QT_NO_CAST_TO_ASCII,QT_DECLARATIVE_DEBUG,QT_DLL,QT_DECLARATIVE_LIB,QT_SCRIPT_LIB,QT_SQL_LIB,QT_OPENGL_LIB,QT_GUI_LIB,QT_NETWORK_LIB,QT_CORE_LIB,QT_HAVE_MMX,QT_HAVE_3DNOW,QT_HAVE_SSE,QT_HAVE_MMXEXT,QT_HAVE_SSE2,QT_THREAD_SUPPORT,_DEBUG" />
+		</Configuration>
+		<Configuration
+			Name="Release|Win32"
+			OutputDirectory="..\..\bin\"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			ConfigurationType="1"
+			IntermediateDirectory="tmp\obj\release_shared\"
+			UseOfMfc="0">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="&quot;..\..\include\QtCore&quot;,&quot;..\..\include\QtNetwork&quot;,&quot;..\..\include\QtGui&quot;,&quot;..\..\include\QtOpenGL&quot;,&quot;..\..\include\QtSql&quot;,&quot;..\..\include\QtScript&quot;,&quot;..\..\include\QtDeclarative&quot;,&quot;..\..\include&quot;,&quot;.&quot;,&quot;..\..\include\QtDeclarative&quot;,&quot;..\..\src\declarative\util&quot;,&quot;..\..\src\declarative\graphicsitems&quot;,&quot;.&quot;,&quot;..\..\include\ActiveQt&quot;,&quot;tmp\moc\release_shared&quot;,..\..\mkspecs\win32-msvc2003"
+				AdditionalOptions="-Zm300 -w34100 -w34189"
+				AssemblerListingLocation="tmp\obj\release_shared\"
+				DebugInformationFormat="0"
+				ExceptionHandling="true"
+				GeneratePreprocessedFile="0"
+				ObjectFile="tmp\obj\release_shared\"
+				Optimization ="2"
+				PreprocessorDefinitions="_WINDOWS,UNICODE,WIN32,GL_SUPPORTED,QT_NO_CAST_FROM_ASCII,QT_NO_CAST_TO_ASCII,QT_DECLARATIVE_DEBUG,QT_DLL,QT_NO_DEBUG,QT_DECLARATIVE_LIB,QT_SCRIPT_LIB,QT_SQL_LIB,QT_OPENGL_LIB,QT_GUI_LIB,QT_NETWORK_LIB,QT_CORE_LIB,QT_HAVE_MMX,QT_HAVE_3DNOW,QT_HAVE_SSE,QT_HAVE_MMXEXT,QT_HAVE_SSE2,QT_THREAD_SUPPORT,NDEBUG"
+				ProgramDataBaseFileName=".\"
+				RuntimeLibrary="2"
+				RuntimeTypeInfo="true"
+				SuppressStartupBanner="true"
+				WarningLevel="3" />
+			<Tool
+				Name="VCCustomBuildTool" />
+			<Tool
+				Name="VCLinkerTool"
+				AdditionalDependencies="glu32.lib opengl32.lib gdi32.lib user32.lib c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib\qtmain.lib c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib\QtDeclarative4.lib c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib\QtScript4.lib c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib\QtSql4.lib c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib\QtOpenGL4.lib c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib\QtGui4.lib c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib\QtNetwork4.lib c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib\QtCore4.lib"
+				AdditionalLibraryDirectories="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib,c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib"
+				GenerateDebugInformation="false"
+				IgnoreImportLibrary="true"
+				LinkIncremental="1"
+				LinkTimeCodeGeneration="0"
+				OutputFile="$(OutDir)\qmlviewer.exe"
+				ProgramDatabaseFile=""
+				SubSystem="2"
+				SuppressStartupBanner="true" />
+			<Tool
+				Name="VCMIDLTool"
+				DefaultCharType="0"
+				EnableErrorChecks="1"
+				WarningLevel="0" />
+			<Tool
+				Name="VCPostBuildEventTool" />
+			<Tool
+				Name="VCPreBuildEventTool" />
+			<Tool
+				Name="VCPreLinkEventTool" />
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_WINDOWS,UNICODE,WIN32,GL_SUPPORTED,QT_NO_CAST_FROM_ASCII,QT_NO_CAST_TO_ASCII,QT_DECLARATIVE_DEBUG,QT_DLL,QT_NO_DEBUG,QT_DECLARATIVE_LIB,QT_SCRIPT_LIB,QT_SQL_LIB,QT_OPENGL_LIB,QT_GUI_LIB,QT_NETWORK_LIB,QT_CORE_LIB,QT_HAVE_MMX,QT_HAVE_3DNOW,QT_HAVE_SSE,QT_HAVE_MMXEXT,QT_HAVE_SSE2,QT_THREAD_SUPPORT" />
+		</Configuration>
+	</Configurations>
+	<Files>
+		<Filter
+			Name="Source Files"
+			Filter="cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx"
+			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}">
+			<File
+				RelativePath="deviceorientation.cpp" />
+			<File
+				RelativePath="loggerwidget.cpp" />
+			<File
+				RelativePath="main.cpp" />
+			<File
+				RelativePath="proxysettings.cpp" />
+			<File
+				RelativePath="qdeclarativetester.cpp" />
+			<File
+				RelativePath="qmlruntime.cpp" />
+		</Filter>
+		<Filter
+			Name="Header Files"
+			Filter="h;hpp;hxx;hm;inl;inc;xsd"
+			UniqueIdentifier="{93995380-89BD-4b04-88EB-625FBE52EBFB}">
+			<File
+				RelativePath="deviceorientation.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;deviceorientation.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DGL_SUPPORTED -DQT_NO_CAST_FROM_ASCII -DQT_NO_CAST_TO_ASCII -DQT_DECLARATIVE_DEBUG -DQT_DLL -DQT_DECLARATIVE_LIB -DQT_SCRIPT_LIB -DQT_SQL_LIB -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include\QtNetwork&quot; -I&quot;..\..\include\QtGui&quot; -I&quot;..\..\include\QtOpenGL&quot; -I&quot;..\..\include\QtSql&quot; -I&quot;..\..\include\QtScript&quot; -I&quot;..\..\include\QtDeclarative&quot; -I&quot;..\..\include&quot; -I&quot;.&quot; -I&quot;..\..\include\QtDeclarative&quot; -I&quot;..\..\src\declarative\util&quot; -I&quot;..\..\src\declarative\graphicsitems&quot; -I&quot;.&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 deviceorientation.h -o tmp\moc\debug_shared\moc_deviceorientation.cpp"
+						Description="MOC deviceorientation.h"
+						Outputs="tmp\moc\debug_shared\moc_deviceorientation.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;deviceorientation.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DGL_SUPPORTED -DQT_NO_CAST_FROM_ASCII -DQT_NO_CAST_TO_ASCII -DQT_DECLARATIVE_DEBUG -DQT_DLL -DQT_NO_DEBUG -DQT_DECLARATIVE_LIB -DQT_SCRIPT_LIB -DQT_SQL_LIB -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include\QtNetwork&quot; -I&quot;..\..\include\QtGui&quot; -I&quot;..\..\include\QtOpenGL&quot; -I&quot;..\..\include\QtSql&quot; -I&quot;..\..\include\QtScript&quot; -I&quot;..\..\include\QtDeclarative&quot; -I&quot;..\..\include&quot; -I&quot;.&quot; -I&quot;..\..\include\QtDeclarative&quot; -I&quot;..\..\src\declarative\util&quot; -I&quot;..\..\src\declarative\graphicsitems&quot; -I&quot;.&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 deviceorientation.h -o tmp\moc\release_shared\moc_deviceorientation.cpp"
+						Description="MOC deviceorientation.h"
+						Outputs="tmp\moc\release_shared\moc_deviceorientation.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="loggerwidget.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;loggerwidget.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DGL_SUPPORTED -DQT_NO_CAST_FROM_ASCII -DQT_NO_CAST_TO_ASCII -DQT_DECLARATIVE_DEBUG -DQT_DLL -DQT_DECLARATIVE_LIB -DQT_SCRIPT_LIB -DQT_SQL_LIB -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include\QtNetwork&quot; -I&quot;..\..\include\QtGui&quot; -I&quot;..\..\include\QtOpenGL&quot; -I&quot;..\..\include\QtSql&quot; -I&quot;..\..\include\QtScript&quot; -I&quot;..\..\include\QtDeclarative&quot; -I&quot;..\..\include&quot; -I&quot;.&quot; -I&quot;..\..\include\QtDeclarative&quot; -I&quot;..\..\src\declarative\util&quot; -I&quot;..\..\src\declarative\graphicsitems&quot; -I&quot;.&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 loggerwidget.h -o tmp\moc\debug_shared\moc_loggerwidget.cpp"
+						Description="MOC loggerwidget.h"
+						Outputs="tmp\moc\debug_shared\moc_loggerwidget.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;loggerwidget.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DGL_SUPPORTED -DQT_NO_CAST_FROM_ASCII -DQT_NO_CAST_TO_ASCII -DQT_DECLARATIVE_DEBUG -DQT_DLL -DQT_NO_DEBUG -DQT_DECLARATIVE_LIB -DQT_SCRIPT_LIB -DQT_SQL_LIB -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include\QtNetwork&quot; -I&quot;..\..\include\QtGui&quot; -I&quot;..\..\include\QtOpenGL&quot; -I&quot;..\..\include\QtSql&quot; -I&quot;..\..\include\QtScript&quot; -I&quot;..\..\include\QtDeclarative&quot; -I&quot;..\..\include&quot; -I&quot;.&quot; -I&quot;..\..\include\QtDeclarative&quot; -I&quot;..\..\src\declarative\util&quot; -I&quot;..\..\src\declarative\graphicsitems&quot; -I&quot;.&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 loggerwidget.h -o tmp\moc\release_shared\moc_loggerwidget.cpp"
+						Description="MOC loggerwidget.h"
+						Outputs="tmp\moc\release_shared\moc_loggerwidget.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="proxysettings.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;proxysettings.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DGL_SUPPORTED -DQT_NO_CAST_FROM_ASCII -DQT_NO_CAST_TO_ASCII -DQT_DECLARATIVE_DEBUG -DQT_DLL -DQT_DECLARATIVE_LIB -DQT_SCRIPT_LIB -DQT_SQL_LIB -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include\QtNetwork&quot; -I&quot;..\..\include\QtGui&quot; -I&quot;..\..\include\QtOpenGL&quot; -I&quot;..\..\include\QtSql&quot; -I&quot;..\..\include\QtScript&quot; -I&quot;..\..\include\QtDeclarative&quot; -I&quot;..\..\include&quot; -I&quot;.&quot; -I&quot;..\..\include\QtDeclarative&quot; -I&quot;..\..\src\declarative\util&quot; -I&quot;..\..\src\declarative\graphicsitems&quot; -I&quot;.&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 proxysettings.h -o tmp\moc\debug_shared\moc_proxysettings.cpp"
+						Description="MOC proxysettings.h"
+						Outputs="tmp\moc\debug_shared\moc_proxysettings.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;proxysettings.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DGL_SUPPORTED -DQT_NO_CAST_FROM_ASCII -DQT_NO_CAST_TO_ASCII -DQT_DECLARATIVE_DEBUG -DQT_DLL -DQT_NO_DEBUG -DQT_DECLARATIVE_LIB -DQT_SCRIPT_LIB -DQT_SQL_LIB -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include\QtNetwork&quot; -I&quot;..\..\include\QtGui&quot; -I&quot;..\..\include\QtOpenGL&quot; -I&quot;..\..\include\QtSql&quot; -I&quot;..\..\include\QtScript&quot; -I&quot;..\..\include\QtDeclarative&quot; -I&quot;..\..\include&quot; -I&quot;.&quot; -I&quot;..\..\include\QtDeclarative&quot; -I&quot;..\..\src\declarative\util&quot; -I&quot;..\..\src\declarative\graphicsitems&quot; -I&quot;.&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 proxysettings.h -o tmp\moc\release_shared\moc_proxysettings.cpp"
+						Description="MOC proxysettings.h"
+						Outputs="tmp\moc\release_shared\moc_proxysettings.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="qdeclarativetester.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;qdeclarativetester.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DGL_SUPPORTED -DQT_NO_CAST_FROM_ASCII -DQT_NO_CAST_TO_ASCII -DQT_DECLARATIVE_DEBUG -DQT_DLL -DQT_DECLARATIVE_LIB -DQT_SCRIPT_LIB -DQT_SQL_LIB -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include\QtNetwork&quot; -I&quot;..\..\include\QtGui&quot; -I&quot;..\..\include\QtOpenGL&quot; -I&quot;..\..\include\QtSql&quot; -I&quot;..\..\include\QtScript&quot; -I&quot;..\..\include\QtDeclarative&quot; -I&quot;..\..\include&quot; -I&quot;.&quot; -I&quot;..\..\include\QtDeclarative&quot; -I&quot;..\..\src\declarative\util&quot; -I&quot;..\..\src\declarative\graphicsitems&quot; -I&quot;.&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 qdeclarativetester.h -o tmp\moc\debug_shared\moc_qdeclarativetester.cpp"
+						Description="MOC qdeclarativetester.h"
+						Outputs="tmp\moc\debug_shared\moc_qdeclarativetester.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;qdeclarativetester.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DGL_SUPPORTED -DQT_NO_CAST_FROM_ASCII -DQT_NO_CAST_TO_ASCII -DQT_DECLARATIVE_DEBUG -DQT_DLL -DQT_NO_DEBUG -DQT_DECLARATIVE_LIB -DQT_SCRIPT_LIB -DQT_SQL_LIB -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include\QtNetwork&quot; -I&quot;..\..\include\QtGui&quot; -I&quot;..\..\include\QtOpenGL&quot; -I&quot;..\..\include\QtSql&quot; -I&quot;..\..\include\QtScript&quot; -I&quot;..\..\include\QtDeclarative&quot; -I&quot;..\..\include&quot; -I&quot;.&quot; -I&quot;..\..\include\QtDeclarative&quot; -I&quot;..\..\src\declarative\util&quot; -I&quot;..\..\src\declarative\graphicsitems&quot; -I&quot;.&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 qdeclarativetester.h -o tmp\moc\release_shared\moc_qdeclarativetester.cpp"
+						Description="MOC qdeclarativetester.h"
+						Outputs="tmp\moc\release_shared\moc_qdeclarativetester.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="qmlruntime.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;qmlruntime.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DGL_SUPPORTED -DQT_NO_CAST_FROM_ASCII -DQT_NO_CAST_TO_ASCII -DQT_DECLARATIVE_DEBUG -DQT_DLL -DQT_DECLARATIVE_LIB -DQT_SCRIPT_LIB -DQT_SQL_LIB -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include\QtNetwork&quot; -I&quot;..\..\include\QtGui&quot; -I&quot;..\..\include\QtOpenGL&quot; -I&quot;..\..\include\QtSql&quot; -I&quot;..\..\include\QtScript&quot; -I&quot;..\..\include\QtDeclarative&quot; -I&quot;..\..\include&quot; -I&quot;.&quot; -I&quot;..\..\include\QtDeclarative&quot; -I&quot;..\..\src\declarative\util&quot; -I&quot;..\..\src\declarative\graphicsitems&quot; -I&quot;.&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 qmlruntime.h -o tmp\moc\debug_shared\moc_qmlruntime.cpp"
+						Description="MOC qmlruntime.h"
+						Outputs="tmp\moc\debug_shared\moc_qmlruntime.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;qmlruntime.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DGL_SUPPORTED -DQT_NO_CAST_FROM_ASCII -DQT_NO_CAST_TO_ASCII -DQT_DECLARATIVE_DEBUG -DQT_DLL -DQT_NO_DEBUG -DQT_DECLARATIVE_LIB -DQT_SCRIPT_LIB -DQT_SQL_LIB -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include\QtNetwork&quot; -I&quot;..\..\include\QtGui&quot; -I&quot;..\..\include\QtOpenGL&quot; -I&quot;..\..\include\QtSql&quot; -I&quot;..\..\include\QtScript&quot; -I&quot;..\..\include\QtDeclarative&quot; -I&quot;..\..\include&quot; -I&quot;.&quot; -I&quot;..\..\include\QtDeclarative&quot; -I&quot;..\..\src\declarative\util&quot; -I&quot;..\..\src\declarative\graphicsitems&quot; -I&quot;.&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 qmlruntime.h -o tmp\moc\release_shared\moc_qmlruntime.cpp"
+						Description="MOC qmlruntime.h"
+						Outputs="tmp\moc\release_shared\moc_qmlruntime.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+		</Filter>
+		<Filter
+			Name="Generated Files"
+			Filter="cpp;c;cxx;moc;h;def;odl;idl;res;"
+			UniqueIdentifier="{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}">
+			<File
+				RelativePath="tmp\moc\debug_shared\deviceorientation.moc">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;deviceorientation.cpp"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DGL_SUPPORTED -DQT_NO_CAST_FROM_ASCII -DQT_NO_CAST_TO_ASCII -DQT_DECLARATIVE_DEBUG -DQT_DLL -DQT_DECLARATIVE_LIB -DQT_SCRIPT_LIB -DQT_SQL_LIB -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include\QtNetwork&quot; -I&quot;..\..\include\QtGui&quot; -I&quot;..\..\include\QtOpenGL&quot; -I&quot;..\..\include\QtSql&quot; -I&quot;..\..\include\QtScript&quot; -I&quot;..\..\include\QtDeclarative&quot; -I&quot;..\..\include&quot; -I&quot;.&quot; -I&quot;..\..\include\QtDeclarative&quot; -I&quot;..\..\src\declarative\util&quot; -I&quot;..\..\src\declarative\graphicsitems&quot; -I&quot;.&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 deviceorientation.cpp -o tmp\moc\debug_shared\deviceorientation.moc"
+						Description="MOC deviceorientation.cpp"
+						Outputs="tmp\moc\debug_shared\deviceorientation.moc"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\deviceorientation.moc">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;deviceorientation.cpp"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DGL_SUPPORTED -DQT_NO_CAST_FROM_ASCII -DQT_NO_CAST_TO_ASCII -DQT_DECLARATIVE_DEBUG -DQT_DLL -DQT_NO_DEBUG -DQT_DECLARATIVE_LIB -DQT_SCRIPT_LIB -DQT_SQL_LIB -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include\QtNetwork&quot; -I&quot;..\..\include\QtGui&quot; -I&quot;..\..\include\QtOpenGL&quot; -I&quot;..\..\include\QtSql&quot; -I&quot;..\..\include\QtScript&quot; -I&quot;..\..\include\QtDeclarative&quot; -I&quot;..\..\include&quot; -I&quot;.&quot; -I&quot;..\..\include\QtDeclarative&quot; -I&quot;..\..\src\declarative\util&quot; -I&quot;..\..\src\declarative\graphicsitems&quot; -I&quot;.&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 deviceorientation.cpp -o tmp\moc\release_shared\deviceorientation.moc"
+						Description="MOC deviceorientation.cpp"
+						Outputs="tmp\moc\release_shared\deviceorientation.moc"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="tmp\moc\debug_shared\main.moc">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;main.cpp"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DGL_SUPPORTED -DQT_NO_CAST_FROM_ASCII -DQT_NO_CAST_TO_ASCII -DQT_DECLARATIVE_DEBUG -DQT_DLL -DQT_DECLARATIVE_LIB -DQT_SCRIPT_LIB -DQT_SQL_LIB -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include\QtNetwork&quot; -I&quot;..\..\include\QtGui&quot; -I&quot;..\..\include\QtOpenGL&quot; -I&quot;..\..\include\QtSql&quot; -I&quot;..\..\include\QtScript&quot; -I&quot;..\..\include\QtDeclarative&quot; -I&quot;..\..\include&quot; -I&quot;.&quot; -I&quot;..\..\include\QtDeclarative&quot; -I&quot;..\..\src\declarative\util&quot; -I&quot;..\..\src\declarative\graphicsitems&quot; -I&quot;.&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 main.cpp -o tmp\moc\debug_shared\main.moc"
+						Description="MOC main.cpp"
+						Outputs="tmp\moc\debug_shared\main.moc"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\main.moc">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;main.cpp"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DGL_SUPPORTED -DQT_NO_CAST_FROM_ASCII -DQT_NO_CAST_TO_ASCII -DQT_DECLARATIVE_DEBUG -DQT_DLL -DQT_NO_DEBUG -DQT_DECLARATIVE_LIB -DQT_SCRIPT_LIB -DQT_SQL_LIB -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include\QtNetwork&quot; -I&quot;..\..\include\QtGui&quot; -I&quot;..\..\include\QtOpenGL&quot; -I&quot;..\..\include\QtSql&quot; -I&quot;..\..\include\QtScript&quot; -I&quot;..\..\include\QtDeclarative&quot; -I&quot;..\..\include&quot; -I&quot;.&quot; -I&quot;..\..\include\QtDeclarative&quot; -I&quot;..\..\src\declarative\util&quot; -I&quot;..\..\src\declarative\graphicsitems&quot; -I&quot;.&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 main.cpp -o tmp\moc\release_shared\main.moc"
+						Description="MOC main.cpp"
+						Outputs="tmp\moc\release_shared\main.moc"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="tmp\moc\debug_shared\moc_deviceorientation.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\moc_deviceorientation.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\debug_shared\moc_loggerwidget.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\moc_loggerwidget.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\debug_shared\moc_proxysettings.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\moc_proxysettings.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\debug_shared\moc_qdeclarativetester.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\moc_qdeclarativetester.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\debug_shared\moc_qmlruntime.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\moc_qmlruntime.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\debug_shared\qmlruntime.moc">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;qmlruntime.cpp"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DGL_SUPPORTED -DQT_NO_CAST_FROM_ASCII -DQT_NO_CAST_TO_ASCII -DQT_DECLARATIVE_DEBUG -DQT_DLL -DQT_DECLARATIVE_LIB -DQT_SCRIPT_LIB -DQT_SQL_LIB -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include\QtNetwork&quot; -I&quot;..\..\include\QtGui&quot; -I&quot;..\..\include\QtOpenGL&quot; -I&quot;..\..\include\QtSql&quot; -I&quot;..\..\include\QtScript&quot; -I&quot;..\..\include\QtDeclarative&quot; -I&quot;..\..\include&quot; -I&quot;.&quot; -I&quot;..\..\include\QtDeclarative&quot; -I&quot;..\..\src\declarative\util&quot; -I&quot;..\..\src\declarative\graphicsitems&quot; -I&quot;.&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 qmlruntime.cpp -o tmp\moc\debug_shared\qmlruntime.moc"
+						Description="MOC qmlruntime.cpp"
+						Outputs="tmp\moc\debug_shared\qmlruntime.moc"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\qmlruntime.moc">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;qmlruntime.cpp"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DGL_SUPPORTED -DQT_NO_CAST_FROM_ASCII -DQT_NO_CAST_TO_ASCII -DQT_DECLARATIVE_DEBUG -DQT_DLL -DQT_NO_DEBUG -DQT_DECLARATIVE_LIB -DQT_SCRIPT_LIB -DQT_SQL_LIB -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include\QtNetwork&quot; -I&quot;..\..\include\QtGui&quot; -I&quot;..\..\include\QtOpenGL&quot; -I&quot;..\..\include\QtSql&quot; -I&quot;..\..\include\QtScript&quot; -I&quot;..\..\include\QtDeclarative&quot; -I&quot;..\..\include&quot; -I&quot;.&quot; -I&quot;..\..\include\QtDeclarative&quot; -I&quot;..\..\src\declarative\util&quot; -I&quot;..\..\src\declarative\graphicsitems&quot; -I&quot;.&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 qmlruntime.cpp -o tmp\moc\release_shared\qmlruntime.moc"
+						Description="MOC qmlruntime.cpp"
+						Outputs="tmp\moc\release_shared\qmlruntime.moc"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="tmp\rcc\debug_shared\qrc_browser.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\rcc\release_shared\qrc_browser.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\rcc\debug_shared\qrc_startup.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\rcc\release_shared\qrc_startup.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="ui_proxysettings.h" />
+			<File
+				RelativePath="ui_recopts.h" />
+		</Filter>
+		<Filter
+			Name="Form Files"
+			Filter="ui"
+			UniqueIdentifier="{99349809-55BA-4b9d-BF79-8FDBB0286EB3}"
+			ParseFiles="false">
+			<File
+				RelativePath="proxysettings.ui">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\uic.exe;proxysettings.ui"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\uic.exe proxysettings.ui -o ui_proxysettings.h"
+						Description="UIC proxysettings.ui"
+						Outputs="ui_proxysettings.h"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\uic.exe;proxysettings.ui"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\uic.exe proxysettings.ui -o ui_proxysettings.h"
+						Description="UIC proxysettings.ui"
+						Outputs="ui_proxysettings.h"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="recopts.ui">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\uic.exe;recopts.ui"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\uic.exe recopts.ui -o ui_recopts.h"
+						Description="UIC recopts.ui"
+						Outputs="ui_recopts.h"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\uic.exe;recopts.ui"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\uic.exe recopts.ui -o ui_recopts.h"
+						Description="UIC recopts.ui"
+						Outputs="ui_recopts.h"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+		</Filter>
+		<Filter
+			Name="Resource Files"
+			Filter="qrc;*"
+			UniqueIdentifier="{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}"
+			ParseFiles="false">
+			<File
+				RelativePath="browser\browser.qrc">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\rcc.exe;browser\browser.qrc"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\rcc.exe -name browser browser\browser.qrc -o tmp\rcc\debug_shared\qrc_browser.cpp"
+						Description="RCC browser\browser.qrc"
+						Outputs="tmp\rcc\debug_shared\qrc_browser.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\rcc.exe;browser\browser.qrc"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\rcc.exe -name browser browser\browser.qrc -o tmp\rcc\release_shared\qrc_browser.cpp"
+						Description="RCC browser\browser.qrc"
+						Outputs="tmp\rcc\release_shared\qrc_browser.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="startup\startup.qrc">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\rcc.exe;startup\startup.qrc"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\rcc.exe -name startup startup\startup.qrc -o tmp\rcc\debug_shared\qrc_startup.cpp"
+						Description="RCC startup\startup.qrc"
+						Outputs="tmp\rcc\debug_shared\qrc_startup.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\rcc.exe;startup\startup.qrc"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\rcc.exe -name startup startup\startup.qrc -o tmp\rcc\release_shared\qrc_startup.cpp"
+						Description="RCC startup\startup.qrc"
+						Outputs="tmp\rcc\release_shared\qrc_startup.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+		</Filter>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>

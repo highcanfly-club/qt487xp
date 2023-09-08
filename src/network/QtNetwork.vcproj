@@ -1,0 +1,1554 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="7.00"
+	Name="QtNetwork"
+	ProjectGUID="{2DEC45CA-BAB7-38AB-9FD1-A0662BE428D9}"
+	Keyword="Qt4VSv1.0">
+	<Platforms>
+		<Platform
+			Name="Win32" />
+	</Platforms>
+	<Configurations>
+		<Configuration
+			Name="Debug|Win32"
+			OutputDirectory="..\..\lib\"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			ConfigurationType="2"
+			IntermediateDirectory="tmp\obj\debug_shared\"
+			UseOfMfc="0">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="&quot;..\..\include\QtCore&quot;,&quot;..\..\include&quot;,&quot;..\..\include\QtNetwork&quot;,&quot;tmp\rcc\debug_shared&quot;,&quot;tmp&quot;,&quot;..\3rdparty\zlib&quot;,&quot;kernel&quot;,&quot;..\..\include\ActiveQt&quot;,&quot;tmp\moc\debug_shared&quot;,..\..\mkspecs\win32-msvc2003"
+				AdditionalOptions="-Zm300 -w34100 -w34189"
+				AssemblerListingLocation="tmp\obj\debug_shared\"
+				DebugInformationFormat="3"
+				ExceptionHandling="true"
+				ForcedIncludeFiles="..\corelib\global\qt_pch.h"
+				GeneratePreprocessedFile="0"
+				ObjectFile="tmp\obj\debug_shared\"
+				Optimization ="4"
+				PrecompiledHeaderFile="$(IntDir)\QtNetworkd.pch"
+				PrecompiledHeaderThrough="..\corelib\global\qt_pch.h"
+				PreprocessorDefinitions="_WINDOWS,UNICODE,WIN32,QT_BUILD_NETWORK_LIB,QT_NO_USING_NAMESPACE,QT_MAKEDLL,QT_NO_CAST_TO_ASCII,QT_ASCII_CAST_WARNINGS,QT3_SUPPORT,QT_MOC_COMPAT,QT_USE_QSTRINGBUILDER,_USE_MATH_DEFINES,QT_DLL,QT_CORE_LIB,QT_HAVE_MMX,QT_HAVE_3DNOW,QT_HAVE_SSE,QT_HAVE_MMXEXT,QT_HAVE_SSE2,QT_SHARED,QT_THREAD_SUPPORT"
+				ProgramDataBaseFileName=".\"
+				RuntimeLibrary="3"
+				RuntimeTypeInfo="true"
+				SuppressStartupBanner="true"
+				UsePrecompiledHeader="3"
+				WarningLevel="3" />
+			<Tool
+				Name="VCCustomBuildTool" />
+			<Tool
+				Name="VCLinkerTool"
+				AdditionalDependencies="ws2_32.lib c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib\QtCored4.lib"
+				AdditionalLibraryDirectories="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib,c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib"
+				BaseAddress="0x64000000"
+				GenerateDebugInformation="true"
+				IgnoreImportLibrary="true"
+				LinkTimeCodeGeneration="0"
+				OutputFile="$(OutDir)\QtNetworkd4.dll"
+				ProgramDatabaseFile=""
+				SubSystem="0"
+				SuppressStartupBanner="true"
+				Version="4.87" />
+			<Tool
+				Name="VCMIDLTool"
+				DefaultCharType="0"
+				EnableErrorChecks="1"
+				WarningLevel="0" />
+			<Tool
+				Name="VCPostBuildEventTool"
+				CommandLine="copy  &quot;$(TargetPath)&quot; &quot;..\..\bin&quot;"
+				Description="Copy QtNetworkd4.dll to ..\..\bin"
+				ExcludedFromBuild="false" />
+			<Tool
+				Name="VCPreBuildEventTool" />
+			<Tool
+				Name="VCPreLinkEventTool" />
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_WINDOWS,UNICODE,WIN32,QT_BUILD_NETWORK_LIB,QT_NO_USING_NAMESPACE,QT_MAKEDLL,QT_NO_CAST_TO_ASCII,QT_ASCII_CAST_WARNINGS,QT3_SUPPORT,QT_MOC_COMPAT,QT_USE_QSTRINGBUILDER,_USE_MATH_DEFINES,QT_DLL,QT_CORE_LIB,QT_HAVE_MMX,QT_HAVE_3DNOW,QT_HAVE_SSE,QT_HAVE_MMXEXT,QT_HAVE_SSE2,QT_SHARED,QT_THREAD_SUPPORT,_DEBUG" />
+		</Configuration>
+		<Configuration
+			Name="Release|Win32"
+			OutputDirectory="..\..\lib\"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			ConfigurationType="2"
+			IntermediateDirectory="tmp\obj\release_shared\"
+			UseOfMfc="0">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="&quot;..\..\include\QtCore&quot;,&quot;..\..\include&quot;,&quot;..\..\include\QtNetwork&quot;,&quot;tmp\rcc\debug_shared&quot;,&quot;tmp&quot;,&quot;..\3rdparty\zlib&quot;,&quot;kernel&quot;,&quot;..\..\include\ActiveQt&quot;,&quot;tmp\moc\release_shared&quot;,..\..\mkspecs\win32-msvc2003"
+				AdditionalOptions="-Zm300 -w34100 -w34189"
+				AssemblerListingLocation="tmp\obj\release_shared\"
+				DebugInformationFormat="0"
+				ExceptionHandling="true"
+				ForcedIncludeFiles="..\corelib\global\qt_pch.h"
+				GeneratePreprocessedFile="0"
+				ObjectFile="tmp\obj\release_shared\"
+				Optimization ="2"
+				PrecompiledHeaderFile="$(IntDir)\QtNetwork.pch"
+				PrecompiledHeaderThrough="..\corelib\global\qt_pch.h"
+				PreprocessorDefinitions="_WINDOWS,UNICODE,WIN32,QT_BUILD_NETWORK_LIB,QT_NO_USING_NAMESPACE,QT_MAKEDLL,QT_NO_CAST_TO_ASCII,QT_ASCII_CAST_WARNINGS,QT3_SUPPORT,QT_MOC_COMPAT,QT_USE_QSTRINGBUILDER,_USE_MATH_DEFINES,QT_DLL,QT_NO_DEBUG,QT_CORE_LIB,QT_HAVE_MMX,QT_HAVE_3DNOW,QT_HAVE_SSE,QT_HAVE_MMXEXT,QT_HAVE_SSE2,QT_SHARED,QT_THREAD_SUPPORT,NDEBUG"
+				ProgramDataBaseFileName=".\"
+				RuntimeLibrary="2"
+				RuntimeTypeInfo="true"
+				SuppressStartupBanner="true"
+				UsePrecompiledHeader="3"
+				WarningLevel="3" />
+			<Tool
+				Name="VCCustomBuildTool" />
+			<Tool
+				Name="VCLinkerTool"
+				AdditionalDependencies="ws2_32.lib c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib\QtCore4.lib"
+				AdditionalLibraryDirectories="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib,c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib"
+				BaseAddress="0x64000000"
+				GenerateDebugInformation="false"
+				IgnoreImportLibrary="true"
+				LinkIncremental="1"
+				LinkTimeCodeGeneration="0"
+				OutputFile="$(OutDir)\QtNetwork4.dll"
+				ProgramDatabaseFile=""
+				SubSystem="0"
+				SuppressStartupBanner="true"
+				Version="4.87" />
+			<Tool
+				Name="VCMIDLTool"
+				DefaultCharType="0"
+				EnableErrorChecks="1"
+				WarningLevel="0" />
+			<Tool
+				Name="VCPostBuildEventTool"
+				CommandLine="copy  &quot;$(TargetPath)&quot; &quot;..\..\bin&quot;"
+				Description="Copy QtNetwork4.dll to ..\..\bin"
+				ExcludedFromBuild="false" />
+			<Tool
+				Name="VCPreBuildEventTool" />
+			<Tool
+				Name="VCPreLinkEventTool" />
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_WINDOWS,UNICODE,WIN32,QT_BUILD_NETWORK_LIB,QT_NO_USING_NAMESPACE,QT_MAKEDLL,QT_NO_CAST_TO_ASCII,QT_ASCII_CAST_WARNINGS,QT3_SUPPORT,QT_MOC_COMPAT,QT_USE_QSTRINGBUILDER,_USE_MATH_DEFINES,QT_DLL,QT_NO_DEBUG,QT_CORE_LIB,QT_HAVE_MMX,QT_HAVE_3DNOW,QT_HAVE_SSE,QT_HAVE_MMXEXT,QT_HAVE_SSE2,QT_SHARED,QT_THREAD_SUPPORT" />
+		</Configuration>
+	</Configurations>
+	<Files>
+		<Filter
+			Name="Source Files"
+			Filter="cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx"
+			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}">
+			<File
+				RelativePath="access\qabstractnetworkcache.cpp" />
+			<File
+				RelativePath="socket\qabstractsocket.cpp" />
+			<File
+				RelativePath="socket\qabstractsocketengine.cpp" />
+			<File
+				RelativePath="kernel\qauthenticator.cpp" />
+			<File
+				RelativePath="bearer\qbearerengine.cpp" />
+			<File
+				RelativePath="bearer\qbearerplugin.cpp" />
+			<File
+				RelativePath="access\qftp.cpp" />
+			<File
+				RelativePath="kernel\qhostaddress.cpp" />
+			<File
+				RelativePath="kernel\qhostinfo.cpp" />
+			<File
+				RelativePath="kernel\qhostinfo_win.cpp" />
+			<File
+				RelativePath="access\qhttp.cpp" />
+			<File
+				RelativePath="access\qhttpmultipart.cpp" />
+			<File
+				RelativePath="access\qhttpnetworkconnection.cpp" />
+			<File
+				RelativePath="access\qhttpnetworkconnectionchannel.cpp" />
+			<File
+				RelativePath="access\qhttpnetworkheader.cpp" />
+			<File
+				RelativePath="access\qhttpnetworkreply.cpp" />
+			<File
+				RelativePath="access\qhttpnetworkrequest.cpp" />
+			<File
+				RelativePath="socket\qhttpsocketengine.cpp" />
+			<File
+				RelativePath="access\qhttpthreaddelegate.cpp" />
+			<File
+				RelativePath="socket\qlocalserver.cpp" />
+			<File
+				RelativePath="socket\qlocalserver_win.cpp" />
+			<File
+				RelativePath="socket\qlocalsocket.cpp" />
+			<File
+				RelativePath="socket\qlocalsocket_win.cpp" />
+			<File
+				RelativePath="socket\qnativesocketengine.cpp" />
+			<File
+				RelativePath="socket\qnativesocketengine_win.cpp" />
+			<File
+				RelativePath="access\qnetworkaccessauthenticationmanager.cpp" />
+			<File
+				RelativePath="access\qnetworkaccessbackend.cpp" />
+			<File
+				RelativePath="access\qnetworkaccesscache.cpp" />
+			<File
+				RelativePath="access\qnetworkaccesscachebackend.cpp" />
+			<File
+				RelativePath="access\qnetworkaccessdebugpipebackend.cpp" />
+			<File
+				RelativePath="access\qnetworkaccessfilebackend.cpp" />
+			<File
+				RelativePath="access\qnetworkaccessftpbackend.cpp" />
+			<File
+				RelativePath="access\qnetworkaccesshttpbackend.cpp" />
+			<File
+				RelativePath="access\qnetworkaccessmanager.cpp" />
+			<File
+				RelativePath="bearer\qnetworkconfigmanager.cpp" />
+			<File
+				RelativePath="bearer\qnetworkconfigmanager_p.cpp" />
+			<File
+				RelativePath="bearer\qnetworkconfiguration.cpp" />
+			<File
+				RelativePath="access\qnetworkcookie.cpp" />
+			<File
+				RelativePath="access\qnetworkcookiejar.cpp" />
+			<File
+				RelativePath="access\qnetworkdiskcache.cpp" />
+			<File
+				RelativePath="kernel\qnetworkinterface.cpp" />
+			<File
+				RelativePath="kernel\qnetworkinterface_win.cpp" />
+			<File
+				RelativePath="kernel\qnetworkproxy.cpp" />
+			<File
+				RelativePath="kernel\qnetworkproxy_win.cpp" />
+			<File
+				RelativePath="access\qnetworkreply.cpp" />
+			<File
+				RelativePath="access\qnetworkreplydataimpl.cpp" />
+			<File
+				RelativePath="access\qnetworkreplyfileimpl.cpp" />
+			<File
+				RelativePath="access\qnetworkreplyimpl.cpp" />
+			<File
+				RelativePath="access\qnetworkrequest.cpp" />
+			<File
+				RelativePath="bearer\qnetworksession.cpp" />
+			<File
+				RelativePath="bearer\qsharednetworksession.cpp" />
+			<File
+				RelativePath="socket\qsocks5socketengine.cpp" />
+			<File
+				RelativePath="socket\qtcpserver.cpp" />
+			<File
+				RelativePath="socket\qtcpsocket.cpp" />
+			<File
+				RelativePath="socket\qudpsocket.cpp" />
+			<File
+				RelativePath="kernel\qurlinfo.cpp" />
+		</Filter>
+		<Filter
+			Name="Header Files"
+			Filter="h;hpp;hxx;hm;inl;inc;xsd"
+			UniqueIdentifier="{93995380-89BD-4b04-88EB-625FBE52EBFB}">
+			<File
+				RelativePath="access\qabstractnetworkcache.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;access\qabstractnetworkcache.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_NETWORK_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtNetwork&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\3rdparty\zlib&quot; -I&quot;kernel&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 access\qabstractnetworkcache.h -o tmp\moc\debug_shared\moc_qabstractnetworkcache.cpp"
+						Description="MOC access\qabstractnetworkcache.h"
+						Outputs="tmp\moc\debug_shared\moc_qabstractnetworkcache.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;access\qabstractnetworkcache.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_NETWORK_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_NO_DEBUG -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtNetwork&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\3rdparty\zlib&quot; -I&quot;kernel&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 access\qabstractnetworkcache.h -o tmp\moc\release_shared\moc_qabstractnetworkcache.cpp"
+						Description="MOC access\qabstractnetworkcache.h"
+						Outputs="tmp\moc\release_shared\moc_qabstractnetworkcache.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="access\qabstractnetworkcache_p.h" />
+			<File
+				RelativePath="socket\qabstractsocket.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;socket\qabstractsocket.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_NETWORK_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtNetwork&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\3rdparty\zlib&quot; -I&quot;kernel&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 socket\qabstractsocket.h -o tmp\moc\debug_shared\moc_qabstractsocket.cpp"
+						Description="MOC socket\qabstractsocket.h"
+						Outputs="tmp\moc\debug_shared\moc_qabstractsocket.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;socket\qabstractsocket.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_NETWORK_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_NO_DEBUG -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtNetwork&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\3rdparty\zlib&quot; -I&quot;kernel&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 socket\qabstractsocket.h -o tmp\moc\release_shared\moc_qabstractsocket.cpp"
+						Description="MOC socket\qabstractsocket.h"
+						Outputs="tmp\moc\release_shared\moc_qabstractsocket.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="socket\qabstractsocket_p.h" />
+			<File
+				RelativePath="socket\qabstractsocketengine_p.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;socket\qabstractsocketengine_p.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_NETWORK_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtNetwork&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\3rdparty\zlib&quot; -I&quot;kernel&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 socket\qabstractsocketengine_p.h -o tmp\moc\debug_shared\moc_qabstractsocketengine_p.cpp"
+						Description="MOC socket\qabstractsocketengine_p.h"
+						Outputs="tmp\moc\debug_shared\moc_qabstractsocketengine_p.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;socket\qabstractsocketengine_p.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_NETWORK_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_NO_DEBUG -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtNetwork&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\3rdparty\zlib&quot; -I&quot;kernel&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 socket\qabstractsocketengine_p.h -o tmp\moc\release_shared\moc_qabstractsocketengine_p.cpp"
+						Description="MOC socket\qabstractsocketengine_p.h"
+						Outputs="tmp\moc\release_shared\moc_qabstractsocketengine_p.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="kernel\qauthenticator.h" />
+			<File
+				RelativePath="kernel\qauthenticator_p.h" />
+			<File
+				RelativePath="bearer\qbearerengine_p.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;bearer\qbearerengine_p.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_NETWORK_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtNetwork&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\3rdparty\zlib&quot; -I&quot;kernel&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 bearer\qbearerengine_p.h -o tmp\moc\debug_shared\moc_qbearerengine_p.cpp"
+						Description="MOC bearer\qbearerengine_p.h"
+						Outputs="tmp\moc\debug_shared\moc_qbearerengine_p.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;bearer\qbearerengine_p.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_NETWORK_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_NO_DEBUG -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtNetwork&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\3rdparty\zlib&quot; -I&quot;kernel&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 bearer\qbearerengine_p.h -o tmp\moc\release_shared\moc_qbearerengine_p.cpp"
+						Description="MOC bearer\qbearerengine_p.h"
+						Outputs="tmp\moc\release_shared\moc_qbearerengine_p.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="bearer\qbearerplugin_p.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;bearer\qbearerplugin_p.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_NETWORK_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtNetwork&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\3rdparty\zlib&quot; -I&quot;kernel&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 bearer\qbearerplugin_p.h -o tmp\moc\debug_shared\moc_qbearerplugin_p.cpp"
+						Description="MOC bearer\qbearerplugin_p.h"
+						Outputs="tmp\moc\debug_shared\moc_qbearerplugin_p.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;bearer\qbearerplugin_p.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_NETWORK_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_NO_DEBUG -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtNetwork&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\3rdparty\zlib&quot; -I&quot;kernel&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 bearer\qbearerplugin_p.h -o tmp\moc\release_shared\moc_qbearerplugin_p.cpp"
+						Description="MOC bearer\qbearerplugin_p.h"
+						Outputs="tmp\moc\release_shared\moc_qbearerplugin_p.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="access\qftp.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;access\qftp.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_NETWORK_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtNetwork&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\3rdparty\zlib&quot; -I&quot;kernel&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 access\qftp.h -o tmp\moc\debug_shared\moc_qftp.cpp"
+						Description="MOC access\qftp.h"
+						Outputs="tmp\moc\debug_shared\moc_qftp.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;access\qftp.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_NETWORK_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_NO_DEBUG -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtNetwork&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\3rdparty\zlib&quot; -I&quot;kernel&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 access\qftp.h -o tmp\moc\release_shared\moc_qftp.cpp"
+						Description="MOC access\qftp.h"
+						Outputs="tmp\moc\release_shared\moc_qftp.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="kernel\qhostaddress.h" />
+			<File
+				RelativePath="kernel\qhostinfo.h" />
+			<File
+				RelativePath="kernel\qhostinfo_p.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;kernel\qhostinfo_p.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_NETWORK_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtNetwork&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\3rdparty\zlib&quot; -I&quot;kernel&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 kernel\qhostinfo_p.h -o tmp\moc\debug_shared\moc_qhostinfo_p.cpp"
+						Description="MOC kernel\qhostinfo_p.h"
+						Outputs="tmp\moc\debug_shared\moc_qhostinfo_p.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;kernel\qhostinfo_p.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_NETWORK_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_NO_DEBUG -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtNetwork&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\3rdparty\zlib&quot; -I&quot;kernel&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 kernel\qhostinfo_p.h -o tmp\moc\release_shared\moc_qhostinfo_p.cpp"
+						Description="MOC kernel\qhostinfo_p.h"
+						Outputs="tmp\moc\release_shared\moc_qhostinfo_p.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="access\qhttp.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;access\qhttp.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_NETWORK_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtNetwork&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\3rdparty\zlib&quot; -I&quot;kernel&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 access\qhttp.h -o tmp\moc\debug_shared\moc_qhttp.cpp"
+						Description="MOC access\qhttp.h"
+						Outputs="tmp\moc\debug_shared\moc_qhttp.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;access\qhttp.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_NETWORK_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_NO_DEBUG -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtNetwork&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\3rdparty\zlib&quot; -I&quot;kernel&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 access\qhttp.h -o tmp\moc\release_shared\moc_qhttp.cpp"
+						Description="MOC access\qhttp.h"
+						Outputs="tmp\moc\release_shared\moc_qhttp.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="access\qhttpmultipart.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;access\qhttpmultipart.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_NETWORK_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtNetwork&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\3rdparty\zlib&quot; -I&quot;kernel&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 access\qhttpmultipart.h -o tmp\moc\debug_shared\moc_qhttpmultipart.cpp"
+						Description="MOC access\qhttpmultipart.h"
+						Outputs="tmp\moc\debug_shared\moc_qhttpmultipart.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;access\qhttpmultipart.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_NETWORK_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_NO_DEBUG -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtNetwork&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\3rdparty\zlib&quot; -I&quot;kernel&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 access\qhttpmultipart.h -o tmp\moc\release_shared\moc_qhttpmultipart.cpp"
+						Description="MOC access\qhttpmultipart.h"
+						Outputs="tmp\moc\release_shared\moc_qhttpmultipart.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="access\qhttpmultipart_p.h" />
+			<File
+				RelativePath="access\qhttpnetworkconnection_p.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;access\qhttpnetworkconnection_p.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_NETWORK_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtNetwork&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\3rdparty\zlib&quot; -I&quot;kernel&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 access\qhttpnetworkconnection_p.h -o tmp\moc\debug_shared\moc_qhttpnetworkconnection_p.cpp"
+						Description="MOC access\qhttpnetworkconnection_p.h"
+						Outputs="tmp\moc\debug_shared\moc_qhttpnetworkconnection_p.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;access\qhttpnetworkconnection_p.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_NETWORK_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_NO_DEBUG -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtNetwork&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\3rdparty\zlib&quot; -I&quot;kernel&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 access\qhttpnetworkconnection_p.h -o tmp\moc\release_shared\moc_qhttpnetworkconnection_p.cpp"
+						Description="MOC access\qhttpnetworkconnection_p.h"
+						Outputs="tmp\moc\release_shared\moc_qhttpnetworkconnection_p.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="access\qhttpnetworkconnectionchannel_p.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;access\qhttpnetworkconnectionchannel_p.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_NETWORK_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtNetwork&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\3rdparty\zlib&quot; -I&quot;kernel&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 access\qhttpnetworkconnectionchannel_p.h -o tmp\moc\debug_shared\moc_qhttpnetworkconnectionchannel_p.cpp"
+						Description="MOC access\qhttpnetworkconnectionchannel_p.h"
+						Outputs="tmp\moc\debug_shared\moc_qhttpnetworkconnectionchannel_p.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;access\qhttpnetworkconnectionchannel_p.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_NETWORK_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_NO_DEBUG -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtNetwork&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\3rdparty\zlib&quot; -I&quot;kernel&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 access\qhttpnetworkconnectionchannel_p.h -o tmp\moc\release_shared\moc_qhttpnetworkconnectionchannel_p.cpp"
+						Description="MOC access\qhttpnetworkconnectionchannel_p.h"
+						Outputs="tmp\moc\release_shared\moc_qhttpnetworkconnectionchannel_p.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="access\qhttpnetworkheader_p.h" />
+			<File
+				RelativePath="access\qhttpnetworkreply_p.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;access\qhttpnetworkreply_p.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_NETWORK_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtNetwork&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\3rdparty\zlib&quot; -I&quot;kernel&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 access\qhttpnetworkreply_p.h -o tmp\moc\debug_shared\moc_qhttpnetworkreply_p.cpp"
+						Description="MOC access\qhttpnetworkreply_p.h"
+						Outputs="tmp\moc\debug_shared\moc_qhttpnetworkreply_p.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;access\qhttpnetworkreply_p.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_NETWORK_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_NO_DEBUG -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtNetwork&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\3rdparty\zlib&quot; -I&quot;kernel&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 access\qhttpnetworkreply_p.h -o tmp\moc\release_shared\moc_qhttpnetworkreply_p.cpp"
+						Description="MOC access\qhttpnetworkreply_p.h"
+						Outputs="tmp\moc\release_shared\moc_qhttpnetworkreply_p.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="access\qhttpnetworkrequest_p.h" />
+			<File
+				RelativePath="socket\qhttpsocketengine_p.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;socket\qhttpsocketengine_p.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_NETWORK_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtNetwork&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\3rdparty\zlib&quot; -I&quot;kernel&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 socket\qhttpsocketengine_p.h -o tmp\moc\debug_shared\moc_qhttpsocketengine_p.cpp"
+						Description="MOC socket\qhttpsocketengine_p.h"
+						Outputs="tmp\moc\debug_shared\moc_qhttpsocketengine_p.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;socket\qhttpsocketengine_p.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_NETWORK_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_NO_DEBUG -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtNetwork&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\3rdparty\zlib&quot; -I&quot;kernel&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 socket\qhttpsocketengine_p.h -o tmp\moc\release_shared\moc_qhttpsocketengine_p.cpp"
+						Description="MOC socket\qhttpsocketengine_p.h"
+						Outputs="tmp\moc\release_shared\moc_qhttpsocketengine_p.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="access\qhttpthreaddelegate_p.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;access\qhttpthreaddelegate_p.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_NETWORK_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtNetwork&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\3rdparty\zlib&quot; -I&quot;kernel&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 access\qhttpthreaddelegate_p.h -o tmp\moc\debug_shared\moc_qhttpthreaddelegate_p.cpp"
+						Description="MOC access\qhttpthreaddelegate_p.h"
+						Outputs="tmp\moc\debug_shared\moc_qhttpthreaddelegate_p.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;access\qhttpthreaddelegate_p.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_NETWORK_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_NO_DEBUG -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtNetwork&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\3rdparty\zlib&quot; -I&quot;kernel&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 access\qhttpthreaddelegate_p.h -o tmp\moc\release_shared\moc_qhttpthreaddelegate_p.cpp"
+						Description="MOC access\qhttpthreaddelegate_p.h"
+						Outputs="tmp\moc\release_shared\moc_qhttpthreaddelegate_p.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="socket\qlocalserver.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;socket\qlocalserver.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_NETWORK_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtNetwork&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\3rdparty\zlib&quot; -I&quot;kernel&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 socket\qlocalserver.h -o tmp\moc\debug_shared\moc_qlocalserver.cpp"
+						Description="MOC socket\qlocalserver.h"
+						Outputs="tmp\moc\debug_shared\moc_qlocalserver.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;socket\qlocalserver.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_NETWORK_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_NO_DEBUG -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtNetwork&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\3rdparty\zlib&quot; -I&quot;kernel&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 socket\qlocalserver.h -o tmp\moc\release_shared\moc_qlocalserver.cpp"
+						Description="MOC socket\qlocalserver.h"
+						Outputs="tmp\moc\release_shared\moc_qlocalserver.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="socket\qlocalserver_p.h" />
+			<File
+				RelativePath="socket\qlocalsocket.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;socket\qlocalsocket.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_NETWORK_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtNetwork&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\3rdparty\zlib&quot; -I&quot;kernel&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 socket\qlocalsocket.h -o tmp\moc\debug_shared\moc_qlocalsocket.cpp"
+						Description="MOC socket\qlocalsocket.h"
+						Outputs="tmp\moc\debug_shared\moc_qlocalsocket.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;socket\qlocalsocket.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_NETWORK_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_NO_DEBUG -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtNetwork&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\3rdparty\zlib&quot; -I&quot;kernel&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 socket\qlocalsocket.h -o tmp\moc\release_shared\moc_qlocalsocket.cpp"
+						Description="MOC socket\qlocalsocket.h"
+						Outputs="tmp\moc\release_shared\moc_qlocalsocket.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="socket\qlocalsocket_p.h" />
+			<File
+				RelativePath="socket\qnativesocketengine_p.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;socket\qnativesocketengine_p.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_NETWORK_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtNetwork&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\3rdparty\zlib&quot; -I&quot;kernel&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 socket\qnativesocketengine_p.h -o tmp\moc\debug_shared\moc_qnativesocketengine_p.cpp"
+						Description="MOC socket\qnativesocketengine_p.h"
+						Outputs="tmp\moc\debug_shared\moc_qnativesocketengine_p.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;socket\qnativesocketengine_p.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_NETWORK_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_NO_DEBUG -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtNetwork&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\3rdparty\zlib&quot; -I&quot;kernel&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 socket\qnativesocketengine_p.h -o tmp\moc\release_shared\moc_qnativesocketengine_p.cpp"
+						Description="MOC socket\qnativesocketengine_p.h"
+						Outputs="tmp\moc\release_shared\moc_qnativesocketengine_p.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="access\qnetworkaccessauthenticationmanager_p.h" />
+			<File
+				RelativePath="access\qnetworkaccessbackend_p.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;access\qnetworkaccessbackend_p.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_NETWORK_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtNetwork&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\3rdparty\zlib&quot; -I&quot;kernel&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 access\qnetworkaccessbackend_p.h -o tmp\moc\debug_shared\moc_qnetworkaccessbackend_p.cpp"
+						Description="MOC access\qnetworkaccessbackend_p.h"
+						Outputs="tmp\moc\debug_shared\moc_qnetworkaccessbackend_p.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;access\qnetworkaccessbackend_p.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_NETWORK_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_NO_DEBUG -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtNetwork&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\3rdparty\zlib&quot; -I&quot;kernel&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 access\qnetworkaccessbackend_p.h -o tmp\moc\release_shared\moc_qnetworkaccessbackend_p.cpp"
+						Description="MOC access\qnetworkaccessbackend_p.h"
+						Outputs="tmp\moc\release_shared\moc_qnetworkaccessbackend_p.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="access\qnetworkaccesscache_p.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;access\qnetworkaccesscache_p.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_NETWORK_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtNetwork&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\3rdparty\zlib&quot; -I&quot;kernel&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 access\qnetworkaccesscache_p.h -o tmp\moc\debug_shared\moc_qnetworkaccesscache_p.cpp"
+						Description="MOC access\qnetworkaccesscache_p.h"
+						Outputs="tmp\moc\debug_shared\moc_qnetworkaccesscache_p.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;access\qnetworkaccesscache_p.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_NETWORK_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_NO_DEBUG -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtNetwork&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\3rdparty\zlib&quot; -I&quot;kernel&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 access\qnetworkaccesscache_p.h -o tmp\moc\release_shared\moc_qnetworkaccesscache_p.cpp"
+						Description="MOC access\qnetworkaccesscache_p.h"
+						Outputs="tmp\moc\release_shared\moc_qnetworkaccesscache_p.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="access\qnetworkaccesscachebackend_p.h" />
+			<File
+				RelativePath="access\qnetworkaccessdebugpipebackend_p.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;access\qnetworkaccessdebugpipebackend_p.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_NETWORK_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtNetwork&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\3rdparty\zlib&quot; -I&quot;kernel&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 access\qnetworkaccessdebugpipebackend_p.h -o tmp\moc\debug_shared\moc_qnetworkaccessdebugpipebackend_p.cpp"
+						Description="MOC access\qnetworkaccessdebugpipebackend_p.h"
+						Outputs="tmp\moc\debug_shared\moc_qnetworkaccessdebugpipebackend_p.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;access\qnetworkaccessdebugpipebackend_p.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_NETWORK_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_NO_DEBUG -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtNetwork&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\3rdparty\zlib&quot; -I&quot;kernel&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 access\qnetworkaccessdebugpipebackend_p.h -o tmp\moc\release_shared\moc_qnetworkaccessdebugpipebackend_p.cpp"
+						Description="MOC access\qnetworkaccessdebugpipebackend_p.h"
+						Outputs="tmp\moc\release_shared\moc_qnetworkaccessdebugpipebackend_p.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="access\qnetworkaccessfilebackend_p.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;access\qnetworkaccessfilebackend_p.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_NETWORK_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtNetwork&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\3rdparty\zlib&quot; -I&quot;kernel&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 access\qnetworkaccessfilebackend_p.h -o tmp\moc\debug_shared\moc_qnetworkaccessfilebackend_p.cpp"
+						Description="MOC access\qnetworkaccessfilebackend_p.h"
+						Outputs="tmp\moc\debug_shared\moc_qnetworkaccessfilebackend_p.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;access\qnetworkaccessfilebackend_p.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_NETWORK_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_NO_DEBUG -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtNetwork&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\3rdparty\zlib&quot; -I&quot;kernel&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 access\qnetworkaccessfilebackend_p.h -o tmp\moc\release_shared\moc_qnetworkaccessfilebackend_p.cpp"
+						Description="MOC access\qnetworkaccessfilebackend_p.h"
+						Outputs="tmp\moc\release_shared\moc_qnetworkaccessfilebackend_p.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="access\qnetworkaccessftpbackend_p.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;access\qnetworkaccessftpbackend_p.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_NETWORK_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtNetwork&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\3rdparty\zlib&quot; -I&quot;kernel&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 access\qnetworkaccessftpbackend_p.h -o tmp\moc\debug_shared\moc_qnetworkaccessftpbackend_p.cpp"
+						Description="MOC access\qnetworkaccessftpbackend_p.h"
+						Outputs="tmp\moc\debug_shared\moc_qnetworkaccessftpbackend_p.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;access\qnetworkaccessftpbackend_p.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_NETWORK_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_NO_DEBUG -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtNetwork&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\3rdparty\zlib&quot; -I&quot;kernel&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 access\qnetworkaccessftpbackend_p.h -o tmp\moc\release_shared\moc_qnetworkaccessftpbackend_p.cpp"
+						Description="MOC access\qnetworkaccessftpbackend_p.h"
+						Outputs="tmp\moc\release_shared\moc_qnetworkaccessftpbackend_p.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="access\qnetworkaccesshttpbackend_p.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;access\qnetworkaccesshttpbackend_p.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_NETWORK_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtNetwork&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\3rdparty\zlib&quot; -I&quot;kernel&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 access\qnetworkaccesshttpbackend_p.h -o tmp\moc\debug_shared\moc_qnetworkaccesshttpbackend_p.cpp"
+						Description="MOC access\qnetworkaccesshttpbackend_p.h"
+						Outputs="tmp\moc\debug_shared\moc_qnetworkaccesshttpbackend_p.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;access\qnetworkaccesshttpbackend_p.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_NETWORK_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_NO_DEBUG -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtNetwork&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\3rdparty\zlib&quot; -I&quot;kernel&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 access\qnetworkaccesshttpbackend_p.h -o tmp\moc\release_shared\moc_qnetworkaccesshttpbackend_p.cpp"
+						Description="MOC access\qnetworkaccesshttpbackend_p.h"
+						Outputs="tmp\moc\release_shared\moc_qnetworkaccesshttpbackend_p.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="access\qnetworkaccessmanager.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;access\qnetworkaccessmanager.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_NETWORK_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtNetwork&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\3rdparty\zlib&quot; -I&quot;kernel&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 access\qnetworkaccessmanager.h -o tmp\moc\debug_shared\moc_qnetworkaccessmanager.cpp"
+						Description="MOC access\qnetworkaccessmanager.h"
+						Outputs="tmp\moc\debug_shared\moc_qnetworkaccessmanager.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;access\qnetworkaccessmanager.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_NETWORK_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_NO_DEBUG -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtNetwork&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\3rdparty\zlib&quot; -I&quot;kernel&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 access\qnetworkaccessmanager.h -o tmp\moc\release_shared\moc_qnetworkaccessmanager.cpp"
+						Description="MOC access\qnetworkaccessmanager.h"
+						Outputs="tmp\moc\release_shared\moc_qnetworkaccessmanager.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="access\qnetworkaccessmanager_p.h" />
+			<File
+				RelativePath="bearer\qnetworkconfigmanager.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;bearer\qnetworkconfigmanager.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_NETWORK_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtNetwork&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\3rdparty\zlib&quot; -I&quot;kernel&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 bearer\qnetworkconfigmanager.h -o tmp\moc\debug_shared\moc_qnetworkconfigmanager.cpp"
+						Description="MOC bearer\qnetworkconfigmanager.h"
+						Outputs="tmp\moc\debug_shared\moc_qnetworkconfigmanager.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;bearer\qnetworkconfigmanager.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_NETWORK_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_NO_DEBUG -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtNetwork&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\3rdparty\zlib&quot; -I&quot;kernel&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 bearer\qnetworkconfigmanager.h -o tmp\moc\release_shared\moc_qnetworkconfigmanager.cpp"
+						Description="MOC bearer\qnetworkconfigmanager.h"
+						Outputs="tmp\moc\release_shared\moc_qnetworkconfigmanager.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="bearer\qnetworkconfigmanager_p.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;bearer\qnetworkconfigmanager_p.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_NETWORK_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtNetwork&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\3rdparty\zlib&quot; -I&quot;kernel&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 bearer\qnetworkconfigmanager_p.h -o tmp\moc\debug_shared\moc_qnetworkconfigmanager_p.cpp"
+						Description="MOC bearer\qnetworkconfigmanager_p.h"
+						Outputs="tmp\moc\debug_shared\moc_qnetworkconfigmanager_p.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;bearer\qnetworkconfigmanager_p.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_NETWORK_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_NO_DEBUG -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtNetwork&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\3rdparty\zlib&quot; -I&quot;kernel&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 bearer\qnetworkconfigmanager_p.h -o tmp\moc\release_shared\moc_qnetworkconfigmanager_p.cpp"
+						Description="MOC bearer\qnetworkconfigmanager_p.h"
+						Outputs="tmp\moc\release_shared\moc_qnetworkconfigmanager_p.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="bearer\qnetworkconfiguration.h" />
+			<File
+				RelativePath="bearer\qnetworkconfiguration_p.h" />
+			<File
+				RelativePath="access\qnetworkcookie.h" />
+			<File
+				RelativePath="access\qnetworkcookie_p.h" />
+			<File
+				RelativePath="access\qnetworkcookiejar.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;access\qnetworkcookiejar.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_NETWORK_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtNetwork&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\3rdparty\zlib&quot; -I&quot;kernel&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 access\qnetworkcookiejar.h -o tmp\moc\debug_shared\moc_qnetworkcookiejar.cpp"
+						Description="MOC access\qnetworkcookiejar.h"
+						Outputs="tmp\moc\debug_shared\moc_qnetworkcookiejar.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;access\qnetworkcookiejar.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_NETWORK_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_NO_DEBUG -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtNetwork&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\3rdparty\zlib&quot; -I&quot;kernel&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 access\qnetworkcookiejar.h -o tmp\moc\release_shared\moc_qnetworkcookiejar.cpp"
+						Description="MOC access\qnetworkcookiejar.h"
+						Outputs="tmp\moc\release_shared\moc_qnetworkcookiejar.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="access\qnetworkcookiejar_p.h" />
+			<File
+				RelativePath="access\qnetworkdiskcache.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;access\qnetworkdiskcache.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_NETWORK_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtNetwork&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\3rdparty\zlib&quot; -I&quot;kernel&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 access\qnetworkdiskcache.h -o tmp\moc\debug_shared\moc_qnetworkdiskcache.cpp"
+						Description="MOC access\qnetworkdiskcache.h"
+						Outputs="tmp\moc\debug_shared\moc_qnetworkdiskcache.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;access\qnetworkdiskcache.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_NETWORK_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_NO_DEBUG -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtNetwork&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\3rdparty\zlib&quot; -I&quot;kernel&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 access\qnetworkdiskcache.h -o tmp\moc\release_shared\moc_qnetworkdiskcache.cpp"
+						Description="MOC access\qnetworkdiskcache.h"
+						Outputs="tmp\moc\release_shared\moc_qnetworkdiskcache.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="access\qnetworkdiskcache_p.h" />
+			<File
+				RelativePath="kernel\qnetworkinterface.h" />
+			<File
+				RelativePath="kernel\qnetworkinterface_p.h" />
+			<File
+				RelativePath="kernel\qnetworkproxy.h" />
+			<File
+				RelativePath="access\qnetworkreply.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;access\qnetworkreply.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_NETWORK_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtNetwork&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\3rdparty\zlib&quot; -I&quot;kernel&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 access\qnetworkreply.h -o tmp\moc\debug_shared\moc_qnetworkreply.cpp"
+						Description="MOC access\qnetworkreply.h"
+						Outputs="tmp\moc\debug_shared\moc_qnetworkreply.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;access\qnetworkreply.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_NETWORK_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_NO_DEBUG -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtNetwork&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\3rdparty\zlib&quot; -I&quot;kernel&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 access\qnetworkreply.h -o tmp\moc\release_shared\moc_qnetworkreply.cpp"
+						Description="MOC access\qnetworkreply.h"
+						Outputs="tmp\moc\release_shared\moc_qnetworkreply.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="access\qnetworkreply_p.h" />
+			<File
+				RelativePath="access\qnetworkreplydataimpl_p.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;access\qnetworkreplydataimpl_p.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_NETWORK_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtNetwork&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\3rdparty\zlib&quot; -I&quot;kernel&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 access\qnetworkreplydataimpl_p.h -o tmp\moc\debug_shared\moc_qnetworkreplydataimpl_p.cpp"
+						Description="MOC access\qnetworkreplydataimpl_p.h"
+						Outputs="tmp\moc\debug_shared\moc_qnetworkreplydataimpl_p.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;access\qnetworkreplydataimpl_p.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_NETWORK_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_NO_DEBUG -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtNetwork&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\3rdparty\zlib&quot; -I&quot;kernel&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 access\qnetworkreplydataimpl_p.h -o tmp\moc\release_shared\moc_qnetworkreplydataimpl_p.cpp"
+						Description="MOC access\qnetworkreplydataimpl_p.h"
+						Outputs="tmp\moc\release_shared\moc_qnetworkreplydataimpl_p.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="access\qnetworkreplyfileimpl_p.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;access\qnetworkreplyfileimpl_p.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_NETWORK_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtNetwork&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\3rdparty\zlib&quot; -I&quot;kernel&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 access\qnetworkreplyfileimpl_p.h -o tmp\moc\debug_shared\moc_qnetworkreplyfileimpl_p.cpp"
+						Description="MOC access\qnetworkreplyfileimpl_p.h"
+						Outputs="tmp\moc\debug_shared\moc_qnetworkreplyfileimpl_p.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;access\qnetworkreplyfileimpl_p.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_NETWORK_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_NO_DEBUG -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtNetwork&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\3rdparty\zlib&quot; -I&quot;kernel&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 access\qnetworkreplyfileimpl_p.h -o tmp\moc\release_shared\moc_qnetworkreplyfileimpl_p.cpp"
+						Description="MOC access\qnetworkreplyfileimpl_p.h"
+						Outputs="tmp\moc\release_shared\moc_qnetworkreplyfileimpl_p.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="access\qnetworkreplyimpl_p.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;access\qnetworkreplyimpl_p.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_NETWORK_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtNetwork&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\3rdparty\zlib&quot; -I&quot;kernel&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 access\qnetworkreplyimpl_p.h -o tmp\moc\debug_shared\moc_qnetworkreplyimpl_p.cpp"
+						Description="MOC access\qnetworkreplyimpl_p.h"
+						Outputs="tmp\moc\debug_shared\moc_qnetworkreplyimpl_p.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;access\qnetworkreplyimpl_p.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_NETWORK_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_NO_DEBUG -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtNetwork&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\3rdparty\zlib&quot; -I&quot;kernel&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 access\qnetworkreplyimpl_p.h -o tmp\moc\release_shared\moc_qnetworkreplyimpl_p.cpp"
+						Description="MOC access\qnetworkreplyimpl_p.h"
+						Outputs="tmp\moc\release_shared\moc_qnetworkreplyimpl_p.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="access\qnetworkrequest.h" />
+			<File
+				RelativePath="access\qnetworkrequest_p.h" />
+			<File
+				RelativePath="bearer\qnetworksession.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;bearer\qnetworksession.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_NETWORK_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtNetwork&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\3rdparty\zlib&quot; -I&quot;kernel&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 bearer\qnetworksession.h -o tmp\moc\debug_shared\moc_qnetworksession.cpp"
+						Description="MOC bearer\qnetworksession.h"
+						Outputs="tmp\moc\debug_shared\moc_qnetworksession.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;bearer\qnetworksession.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_NETWORK_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_NO_DEBUG -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtNetwork&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\3rdparty\zlib&quot; -I&quot;kernel&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 bearer\qnetworksession.h -o tmp\moc\release_shared\moc_qnetworksession.cpp"
+						Description="MOC bearer\qnetworksession.h"
+						Outputs="tmp\moc\release_shared\moc_qnetworksession.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="bearer\qnetworksession_p.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;bearer\qnetworksession_p.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_NETWORK_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtNetwork&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\3rdparty\zlib&quot; -I&quot;kernel&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 bearer\qnetworksession_p.h -o tmp\moc\debug_shared\moc_qnetworksession_p.cpp"
+						Description="MOC bearer\qnetworksession_p.h"
+						Outputs="tmp\moc\debug_shared\moc_qnetworksession_p.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;bearer\qnetworksession_p.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_NETWORK_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_NO_DEBUG -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtNetwork&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\3rdparty\zlib&quot; -I&quot;kernel&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 bearer\qnetworksession_p.h -o tmp\moc\release_shared\moc_qnetworksession_p.cpp"
+						Description="MOC bearer\qnetworksession_p.h"
+						Outputs="tmp\moc\release_shared\moc_qnetworksession_p.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="bearer\qsharednetworksession_p.h" />
+			<File
+				RelativePath="socket\qsocks5socketengine_p.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;socket\qsocks5socketengine_p.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_NETWORK_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtNetwork&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\3rdparty\zlib&quot; -I&quot;kernel&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 socket\qsocks5socketengine_p.h -o tmp\moc\debug_shared\moc_qsocks5socketengine_p.cpp"
+						Description="MOC socket\qsocks5socketengine_p.h"
+						Outputs="tmp\moc\debug_shared\moc_qsocks5socketengine_p.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;socket\qsocks5socketengine_p.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_NETWORK_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_NO_DEBUG -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtNetwork&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\3rdparty\zlib&quot; -I&quot;kernel&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 socket\qsocks5socketengine_p.h -o tmp\moc\release_shared\moc_qsocks5socketengine_p.cpp"
+						Description="MOC socket\qsocks5socketengine_p.h"
+						Outputs="tmp\moc\release_shared\moc_qsocks5socketengine_p.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="..\corelib\global\qt_pch.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						CommandLine="echo /*-------------------------------------------------------------------- >..\corelib\global\qt_pch.h.cpp&#x000D;&#x000A;if errorlevel 1 goto VCReportError&#x000D;&#x000A;echo * Precompiled header source file used by Visual Studio.NET to generate>>..\corelib\global\qt_pch.h.cpp&#x000D;&#x000A;if errorlevel 1 goto VCReportError&#x000D;&#x000A;echo * the .pch file.>>..\corelib\global\qt_pch.h.cpp&#x000D;&#x000A;if errorlevel 1 goto VCReportError&#x000D;&#x000A;echo *>>..\corelib\global\qt_pch.h.cpp&#x000D;&#x000A;if errorlevel 1 goto VCReportError&#x000D;&#x000A;echo * Due to issues with the dependencies checker within the IDE, it>>..\corelib\global\qt_pch.h.cpp&#x000D;&#x000A;if errorlevel 1 goto VCReportError&#x000D;&#x000A;echo * sometimes fails to recompile the PCH file, if we force the IDE to>>..\corelib\global\qt_pch.h.cpp&#x000D;&#x000A;if errorlevel 1 goto VCReportError&#x000D;&#x000A;echo * create the PCH file directly from the header file.>>..\corelib\global\qt_pch.h.cpp&#x000D;&#x000A;if errorlevel 1 goto VCReportError&#x000D;&#x000A;echo *>>..\corelib\global\qt_pch.h.cpp&#x000D;&#x000A;if errorlevel 1 goto VCReportError&#x000D;&#x000A;echo * This file is auto-generated by qmake since no PRECOMPILED_SOURCE was>>..\corelib\global\qt_pch.h.cpp&#x000D;&#x000A;if errorlevel 1 goto VCReportError&#x000D;&#x000A;echo * specified, and is used as the common stdafx.cpp. The file is only>>..\corelib\global\qt_pch.h.cpp&#x000D;&#x000A;if errorlevel 1 goto VCReportError&#x000D;&#x000A;echo * generated when creating .vcproj project files, and is not used for>>..\corelib\global\qt_pch.h.cpp&#x000D;&#x000A;if errorlevel 1 goto VCReportError&#x000D;&#x000A;echo * command line compilations by nmake.>>..\corelib\global\qt_pch.h.cpp&#x000D;&#x000A;if errorlevel 1 goto VCReportError&#x000D;&#x000A;echo *>>..\corelib\global\qt_pch.h.cpp&#x000D;&#x000A;if errorlevel 1 goto VCReportError&#x000D;&#x000A;echo * WARNING: All changes made in this file will be lost.>>..\corelib\global\qt_pch.h.cpp&#x000D;&#x000A;if errorlevel 1 goto VCReportError&#x000D;&#x000A;echo --------------------------------------------------------------------*/>>..\corelib\global\qt_pch.h.cpp&#x000D;&#x000A;if errorlevel 1 goto VCReportError&#x000D;&#x000A;echo #include &quot;qt_pch.h&quot;>>..\corelib\global\qt_pch.h.cpp"
+						Description="Generating precompiled header source file &apos;..\corelib\global\qt_pch.h.cpp&apos; ..."
+						Outputs="..\corelib\global\qt_pch.h.cpp" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						CommandLine="echo /*-------------------------------------------------------------------- >..\corelib\global\qt_pch.h.cpp&#x000D;&#x000A;if errorlevel 1 goto VCReportError&#x000D;&#x000A;echo * Precompiled header source file used by Visual Studio.NET to generate>>..\corelib\global\qt_pch.h.cpp&#x000D;&#x000A;if errorlevel 1 goto VCReportError&#x000D;&#x000A;echo * the .pch file.>>..\corelib\global\qt_pch.h.cpp&#x000D;&#x000A;if errorlevel 1 goto VCReportError&#x000D;&#x000A;echo *>>..\corelib\global\qt_pch.h.cpp&#x000D;&#x000A;if errorlevel 1 goto VCReportError&#x000D;&#x000A;echo * Due to issues with the dependencies checker within the IDE, it>>..\corelib\global\qt_pch.h.cpp&#x000D;&#x000A;if errorlevel 1 goto VCReportError&#x000D;&#x000A;echo * sometimes fails to recompile the PCH file, if we force the IDE to>>..\corelib\global\qt_pch.h.cpp&#x000D;&#x000A;if errorlevel 1 goto VCReportError&#x000D;&#x000A;echo * create the PCH file directly from the header file.>>..\corelib\global\qt_pch.h.cpp&#x000D;&#x000A;if errorlevel 1 goto VCReportError&#x000D;&#x000A;echo *>>..\corelib\global\qt_pch.h.cpp&#x000D;&#x000A;if errorlevel 1 goto VCReportError&#x000D;&#x000A;echo * This file is auto-generated by qmake since no PRECOMPILED_SOURCE was>>..\corelib\global\qt_pch.h.cpp&#x000D;&#x000A;if errorlevel 1 goto VCReportError&#x000D;&#x000A;echo * specified, and is used as the common stdafx.cpp. The file is only>>..\corelib\global\qt_pch.h.cpp&#x000D;&#x000A;if errorlevel 1 goto VCReportError&#x000D;&#x000A;echo * generated when creating .vcproj project files, and is not used for>>..\corelib\global\qt_pch.h.cpp&#x000D;&#x000A;if errorlevel 1 goto VCReportError&#x000D;&#x000A;echo * command line compilations by nmake.>>..\corelib\global\qt_pch.h.cpp&#x000D;&#x000A;if errorlevel 1 goto VCReportError&#x000D;&#x000A;echo *>>..\corelib\global\qt_pch.h.cpp&#x000D;&#x000A;if errorlevel 1 goto VCReportError&#x000D;&#x000A;echo * WARNING: All changes made in this file will be lost.>>..\corelib\global\qt_pch.h.cpp&#x000D;&#x000A;if errorlevel 1 goto VCReportError&#x000D;&#x000A;echo --------------------------------------------------------------------*/>>..\corelib\global\qt_pch.h.cpp&#x000D;&#x000A;if errorlevel 1 goto VCReportError&#x000D;&#x000A;echo #include &quot;qt_pch.h&quot;>>..\corelib\global\qt_pch.h.cpp"
+						Description="Generating precompiled header source file &apos;..\corelib\global\qt_pch.h.cpp&apos; ..."
+						Outputs="..\corelib\global\qt_pch.h.cpp" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="socket\qtcpserver.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;socket\qtcpserver.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_NETWORK_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtNetwork&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\3rdparty\zlib&quot; -I&quot;kernel&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 socket\qtcpserver.h -o tmp\moc\debug_shared\moc_qtcpserver.cpp"
+						Description="MOC socket\qtcpserver.h"
+						Outputs="tmp\moc\debug_shared\moc_qtcpserver.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;socket\qtcpserver.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_NETWORK_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_NO_DEBUG -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtNetwork&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\3rdparty\zlib&quot; -I&quot;kernel&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 socket\qtcpserver.h -o tmp\moc\release_shared\moc_qtcpserver.cpp"
+						Description="MOC socket\qtcpserver.h"
+						Outputs="tmp\moc\release_shared\moc_qtcpserver.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="socket\qtcpsocket.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;socket\qtcpsocket.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_NETWORK_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtNetwork&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\3rdparty\zlib&quot; -I&quot;kernel&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 socket\qtcpsocket.h -o tmp\moc\debug_shared\moc_qtcpsocket.cpp"
+						Description="MOC socket\qtcpsocket.h"
+						Outputs="tmp\moc\debug_shared\moc_qtcpsocket.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;socket\qtcpsocket.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_NETWORK_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_NO_DEBUG -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtNetwork&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\3rdparty\zlib&quot; -I&quot;kernel&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 socket\qtcpsocket.h -o tmp\moc\release_shared\moc_qtcpsocket.cpp"
+						Description="MOC socket\qtcpsocket.h"
+						Outputs="tmp\moc\release_shared\moc_qtcpsocket.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="socket\qudpsocket.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;socket\qudpsocket.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_NETWORK_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtNetwork&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\3rdparty\zlib&quot; -I&quot;kernel&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 socket\qudpsocket.h -o tmp\moc\debug_shared\moc_qudpsocket.cpp"
+						Description="MOC socket\qudpsocket.h"
+						Outputs="tmp\moc\debug_shared\moc_qudpsocket.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;socket\qudpsocket.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_NETWORK_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_NO_DEBUG -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtNetwork&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\3rdparty\zlib&quot; -I&quot;kernel&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 socket\qudpsocket.h -o tmp\moc\release_shared\moc_qudpsocket.cpp"
+						Description="MOC socket\qudpsocket.h"
+						Outputs="tmp\moc\release_shared\moc_qudpsocket.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="kernel\qurlinfo.h" />
+		</Filter>
+		<Filter
+			Name="Generated Files"
+			Filter="cpp;c;cxx;moc;h;def;odl;idl;res;"
+			UniqueIdentifier="{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}">
+			<File
+				RelativePath="tmp\moc\debug_shared\moc_qabstractnetworkcache.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\moc_qabstractnetworkcache.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\debug_shared\moc_qabstractsocketengine_p.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\moc_qabstractsocketengine_p.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\debug_shared\moc_qbearerplugin_p.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\moc_qbearerplugin_p.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\debug_shared\moc_qhostinfo_p.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\moc_qhostinfo_p.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\debug_shared\moc_qhttpmultipart.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\moc_qhttpmultipart.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\debug_shared\moc_qhttpnetworkreply_p.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\moc_qhttpnetworkreply_p.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\debug_shared\moc_qhttpsocketengine_p.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\moc_qhttpsocketengine_p.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\debug_shared\moc_qhttpthreaddelegate_p.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\moc_qhttpthreaddelegate_p.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\debug_shared\moc_qnativesocketengine_p.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\moc_qnativesocketengine_p.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\debug_shared\moc_qnetworkaccessbackend_p.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\moc_qnetworkaccessbackend_p.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\debug_shared\moc_qnetworkaccesscache_p.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\moc_qnetworkaccesscache_p.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\debug_shared\moc_qnetworkaccessdebugpipebackend_p.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\moc_qnetworkaccessdebugpipebackend_p.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\debug_shared\moc_qnetworkaccessfilebackend_p.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\moc_qnetworkaccessfilebackend_p.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\debug_shared\moc_qnetworkaccessftpbackend_p.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\moc_qnetworkaccessftpbackend_p.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\debug_shared\moc_qnetworkaccesshttpbackend_p.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\moc_qnetworkaccesshttpbackend_p.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\debug_shared\moc_qnetworkconfigmanager_p.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\moc_qnetworkconfigmanager_p.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\debug_shared\moc_qnetworkcookiejar.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\moc_qnetworkcookiejar.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\debug_shared\moc_qnetworkdiskcache.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\moc_qnetworkdiskcache.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\debug_shared\moc_qnetworkreply.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\moc_qnetworkreply.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\debug_shared\moc_qnetworksession_p.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\moc_qnetworksession_p.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\debug_shared\moc_qsocks5socketengine_p.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\moc_qsocks5socketengine_p.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\debug_shared\moc_qtcpsocket.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\moc_qtcpsocket.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\debug_shared\moc_qudpsocket.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\moc_qudpsocket.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\debug_shared\qftp.moc">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;access\qftp.cpp"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_NETWORK_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtNetwork&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\3rdparty\zlib&quot; -I&quot;kernel&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 access\qftp.cpp -o tmp\moc\debug_shared\qftp.moc"
+						Description="MOC access\qftp.cpp"
+						Outputs="tmp\moc\debug_shared\qftp.moc"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\qftp.moc">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;access\qftp.cpp"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_NETWORK_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_NO_DEBUG -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtNetwork&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\3rdparty\zlib&quot; -I&quot;kernel&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 access\qftp.cpp -o tmp\moc\release_shared\qftp.moc"
+						Description="MOC access\qftp.cpp"
+						Outputs="tmp\moc\release_shared\qftp.moc"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="..\corelib\global\qt_pch.h.cpp">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						ForcedIncludeFiles="$(NOINHERIT)"
+						PrecompiledHeaderThrough="qt_pch.h"
+						UsePrecompiledHeader="1" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						ForcedIncludeFiles="$(NOINHERIT)"
+						PrecompiledHeaderThrough="qt_pch.h"
+						UsePrecompiledHeader="1" />
+				</FileConfiguration>
+			</File>
+		</Filter>
+		<File
+			RelativePath="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\src\network\QtNetwork_resource.rc">
+			<FileConfiguration
+				Name="Debug|Win32"
+				ExcludedFromBuild="true" />
+		</File>
+		<File
+			RelativePath="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\src\network\QtNetworkd_resource.rc">
+			<FileConfiguration
+				Name="Release|Win32"
+				ExcludedFromBuild="true" />
+		</File>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>

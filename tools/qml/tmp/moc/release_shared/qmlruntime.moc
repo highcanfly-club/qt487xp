@@ -1,0 +1,366 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'qmlruntime.cpp'
+**
+** Created by: The Qt Meta Object Compiler version 63 (Qt 4.8.7)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'qmlruntime.cpp' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 63
+#error "This file was generated using the moc from 4.8.7. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+static const uint qt_meta_data_DragAndDropView[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_DragAndDropView[] = {
+    "DragAndDropView\0"
+};
+
+void DragAndDropView::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+const QMetaObjectExtraData DragAndDropView::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject DragAndDropView::staticMetaObject = {
+    { &QDeclarativeView::staticMetaObject, qt_meta_stringdata_DragAndDropView,
+      qt_meta_data_DragAndDropView, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &DragAndDropView::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *DragAndDropView::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *DragAndDropView::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_DragAndDropView))
+        return static_cast<void*>(const_cast< DragAndDropView*>(this));
+    return QDeclarativeView::qt_metacast(_clname);
+}
+
+int DragAndDropView::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QDeclarativeView::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    return _id;
+}
+static const uint qt_meta_data_Runtime[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       2,   14, // methods
+       2,   24, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       2,       // signalCount
+
+ // signals: signature, parameters, type, tag, flags
+       9,    8,    8,    8, 0x05,
+      33,    8,    8,    8, 0x05,
+
+ // properties: name, type, flags
+      59,   54, 0x01495001,
+     105,   74, 0x00495009,
+
+ // properties: notify_signal_id
+       0,
+       1,
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_Runtime[] = {
+    "Runtime\0\0isActiveWindowChanged()\0"
+    "orientationChanged()\0bool\0isActiveWindow\0"
+    "DeviceOrientation::Orientation\0"
+    "orientation\0"
+};
+
+void Runtime::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        Q_ASSERT(staticMetaObject.cast(_o));
+        Runtime *_t = static_cast<Runtime *>(_o);
+        switch (_id) {
+        case 0: _t->isActiveWindowChanged(); break;
+        case 1: _t->orientationChanged(); break;
+        default: ;
+        }
+    }
+    Q_UNUSED(_a);
+}
+
+#ifdef Q_NO_DATA_RELOCATION
+static const QMetaObjectAccessor qt_meta_extradata_Runtime[] = {
+        DeviceOrientation::getStaticMetaObject,
+#else
+static const QMetaObject *qt_meta_extradata_Runtime[] = {
+        &DeviceOrientation::staticMetaObject,
+#endif //Q_NO_DATA_RELOCATION
+    0
+};
+
+const QMetaObjectExtraData Runtime::staticMetaObjectExtraData = {
+    qt_meta_extradata_Runtime,  qt_static_metacall 
+};
+
+const QMetaObject Runtime::staticMetaObject = {
+    { &QObject::staticMetaObject, qt_meta_stringdata_Runtime,
+      qt_meta_data_Runtime, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &Runtime::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *Runtime::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *Runtime::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_Runtime))
+        return static_cast<void*>(const_cast< Runtime*>(this));
+    return QObject::qt_metacast(_clname);
+}
+
+int Runtime::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 2)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 2;
+    }
+#ifndef QT_NO_PROPERTIES
+      else if (_c == QMetaObject::ReadProperty) {
+        void *_v = _a[0];
+        switch (_id) {
+        case 0: *reinterpret_cast< bool*>(_v) = isActiveWindow(); break;
+        case 1: *reinterpret_cast< DeviceOrientation::Orientation*>(_v) = orientation(); break;
+        }
+        _id -= 2;
+    } else if (_c == QMetaObject::WriteProperty) {
+        _id -= 2;
+    } else if (_c == QMetaObject::ResetProperty) {
+        _id -= 2;
+    } else if (_c == QMetaObject::QueryPropertyDesignable) {
+        _id -= 2;
+    } else if (_c == QMetaObject::QueryPropertyScriptable) {
+        _id -= 2;
+    } else if (_c == QMetaObject::QueryPropertyStored) {
+        _id -= 2;
+    } else if (_c == QMetaObject::QueryPropertyEditable) {
+        _id -= 2;
+    } else if (_c == QMetaObject::QueryPropertyUser) {
+        _id -= 2;
+    }
+#endif // QT_NO_PROPERTIES
+    return _id;
+}
+
+// SIGNAL 0
+void Runtime::isActiveWindowChanged()
+{
+    QMetaObject::activate(this, &staticMetaObject, 0, 0);
+}
+
+// SIGNAL 1
+void Runtime::orientationChanged()
+{
+    QMetaObject::activate(this, &staticMetaObject, 1, 0);
+}
+static const uint qt_meta_data_RecordingDialog[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       2,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: signature, parameters, type, tag, flags
+      19,   17,   16,   16, 0x08,
+      38,   36,   16,   16, 0x08,
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_RecordingDialog[] = {
+    "RecordingDialog\0\0i\0pickProfile(int)\0"
+    "s\0storeCustomArgs(QString)\0"
+};
+
+void RecordingDialog::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        Q_ASSERT(staticMetaObject.cast(_o));
+        RecordingDialog *_t = static_cast<RecordingDialog *>(_o);
+        switch (_id) {
+        case 0: _t->pickProfile((*reinterpret_cast< int(*)>(_a[1]))); break;
+        case 1: _t->storeCustomArgs((*reinterpret_cast< QString(*)>(_a[1]))); break;
+        default: ;
+        }
+    }
+}
+
+const QMetaObjectExtraData RecordingDialog::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject RecordingDialog::staticMetaObject = {
+    { &QDialog::staticMetaObject, qt_meta_stringdata_RecordingDialog,
+      qt_meta_data_RecordingDialog, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &RecordingDialog::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *RecordingDialog::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *RecordingDialog::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_RecordingDialog))
+        return static_cast<void*>(const_cast< RecordingDialog*>(this));
+    if (!strcmp(_clname, "Ui::RecordingOptions"))
+        return static_cast< Ui::RecordingOptions*>(const_cast< RecordingDialog*>(this));
+    return QDialog::qt_metacast(_clname);
+}
+
+int RecordingDialog::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QDialog::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 2)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 2;
+    }
+    return _id;
+}
+static const uint qt_meta_data_NetworkAccessManagerFactory[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       1,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: signature, parameters, type, tag, flags
+      33,   29,   28,   28, 0x08,
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_NetworkAccessManagerFactory[] = {
+    "NetworkAccessManagerFactory\0\0obj\0"
+    "managerDestroyed(QObject*)\0"
+};
+
+void NetworkAccessManagerFactory::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        Q_ASSERT(staticMetaObject.cast(_o));
+        NetworkAccessManagerFactory *_t = static_cast<NetworkAccessManagerFactory *>(_o);
+        switch (_id) {
+        case 0: _t->managerDestroyed((*reinterpret_cast< QObject*(*)>(_a[1]))); break;
+        default: ;
+        }
+    }
+}
+
+const QMetaObjectExtraData NetworkAccessManagerFactory::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject NetworkAccessManagerFactory::staticMetaObject = {
+    { &QObject::staticMetaObject, qt_meta_stringdata_NetworkAccessManagerFactory,
+      qt_meta_data_NetworkAccessManagerFactory, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &NetworkAccessManagerFactory::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *NetworkAccessManagerFactory::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *NetworkAccessManagerFactory::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_NetworkAccessManagerFactory))
+        return static_cast<void*>(const_cast< NetworkAccessManagerFactory*>(this));
+    if (!strcmp(_clname, "QDeclarativeNetworkAccessManagerFactory"))
+        return static_cast< QDeclarativeNetworkAccessManagerFactory*>(const_cast< NetworkAccessManagerFactory*>(this));
+    return QObject::qt_metacast(_clname);
+}
+
+int NetworkAccessManagerFactory::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 1)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 1;
+    }
+    return _id;
+}
+QT_END_MOC_NAMESPACE

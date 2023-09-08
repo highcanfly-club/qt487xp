@@ -1,0 +1,27 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "qmldbg_tcp", "C:/Users/dev/source/repos/eltorio/novasulf-II/qt-everywhere-opensource-src-4.8.7/src/plugins/qmltooling/qmldbg_tcp\qmldbg_tcp.vcxproj", "{04699EFF-A2D8-37AC-B150-9A4D10C56F40}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "qmldbg_inspector", "C:/Users/dev/source/repos/eltorio/novasulf-II/qt-everywhere-opensource-src-4.8.7/src/plugins/qmltooling/qmldbg_inspector\qmldbg_inspector.vcxproj", "{DF6EB789-8367-384F-970A-166A24405D3F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{04699EFF-A2D8-37AC-B150-9A4D10C56F40}.Debug|Win32.ActiveCfg = Debug|Win32
+		{04699EFF-A2D8-37AC-B150-9A4D10C56F40}.Debug|Win32.Build.0 = Debug|Win32
+		{04699EFF-A2D8-37AC-B150-9A4D10C56F40}.Release|Win32.ActiveCfg = Release|Win32
+		{04699EFF-A2D8-37AC-B150-9A4D10C56F40}.Release|Win32.Build.0 = Release|Win32
+		{DF6EB789-8367-384F-970A-166A24405D3F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DF6EB789-8367-384F-970A-166A24405D3F}.Debug|Win32.Build.0 = Debug|Win32
+		{DF6EB789-8367-384F-970A-166A24405D3F}.Release|Win32.ActiveCfg = Release|Win32
+		{DF6EB789-8367-384F-970A-166A24405D3F}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

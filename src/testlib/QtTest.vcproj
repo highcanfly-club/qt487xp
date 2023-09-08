@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="7.00"
+	Name="QtTest"
+	ProjectGUID="{0FEBDC55-0773-3E6B-9F41-CEA45C28B2D7}"
+	Keyword="Qt4VSv1.0">
+	<Platforms>
+		<Platform
+			Name="Win32" />
+	</Platforms>
+	<Configurations>
+		<Configuration
+			Name="Debug|Win32"
+			OutputDirectory="..\..\lib\"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			ConfigurationType="2"
+			IntermediateDirectory="tmp\obj\debug_shared\"
+			UseOfMfc="0">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="&quot;..\..\include\QtCore&quot;,&quot;..\..\include&quot;,&quot;.&quot;,&quot;..\..\include\QtTest&quot;,&quot;tmp\rcc\debug_shared&quot;,&quot;tmp&quot;,&quot;..\..\include\ActiveQt&quot;,&quot;tmp\moc\debug_shared&quot;,..\..\mkspecs\win32-msvc2003"
+				AdditionalOptions="-Zm300 -w34100 -w34189"
+				AssemblerListingLocation="tmp\obj\debug_shared\"
+				DebugInformationFormat="3"
+				ExceptionHandling="true"
+				GeneratePreprocessedFile="0"
+				ObjectFile="tmp\obj\debug_shared\"
+				Optimization ="4"
+				PreprocessorDefinitions="_WINDOWS,UNICODE,WIN32,QT_NO_CAST_TO_ASCII,QT_NO_CAST_FROM_ASCII,QTESTLIB_MAKEDLL,QT_NO_DATASTREAM,QT_MAKEDLL,QT_ASCII_CAST_WARNINGS,QT3_SUPPORT,QT_MOC_COMPAT,QT_USE_QSTRINGBUILDER,_USE_MATH_DEFINES,QT_DLL,QT_CORE_LIB,QT_HAVE_MMX,QT_HAVE_3DNOW,QT_HAVE_SSE,QT_HAVE_MMXEXT,QT_HAVE_SSE2,QT_SHARED,QT_THREAD_SUPPORT"
+				ProgramDataBaseFileName=".\"
+				RuntimeLibrary="3"
+				RuntimeTypeInfo="true"
+				SuppressStartupBanner="true"
+				WarningLevel="3" />
+			<Tool
+				Name="VCCustomBuildTool" />
+			<Tool
+				Name="VCLinkerTool"
+				AdditionalDependencies="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib\QtCored4.lib"
+				AdditionalLibraryDirectories="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib,c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib"
+				GenerateDebugInformation="true"
+				IgnoreImportLibrary="true"
+				LinkTimeCodeGeneration="0"
+				OutputFile="$(OutDir)\QtTestd4.dll"
+				ProgramDatabaseFile=""
+				SubSystem="0"
+				SuppressStartupBanner="true"
+				Version="4.87" />
+			<Tool
+				Name="VCMIDLTool"
+				DefaultCharType="0"
+				EnableErrorChecks="1"
+				WarningLevel="0" />
+			<Tool
+				Name="VCPostBuildEventTool"
+				CommandLine="copy  &quot;$(TargetPath)&quot; &quot;..\..\bin&quot;"
+				Description="Copy QtTestd4.dll to ..\..\bin"
+				ExcludedFromBuild="false" />
+			<Tool
+				Name="VCPreBuildEventTool" />
+			<Tool
+				Name="VCPreLinkEventTool" />
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_WINDOWS,UNICODE,WIN32,QT_NO_CAST_TO_ASCII,QT_NO_CAST_FROM_ASCII,QTESTLIB_MAKEDLL,QT_NO_DATASTREAM,QT_MAKEDLL,QT_ASCII_CAST_WARNINGS,QT3_SUPPORT,QT_MOC_COMPAT,QT_USE_QSTRINGBUILDER,_USE_MATH_DEFINES,QT_DLL,QT_CORE_LIB,QT_HAVE_MMX,QT_HAVE_3DNOW,QT_HAVE_SSE,QT_HAVE_MMXEXT,QT_HAVE_SSE2,QT_SHARED,QT_THREAD_SUPPORT,_DEBUG" />
+		</Configuration>
+		<Configuration
+			Name="Release|Win32"
+			OutputDirectory="..\..\lib\"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			ConfigurationType="2"
+			IntermediateDirectory="tmp\obj\release_shared\"
+			UseOfMfc="0">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="&quot;..\..\include\QtCore&quot;,&quot;..\..\include&quot;,&quot;.&quot;,&quot;..\..\include\QtTest&quot;,&quot;tmp\rcc\debug_shared&quot;,&quot;tmp&quot;,&quot;..\..\include\ActiveQt&quot;,&quot;tmp\moc\release_shared&quot;,..\..\mkspecs\win32-msvc2003"
+				AdditionalOptions="-Zm300 -w34100 -w34189"
+				AssemblerListingLocation="tmp\obj\release_shared\"
+				DebugInformationFormat="0"
+				ExceptionHandling="true"
+				GeneratePreprocessedFile="0"
+				ObjectFile="tmp\obj\release_shared\"
+				Optimization ="2"
+				PreprocessorDefinitions="_WINDOWS,UNICODE,WIN32,QT_NO_CAST_TO_ASCII,QT_NO_CAST_FROM_ASCII,QTESTLIB_MAKEDLL,QT_NO_DATASTREAM,QT_MAKEDLL,QT_ASCII_CAST_WARNINGS,QT3_SUPPORT,QT_MOC_COMPAT,QT_USE_QSTRINGBUILDER,_USE_MATH_DEFINES,QT_DLL,QT_NO_DEBUG,QT_CORE_LIB,QT_HAVE_MMX,QT_HAVE_3DNOW,QT_HAVE_SSE,QT_HAVE_MMXEXT,QT_HAVE_SSE2,QT_SHARED,QT_THREAD_SUPPORT,NDEBUG"
+				ProgramDataBaseFileName=".\"
+				RuntimeLibrary="2"
+				RuntimeTypeInfo="true"
+				SuppressStartupBanner="true"
+				WarningLevel="3" />
+			<Tool
+				Name="VCCustomBuildTool" />
+			<Tool
+				Name="VCLinkerTool"
+				AdditionalDependencies="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib\QtCore4.lib"
+				AdditionalLibraryDirectories="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib,c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib"
+				GenerateDebugInformation="false"
+				IgnoreImportLibrary="true"
+				LinkIncremental="1"
+				LinkTimeCodeGeneration="0"
+				OutputFile="$(OutDir)\QtTest4.dll"
+				ProgramDatabaseFile=""
+				SubSystem="0"
+				SuppressStartupBanner="true"
+				Version="4.87" />
+			<Tool
+				Name="VCMIDLTool"
+				DefaultCharType="0"
+				EnableErrorChecks="1"
+				WarningLevel="0" />
+			<Tool
+				Name="VCPostBuildEventTool"
+				CommandLine="copy  &quot;$(TargetPath)&quot; &quot;..\..\bin&quot;"
+				Description="Copy QtTest4.dll to ..\..\bin"
+				ExcludedFromBuild="false" />
+			<Tool
+				Name="VCPreBuildEventTool" />
+			<Tool
+				Name="VCPreLinkEventTool" />
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_WINDOWS,UNICODE,WIN32,QT_NO_CAST_TO_ASCII,QT_NO_CAST_FROM_ASCII,QTESTLIB_MAKEDLL,QT_NO_DATASTREAM,QT_MAKEDLL,QT_ASCII_CAST_WARNINGS,QT3_SUPPORT,QT_MOC_COMPAT,QT_USE_QSTRINGBUILDER,_USE_MATH_DEFINES,QT_DLL,QT_NO_DEBUG,QT_CORE_LIB,QT_HAVE_MMX,QT_HAVE_3DNOW,QT_HAVE_SSE,QT_HAVE_MMXEXT,QT_HAVE_SSE2,QT_SHARED,QT_THREAD_SUPPORT" />
+		</Configuration>
+	</Configurations>
+	<Files>
+		<Filter
+			Name="Source Files"
+			Filter="cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx"
+			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}">
+			<File
+				RelativePath="qabstracttestlogger.cpp" />
+			<File
+				RelativePath="qasciikey.cpp" />
+			<File
+				RelativePath="qbenchmark.cpp" />
+			<File
+				RelativePath="qbenchmarkevent.cpp" />
+			<File
+				RelativePath="qbenchmarkmeasurement.cpp" />
+			<File
+				RelativePath="qbenchmarkmetric.cpp" />
+			<File
+				RelativePath="qbenchmarkvalgrind.cpp" />
+			<File
+				RelativePath="qplaintestlogger.cpp" />
+			<File
+				RelativePath="qsignaldumper.cpp" />
+			<File
+				RelativePath="qtestbasicstreamer.cpp" />
+			<File
+				RelativePath="qtestcase.cpp" />
+			<File
+				RelativePath="qtestdata.cpp" />
+			<File
+				RelativePath="qtestelement.cpp" />
+			<File
+				RelativePath="qtestelementattribute.cpp" />
+			<File
+				RelativePath="qtestfilelogger.cpp" />
+			<File
+				RelativePath="qtestlightxmlstreamer.cpp" />
+			<File
+				RelativePath="qtestlog.cpp" />
+			<File
+				RelativePath="qtestlogger.cpp" />
+			<File
+				RelativePath="qtestresult.cpp" />
+			<File
+				RelativePath="qtesttable.cpp" />
+			<File
+				RelativePath="qtestxmlstreamer.cpp" />
+			<File
+				RelativePath="qtestxunitstreamer.cpp" />
+			<File
+				RelativePath="qxmltestlogger.cpp" />
+		</Filter>
+		<Filter
+			Name="Header Files"
+			Filter="h;hpp;hxx;hm;inl;inc;xsd"
+			UniqueIdentifier="{93995380-89BD-4b04-88EB-625FBE52EBFB}">
+			<File
+				RelativePath="qbenchmark.h" />
+			<File
+				RelativePath="qsignalspy.h" />
+			<File
+				RelativePath="qtest.h" />
+			<File
+				RelativePath="qtest_global.h" />
+			<File
+				RelativePath="qtest_gui.h" />
+			<File
+				RelativePath="qtestaccessible.h" />
+			<File
+				RelativePath="qtestassert.h" />
+			<File
+				RelativePath="qtestbasicstreamer.h" />
+			<File
+				RelativePath="qtestcase.h" />
+			<File
+				RelativePath="qtestcoreelement.h" />
+			<File
+				RelativePath="qtestcorelist.h" />
+			<File
+				RelativePath="qtestdata.h" />
+			<File
+				RelativePath="qtestelement.h" />
+			<File
+				RelativePath="qtestelementattribute.h" />
+			<File
+				RelativePath="qtestevent.h" />
+			<File
+				RelativePath="qtesteventloop.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;qtesteventloop.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_NO_CAST_TO_ASCII -DQT_NO_CAST_FROM_ASCII -DQTESTLIB_MAKEDLL -DQT_NO_DATASTREAM -DQT_MAKEDLL -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include&quot; -I&quot;.&quot; -I&quot;..\..\include\QtTest&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 qtesteventloop.h -o tmp\moc\debug_shared\moc_qtesteventloop.cpp"
+						Description="MOC qtesteventloop.h"
+						Outputs="tmp\moc\debug_shared\moc_qtesteventloop.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;qtesteventloop.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_NO_CAST_TO_ASCII -DQT_NO_CAST_FROM_ASCII -DQTESTLIB_MAKEDLL -DQT_NO_DATASTREAM -DQT_MAKEDLL -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_NO_DEBUG -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include&quot; -I&quot;.&quot; -I&quot;..\..\include\QtTest&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 qtesteventloop.h -o tmp\moc\release_shared\moc_qtesteventloop.cpp"
+						Description="MOC qtesteventloop.h"
+						Outputs="tmp\moc\release_shared\moc_qtesteventloop.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="qtestfilelogger.h" />
+			<File
+				RelativePath="qtestkeyboard.h" />
+			<File
+				RelativePath="qtestlightxmlstreamer.h" />
+			<File
+				RelativePath="qtestmouse.h" />
+			<File
+				RelativePath="qtestspontaneevent.h" />
+			<File
+				RelativePath="qtestsystem.h" />
+			<File
+				RelativePath="qtesttouch.h" />
+			<File
+				RelativePath="qtestxmlstreamer.h" />
+			<File
+				RelativePath="qtestxunitstreamer.h" />
+		</Filter>
+		<Filter
+			Name="Generated Files"
+			Filter="cpp;c;cxx;moc;h;def;odl;idl;res;"
+			UniqueIdentifier="{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}">
+			<File
+				RelativePath="tmp\moc\debug_shared\moc_qtesteventloop.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\moc_qtesteventloop.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+		</Filter>
+		<File
+			RelativePath="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\src\testlib\QtTest_resource.rc">
+			<FileConfiguration
+				Name="Debug|Win32"
+				ExcludedFromBuild="true" />
+		</File>
+		<File
+			RelativePath="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\src\testlib\QtTestd_resource.rc">
+			<FileConfiguration
+				Name="Release|Win32"
+				ExcludedFromBuild="true" />
+		</File>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>

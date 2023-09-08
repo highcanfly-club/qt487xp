@@ -1,0 +1,985 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="7.00"
+	Name="designer"
+	ProjectGUID="{398FEC00-C061-300C-90E6-A5F817A755F8}"
+	Keyword="Qt4VSv1.0">
+	<Platforms>
+		<Platform
+			Name="Win32" />
+	</Platforms>
+	<Configurations>
+		<Configuration
+			Name="Debug|Win32"
+			OutputDirectory="..\..\..\..\bin\"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			ConfigurationType="1"
+			IntermediateDirectory="tmp\obj\debug_shared\"
+			UseOfMfc="0">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="&quot;..\..\..\..\include\QtCore&quot;,&quot;..\..\..\..\include\QtNetwork&quot;,&quot;..\..\..\..\include\QtGui&quot;,&quot;..\..\..\..\include\QtXml&quot;,&quot;..\..\..\..\include\QtScript&quot;,&quot;..\..\..\..\include&quot;,&quot;..\..\..\..\include\QtDesigner&quot;,&quot;c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\include\QtDesignerComponents&quot;,&quot;..\lib\sdk&quot;,&quot;..\lib\extension&quot;,&quot;..\lib\shared&quot;,&quot;..\lib\uilib&quot;,&quot;extra&quot;,&quot;..\..\..\shared\fontpanel&quot;,&quot;..\..\..\shared\qttoolbardialog&quot;,&quot;..\..\..\..\include\ActiveQt&quot;,&quot;tmp\moc\debug_shared&quot;,&quot;.&quot;,..\..\..\..\mkspecs\win32-msvc2003"
+				AdditionalOptions="-Zm300 -w34100 -w34189"
+				AssemblerListingLocation="tmp\obj\debug_shared\"
+				DebugInformationFormat="3"
+				ExceptionHandling="true"
+				ForcedIncludeFiles="qdesigner_pch.h"
+				GeneratePreprocessedFile="0"
+				ObjectFile="tmp\obj\debug_shared\"
+				Optimization ="4"
+				PrecompiledHeaderFile="$(IntDir)\designer.pch"
+				PrecompiledHeaderThrough="qdesigner_pch.h"
+				PreprocessorDefinitions="_WINDOWS,UNICODE,WIN32,QT_DLL,QT_SCRIPT_LIB,QT_XML_LIB,QT_GUI_LIB,QT_NETWORK_LIB,QT_CORE_LIB,QT_HAVE_MMX,QT_HAVE_3DNOW,QT_HAVE_SSE,QT_HAVE_MMXEXT,QT_HAVE_SSE2,QT_THREAD_SUPPORT"
+				ProgramDataBaseFileName=".\"
+				RuntimeLibrary="3"
+				RuntimeTypeInfo="true"
+				SuppressStartupBanner="true"
+				UsePrecompiledHeader="3"
+				WarningLevel="3" />
+			<Tool
+				Name="VCCustomBuildTool" />
+			<Tool
+				Name="VCLinkerTool"
+				AdditionalDependencies="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib\qtmaind.lib c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib\QtDesignerComponentsd4.lib c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib\QtDesignerd4.lib c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib\QtScriptd4.lib c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib\QtXmld4.lib c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib\QtGuid4.lib c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib\QtNetworkd4.lib c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib\QtCored4.lib"
+				AdditionalLibraryDirectories="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib,..\..\lib,..\..\..\..\lib,c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib"
+				GenerateDebugInformation="true"
+				IgnoreImportLibrary="true"
+				LinkTimeCodeGeneration="0"
+				OutputFile="$(OutDir)\designer.exe"
+				ProgramDatabaseFile=""
+				SubSystem="2"
+				SuppressStartupBanner="true" />
+			<Tool
+				Name="VCMIDLTool"
+				DefaultCharType="0"
+				EnableErrorChecks="1"
+				WarningLevel="0" />
+			<Tool
+				Name="VCPostBuildEventTool" />
+			<Tool
+				Name="VCPreBuildEventTool" />
+			<Tool
+				Name="VCPreLinkEventTool" />
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_WINDOWS,UNICODE,WIN32,QT_DLL,QT_SCRIPT_LIB,QT_XML_LIB,QT_GUI_LIB,QT_NETWORK_LIB,QT_CORE_LIB,QT_HAVE_MMX,QT_HAVE_3DNOW,QT_HAVE_SSE,QT_HAVE_MMXEXT,QT_HAVE_SSE2,QT_THREAD_SUPPORT,_DEBUG" />
+		</Configuration>
+		<Configuration
+			Name="Release|Win32"
+			OutputDirectory="..\..\..\..\bin\"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			ConfigurationType="1"
+			IntermediateDirectory="tmp\obj\release_shared\"
+			UseOfMfc="0">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="&quot;..\..\..\..\include\QtCore&quot;,&quot;..\..\..\..\include\QtNetwork&quot;,&quot;..\..\..\..\include\QtGui&quot;,&quot;..\..\..\..\include\QtXml&quot;,&quot;..\..\..\..\include\QtScript&quot;,&quot;..\..\..\..\include&quot;,&quot;..\..\..\..\include\QtDesigner&quot;,&quot;c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\include\QtDesignerComponents&quot;,&quot;..\lib\sdk&quot;,&quot;..\lib\extension&quot;,&quot;..\lib\shared&quot;,&quot;..\lib\uilib&quot;,&quot;extra&quot;,&quot;..\..\..\shared\fontpanel&quot;,&quot;..\..\..\shared\qttoolbardialog&quot;,&quot;..\..\..\..\include\ActiveQt&quot;,&quot;tmp\moc\release_shared&quot;,&quot;.&quot;,..\..\..\..\mkspecs\win32-msvc2003"
+				AdditionalOptions="-Zm300 -w34100 -w34189"
+				AssemblerListingLocation="tmp\obj\release_shared\"
+				DebugInformationFormat="0"
+				ExceptionHandling="true"
+				ForcedIncludeFiles="qdesigner_pch.h"
+				GeneratePreprocessedFile="0"
+				ObjectFile="tmp\obj\release_shared\"
+				Optimization ="2"
+				PrecompiledHeaderFile="$(IntDir)\designer.pch"
+				PrecompiledHeaderThrough="qdesigner_pch.h"
+				PreprocessorDefinitions="_WINDOWS,UNICODE,WIN32,QT_DLL,QT_NO_DEBUG,QT_SCRIPT_LIB,QT_XML_LIB,QT_GUI_LIB,QT_NETWORK_LIB,QT_CORE_LIB,QT_HAVE_MMX,QT_HAVE_3DNOW,QT_HAVE_SSE,QT_HAVE_MMXEXT,QT_HAVE_SSE2,QT_THREAD_SUPPORT,NDEBUG"
+				ProgramDataBaseFileName=".\"
+				RuntimeLibrary="2"
+				RuntimeTypeInfo="true"
+				SuppressStartupBanner="true"
+				UsePrecompiledHeader="3"
+				WarningLevel="3" />
+			<Tool
+				Name="VCCustomBuildTool" />
+			<Tool
+				Name="VCLinkerTool"
+				AdditionalDependencies="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib\qtmain.lib c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib\QtDesignerComponents4.lib c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib\QtDesigner4.lib c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib\QtScript4.lib c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib\QtXml4.lib c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib\QtGui4.lib c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib\QtNetwork4.lib c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib\QtCore4.lib"
+				AdditionalLibraryDirectories="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib,..\..\lib,..\..\..\..\lib,c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib"
+				GenerateDebugInformation="false"
+				IgnoreImportLibrary="true"
+				LinkIncremental="1"
+				LinkTimeCodeGeneration="0"
+				OutputFile="$(OutDir)\designer.exe"
+				ProgramDatabaseFile=""
+				SubSystem="2"
+				SuppressStartupBanner="true" />
+			<Tool
+				Name="VCMIDLTool"
+				DefaultCharType="0"
+				EnableErrorChecks="1"
+				WarningLevel="0" />
+			<Tool
+				Name="VCPostBuildEventTool" />
+			<Tool
+				Name="VCPreBuildEventTool" />
+			<Tool
+				Name="VCPreLinkEventTool" />
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_WINDOWS,UNICODE,WIN32,QT_DLL,QT_NO_DEBUG,QT_SCRIPT_LIB,QT_XML_LIB,QT_GUI_LIB,QT_NETWORK_LIB,QT_CORE_LIB,QT_HAVE_MMX,QT_HAVE_3DNOW,QT_HAVE_SSE,QT_HAVE_MMXEXT,QT_HAVE_SSE2,QT_THREAD_SUPPORT" />
+		</Configuration>
+	</Configurations>
+	<Files>
+		<Filter
+			Name="Source Files"
+			Filter="cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx"
+			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}">
+			<File
+				RelativePath="appfontdialog.cpp" />
+			<File
+				RelativePath="assistantclient.cpp" />
+			<File
+				RelativePath="..\..\..\shared\fontpanel\fontpanel.cpp" />
+			<File
+				RelativePath="main.cpp" />
+			<File
+				RelativePath="mainwindow.cpp" />
+			<File
+				RelativePath="newform.cpp" />
+			<File
+				RelativePath="preferencesdialog.cpp" />
+			<File
+				RelativePath="qdesigner.cpp" />
+			<File
+				RelativePath="qdesigner_actions.cpp" />
+			<File
+				RelativePath="qdesigner_appearanceoptions.cpp" />
+			<File
+				RelativePath="qdesigner_formwindow.cpp" />
+			<File
+				RelativePath="qdesigner_server.cpp" />
+			<File
+				RelativePath="qdesigner_settings.cpp" />
+			<File
+				RelativePath="qdesigner_toolwindow.cpp" />
+			<File
+				RelativePath="qdesigner_workbench.cpp" />
+			<File
+				RelativePath="..\..\..\shared\qttoolbardialog\qttoolbardialog.cpp" />
+			<File
+				RelativePath="saveformastemplate.cpp" />
+			<File
+				RelativePath="versiondialog.cpp" />
+		</Filter>
+		<Filter
+			Name="Header Files"
+			Filter="h;hpp;hxx;hm;inl;inc;xsd"
+			UniqueIdentifier="{93995380-89BD-4b04-88EB-625FBE52EBFB}">
+			<File
+				RelativePath="appfontdialog.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;appfontdialog.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_SCRIPT_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;..\..\..\..\include\QtCore&quot; -I&quot;..\..\..\..\include\QtNetwork&quot; -I&quot;..\..\..\..\include\QtGui&quot; -I&quot;..\..\..\..\include\QtXml&quot; -I&quot;..\..\..\..\include\QtScript&quot; -I&quot;..\..\..\..\include&quot; -I&quot;..\..\..\..\include\QtDesigner&quot; -I&quot;c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\include\QtDesignerComponents&quot; -I&quot;..\lib\sdk&quot; -I&quot;..\lib\extension&quot; -I&quot;..\lib\shared&quot; -I&quot;..\lib\uilib&quot; -I&quot;extra&quot; -I&quot;..\..\..\shared\fontpanel&quot; -I&quot;..\..\..\shared\qttoolbardialog&quot; -I&quot;..\..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I&quot;.&quot; -I..\..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 appfontdialog.h -o tmp\moc\debug_shared\moc_appfontdialog.cpp"
+						Description="MOC appfontdialog.h"
+						Outputs="tmp\moc\debug_shared\moc_appfontdialog.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;appfontdialog.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_NO_DEBUG -DQT_SCRIPT_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;..\..\..\..\include\QtCore&quot; -I&quot;..\..\..\..\include\QtNetwork&quot; -I&quot;..\..\..\..\include\QtGui&quot; -I&quot;..\..\..\..\include\QtXml&quot; -I&quot;..\..\..\..\include\QtScript&quot; -I&quot;..\..\..\..\include&quot; -I&quot;..\..\..\..\include\QtDesigner&quot; -I&quot;c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\include\QtDesignerComponents&quot; -I&quot;..\lib\sdk&quot; -I&quot;..\lib\extension&quot; -I&quot;..\lib\shared&quot; -I&quot;..\lib\uilib&quot; -I&quot;extra&quot; -I&quot;..\..\..\shared\fontpanel&quot; -I&quot;..\..\..\shared\qttoolbardialog&quot; -I&quot;..\..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I&quot;.&quot; -I..\..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 appfontdialog.h -o tmp\moc\release_shared\moc_appfontdialog.cpp"
+						Description="MOC appfontdialog.h"
+						Outputs="tmp\moc\release_shared\moc_appfontdialog.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="assistantclient.h" />
+			<File
+				RelativePath="designer_enums.h" />
+			<File
+				RelativePath="..\..\..\shared\fontpanel\fontpanel.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="..\..\..\shared\fontpanel\fontpanel.h;C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_SCRIPT_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;..\..\..\..\include\QtCore&quot; -I&quot;..\..\..\..\include\QtNetwork&quot; -I&quot;..\..\..\..\include\QtGui&quot; -I&quot;..\..\..\..\include\QtXml&quot; -I&quot;..\..\..\..\include\QtScript&quot; -I&quot;..\..\..\..\include&quot; -I&quot;..\..\..\..\include\QtDesigner&quot; -I&quot;c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\include\QtDesignerComponents&quot; -I&quot;..\lib\sdk&quot; -I&quot;..\lib\extension&quot; -I&quot;..\lib\shared&quot; -I&quot;..\lib\uilib&quot; -I&quot;extra&quot; -I&quot;..\..\..\shared\fontpanel&quot; -I&quot;..\..\..\shared\qttoolbardialog&quot; -I&quot;..\..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I&quot;.&quot; -I..\..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 ..\..\..\shared\fontpanel\fontpanel.h -o tmp\moc\debug_shared\moc_fontpanel.cpp"
+						Description="MOC ..\..\..\shared\fontpanel\fontpanel.h"
+						Outputs="tmp\moc\debug_shared\moc_fontpanel.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="..\..\..\shared\fontpanel\fontpanel.h;C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_NO_DEBUG -DQT_SCRIPT_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;..\..\..\..\include\QtCore&quot; -I&quot;..\..\..\..\include\QtNetwork&quot; -I&quot;..\..\..\..\include\QtGui&quot; -I&quot;..\..\..\..\include\QtXml&quot; -I&quot;..\..\..\..\include\QtScript&quot; -I&quot;..\..\..\..\include&quot; -I&quot;..\..\..\..\include\QtDesigner&quot; -I&quot;c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\include\QtDesignerComponents&quot; -I&quot;..\lib\sdk&quot; -I&quot;..\lib\extension&quot; -I&quot;..\lib\shared&quot; -I&quot;..\lib\uilib&quot; -I&quot;extra&quot; -I&quot;..\..\..\shared\fontpanel&quot; -I&quot;..\..\..\shared\qttoolbardialog&quot; -I&quot;..\..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I&quot;.&quot; -I..\..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 ..\..\..\shared\fontpanel\fontpanel.h -o tmp\moc\release_shared\moc_fontpanel.cpp"
+						Description="MOC ..\..\..\shared\fontpanel\fontpanel.h"
+						Outputs="tmp\moc\release_shared\moc_fontpanel.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="mainwindow.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;mainwindow.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_SCRIPT_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;..\..\..\..\include\QtCore&quot; -I&quot;..\..\..\..\include\QtNetwork&quot; -I&quot;..\..\..\..\include\QtGui&quot; -I&quot;..\..\..\..\include\QtXml&quot; -I&quot;..\..\..\..\include\QtScript&quot; -I&quot;..\..\..\..\include&quot; -I&quot;..\..\..\..\include\QtDesigner&quot; -I&quot;c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\include\QtDesignerComponents&quot; -I&quot;..\lib\sdk&quot; -I&quot;..\lib\extension&quot; -I&quot;..\lib\shared&quot; -I&quot;..\lib\uilib&quot; -I&quot;extra&quot; -I&quot;..\..\..\shared\fontpanel&quot; -I&quot;..\..\..\shared\qttoolbardialog&quot; -I&quot;..\..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I&quot;.&quot; -I..\..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 mainwindow.h -o tmp\moc\debug_shared\moc_mainwindow.cpp"
+						Description="MOC mainwindow.h"
+						Outputs="tmp\moc\debug_shared\moc_mainwindow.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;mainwindow.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_NO_DEBUG -DQT_SCRIPT_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;..\..\..\..\include\QtCore&quot; -I&quot;..\..\..\..\include\QtNetwork&quot; -I&quot;..\..\..\..\include\QtGui&quot; -I&quot;..\..\..\..\include\QtXml&quot; -I&quot;..\..\..\..\include\QtScript&quot; -I&quot;..\..\..\..\include&quot; -I&quot;..\..\..\..\include\QtDesigner&quot; -I&quot;c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\include\QtDesignerComponents&quot; -I&quot;..\lib\sdk&quot; -I&quot;..\lib\extension&quot; -I&quot;..\lib\shared&quot; -I&quot;..\lib\uilib&quot; -I&quot;extra&quot; -I&quot;..\..\..\shared\fontpanel&quot; -I&quot;..\..\..\shared\qttoolbardialog&quot; -I&quot;..\..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I&quot;.&quot; -I..\..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 mainwindow.h -o tmp\moc\release_shared\moc_mainwindow.cpp"
+						Description="MOC mainwindow.h"
+						Outputs="tmp\moc\release_shared\moc_mainwindow.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="newform.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;newform.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_SCRIPT_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;..\..\..\..\include\QtCore&quot; -I&quot;..\..\..\..\include\QtNetwork&quot; -I&quot;..\..\..\..\include\QtGui&quot; -I&quot;..\..\..\..\include\QtXml&quot; -I&quot;..\..\..\..\include\QtScript&quot; -I&quot;..\..\..\..\include&quot; -I&quot;..\..\..\..\include\QtDesigner&quot; -I&quot;c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\include\QtDesignerComponents&quot; -I&quot;..\lib\sdk&quot; -I&quot;..\lib\extension&quot; -I&quot;..\lib\shared&quot; -I&quot;..\lib\uilib&quot; -I&quot;extra&quot; -I&quot;..\..\..\shared\fontpanel&quot; -I&quot;..\..\..\shared\qttoolbardialog&quot; -I&quot;..\..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I&quot;.&quot; -I..\..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 newform.h -o tmp\moc\debug_shared\moc_newform.cpp"
+						Description="MOC newform.h"
+						Outputs="tmp\moc\debug_shared\moc_newform.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;newform.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_NO_DEBUG -DQT_SCRIPT_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;..\..\..\..\include\QtCore&quot; -I&quot;..\..\..\..\include\QtNetwork&quot; -I&quot;..\..\..\..\include\QtGui&quot; -I&quot;..\..\..\..\include\QtXml&quot; -I&quot;..\..\..\..\include\QtScript&quot; -I&quot;..\..\..\..\include&quot; -I&quot;..\..\..\..\include\QtDesigner&quot; -I&quot;c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\include\QtDesignerComponents&quot; -I&quot;..\lib\sdk&quot; -I&quot;..\lib\extension&quot; -I&quot;..\lib\shared&quot; -I&quot;..\lib\uilib&quot; -I&quot;extra&quot; -I&quot;..\..\..\shared\fontpanel&quot; -I&quot;..\..\..\shared\qttoolbardialog&quot; -I&quot;..\..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I&quot;.&quot; -I..\..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 newform.h -o tmp\moc\release_shared\moc_newform.cpp"
+						Description="MOC newform.h"
+						Outputs="tmp\moc\release_shared\moc_newform.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="preferencesdialog.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;preferencesdialog.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_SCRIPT_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;..\..\..\..\include\QtCore&quot; -I&quot;..\..\..\..\include\QtNetwork&quot; -I&quot;..\..\..\..\include\QtGui&quot; -I&quot;..\..\..\..\include\QtXml&quot; -I&quot;..\..\..\..\include\QtScript&quot; -I&quot;..\..\..\..\include&quot; -I&quot;..\..\..\..\include\QtDesigner&quot; -I&quot;c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\include\QtDesignerComponents&quot; -I&quot;..\lib\sdk&quot; -I&quot;..\lib\extension&quot; -I&quot;..\lib\shared&quot; -I&quot;..\lib\uilib&quot; -I&quot;extra&quot; -I&quot;..\..\..\shared\fontpanel&quot; -I&quot;..\..\..\shared\qttoolbardialog&quot; -I&quot;..\..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I&quot;.&quot; -I..\..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 preferencesdialog.h -o tmp\moc\debug_shared\moc_preferencesdialog.cpp"
+						Description="MOC preferencesdialog.h"
+						Outputs="tmp\moc\debug_shared\moc_preferencesdialog.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;preferencesdialog.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_NO_DEBUG -DQT_SCRIPT_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;..\..\..\..\include\QtCore&quot; -I&quot;..\..\..\..\include\QtNetwork&quot; -I&quot;..\..\..\..\include\QtGui&quot; -I&quot;..\..\..\..\include\QtXml&quot; -I&quot;..\..\..\..\include\QtScript&quot; -I&quot;..\..\..\..\include&quot; -I&quot;..\..\..\..\include\QtDesigner&quot; -I&quot;c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\include\QtDesignerComponents&quot; -I&quot;..\lib\sdk&quot; -I&quot;..\lib\extension&quot; -I&quot;..\lib\shared&quot; -I&quot;..\lib\uilib&quot; -I&quot;extra&quot; -I&quot;..\..\..\shared\fontpanel&quot; -I&quot;..\..\..\shared\qttoolbardialog&quot; -I&quot;..\..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I&quot;.&quot; -I..\..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 preferencesdialog.h -o tmp\moc\release_shared\moc_preferencesdialog.cpp"
+						Description="MOC preferencesdialog.h"
+						Outputs="tmp\moc\release_shared\moc_preferencesdialog.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="qdesigner.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;qdesigner.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_SCRIPT_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;..\..\..\..\include\QtCore&quot; -I&quot;..\..\..\..\include\QtNetwork&quot; -I&quot;..\..\..\..\include\QtGui&quot; -I&quot;..\..\..\..\include\QtXml&quot; -I&quot;..\..\..\..\include\QtScript&quot; -I&quot;..\..\..\..\include&quot; -I&quot;..\..\..\..\include\QtDesigner&quot; -I&quot;c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\include\QtDesignerComponents&quot; -I&quot;..\lib\sdk&quot; -I&quot;..\lib\extension&quot; -I&quot;..\lib\shared&quot; -I&quot;..\lib\uilib&quot; -I&quot;extra&quot; -I&quot;..\..\..\shared\fontpanel&quot; -I&quot;..\..\..\shared\qttoolbardialog&quot; -I&quot;..\..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I&quot;.&quot; -I..\..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 qdesigner.h -o tmp\moc\debug_shared\moc_qdesigner.cpp"
+						Description="MOC qdesigner.h"
+						Outputs="tmp\moc\debug_shared\moc_qdesigner.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;qdesigner.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_NO_DEBUG -DQT_SCRIPT_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;..\..\..\..\include\QtCore&quot; -I&quot;..\..\..\..\include\QtNetwork&quot; -I&quot;..\..\..\..\include\QtGui&quot; -I&quot;..\..\..\..\include\QtXml&quot; -I&quot;..\..\..\..\include\QtScript&quot; -I&quot;..\..\..\..\include&quot; -I&quot;..\..\..\..\include\QtDesigner&quot; -I&quot;c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\include\QtDesignerComponents&quot; -I&quot;..\lib\sdk&quot; -I&quot;..\lib\extension&quot; -I&quot;..\lib\shared&quot; -I&quot;..\lib\uilib&quot; -I&quot;extra&quot; -I&quot;..\..\..\shared\fontpanel&quot; -I&quot;..\..\..\shared\qttoolbardialog&quot; -I&quot;..\..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I&quot;.&quot; -I..\..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 qdesigner.h -o tmp\moc\release_shared\moc_qdesigner.cpp"
+						Description="MOC qdesigner.h"
+						Outputs="tmp\moc\release_shared\moc_qdesigner.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="qdesigner_actions.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;qdesigner_actions.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_SCRIPT_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;..\..\..\..\include\QtCore&quot; -I&quot;..\..\..\..\include\QtNetwork&quot; -I&quot;..\..\..\..\include\QtGui&quot; -I&quot;..\..\..\..\include\QtXml&quot; -I&quot;..\..\..\..\include\QtScript&quot; -I&quot;..\..\..\..\include&quot; -I&quot;..\..\..\..\include\QtDesigner&quot; -I&quot;c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\include\QtDesignerComponents&quot; -I&quot;..\lib\sdk&quot; -I&quot;..\lib\extension&quot; -I&quot;..\lib\shared&quot; -I&quot;..\lib\uilib&quot; -I&quot;extra&quot; -I&quot;..\..\..\shared\fontpanel&quot; -I&quot;..\..\..\shared\qttoolbardialog&quot; -I&quot;..\..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I&quot;.&quot; -I..\..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 qdesigner_actions.h -o tmp\moc\debug_shared\moc_qdesigner_actions.cpp"
+						Description="MOC qdesigner_actions.h"
+						Outputs="tmp\moc\debug_shared\moc_qdesigner_actions.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;qdesigner_actions.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_NO_DEBUG -DQT_SCRIPT_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;..\..\..\..\include\QtCore&quot; -I&quot;..\..\..\..\include\QtNetwork&quot; -I&quot;..\..\..\..\include\QtGui&quot; -I&quot;..\..\..\..\include\QtXml&quot; -I&quot;..\..\..\..\include\QtScript&quot; -I&quot;..\..\..\..\include&quot; -I&quot;..\..\..\..\include\QtDesigner&quot; -I&quot;c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\include\QtDesignerComponents&quot; -I&quot;..\lib\sdk&quot; -I&quot;..\lib\extension&quot; -I&quot;..\lib\shared&quot; -I&quot;..\lib\uilib&quot; -I&quot;extra&quot; -I&quot;..\..\..\shared\fontpanel&quot; -I&quot;..\..\..\shared\qttoolbardialog&quot; -I&quot;..\..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I&quot;.&quot; -I..\..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 qdesigner_actions.h -o tmp\moc\release_shared\moc_qdesigner_actions.cpp"
+						Description="MOC qdesigner_actions.h"
+						Outputs="tmp\moc\release_shared\moc_qdesigner_actions.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="qdesigner_appearanceoptions.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;qdesigner_appearanceoptions.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_SCRIPT_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;..\..\..\..\include\QtCore&quot; -I&quot;..\..\..\..\include\QtNetwork&quot; -I&quot;..\..\..\..\include\QtGui&quot; -I&quot;..\..\..\..\include\QtXml&quot; -I&quot;..\..\..\..\include\QtScript&quot; -I&quot;..\..\..\..\include&quot; -I&quot;..\..\..\..\include\QtDesigner&quot; -I&quot;c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\include\QtDesignerComponents&quot; -I&quot;..\lib\sdk&quot; -I&quot;..\lib\extension&quot; -I&quot;..\lib\shared&quot; -I&quot;..\lib\uilib&quot; -I&quot;extra&quot; -I&quot;..\..\..\shared\fontpanel&quot; -I&quot;..\..\..\shared\qttoolbardialog&quot; -I&quot;..\..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I&quot;.&quot; -I..\..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 qdesigner_appearanceoptions.h -o tmp\moc\debug_shared\moc_qdesigner_appearanceoptions.cpp"
+						Description="MOC qdesigner_appearanceoptions.h"
+						Outputs="tmp\moc\debug_shared\moc_qdesigner_appearanceoptions.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;qdesigner_appearanceoptions.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_NO_DEBUG -DQT_SCRIPT_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;..\..\..\..\include\QtCore&quot; -I&quot;..\..\..\..\include\QtNetwork&quot; -I&quot;..\..\..\..\include\QtGui&quot; -I&quot;..\..\..\..\include\QtXml&quot; -I&quot;..\..\..\..\include\QtScript&quot; -I&quot;..\..\..\..\include&quot; -I&quot;..\..\..\..\include\QtDesigner&quot; -I&quot;c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\include\QtDesignerComponents&quot; -I&quot;..\lib\sdk&quot; -I&quot;..\lib\extension&quot; -I&quot;..\lib\shared&quot; -I&quot;..\lib\uilib&quot; -I&quot;extra&quot; -I&quot;..\..\..\shared\fontpanel&quot; -I&quot;..\..\..\shared\qttoolbardialog&quot; -I&quot;..\..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I&quot;.&quot; -I..\..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 qdesigner_appearanceoptions.h -o tmp\moc\release_shared\moc_qdesigner_appearanceoptions.cpp"
+						Description="MOC qdesigner_appearanceoptions.h"
+						Outputs="tmp\moc\release_shared\moc_qdesigner_appearanceoptions.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="qdesigner_formwindow.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;qdesigner_formwindow.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_SCRIPT_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;..\..\..\..\include\QtCore&quot; -I&quot;..\..\..\..\include\QtNetwork&quot; -I&quot;..\..\..\..\include\QtGui&quot; -I&quot;..\..\..\..\include\QtXml&quot; -I&quot;..\..\..\..\include\QtScript&quot; -I&quot;..\..\..\..\include&quot; -I&quot;..\..\..\..\include\QtDesigner&quot; -I&quot;c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\include\QtDesignerComponents&quot; -I&quot;..\lib\sdk&quot; -I&quot;..\lib\extension&quot; -I&quot;..\lib\shared&quot; -I&quot;..\lib\uilib&quot; -I&quot;extra&quot; -I&quot;..\..\..\shared\fontpanel&quot; -I&quot;..\..\..\shared\qttoolbardialog&quot; -I&quot;..\..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I&quot;.&quot; -I..\..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 qdesigner_formwindow.h -o tmp\moc\debug_shared\moc_qdesigner_formwindow.cpp"
+						Description="MOC qdesigner_formwindow.h"
+						Outputs="tmp\moc\debug_shared\moc_qdesigner_formwindow.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;qdesigner_formwindow.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_NO_DEBUG -DQT_SCRIPT_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;..\..\..\..\include\QtCore&quot; -I&quot;..\..\..\..\include\QtNetwork&quot; -I&quot;..\..\..\..\include\QtGui&quot; -I&quot;..\..\..\..\include\QtXml&quot; -I&quot;..\..\..\..\include\QtScript&quot; -I&quot;..\..\..\..\include&quot; -I&quot;..\..\..\..\include\QtDesigner&quot; -I&quot;c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\include\QtDesignerComponents&quot; -I&quot;..\lib\sdk&quot; -I&quot;..\lib\extension&quot; -I&quot;..\lib\shared&quot; -I&quot;..\lib\uilib&quot; -I&quot;extra&quot; -I&quot;..\..\..\shared\fontpanel&quot; -I&quot;..\..\..\shared\qttoolbardialog&quot; -I&quot;..\..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I&quot;.&quot; -I..\..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 qdesigner_formwindow.h -o tmp\moc\release_shared\moc_qdesigner_formwindow.cpp"
+						Description="MOC qdesigner_formwindow.h"
+						Outputs="tmp\moc\release_shared\moc_qdesigner_formwindow.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="qdesigner_pch.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						CommandLine="echo /*-------------------------------------------------------------------- >qdesigner_pch.h.cpp&#x000D;&#x000A;if errorlevel 1 goto VCReportError&#x000D;&#x000A;echo * Precompiled header source file used by Visual Studio.NET to generate>>qdesigner_pch.h.cpp&#x000D;&#x000A;if errorlevel 1 goto VCReportError&#x000D;&#x000A;echo * the .pch file.>>qdesigner_pch.h.cpp&#x000D;&#x000A;if errorlevel 1 goto VCReportError&#x000D;&#x000A;echo *>>qdesigner_pch.h.cpp&#x000D;&#x000A;if errorlevel 1 goto VCReportError&#x000D;&#x000A;echo * Due to issues with the dependencies checker within the IDE, it>>qdesigner_pch.h.cpp&#x000D;&#x000A;if errorlevel 1 goto VCReportError&#x000D;&#x000A;echo * sometimes fails to recompile the PCH file, if we force the IDE to>>qdesigner_pch.h.cpp&#x000D;&#x000A;if errorlevel 1 goto VCReportError&#x000D;&#x000A;echo * create the PCH file directly from the header file.>>qdesigner_pch.h.cpp&#x000D;&#x000A;if errorlevel 1 goto VCReportError&#x000D;&#x000A;echo *>>qdesigner_pch.h.cpp&#x000D;&#x000A;if errorlevel 1 goto VCReportError&#x000D;&#x000A;echo * This file is auto-generated by qmake since no PRECOMPILED_SOURCE was>>qdesigner_pch.h.cpp&#x000D;&#x000A;if errorlevel 1 goto VCReportError&#x000D;&#x000A;echo * specified, and is used as the common stdafx.cpp. The file is only>>qdesigner_pch.h.cpp&#x000D;&#x000A;if errorlevel 1 goto VCReportError&#x000D;&#x000A;echo * generated when creating .vcproj project files, and is not used for>>qdesigner_pch.h.cpp&#x000D;&#x000A;if errorlevel 1 goto VCReportError&#x000D;&#x000A;echo * command line compilations by nmake.>>qdesigner_pch.h.cpp&#x000D;&#x000A;if errorlevel 1 goto VCReportError&#x000D;&#x000A;echo *>>qdesigner_pch.h.cpp&#x000D;&#x000A;if errorlevel 1 goto VCReportError&#x000D;&#x000A;echo * WARNING: All changes made in this file will be lost.>>qdesigner_pch.h.cpp&#x000D;&#x000A;if errorlevel 1 goto VCReportError&#x000D;&#x000A;echo --------------------------------------------------------------------*/>>qdesigner_pch.h.cpp&#x000D;&#x000A;if errorlevel 1 goto VCReportError&#x000D;&#x000A;echo #include &quot;qdesigner_pch.h&quot;>>qdesigner_pch.h.cpp"
+						Description="Generating precompiled header source file &apos;qdesigner_pch.h.cpp&apos; ..."
+						Outputs="qdesigner_pch.h.cpp" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						CommandLine="echo /*-------------------------------------------------------------------- >qdesigner_pch.h.cpp&#x000D;&#x000A;if errorlevel 1 goto VCReportError&#x000D;&#x000A;echo * Precompiled header source file used by Visual Studio.NET to generate>>qdesigner_pch.h.cpp&#x000D;&#x000A;if errorlevel 1 goto VCReportError&#x000D;&#x000A;echo * the .pch file.>>qdesigner_pch.h.cpp&#x000D;&#x000A;if errorlevel 1 goto VCReportError&#x000D;&#x000A;echo *>>qdesigner_pch.h.cpp&#x000D;&#x000A;if errorlevel 1 goto VCReportError&#x000D;&#x000A;echo * Due to issues with the dependencies checker within the IDE, it>>qdesigner_pch.h.cpp&#x000D;&#x000A;if errorlevel 1 goto VCReportError&#x000D;&#x000A;echo * sometimes fails to recompile the PCH file, if we force the IDE to>>qdesigner_pch.h.cpp&#x000D;&#x000A;if errorlevel 1 goto VCReportError&#x000D;&#x000A;echo * create the PCH file directly from the header file.>>qdesigner_pch.h.cpp&#x000D;&#x000A;if errorlevel 1 goto VCReportError&#x000D;&#x000A;echo *>>qdesigner_pch.h.cpp&#x000D;&#x000A;if errorlevel 1 goto VCReportError&#x000D;&#x000A;echo * This file is auto-generated by qmake since no PRECOMPILED_SOURCE was>>qdesigner_pch.h.cpp&#x000D;&#x000A;if errorlevel 1 goto VCReportError&#x000D;&#x000A;echo * specified, and is used as the common stdafx.cpp. The file is only>>qdesigner_pch.h.cpp&#x000D;&#x000A;if errorlevel 1 goto VCReportError&#x000D;&#x000A;echo * generated when creating .vcproj project files, and is not used for>>qdesigner_pch.h.cpp&#x000D;&#x000A;if errorlevel 1 goto VCReportError&#x000D;&#x000A;echo * command line compilations by nmake.>>qdesigner_pch.h.cpp&#x000D;&#x000A;if errorlevel 1 goto VCReportError&#x000D;&#x000A;echo *>>qdesigner_pch.h.cpp&#x000D;&#x000A;if errorlevel 1 goto VCReportError&#x000D;&#x000A;echo * WARNING: All changes made in this file will be lost.>>qdesigner_pch.h.cpp&#x000D;&#x000A;if errorlevel 1 goto VCReportError&#x000D;&#x000A;echo --------------------------------------------------------------------*/>>qdesigner_pch.h.cpp&#x000D;&#x000A;if errorlevel 1 goto VCReportError&#x000D;&#x000A;echo #include &quot;qdesigner_pch.h&quot;>>qdesigner_pch.h.cpp"
+						Description="Generating precompiled header source file &apos;qdesigner_pch.h.cpp&apos; ..."
+						Outputs="qdesigner_pch.h.cpp" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="qdesigner_server.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;qdesigner_server.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_SCRIPT_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;..\..\..\..\include\QtCore&quot; -I&quot;..\..\..\..\include\QtNetwork&quot; -I&quot;..\..\..\..\include\QtGui&quot; -I&quot;..\..\..\..\include\QtXml&quot; -I&quot;..\..\..\..\include\QtScript&quot; -I&quot;..\..\..\..\include&quot; -I&quot;..\..\..\..\include\QtDesigner&quot; -I&quot;c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\include\QtDesignerComponents&quot; -I&quot;..\lib\sdk&quot; -I&quot;..\lib\extension&quot; -I&quot;..\lib\shared&quot; -I&quot;..\lib\uilib&quot; -I&quot;extra&quot; -I&quot;..\..\..\shared\fontpanel&quot; -I&quot;..\..\..\shared\qttoolbardialog&quot; -I&quot;..\..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I&quot;.&quot; -I..\..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 qdesigner_server.h -o tmp\moc\debug_shared\moc_qdesigner_server.cpp"
+						Description="MOC qdesigner_server.h"
+						Outputs="tmp\moc\debug_shared\moc_qdesigner_server.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;qdesigner_server.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_NO_DEBUG -DQT_SCRIPT_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;..\..\..\..\include\QtCore&quot; -I&quot;..\..\..\..\include\QtNetwork&quot; -I&quot;..\..\..\..\include\QtGui&quot; -I&quot;..\..\..\..\include\QtXml&quot; -I&quot;..\..\..\..\include\QtScript&quot; -I&quot;..\..\..\..\include&quot; -I&quot;..\..\..\..\include\QtDesigner&quot; -I&quot;c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\include\QtDesignerComponents&quot; -I&quot;..\lib\sdk&quot; -I&quot;..\lib\extension&quot; -I&quot;..\lib\shared&quot; -I&quot;..\lib\uilib&quot; -I&quot;extra&quot; -I&quot;..\..\..\shared\fontpanel&quot; -I&quot;..\..\..\shared\qttoolbardialog&quot; -I&quot;..\..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I&quot;.&quot; -I..\..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 qdesigner_server.h -o tmp\moc\release_shared\moc_qdesigner_server.cpp"
+						Description="MOC qdesigner_server.h"
+						Outputs="tmp\moc\release_shared\moc_qdesigner_server.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="qdesigner_settings.h" />
+			<File
+				RelativePath="qdesigner_toolwindow.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;qdesigner_toolwindow.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_SCRIPT_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;..\..\..\..\include\QtCore&quot; -I&quot;..\..\..\..\include\QtNetwork&quot; -I&quot;..\..\..\..\include\QtGui&quot; -I&quot;..\..\..\..\include\QtXml&quot; -I&quot;..\..\..\..\include\QtScript&quot; -I&quot;..\..\..\..\include&quot; -I&quot;..\..\..\..\include\QtDesigner&quot; -I&quot;c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\include\QtDesignerComponents&quot; -I&quot;..\lib\sdk&quot; -I&quot;..\lib\extension&quot; -I&quot;..\lib\shared&quot; -I&quot;..\lib\uilib&quot; -I&quot;extra&quot; -I&quot;..\..\..\shared\fontpanel&quot; -I&quot;..\..\..\shared\qttoolbardialog&quot; -I&quot;..\..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I&quot;.&quot; -I..\..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 qdesigner_toolwindow.h -o tmp\moc\debug_shared\moc_qdesigner_toolwindow.cpp"
+						Description="MOC qdesigner_toolwindow.h"
+						Outputs="tmp\moc\debug_shared\moc_qdesigner_toolwindow.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;qdesigner_toolwindow.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_NO_DEBUG -DQT_SCRIPT_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;..\..\..\..\include\QtCore&quot; -I&quot;..\..\..\..\include\QtNetwork&quot; -I&quot;..\..\..\..\include\QtGui&quot; -I&quot;..\..\..\..\include\QtXml&quot; -I&quot;..\..\..\..\include\QtScript&quot; -I&quot;..\..\..\..\include&quot; -I&quot;..\..\..\..\include\QtDesigner&quot; -I&quot;c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\include\QtDesignerComponents&quot; -I&quot;..\lib\sdk&quot; -I&quot;..\lib\extension&quot; -I&quot;..\lib\shared&quot; -I&quot;..\lib\uilib&quot; -I&quot;extra&quot; -I&quot;..\..\..\shared\fontpanel&quot; -I&quot;..\..\..\shared\qttoolbardialog&quot; -I&quot;..\..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I&quot;.&quot; -I..\..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 qdesigner_toolwindow.h -o tmp\moc\release_shared\moc_qdesigner_toolwindow.cpp"
+						Description="MOC qdesigner_toolwindow.h"
+						Outputs="tmp\moc\release_shared\moc_qdesigner_toolwindow.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="qdesigner_workbench.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;qdesigner_workbench.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_SCRIPT_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;..\..\..\..\include\QtCore&quot; -I&quot;..\..\..\..\include\QtNetwork&quot; -I&quot;..\..\..\..\include\QtGui&quot; -I&quot;..\..\..\..\include\QtXml&quot; -I&quot;..\..\..\..\include\QtScript&quot; -I&quot;..\..\..\..\include&quot; -I&quot;..\..\..\..\include\QtDesigner&quot; -I&quot;c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\include\QtDesignerComponents&quot; -I&quot;..\lib\sdk&quot; -I&quot;..\lib\extension&quot; -I&quot;..\lib\shared&quot; -I&quot;..\lib\uilib&quot; -I&quot;extra&quot; -I&quot;..\..\..\shared\fontpanel&quot; -I&quot;..\..\..\shared\qttoolbardialog&quot; -I&quot;..\..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I&quot;.&quot; -I..\..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 qdesigner_workbench.h -o tmp\moc\debug_shared\moc_qdesigner_workbench.cpp"
+						Description="MOC qdesigner_workbench.h"
+						Outputs="tmp\moc\debug_shared\moc_qdesigner_workbench.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;qdesigner_workbench.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_NO_DEBUG -DQT_SCRIPT_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;..\..\..\..\include\QtCore&quot; -I&quot;..\..\..\..\include\QtNetwork&quot; -I&quot;..\..\..\..\include\QtGui&quot; -I&quot;..\..\..\..\include\QtXml&quot; -I&quot;..\..\..\..\include\QtScript&quot; -I&quot;..\..\..\..\include&quot; -I&quot;..\..\..\..\include\QtDesigner&quot; -I&quot;c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\include\QtDesignerComponents&quot; -I&quot;..\lib\sdk&quot; -I&quot;..\lib\extension&quot; -I&quot;..\lib\shared&quot; -I&quot;..\lib\uilib&quot; -I&quot;extra&quot; -I&quot;..\..\..\shared\fontpanel&quot; -I&quot;..\..\..\shared\qttoolbardialog&quot; -I&quot;..\..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I&quot;.&quot; -I..\..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 qdesigner_workbench.h -o tmp\moc\release_shared\moc_qdesigner_workbench.cpp"
+						Description="MOC qdesigner_workbench.h"
+						Outputs="tmp\moc\release_shared\moc_qdesigner_workbench.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="..\..\..\shared\qttoolbardialog\qttoolbardialog.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="..\..\..\shared\qttoolbardialog\qttoolbardialog.h;C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_SCRIPT_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;..\..\..\..\include\QtCore&quot; -I&quot;..\..\..\..\include\QtNetwork&quot; -I&quot;..\..\..\..\include\QtGui&quot; -I&quot;..\..\..\..\include\QtXml&quot; -I&quot;..\..\..\..\include\QtScript&quot; -I&quot;..\..\..\..\include&quot; -I&quot;..\..\..\..\include\QtDesigner&quot; -I&quot;c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\include\QtDesignerComponents&quot; -I&quot;..\lib\sdk&quot; -I&quot;..\lib\extension&quot; -I&quot;..\lib\shared&quot; -I&quot;..\lib\uilib&quot; -I&quot;extra&quot; -I&quot;..\..\..\shared\fontpanel&quot; -I&quot;..\..\..\shared\qttoolbardialog&quot; -I&quot;..\..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I&quot;.&quot; -I..\..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 ..\..\..\shared\qttoolbardialog\qttoolbardialog.h -o tmp\moc\debug_shared\moc_qttoolbardialog.cpp"
+						Description="MOC ..\..\..\shared\qttoolbardialog\qttoolbardialog.h"
+						Outputs="tmp\moc\debug_shared\moc_qttoolbardialog.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="..\..\..\shared\qttoolbardialog\qttoolbardialog.h;C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_NO_DEBUG -DQT_SCRIPT_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;..\..\..\..\include\QtCore&quot; -I&quot;..\..\..\..\include\QtNetwork&quot; -I&quot;..\..\..\..\include\QtGui&quot; -I&quot;..\..\..\..\include\QtXml&quot; -I&quot;..\..\..\..\include\QtScript&quot; -I&quot;..\..\..\..\include&quot; -I&quot;..\..\..\..\include\QtDesigner&quot; -I&quot;c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\include\QtDesignerComponents&quot; -I&quot;..\lib\sdk&quot; -I&quot;..\lib\extension&quot; -I&quot;..\lib\shared&quot; -I&quot;..\lib\uilib&quot; -I&quot;extra&quot; -I&quot;..\..\..\shared\fontpanel&quot; -I&quot;..\..\..\shared\qttoolbardialog&quot; -I&quot;..\..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I&quot;.&quot; -I..\..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 ..\..\..\shared\qttoolbardialog\qttoolbardialog.h -o tmp\moc\release_shared\moc_qttoolbardialog.cpp"
+						Description="MOC ..\..\..\shared\qttoolbardialog\qttoolbardialog.h"
+						Outputs="tmp\moc\release_shared\moc_qttoolbardialog.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="saveformastemplate.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;saveformastemplate.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_SCRIPT_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;..\..\..\..\include\QtCore&quot; -I&quot;..\..\..\..\include\QtNetwork&quot; -I&quot;..\..\..\..\include\QtGui&quot; -I&quot;..\..\..\..\include\QtXml&quot; -I&quot;..\..\..\..\include\QtScript&quot; -I&quot;..\..\..\..\include&quot; -I&quot;..\..\..\..\include\QtDesigner&quot; -I&quot;c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\include\QtDesignerComponents&quot; -I&quot;..\lib\sdk&quot; -I&quot;..\lib\extension&quot; -I&quot;..\lib\shared&quot; -I&quot;..\lib\uilib&quot; -I&quot;extra&quot; -I&quot;..\..\..\shared\fontpanel&quot; -I&quot;..\..\..\shared\qttoolbardialog&quot; -I&quot;..\..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I&quot;.&quot; -I..\..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 saveformastemplate.h -o tmp\moc\debug_shared\moc_saveformastemplate.cpp"
+						Description="MOC saveformastemplate.h"
+						Outputs="tmp\moc\debug_shared\moc_saveformastemplate.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;saveformastemplate.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_NO_DEBUG -DQT_SCRIPT_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;..\..\..\..\include\QtCore&quot; -I&quot;..\..\..\..\include\QtNetwork&quot; -I&quot;..\..\..\..\include\QtGui&quot; -I&quot;..\..\..\..\include\QtXml&quot; -I&quot;..\..\..\..\include\QtScript&quot; -I&quot;..\..\..\..\include&quot; -I&quot;..\..\..\..\include\QtDesigner&quot; -I&quot;c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\include\QtDesignerComponents&quot; -I&quot;..\lib\sdk&quot; -I&quot;..\lib\extension&quot; -I&quot;..\lib\shared&quot; -I&quot;..\lib\uilib&quot; -I&quot;extra&quot; -I&quot;..\..\..\shared\fontpanel&quot; -I&quot;..\..\..\shared\qttoolbardialog&quot; -I&quot;..\..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I&quot;.&quot; -I..\..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 saveformastemplate.h -o tmp\moc\release_shared\moc_saveformastemplate.cpp"
+						Description="MOC saveformastemplate.h"
+						Outputs="tmp\moc\release_shared\moc_saveformastemplate.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="versiondialog.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;versiondialog.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_SCRIPT_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;..\..\..\..\include\QtCore&quot; -I&quot;..\..\..\..\include\QtNetwork&quot; -I&quot;..\..\..\..\include\QtGui&quot; -I&quot;..\..\..\..\include\QtXml&quot; -I&quot;..\..\..\..\include\QtScript&quot; -I&quot;..\..\..\..\include&quot; -I&quot;..\..\..\..\include\QtDesigner&quot; -I&quot;c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\include\QtDesignerComponents&quot; -I&quot;..\lib\sdk&quot; -I&quot;..\lib\extension&quot; -I&quot;..\lib\shared&quot; -I&quot;..\lib\uilib&quot; -I&quot;extra&quot; -I&quot;..\..\..\shared\fontpanel&quot; -I&quot;..\..\..\shared\qttoolbardialog&quot; -I&quot;..\..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I&quot;.&quot; -I..\..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 versiondialog.h -o tmp\moc\debug_shared\moc_versiondialog.cpp"
+						Description="MOC versiondialog.h"
+						Outputs="tmp\moc\debug_shared\moc_versiondialog.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;versiondialog.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_NO_DEBUG -DQT_SCRIPT_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;..\..\..\..\include\QtCore&quot; -I&quot;..\..\..\..\include\QtNetwork&quot; -I&quot;..\..\..\..\include\QtGui&quot; -I&quot;..\..\..\..\include\QtXml&quot; -I&quot;..\..\..\..\include\QtScript&quot; -I&quot;..\..\..\..\include&quot; -I&quot;..\..\..\..\include\QtDesigner&quot; -I&quot;c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\include\QtDesignerComponents&quot; -I&quot;..\lib\sdk&quot; -I&quot;..\lib\extension&quot; -I&quot;..\lib\shared&quot; -I&quot;..\lib\uilib&quot; -I&quot;extra&quot; -I&quot;..\..\..\shared\fontpanel&quot; -I&quot;..\..\..\shared\qttoolbardialog&quot; -I&quot;..\..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I&quot;.&quot; -I..\..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 versiondialog.h -o tmp\moc\release_shared\moc_versiondialog.cpp"
+						Description="MOC versiondialog.h"
+						Outputs="tmp\moc\release_shared\moc_versiondialog.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+		</Filter>
+		<Filter
+			Name="Generated Files"
+			Filter="cpp;c;cxx;moc;h;def;odl;idl;res;"
+			UniqueIdentifier="{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}">
+			<File
+				RelativePath="tmp\moc\debug_shared\moc_appfontdialog.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\moc_appfontdialog.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\debug_shared\moc_fontpanel.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\moc_fontpanel.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\debug_shared\moc_mainwindow.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\moc_mainwindow.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\debug_shared\moc_newform.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\moc_newform.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\debug_shared\moc_preferencesdialog.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\moc_preferencesdialog.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\debug_shared\moc_qdesigner.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\moc_qdesigner.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\debug_shared\moc_qdesigner_actions.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\moc_qdesigner_actions.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\debug_shared\moc_qdesigner_appearanceoptions.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\moc_qdesigner_appearanceoptions.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\debug_shared\moc_qdesigner_formwindow.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\moc_qdesigner_formwindow.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\debug_shared\moc_qdesigner_server.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\moc_qdesigner_server.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\debug_shared\moc_qdesigner_toolwindow.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\moc_qdesigner_toolwindow.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\debug_shared\moc_qdesigner_workbench.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\moc_qdesigner_workbench.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\debug_shared\moc_saveformastemplate.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\moc_saveformastemplate.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\debug_shared\moc_versiondialog.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\moc_versiondialog.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="qdesigner_pch.h.cpp">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						ForcedIncludeFiles="$(NOINHERIT)"
+						PrecompiledHeaderThrough="qdesigner_pch.h"
+						UsePrecompiledHeader="1" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						ForcedIncludeFiles="$(NOINHERIT)"
+						PrecompiledHeaderThrough="qdesigner_pch.h"
+						UsePrecompiledHeader="1" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="tmp\rcc\debug_shared\qrc_designer.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\rcc\release_shared\qrc_designer.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\rcc\debug_shared\qrc_qttoolbardialog.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\rcc\release_shared\qrc_qttoolbardialog.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\debug_shared\qttoolbardialog.moc">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="..\..\..\shared\qttoolbardialog\qttoolbardialog.cpp;C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_SCRIPT_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;..\..\..\..\include\QtCore&quot; -I&quot;..\..\..\..\include\QtNetwork&quot; -I&quot;..\..\..\..\include\QtGui&quot; -I&quot;..\..\..\..\include\QtXml&quot; -I&quot;..\..\..\..\include\QtScript&quot; -I&quot;..\..\..\..\include&quot; -I&quot;..\..\..\..\include\QtDesigner&quot; -I&quot;c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\include\QtDesignerComponents&quot; -I&quot;..\lib\sdk&quot; -I&quot;..\lib\extension&quot; -I&quot;..\lib\shared&quot; -I&quot;..\lib\uilib&quot; -I&quot;extra&quot; -I&quot;..\..\..\shared\fontpanel&quot; -I&quot;..\..\..\shared\qttoolbardialog&quot; -I&quot;..\..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I&quot;.&quot; -I..\..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 ..\..\..\shared\qttoolbardialog\qttoolbardialog.cpp -o tmp\moc\debug_shared\qttoolbardialog.moc"
+						Description="MOC ..\..\..\shared\qttoolbardialog\qttoolbardialog.cpp"
+						Outputs="tmp\moc\debug_shared\qttoolbardialog.moc"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\qttoolbardialog.moc">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="..\..\..\shared\qttoolbardialog\qttoolbardialog.cpp;C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_NO_DEBUG -DQT_SCRIPT_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;..\..\..\..\include\QtCore&quot; -I&quot;..\..\..\..\include\QtNetwork&quot; -I&quot;..\..\..\..\include\QtGui&quot; -I&quot;..\..\..\..\include\QtXml&quot; -I&quot;..\..\..\..\include\QtScript&quot; -I&quot;..\..\..\..\include&quot; -I&quot;..\..\..\..\include\QtDesigner&quot; -I&quot;c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\include\QtDesignerComponents&quot; -I&quot;..\lib\sdk&quot; -I&quot;..\lib\extension&quot; -I&quot;..\lib\shared&quot; -I&quot;..\lib\uilib&quot; -I&quot;extra&quot; -I&quot;..\..\..\shared\fontpanel&quot; -I&quot;..\..\..\shared\qttoolbardialog&quot; -I&quot;..\..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I&quot;.&quot; -I..\..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 ..\..\..\shared\qttoolbardialog\qttoolbardialog.cpp -o tmp\moc\release_shared\qttoolbardialog.moc"
+						Description="MOC ..\..\..\shared\qttoolbardialog\qttoolbardialog.cpp"
+						Outputs="tmp\moc\release_shared\qttoolbardialog.moc"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="ui_preferencesdialog.h" />
+			<File
+				RelativePath="ui_qdesigner_appearanceoptions.h" />
+			<File
+				RelativePath="ui_qttoolbardialog.h" />
+			<File
+				RelativePath="ui_saveformastemplate.h" />
+			<File
+				RelativePath="tmp\moc\debug_shared\versiondialog.moc">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;versiondialog.cpp"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_SCRIPT_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;..\..\..\..\include\QtCore&quot; -I&quot;..\..\..\..\include\QtNetwork&quot; -I&quot;..\..\..\..\include\QtGui&quot; -I&quot;..\..\..\..\include\QtXml&quot; -I&quot;..\..\..\..\include\QtScript&quot; -I&quot;..\..\..\..\include&quot; -I&quot;..\..\..\..\include\QtDesigner&quot; -I&quot;c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\include\QtDesignerComponents&quot; -I&quot;..\lib\sdk&quot; -I&quot;..\lib\extension&quot; -I&quot;..\lib\shared&quot; -I&quot;..\lib\uilib&quot; -I&quot;extra&quot; -I&quot;..\..\..\shared\fontpanel&quot; -I&quot;..\..\..\shared\qttoolbardialog&quot; -I&quot;..\..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I&quot;.&quot; -I..\..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 versiondialog.cpp -o tmp\moc\debug_shared\versiondialog.moc"
+						Description="MOC versiondialog.cpp"
+						Outputs="tmp\moc\debug_shared\versiondialog.moc"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\versiondialog.moc">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;versiondialog.cpp"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_NO_DEBUG -DQT_SCRIPT_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;..\..\..\..\include\QtCore&quot; -I&quot;..\..\..\..\include\QtNetwork&quot; -I&quot;..\..\..\..\include\QtGui&quot; -I&quot;..\..\..\..\include\QtXml&quot; -I&quot;..\..\..\..\include\QtScript&quot; -I&quot;..\..\..\..\include&quot; -I&quot;..\..\..\..\include\QtDesigner&quot; -I&quot;c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\include\QtDesignerComponents&quot; -I&quot;..\lib\sdk&quot; -I&quot;..\lib\extension&quot; -I&quot;..\lib\shared&quot; -I&quot;..\lib\uilib&quot; -I&quot;extra&quot; -I&quot;..\..\..\shared\fontpanel&quot; -I&quot;..\..\..\shared\qttoolbardialog&quot; -I&quot;..\..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I&quot;.&quot; -I..\..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 versiondialog.cpp -o tmp\moc\release_shared\versiondialog.moc"
+						Description="MOC versiondialog.cpp"
+						Outputs="tmp\moc\release_shared\versiondialog.moc"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+		</Filter>
+		<Filter
+			Name="Form Files"
+			Filter="ui"
+			UniqueIdentifier="{99349809-55BA-4b9d-BF79-8FDBB0286EB3}"
+			ParseFiles="false">
+			<File
+				RelativePath="preferencesdialog.ui">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\uic.exe;preferencesdialog.ui"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\uic.exe preferencesdialog.ui -o ui_preferencesdialog.h"
+						Description="UIC preferencesdialog.ui"
+						Outputs="ui_preferencesdialog.h"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\uic.exe;preferencesdialog.ui"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\uic.exe preferencesdialog.ui -o ui_preferencesdialog.h"
+						Description="UIC preferencesdialog.ui"
+						Outputs="ui_preferencesdialog.h"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="qdesigner_appearanceoptions.ui">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\uic.exe;qdesigner_appearanceoptions.ui"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\uic.exe qdesigner_appearanceoptions.ui -o ui_qdesigner_appearanceoptions.h"
+						Description="UIC qdesigner_appearanceoptions.ui"
+						Outputs="ui_qdesigner_appearanceoptions.h"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\uic.exe;qdesigner_appearanceoptions.ui"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\uic.exe qdesigner_appearanceoptions.ui -o ui_qdesigner_appearanceoptions.h"
+						Description="UIC qdesigner_appearanceoptions.ui"
+						Outputs="ui_qdesigner_appearanceoptions.h"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="..\..\..\shared\qttoolbardialog\qttoolbardialog.ui">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="..\..\..\shared\qttoolbardialog\qttoolbardialog.ui;C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\uic.exe"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\uic.exe ..\..\..\shared\qttoolbardialog\qttoolbardialog.ui -o ui_qttoolbardialog.h"
+						Description="UIC ..\..\..\shared\qttoolbardialog\qttoolbardialog.ui"
+						Outputs="ui_qttoolbardialog.h"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="..\..\..\shared\qttoolbardialog\qttoolbardialog.ui;C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\uic.exe"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\uic.exe ..\..\..\shared\qttoolbardialog\qttoolbardialog.ui -o ui_qttoolbardialog.h"
+						Description="UIC ..\..\..\shared\qttoolbardialog\qttoolbardialog.ui"
+						Outputs="ui_qttoolbardialog.h"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="saveformastemplate.ui">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\uic.exe;saveformastemplate.ui"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\uic.exe saveformastemplate.ui -o ui_saveformastemplate.h"
+						Description="UIC saveformastemplate.ui"
+						Outputs="ui_saveformastemplate.h"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\uic.exe;saveformastemplate.ui"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\uic.exe saveformastemplate.ui -o ui_saveformastemplate.h"
+						Description="UIC saveformastemplate.ui"
+						Outputs="ui_saveformastemplate.h"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+		</Filter>
+		<Filter
+			Name="Resource Files"
+			Filter="qrc;*"
+			UniqueIdentifier="{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}"
+			ParseFiles="false">
+			<File
+				RelativePath="designer.qrc">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\rcc.exe;designer.qrc"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\rcc.exe -name designer designer.qrc -o tmp\rcc\debug_shared\qrc_designer.cpp"
+						Description="RCC designer.qrc"
+						Outputs="tmp\rcc\debug_shared\qrc_designer.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\rcc.exe;designer.qrc"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\rcc.exe -name designer designer.qrc -o tmp\rcc\release_shared\qrc_designer.cpp"
+						Description="RCC designer.qrc"
+						Outputs="tmp\rcc\release_shared\qrc_designer.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="..\..\..\shared\qttoolbardialog\qttoolbardialog.qrc">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="..\..\..\shared\qttoolbardialog\qttoolbardialog.qrc;C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\rcc.exe"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\rcc.exe -name qttoolbardialog ..\..\..\shared\qttoolbardialog\qttoolbardialog.qrc -o tmp\rcc\debug_shared\qrc_qttoolbardialog.cpp"
+						Description="RCC ..\..\..\shared\qttoolbardialog\qttoolbardialog.qrc"
+						Outputs="tmp\rcc\debug_shared\qrc_qttoolbardialog.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="..\..\..\shared\qttoolbardialog\qttoolbardialog.qrc;C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\rcc.exe"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\rcc.exe -name qttoolbardialog ..\..\..\shared\qttoolbardialog\qttoolbardialog.qrc -o tmp\rcc\release_shared\qrc_qttoolbardialog.cpp"
+						Description="RCC ..\..\..\shared\qttoolbardialog\qttoolbardialog.qrc"
+						Outputs="tmp\rcc\release_shared\qrc_qttoolbardialog.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+		</Filter>
+		<File
+			RelativePath="designer.rc" />
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>

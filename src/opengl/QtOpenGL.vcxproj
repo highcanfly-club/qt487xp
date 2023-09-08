@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{36192917-D026-35CF-928C-9CF05D730053}</ProjectGuid>
+    <RootNamespace>QtOpenGL</RootNamespace>
+    <Keyword>Qt4VSv1.0</Keyword>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <OutputDirectory>..\..\lib\</OutputDirectory>
+    <ATLMinimizesCRunTimeLibraryUsage>false</ATLMinimizesCRunTimeLibraryUsage>
+    <CharacterSet>NotSet</CharacterSet>
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <IntermediateDirectory>tmp\obj\debug_shared\</IntermediateDirectory>
+    <PlatformToolset>v141_xp</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <OutputDirectory>..\..\lib\</OutputDirectory>
+    <ATLMinimizesCRunTimeLibraryUsage>false</ATLMinimizesCRunTimeLibraryUsage>
+    <CharacterSet>NotSet</CharacterSet>
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <IntermediateDirectory>tmp\obj\release_shared\</IntermediateDirectory>
+    <PlatformToolset>v141_xp</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\lib\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">tmp\obj\debug_shared\</IntDir>
+    <IgnoreImportLibrary Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</IgnoreImportLibrary>
+    <PostBuildEventUseInBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</PostBuildEventUseInBuild>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\lib\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">tmp\obj\release_shared\</IntDir>
+    <IgnoreImportLibrary Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</IgnoreImportLibrary>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <PostBuildEventUseInBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</PostBuildEventUseInBuild>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>"..\..\include\QtCore";"..\..\include\QtGui";"..\..\include";"..\..\include\QtOpenGL";"tmp\rcc\debug_shared";"tmp";"..\3rdparty\harfbuzz\src";"..\..\include\ActiveQt";"tmp\moc\debug_shared";..\..\mkspecs\win32-msvc2017;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>-Zm200 -w34100 -w34189 %(AdditionalOptions)</AdditionalOptions>
+      <AssemblerListingLocation>tmp\obj\debug_shared\</AssemblerListingLocation>
+      <BrowseInformation>false</BrowseInformation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ObjectFileName>tmp\obj\debug_shared\</ObjectFileName>
+      <PreprocessorDefinitions>_MSC_VER=1915;WIN32;_USING_V140_SDK71_;_WINDOWS;UNICODE;WIN32;QT_BUILD_OPENGL_LIB;QT_NO_USING_NAMESPACE;QT_MAKEDLL;QT_NO_CAST_TO_ASCII;QT_ASCII_CAST_WARNINGS;QT3_SUPPORT;QT_MOC_COMPAT;QT_USE_QSTRINGBUILDER;_USE_MATH_DEFINES;QT_NO_EGL;QT_DLL;QT_GUI_LIB;QT_CORE_LIB;QT_HAVE_MMX;QT_HAVE_3DNOW;QT_HAVE_SSE;QT_HAVE_MMXEXT;QT_HAVE_SSE2;QT_SHARED;QT_THREAD_SUPPORT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessToFile>false</PreprocessToFile>
+      <ProgramDataBaseFileName>.\</ProgramDataBaseFileName>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>glu32.lib;opengl32.lib;gdi32.lib;user32.lib;$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\lib\QtGuid4.lib;$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\lib\QtCored4.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\lib;$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <BaseAddress>0x63000000</BaseAddress>
+      <DataExecutionPrevention>true</DataExecutionPrevention>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreImportLibrary>true</IgnoreImportLibrary>
+      <LinkDLL>true</LinkDLL>
+      <OutputFile>$(OutDir)\QtOpenGLd4.dll</OutputFile>
+      <RandomizedBaseAddress>true</RandomizedBaseAddress>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <Version>4.87</Version>
+    </Link>
+    <Midl>
+      <DefaultCharType>Unsigned</DefaultCharType>
+      <EnableErrorChecks>None</EnableErrorChecks>
+      <WarningLevel>0</WarningLevel>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_MSC_VER=1915;WIN32;_USING_V140_SDK71_;_WINDOWS;UNICODE;WIN32;QT_BUILD_OPENGL_LIB;QT_NO_USING_NAMESPACE;QT_MAKEDLL;QT_NO_CAST_TO_ASCII;QT_ASCII_CAST_WARNINGS;QT3_SUPPORT;QT_MOC_COMPAT;QT_USE_QSTRINGBUILDER;_USE_MATH_DEFINES;QT_NO_EGL;QT_DLL;QT_GUI_LIB;QT_CORE_LIB;QT_HAVE_MMX;QT_HAVE_3DNOW;QT_HAVE_SSE;QT_HAVE_MMXEXT;QT_HAVE_SSE2;QT_SHARED;QT_THREAD_SUPPORT;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+      <Message>
+      </Message>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>"..\..\include\QtCore";"..\..\include\QtGui";"..\..\include";"..\..\include\QtOpenGL";"tmp\rcc\debug_shared";"tmp";"..\3rdparty\harfbuzz\src";"..\..\include\ActiveQt";"tmp\moc\release_shared";..\..\mkspecs\win32-msvc2017;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>-Zm200 -w34100 -w34189 %(AdditionalOptions)</AdditionalOptions>
+      <AssemblerListingLocation>tmp\obj\release_shared\</AssemblerListingLocation>
+      <BrowseInformation>false</BrowseInformation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ObjectFileName>tmp\obj\release_shared\</ObjectFileName>
+      <Optimization>MaxSpeed</Optimization>
+      <PreprocessorDefinitions>_MSC_VER=1915;WIN32;_USING_V140_SDK71_;_WINDOWS;UNICODE;WIN32;QT_BUILD_OPENGL_LIB;QT_NO_USING_NAMESPACE;QT_MAKEDLL;QT_NO_CAST_TO_ASCII;QT_ASCII_CAST_WARNINGS;QT3_SUPPORT;QT_MOC_COMPAT;QT_USE_QSTRINGBUILDER;_USE_MATH_DEFINES;QT_NO_EGL;QT_DLL;QT_NO_DEBUG;QT_GUI_LIB;QT_CORE_LIB;QT_HAVE_MMX;QT_HAVE_3DNOW;QT_HAVE_SSE;QT_HAVE_MMXEXT;QT_HAVE_SSE2;QT_SHARED;QT_THREAD_SUPPORT;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessToFile>false</PreprocessToFile>
+      <ProgramDataBaseFileName>.\</ProgramDataBaseFileName>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>glu32.lib;opengl32.lib;gdi32.lib;user32.lib;$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\lib\QtGui4.lib;$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\lib\QtCore4.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\lib;$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <BaseAddress>0x63000000</BaseAddress>
+      <DataExecutionPrevention>true</DataExecutionPrevention>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreImportLibrary>true</IgnoreImportLibrary>
+      <LinkDLL>true</LinkDLL>
+      <LinkIncremental>false</LinkIncremental>
+      <OptimizeReferences>true</OptimizeReferences>
+      <OutputFile>$(OutDir)\QtOpenGL4.dll</OutputFile>
+      <RandomizedBaseAddress>true</RandomizedBaseAddress>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <Version>4.87</Version>
+    </Link>
+    <Midl>
+      <DefaultCharType>Unsigned</DefaultCharType>
+      <EnableErrorChecks>None</EnableErrorChecks>
+      <WarningLevel>0</WarningLevel>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_MSC_VER=1915;WIN32;_USING_V140_SDK71_;_WINDOWS;UNICODE;WIN32;QT_BUILD_OPENGL_LIB;QT_NO_USING_NAMESPACE;QT_MAKEDLL;QT_NO_CAST_TO_ASCII;QT_ASCII_CAST_WARNINGS;QT3_SUPPORT;QT_MOC_COMPAT;QT_USE_QSTRINGBUILDER;_USE_MATH_DEFINES;QT_NO_EGL;QT_DLL;QT_NO_DEBUG;QT_GUI_LIB;QT_CORE_LIB;QT_HAVE_MMX;QT_HAVE_3DNOW;QT_HAVE_SSE;QT_HAVE_MMXEXT;QT_HAVE_SSE2;QT_SHARED;QT_THREAD_SUPPORT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+      <Message>
+      </Message>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="qgl.cpp" />
+    <ClCompile Include="gl2paintengineex\qgl2pexvertexarray.cpp" />
+    <ClCompile Include="qgl_win.cpp" />
+    <ClCompile Include="qglbuffer.cpp" />
+    <ClCompile Include="qglcolormap.cpp" />
+    <ClCompile Include="gl2paintengineex\qglcustomshaderstage.cpp" />
+    <ClCompile Include="gl2paintengineex\qglengineshadermanager.cpp" />
+    <ClCompile Include="qglextensions.cpp" />
+    <ClCompile Include="qglframebufferobject.cpp" />
+    <ClCompile Include="qglfunctions.cpp" />
+    <ClCompile Include="gl2paintengineex\qglgradientcache.cpp" />
+    <ClCompile Include="qglpaintdevice.cpp" />
+    <ClCompile Include="qglpixelbuffer.cpp" />
+    <ClCompile Include="qglpixelbuffer_win.cpp" />
+    <ClCompile Include="qglpixmapfilter.cpp" />
+    <ClCompile Include="qglshaderprogram.cpp" />
+    <ClCompile Include="qgraphicsshadereffect.cpp" />
+    <ClCompile Include="qgraphicssystem_gl.cpp" />
+    <ClCompile Include="qpaintengine_opengl.cpp" />
+    <ClCompile Include="gl2paintengineex\qpaintengineex_opengl2.cpp" />
+    <ClCompile Include="qpixmapdata_gl.cpp" />
+    <ClCompile Include="gl2paintengineex\qtextureglyphcache_gl.cpp" />
+    <ClCompile Include="gl2paintengineex\qtriangulatingstroker.cpp" />
+    <ClCompile Include="gl2paintengineex\qtriangulator.cpp" />
+    <ClCompile Include="qwindowsurface_gl.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="qgl.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;qgl.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_OPENGL_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_NO_EGL -DQT_DLL -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I"..\..\include\QtCore" -I"..\..\include\QtGui" -I"..\..\include" -I"..\..\include\QtOpenGL" -I"tmp\rcc\debug_shared" -I"tmp" -I"..\3rdparty\harfbuzz\src" -I"..\..\include\ActiveQt" -I"tmp\moc\debug_shared" -I..\..\mkspecs\win32-msvc2017 -D_MSC_VER=1915 -DWIN32 -D_USING_V140_SDK71_ qgl.h -o tmp\moc\debug_shared\moc_qgl.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MOC qgl.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">tmp\moc\debug_shared\moc_qgl.cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;qgl.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_OPENGL_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_NO_EGL -DQT_DLL -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I"..\..\include\QtCore" -I"..\..\include\QtGui" -I"..\..\include" -I"..\..\include\QtOpenGL" -I"tmp\rcc\debug_shared" -I"tmp" -I"..\3rdparty\harfbuzz\src" -I"..\..\include\ActiveQt" -I"tmp\moc\release_shared" -I..\..\mkspecs\win32-msvc2017 -D_MSC_VER=1915 -DWIN32 -D_USING_V140_SDK71_ qgl.h -o tmp\moc\release_shared\moc_qgl.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MOC qgl.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">tmp\moc\release_shared\moc_qgl.cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <ClInclude Include="gl2paintengineex\qgl2pexvertexarray_p.h" />
+    <CustomBuild Include="qgl_p.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;qgl_p.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_OPENGL_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_NO_EGL -DQT_DLL -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I"..\..\include\QtCore" -I"..\..\include\QtGui" -I"..\..\include" -I"..\..\include\QtOpenGL" -I"tmp\rcc\debug_shared" -I"tmp" -I"..\3rdparty\harfbuzz\src" -I"..\..\include\ActiveQt" -I"tmp\moc\debug_shared" -I..\..\mkspecs\win32-msvc2017 -D_MSC_VER=1915 -DWIN32 -D_USING_V140_SDK71_ qgl_p.h -o tmp\moc\debug_shared\moc_qgl_p.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MOC qgl_p.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">tmp\moc\debug_shared\moc_qgl_p.cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;qgl_p.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_OPENGL_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_NO_EGL -DQT_DLL -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I"..\..\include\QtCore" -I"..\..\include\QtGui" -I"..\..\include" -I"..\..\include\QtOpenGL" -I"tmp\rcc\debug_shared" -I"tmp" -I"..\3rdparty\harfbuzz\src" -I"..\..\include\ActiveQt" -I"tmp\moc\release_shared" -I..\..\mkspecs\win32-msvc2017 -D_MSC_VER=1915 -DWIN32 -D_USING_V140_SDK71_ qgl_p.h -o tmp\moc\release_shared\moc_qgl_p.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MOC qgl_p.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">tmp\moc\release_shared\moc_qgl_p.cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <ClInclude Include="qglbuffer.h" />
+    <ClInclude Include="qglcolormap.h" />
+    <ClInclude Include="gl2paintengineex\qglcustomshaderstage_p.h" />
+    <CustomBuild Include="gl2paintengineex\qglengineshadermanager_p.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;gl2paintengineex\qglengineshadermanager_p.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_OPENGL_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_NO_EGL -DQT_DLL -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I"..\..\include\QtCore" -I"..\..\include\QtGui" -I"..\..\include" -I"..\..\include\QtOpenGL" -I"tmp\rcc\debug_shared" -I"tmp" -I"..\3rdparty\harfbuzz\src" -I"..\..\include\ActiveQt" -I"tmp\moc\debug_shared" -I..\..\mkspecs\win32-msvc2017 -D_MSC_VER=1915 -DWIN32 -D_USING_V140_SDK71_ gl2paintengineex\qglengineshadermanager_p.h -o tmp\moc\debug_shared\moc_qglengineshadermanager_p.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MOC gl2paintengineex\qglengineshadermanager_p.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">tmp\moc\debug_shared\moc_qglengineshadermanager_p.cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;gl2paintengineex\qglengineshadermanager_p.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_OPENGL_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_NO_EGL -DQT_DLL -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I"..\..\include\QtCore" -I"..\..\include\QtGui" -I"..\..\include" -I"..\..\include\QtOpenGL" -I"tmp\rcc\debug_shared" -I"tmp" -I"..\3rdparty\harfbuzz\src" -I"..\..\include\ActiveQt" -I"tmp\moc\release_shared" -I..\..\mkspecs\win32-msvc2017 -D_MSC_VER=1915 -DWIN32 -D_USING_V140_SDK71_ gl2paintengineex\qglengineshadermanager_p.h -o tmp\moc\release_shared\moc_qglengineshadermanager_p.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MOC gl2paintengineex\qglengineshadermanager_p.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">tmp\moc\release_shared\moc_qglengineshadermanager_p.cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <ClInclude Include="gl2paintengineex\qglengineshadersource_p.h" />
+    <ClInclude Include="qglextensions_p.h" />
+    <ClInclude Include="qglframebufferobject.h" />
+    <ClInclude Include="qglframebufferobject_p.h" />
+    <ClInclude Include="qglfunctions.h" />
+    <ClInclude Include="gl2paintengineex\qglgradientcache_p.h" />
+    <ClInclude Include="qglpaintdevice_p.h" />
+    <ClInclude Include="qglpixelbuffer.h" />
+    <ClInclude Include="qglpixelbuffer_p.h" />
+    <ClInclude Include="qglpixmapfilter_p.h" />
+    <ClInclude Include="gl2paintengineex\qglshadercache_meego_p.h" />
+    <ClInclude Include="gl2paintengineex\qglshadercache_p.h" />
+    <CustomBuild Include="qglshaderprogram.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;qglshaderprogram.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_OPENGL_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_NO_EGL -DQT_DLL -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I"..\..\include\QtCore" -I"..\..\include\QtGui" -I"..\..\include" -I"..\..\include\QtOpenGL" -I"tmp\rcc\debug_shared" -I"tmp" -I"..\3rdparty\harfbuzz\src" -I"..\..\include\ActiveQt" -I"tmp\moc\debug_shared" -I..\..\mkspecs\win32-msvc2017 -D_MSC_VER=1915 -DWIN32 -D_USING_V140_SDK71_ qglshaderprogram.h -o tmp\moc\debug_shared\moc_qglshaderprogram.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MOC qglshaderprogram.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">tmp\moc\debug_shared\moc_qglshaderprogram.cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;qglshaderprogram.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_OPENGL_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_NO_EGL -DQT_DLL -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I"..\..\include\QtCore" -I"..\..\include\QtGui" -I"..\..\include" -I"..\..\include\QtOpenGL" -I"tmp\rcc\debug_shared" -I"tmp" -I"..\3rdparty\harfbuzz\src" -I"..\..\include\ActiveQt" -I"tmp\moc\release_shared" -I..\..\mkspecs\win32-msvc2017 -D_MSC_VER=1915 -DWIN32 -D_USING_V140_SDK71_ qglshaderprogram.h -o tmp\moc\release_shared\moc_qglshaderprogram.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MOC qglshaderprogram.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">tmp\moc\release_shared\moc_qglshaderprogram.cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="qgraphicsshadereffect_p.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;qgraphicsshadereffect_p.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_OPENGL_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_NO_EGL -DQT_DLL -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I"..\..\include\QtCore" -I"..\..\include\QtGui" -I"..\..\include" -I"..\..\include\QtOpenGL" -I"tmp\rcc\debug_shared" -I"tmp" -I"..\3rdparty\harfbuzz\src" -I"..\..\include\ActiveQt" -I"tmp\moc\debug_shared" -I..\..\mkspecs\win32-msvc2017 -D_MSC_VER=1915 -DWIN32 -D_USING_V140_SDK71_ qgraphicsshadereffect_p.h -o tmp\moc\debug_shared\moc_qgraphicsshadereffect_p.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MOC qgraphicsshadereffect_p.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">tmp\moc\debug_shared\moc_qgraphicsshadereffect_p.cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;qgraphicsshadereffect_p.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_OPENGL_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_NO_EGL -DQT_DLL -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I"..\..\include\QtCore" -I"..\..\include\QtGui" -I"..\..\include" -I"..\..\include\QtOpenGL" -I"tmp\rcc\debug_shared" -I"tmp" -I"..\3rdparty\harfbuzz\src" -I"..\..\include\ActiveQt" -I"tmp\moc\release_shared" -I..\..\mkspecs\win32-msvc2017 -D_MSC_VER=1915 -DWIN32 -D_USING_V140_SDK71_ qgraphicsshadereffect_p.h -o tmp\moc\release_shared\moc_qgraphicsshadereffect_p.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MOC qgraphicsshadereffect_p.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">tmp\moc\release_shared\moc_qgraphicsshadereffect_p.cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <ClInclude Include="qgraphicssystem_gl_p.h" />
+    <ClInclude Include="qpaintengine_opengl_p.h" />
+    <ClInclude Include="gl2paintengineex\qpaintengineex_opengl2_p.h" />
+    <ClInclude Include="qpixmapdata_gl_p.h" />
+    <ClInclude Include="gl2paintengineex\qtextureglyphcache_gl_p.h" />
+    <ClInclude Include="gl2paintengineex\qtriangulatingstroker_p.h" />
+    <ClInclude Include="gl2paintengineex\qtriangulator_p.h" />
+    <CustomBuild Include="qwindowsurface_gl_p.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;qwindowsurface_gl_p.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_OPENGL_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_NO_EGL -DQT_DLL -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I"..\..\include\QtCore" -I"..\..\include\QtGui" -I"..\..\include" -I"..\..\include\QtOpenGL" -I"tmp\rcc\debug_shared" -I"tmp" -I"..\3rdparty\harfbuzz\src" -I"..\..\include\ActiveQt" -I"tmp\moc\debug_shared" -I..\..\mkspecs\win32-msvc2017 -D_MSC_VER=1915 -DWIN32 -D_USING_V140_SDK71_ qwindowsurface_gl_p.h -o tmp\moc\debug_shared\moc_qwindowsurface_gl_p.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MOC qwindowsurface_gl_p.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">tmp\moc\debug_shared\moc_qwindowsurface_gl_p.cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;qwindowsurface_gl_p.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_OPENGL_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_NO_EGL -DQT_DLL -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I"..\..\include\QtCore" -I"..\..\include\QtGui" -I"..\..\include" -I"..\..\include\QtOpenGL" -I"tmp\rcc\debug_shared" -I"tmp" -I"..\3rdparty\harfbuzz\src" -I"..\..\include\ActiveQt" -I"tmp\moc\release_shared" -I..\..\mkspecs\win32-msvc2017 -D_MSC_VER=1915 -DWIN32 -D_USING_V140_SDK71_ qwindowsurface_gl_p.h -o tmp\moc\release_shared\moc_qwindowsurface_gl_p.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MOC qwindowsurface_gl_p.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">tmp\moc\release_shared\moc_qwindowsurface_gl_p.cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="tmp\moc\debug_shared\moc_qgl.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tmp\moc\release_shared\moc_qgl.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tmp\moc\debug_shared\moc_qgl_p.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tmp\moc\release_shared\moc_qgl_p.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tmp\moc\debug_shared\moc_qglengineshadermanager_p.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tmp\moc\release_shared\moc_qglengineshadermanager_p.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tmp\moc\debug_shared\moc_qglshaderprogram.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tmp\moc\release_shared\moc_qglshaderprogram.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tmp\moc\debug_shared\moc_qgraphicsshadereffect_p.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tmp\moc\release_shared\moc_qgraphicsshadereffect_p.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tmp\moc\debug_shared\moc_qwindowsurface_gl_p.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tmp\moc\release_shared\moc_qwindowsurface_gl_p.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <CustomBuild Include="tmp\moc\debug_shared\qpaintengine_opengl.moc">
+      <FileType>Document</FileType>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;qpaintengine_opengl.cpp;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_OPENGL_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_NO_EGL -DQT_DLL -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I"..\..\include\QtCore" -I"..\..\include\QtGui" -I"..\..\include" -I"..\..\include\QtOpenGL" -I"tmp\rcc\debug_shared" -I"tmp" -I"..\3rdparty\harfbuzz\src" -I"..\..\include\ActiveQt" -I"tmp\moc\debug_shared" -I..\..\mkspecs\win32-msvc2017 -D_MSC_VER=1915 -DWIN32 -D_USING_V140_SDK71_ qpaintengine_opengl.cpp -o tmp\moc\debug_shared\qpaintengine_opengl.moc</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MOC qpaintengine_opengl.cpp</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">tmp\moc\debug_shared\qpaintengine_opengl.moc;%(Outputs)</Outputs>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </CustomBuild>
+    <CustomBuild Include="tmp\moc\release_shared\qpaintengine_opengl.moc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;qpaintengine_opengl.cpp;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_OPENGL_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_NO_EGL -DQT_DLL -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I"..\..\include\QtCore" -I"..\..\include\QtGui" -I"..\..\include" -I"..\..\include\QtOpenGL" -I"tmp\rcc\debug_shared" -I"tmp" -I"..\3rdparty\harfbuzz\src" -I"..\..\include\ActiveQt" -I"tmp\moc\release_shared" -I..\..\mkspecs\win32-msvc2017 -D_MSC_VER=1915 -DWIN32 -D_USING_V140_SDK71_ qpaintengine_opengl.cpp -o tmp\moc\release_shared\qpaintengine_opengl.moc</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MOC qpaintengine_opengl.cpp</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">tmp\moc\release_shared\qpaintengine_opengl.moc;%(Outputs)</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\src\opengl\QtOpenGL_resource.rc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ResourceCompile>
+    <ResourceCompile Include="$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\src\opengl\QtOpenGLd_resource.rc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ResourceCompile>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets" />
+</Project>

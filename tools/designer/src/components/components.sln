@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "QtDesignerComponents", "C:/novasulf-II/qt-everywhere-opensource-src-4.8.7/tools/designer/src/components/lib\QtDesignerComponents.vcxproj", "{086A5DD9-1129-3FE1-9B60-6EFA39FE8669}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{086A5DD9-1129-3FE1-9B60-6EFA39FE8669}.Debug|Win32.ActiveCfg = Debug|Win32
+		{086A5DD9-1129-3FE1-9B60-6EFA39FE8669}.Debug|Win32.Build.0 = Debug|Win32
+		{086A5DD9-1129-3FE1-9B60-6EFA39FE8669}.Release|Win32.ActiveCfg = Release|Win32
+		{086A5DD9-1129-3FE1-9B60-6EFA39FE8669}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

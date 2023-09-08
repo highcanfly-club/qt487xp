@@ -1,0 +1,42 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "QtUiTools", "C:/novasulf-II/qt-everywhere-opensource-src-4.8.7/tools/designer/src/uitools\QtUiTools.vcxproj", "{F9646E32-315A-327B-AAAD-B9C49177C993}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "QtDesigner", "C:/novasulf-II/qt-everywhere-opensource-src-4.8.7/tools/designer/src/lib\QtDesigner.vcxproj", "{6BAFD9B3-1136-381C-90C1-D17E753814C6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "designer", "C:/novasulf-II/qt-everywhere-opensource-src-4.8.7/tools/designer/src/designer\designer.vcxproj", "{3C93B537-990D-3B40-835A-56996F1DC400}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "QtDesignerComponents", "C:/novasulf-II/qt-everywhere-opensource-src-4.8.7/tools/designer/src/components/lib\QtDesignerComponents.vcxproj", "{086A5DD9-1129-3FE1-9B60-6EFA39FE8669}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+		{3C93B537-990D-3B40-835A-56996F1DC400}.0 = {086A5DD9-1129-3FE1-9B60-6EFA39FE8669}
+		{3C93B537-990D-3B40-835A-56996F1DC400}.1 = {6BAFD9B3-1136-381C-90C1-D17E753814C6}
+		{086A5DD9-1129-3FE1-9B60-6EFA39FE8669}.0 = {6BAFD9B3-1136-381C-90C1-D17E753814C6}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F9646E32-315A-327B-AAAD-B9C49177C993}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F9646E32-315A-327B-AAAD-B9C49177C993}.Debug|Win32.Build.0 = Debug|Win32
+		{F9646E32-315A-327B-AAAD-B9C49177C993}.Release|Win32.ActiveCfg = Release|Win32
+		{F9646E32-315A-327B-AAAD-B9C49177C993}.Release|Win32.Build.0 = Release|Win32
+		{6BAFD9B3-1136-381C-90C1-D17E753814C6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6BAFD9B3-1136-381C-90C1-D17E753814C6}.Debug|Win32.Build.0 = Debug|Win32
+		{6BAFD9B3-1136-381C-90C1-D17E753814C6}.Release|Win32.ActiveCfg = Release|Win32
+		{6BAFD9B3-1136-381C-90C1-D17E753814C6}.Release|Win32.Build.0 = Release|Win32
+		{3C93B537-990D-3B40-835A-56996F1DC400}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3C93B537-990D-3B40-835A-56996F1DC400}.Debug|Win32.Build.0 = Debug|Win32
+		{3C93B537-990D-3B40-835A-56996F1DC400}.Release|Win32.ActiveCfg = Release|Win32
+		{3C93B537-990D-3B40-835A-56996F1DC400}.Release|Win32.Build.0 = Release|Win32
+		{086A5DD9-1129-3FE1-9B60-6EFA39FE8669}.Debug|Win32.ActiveCfg = Debug|Win32
+		{086A5DD9-1129-3FE1-9B60-6EFA39FE8669}.Debug|Win32.Build.0 = Debug|Win32
+		{086A5DD9-1129-3FE1-9B60-6EFA39FE8669}.Release|Win32.ActiveCfg = Release|Win32
+		{086A5DD9-1129-3FE1-9B60-6EFA39FE8669}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

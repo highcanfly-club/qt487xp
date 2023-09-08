@@ -1,0 +1,15 @@
+-static 
+-opensource 
+-nomake 
+examples 
+-nomake 
+demos 
+-no-scripttools 
+-no-script 
+-platform 
+win32-msvc2017 
+-no-sse2 
+-no-sse 
+-no-opengl 
+-debug-and-release 
+-confirm-license 

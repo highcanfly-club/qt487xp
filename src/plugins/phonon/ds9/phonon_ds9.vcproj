@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="7.00"
+	Name="phonon_ds9"
+	ProjectGUID="{126496B7-6BF8-3715-902F-041783C6AFCC}"
+	Keyword="Qt4VSv1.0">
+	<Platforms>
+		<Platform
+			Name="Win32" />
+	</Platforms>
+	<Configurations>
+		<Configuration
+			Name="Debug|Win32"
+			OutputDirectory="..\..\..\..\plugins\phonon_backend\"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			ConfigurationType="2"
+			IntermediateDirectory="tmp\obj\debug_shared\"
+			UseOfMfc="0">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="&quot;..\..\..\..\include\QtCore&quot;,&quot;..\..\..\..\include\QtGui&quot;,&quot;..\..\..\..\include\phonon&quot;,&quot;..\..\..\..\include&quot;,&quot;..\..\..\..\include\ActiveQt&quot;,&quot;..\..\..\..\include\phonon_compat&quot;,&quot;tmp\moc\debug_shared&quot;,..\..\..\..\mkspecs\win32-msvc2003"
+				AdditionalOptions="-Zm300 -w34100 -w34189"
+				AssemblerListingLocation="tmp\obj\debug_shared\"
+				DebugInformationFormat="3"
+				ExceptionHandling="true"
+				GeneratePreprocessedFile="0"
+				ObjectFile="tmp\obj\debug_shared\"
+				Optimization ="4"
+				PreprocessorDefinitions="_WINDOWS,UNICODE,WIN32,PHONON_MAKE_QT_ONLY_BACKEND,QT_DLL,QT_PLUGIN,QT_PHONON_LIB,QT_GUI_LIB,QT_CORE_LIB,QT_HAVE_MMX,QT_HAVE_3DNOW,QT_HAVE_SSE,QT_HAVE_MMXEXT,QT_HAVE_SSE2,QT_THREAD_SUPPORT"
+				ProgramDataBaseFileName=".\"
+				RuntimeLibrary="3"
+				RuntimeTypeInfo="true"
+				SuppressStartupBanner="true"
+				WarningLevel="3" />
+			<Tool
+				Name="VCCustomBuildTool" />
+			<Tool
+				Name="VCLinkerTool"
+				AdditionalDependencies="opengl32.lib gdi32.lib strmiids.lib dmoguids.lib uuid.lib msdmo.lib ole32.lib oleaut32.lib c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib\phonond4.lib c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib\QtGuid4.lib c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib\QtCored4.lib"
+				AdditionalLibraryDirectories="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib,c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib"
+				GenerateDebugInformation="true"
+				IgnoreImportLibrary="true"
+				LinkTimeCodeGeneration="0"
+				OutputFile="$(OutDir)\phonon_ds9d4.dll"
+				ProgramDatabaseFile=""
+				SubSystem="0"
+				SuppressStartupBanner="true"
+				Version="4.87" />
+			<Tool
+				Name="VCMIDLTool"
+				DefaultCharType="0"
+				EnableErrorChecks="1"
+				WarningLevel="0" />
+			<Tool
+				Name="VCPostBuildEventTool" />
+			<Tool
+				Name="VCPreBuildEventTool" />
+			<Tool
+				Name="VCPreLinkEventTool" />
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_WINDOWS,UNICODE,WIN32,PHONON_MAKE_QT_ONLY_BACKEND,QT_DLL,QT_PLUGIN,QT_PHONON_LIB,QT_GUI_LIB,QT_CORE_LIB,QT_HAVE_MMX,QT_HAVE_3DNOW,QT_HAVE_SSE,QT_HAVE_MMXEXT,QT_HAVE_SSE2,QT_THREAD_SUPPORT,_DEBUG" />
+		</Configuration>
+		<Configuration
+			Name="Release|Win32"
+			OutputDirectory="..\..\..\..\plugins\phonon_backend\"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			ConfigurationType="2"
+			IntermediateDirectory="tmp\obj\release_shared\"
+			UseOfMfc="0">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="&quot;..\..\..\..\include\QtCore&quot;,&quot;..\..\..\..\include\QtGui&quot;,&quot;..\..\..\..\include\phonon&quot;,&quot;..\..\..\..\include&quot;,&quot;..\..\..\..\include\ActiveQt&quot;,&quot;..\..\..\..\include\phonon_compat&quot;,&quot;tmp\moc\release_shared&quot;,..\..\..\..\mkspecs\win32-msvc2003"
+				AdditionalOptions="-Zm300 -w34100 -w34189"
+				AssemblerListingLocation="tmp\obj\release_shared\"
+				DebugInformationFormat="0"
+				ExceptionHandling="true"
+				GeneratePreprocessedFile="0"
+				ObjectFile="tmp\obj\release_shared\"
+				Optimization ="2"
+				PreprocessorDefinitions="_WINDOWS,UNICODE,WIN32,PHONON_MAKE_QT_ONLY_BACKEND,QT_DLL,QT_NO_DEBUG,QT_PLUGIN,QT_PHONON_LIB,QT_GUI_LIB,QT_CORE_LIB,QT_HAVE_MMX,QT_HAVE_3DNOW,QT_HAVE_SSE,QT_HAVE_MMXEXT,QT_HAVE_SSE2,QT_THREAD_SUPPORT,NDEBUG"
+				ProgramDataBaseFileName=".\"
+				RuntimeLibrary="2"
+				RuntimeTypeInfo="true"
+				SuppressStartupBanner="true"
+				WarningLevel="3" />
+			<Tool
+				Name="VCCustomBuildTool" />
+			<Tool
+				Name="VCLinkerTool"
+				AdditionalDependencies="opengl32.lib gdi32.lib strmiids.lib dmoguids.lib uuid.lib msdmo.lib ole32.lib oleaut32.lib c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib\phonon4.lib c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib\QtGui4.lib c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib\QtCore4.lib"
+				AdditionalLibraryDirectories="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib,c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib"
+				GenerateDebugInformation="false"
+				IgnoreImportLibrary="true"
+				LinkIncremental="1"
+				LinkTimeCodeGeneration="0"
+				OutputFile="$(OutDir)\phonon_ds94.dll"
+				ProgramDatabaseFile=""
+				SubSystem="0"
+				SuppressStartupBanner="true"
+				Version="4.87" />
+			<Tool
+				Name="VCMIDLTool"
+				DefaultCharType="0"
+				EnableErrorChecks="1"
+				WarningLevel="0" />
+			<Tool
+				Name="VCPostBuildEventTool" />
+			<Tool
+				Name="VCPreBuildEventTool" />
+			<Tool
+				Name="VCPreLinkEventTool" />
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_WINDOWS,UNICODE,WIN32,PHONON_MAKE_QT_ONLY_BACKEND,QT_DLL,QT_NO_DEBUG,QT_PLUGIN,QT_PHONON_LIB,QT_GUI_LIB,QT_CORE_LIB,QT_HAVE_MMX,QT_HAVE_3DNOW,QT_HAVE_SSE,QT_HAVE_MMXEXT,QT_HAVE_SSE2,QT_THREAD_SUPPORT" />
+		</Configuration>
+	</Configurations>
+	<Files>
+		<Filter
+			Name="Source Files"
+			Filter="cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx"
+			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}">
+			<File
+				RelativePath="..\..\..\3rdparty\phonon\ds9\abstractvideorenderer.cpp" />
+			<File
+				RelativePath="..\..\..\3rdparty\phonon\ds9\audiooutput.cpp" />
+			<File
+				RelativePath="..\..\..\3rdparty\phonon\ds9\backend.cpp" />
+			<File
+				RelativePath="..\..\..\3rdparty\phonon\ds9\backendnode.cpp" />
+			<File
+				RelativePath="..\..\..\3rdparty\phonon\ds9\effect.cpp" />
+			<File
+				RelativePath="..\..\..\3rdparty\phonon\ds9\fakesource.cpp" />
+			<File
+				RelativePath="..\..\..\3rdparty\phonon\ds9\iodevicereader.cpp" />
+			<File
+				RelativePath="..\..\..\3rdparty\phonon\ds9\mediagraph.cpp" />
+			<File
+				RelativePath="..\..\..\3rdparty\phonon\ds9\mediaobject.cpp" />
+			<File
+				RelativePath="..\..\..\3rdparty\phonon\ds9\qasyncreader.cpp" />
+			<File
+				RelativePath="..\..\..\3rdparty\phonon\ds9\qaudiocdreader.cpp" />
+			<File
+				RelativePath="..\..\..\3rdparty\phonon\ds9\qbasefilter.cpp" />
+			<File
+				RelativePath="..\..\..\3rdparty\phonon\ds9\qmeminputpin.cpp" />
+			<File
+				RelativePath="..\..\..\3rdparty\phonon\ds9\qpin.cpp" />
+			<File
+				RelativePath="..\..\..\3rdparty\phonon\ds9\videorenderer_evr.cpp" />
+			<File
+				RelativePath="..\..\..\3rdparty\phonon\ds9\videorenderer_soft.cpp" />
+			<File
+				RelativePath="..\..\..\3rdparty\phonon\ds9\videorenderer_vmr9.cpp" />
+			<File
+				RelativePath="..\..\..\3rdparty\phonon\ds9\videowidget.cpp" />
+			<File
+				RelativePath="..\..\..\3rdparty\phonon\ds9\volumeeffect.cpp" />
+		</Filter>
+		<Filter
+			Name="Header Files"
+			Filter="h;hpp;hxx;hm;inl;inc;xsd"
+			UniqueIdentifier="{93995380-89BD-4b04-88EB-625FBE52EBFB}">
+			<File
+				RelativePath="..\..\..\3rdparty\phonon\ds9\abstractvideorenderer.h" />
+			<File
+				RelativePath="..\..\..\3rdparty\phonon\ds9\audiooutput.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="..\..\..\3rdparty\phonon\ds9\audiooutput.h;C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DPHONON_MAKE_QT_ONLY_BACKEND -DQT_DLL -DQT_PLUGIN -DQT_PHONON_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;..\..\..\..\include\QtCore&quot; -I&quot;..\..\..\..\include\QtGui&quot; -I&quot;..\..\..\..\include\phonon&quot; -I&quot;..\..\..\..\include&quot; -I&quot;..\..\..\..\include\ActiveQt&quot; -I&quot;..\..\..\..\include\phonon_compat&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 ..\..\..\3rdparty\phonon\ds9\audiooutput.h -o tmp\moc\debug_shared\moc_audiooutput.cpp"
+						Description="MOC ..\..\..\3rdparty\phonon\ds9\audiooutput.h"
+						Outputs="tmp\moc\debug_shared\moc_audiooutput.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="..\..\..\3rdparty\phonon\ds9\audiooutput.h;C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DPHONON_MAKE_QT_ONLY_BACKEND -DQT_DLL -DQT_NO_DEBUG -DQT_PLUGIN -DQT_PHONON_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;..\..\..\..\include\QtCore&quot; -I&quot;..\..\..\..\include\QtGui&quot; -I&quot;..\..\..\..\include\phonon&quot; -I&quot;..\..\..\..\include&quot; -I&quot;..\..\..\..\include\ActiveQt&quot; -I&quot;..\..\..\..\include\phonon_compat&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 ..\..\..\3rdparty\phonon\ds9\audiooutput.h -o tmp\moc\release_shared\moc_audiooutput.cpp"
+						Description="MOC ..\..\..\3rdparty\phonon\ds9\audiooutput.h"
+						Outputs="tmp\moc\release_shared\moc_audiooutput.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="..\..\..\3rdparty\phonon\ds9\backend.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="..\..\..\3rdparty\phonon\ds9\backend.h;C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DPHONON_MAKE_QT_ONLY_BACKEND -DQT_DLL -DQT_PLUGIN -DQT_PHONON_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;..\..\..\..\include\QtCore&quot; -I&quot;..\..\..\..\include\QtGui&quot; -I&quot;..\..\..\..\include\phonon&quot; -I&quot;..\..\..\..\include&quot; -I&quot;..\..\..\..\include\ActiveQt&quot; -I&quot;..\..\..\..\include\phonon_compat&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 ..\..\..\3rdparty\phonon\ds9\backend.h -o tmp\moc\debug_shared\moc_backend.cpp"
+						Description="MOC ..\..\..\3rdparty\phonon\ds9\backend.h"
+						Outputs="tmp\moc\debug_shared\moc_backend.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="..\..\..\3rdparty\phonon\ds9\backend.h;C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DPHONON_MAKE_QT_ONLY_BACKEND -DQT_DLL -DQT_NO_DEBUG -DQT_PLUGIN -DQT_PHONON_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;..\..\..\..\include\QtCore&quot; -I&quot;..\..\..\..\include\QtGui&quot; -I&quot;..\..\..\..\include\phonon&quot; -I&quot;..\..\..\..\include&quot; -I&quot;..\..\..\..\include\ActiveQt&quot; -I&quot;..\..\..\..\include\phonon_compat&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 ..\..\..\3rdparty\phonon\ds9\backend.h -o tmp\moc\release_shared\moc_backend.cpp"
+						Description="MOC ..\..\..\3rdparty\phonon\ds9\backend.h"
+						Outputs="tmp\moc\release_shared\moc_backend.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="..\..\..\3rdparty\phonon\ds9\backendnode.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="..\..\..\3rdparty\phonon\ds9\backendnode.h;C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DPHONON_MAKE_QT_ONLY_BACKEND -DQT_DLL -DQT_PLUGIN -DQT_PHONON_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;..\..\..\..\include\QtCore&quot; -I&quot;..\..\..\..\include\QtGui&quot; -I&quot;..\..\..\..\include\phonon&quot; -I&quot;..\..\..\..\include&quot; -I&quot;..\..\..\..\include\ActiveQt&quot; -I&quot;..\..\..\..\include\phonon_compat&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 ..\..\..\3rdparty\phonon\ds9\backendnode.h -o tmp\moc\debug_shared\moc_backendnode.cpp"
+						Description="MOC ..\..\..\3rdparty\phonon\ds9\backendnode.h"
+						Outputs="tmp\moc\debug_shared\moc_backendnode.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="..\..\..\3rdparty\phonon\ds9\backendnode.h;C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DPHONON_MAKE_QT_ONLY_BACKEND -DQT_DLL -DQT_NO_DEBUG -DQT_PLUGIN -DQT_PHONON_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;..\..\..\..\include\QtCore&quot; -I&quot;..\..\..\..\include\QtGui&quot; -I&quot;..\..\..\..\include\phonon&quot; -I&quot;..\..\..\..\include&quot; -I&quot;..\..\..\..\include\ActiveQt&quot; -I&quot;..\..\..\..\include\phonon_compat&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 ..\..\..\3rdparty\phonon\ds9\backendnode.h -o tmp\moc\release_shared\moc_backendnode.cpp"
+						Description="MOC ..\..\..\3rdparty\phonon\ds9\backendnode.h"
+						Outputs="tmp\moc\release_shared\moc_backendnode.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="..\..\..\3rdparty\phonon\ds9\compointer.h" />
+			<File
+				RelativePath="..\..\..\3rdparty\phonon\ds9\effect.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="..\..\..\3rdparty\phonon\ds9\effect.h;C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DPHONON_MAKE_QT_ONLY_BACKEND -DQT_DLL -DQT_PLUGIN -DQT_PHONON_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;..\..\..\..\include\QtCore&quot; -I&quot;..\..\..\..\include\QtGui&quot; -I&quot;..\..\..\..\include\phonon&quot; -I&quot;..\..\..\..\include&quot; -I&quot;..\..\..\..\include\ActiveQt&quot; -I&quot;..\..\..\..\include\phonon_compat&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 ..\..\..\3rdparty\phonon\ds9\effect.h -o tmp\moc\debug_shared\moc_effect.cpp"
+						Description="MOC ..\..\..\3rdparty\phonon\ds9\effect.h"
+						Outputs="tmp\moc\debug_shared\moc_effect.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="..\..\..\3rdparty\phonon\ds9\effect.h;C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DPHONON_MAKE_QT_ONLY_BACKEND -DQT_DLL -DQT_NO_DEBUG -DQT_PLUGIN -DQT_PHONON_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;..\..\..\..\include\QtCore&quot; -I&quot;..\..\..\..\include\QtGui&quot; -I&quot;..\..\..\..\include\phonon&quot; -I&quot;..\..\..\..\include&quot; -I&quot;..\..\..\..\include\ActiveQt&quot; -I&quot;..\..\..\..\include\phonon_compat&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 ..\..\..\3rdparty\phonon\ds9\effect.h -o tmp\moc\release_shared\moc_effect.cpp"
+						Description="MOC ..\..\..\3rdparty\phonon\ds9\effect.h"
+						Outputs="tmp\moc\release_shared\moc_effect.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="..\..\..\3rdparty\phonon\ds9\fakesource.h" />
+			<File
+				RelativePath="..\..\..\3rdparty\phonon\ds9\iodevicereader.h" />
+			<File
+				RelativePath="..\..\..\3rdparty\phonon\ds9\mediagraph.h" />
+			<File
+				RelativePath="..\..\..\3rdparty\phonon\ds9\mediaobject.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="..\..\..\3rdparty\phonon\ds9\mediaobject.h;C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DPHONON_MAKE_QT_ONLY_BACKEND -DQT_DLL -DQT_PLUGIN -DQT_PHONON_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;..\..\..\..\include\QtCore&quot; -I&quot;..\..\..\..\include\QtGui&quot; -I&quot;..\..\..\..\include\phonon&quot; -I&quot;..\..\..\..\include&quot; -I&quot;..\..\..\..\include\ActiveQt&quot; -I&quot;..\..\..\..\include\phonon_compat&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 ..\..\..\3rdparty\phonon\ds9\mediaobject.h -o tmp\moc\debug_shared\moc_mediaobject.cpp"
+						Description="MOC ..\..\..\3rdparty\phonon\ds9\mediaobject.h"
+						Outputs="tmp\moc\debug_shared\moc_mediaobject.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="..\..\..\3rdparty\phonon\ds9\mediaobject.h;C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DPHONON_MAKE_QT_ONLY_BACKEND -DQT_DLL -DQT_NO_DEBUG -DQT_PLUGIN -DQT_PHONON_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;..\..\..\..\include\QtCore&quot; -I&quot;..\..\..\..\include\QtGui&quot; -I&quot;..\..\..\..\include\phonon&quot; -I&quot;..\..\..\..\include&quot; -I&quot;..\..\..\..\include\ActiveQt&quot; -I&quot;..\..\..\..\include\phonon_compat&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 ..\..\..\3rdparty\phonon\ds9\mediaobject.h -o tmp\moc\release_shared\moc_mediaobject.cpp"
+						Description="MOC ..\..\..\3rdparty\phonon\ds9\mediaobject.h"
+						Outputs="tmp\moc\release_shared\moc_mediaobject.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="..\..\..\3rdparty\phonon\ds9\phononds9_namespace.h" />
+			<File
+				RelativePath="..\..\..\3rdparty\phonon\ds9\qasyncreader.h" />
+			<File
+				RelativePath="..\..\..\3rdparty\phonon\ds9\qaudiocdreader.h" />
+			<File
+				RelativePath="..\..\..\3rdparty\phonon\ds9\qbasefilter.h" />
+			<File
+				RelativePath="..\..\..\3rdparty\phonon\ds9\qevr9.h" />
+			<File
+				RelativePath="..\..\..\3rdparty\phonon\ds9\qmeminputpin.h" />
+			<File
+				RelativePath="..\..\..\3rdparty\phonon\ds9\qpin.h" />
+			<File
+				RelativePath="..\..\..\3rdparty\phonon\ds9\videorenderer_evr.h" />
+			<File
+				RelativePath="..\..\..\3rdparty\phonon\ds9\videorenderer_soft.h" />
+			<File
+				RelativePath="..\..\..\3rdparty\phonon\ds9\videorenderer_vmr9.h" />
+			<File
+				RelativePath="..\..\..\3rdparty\phonon\ds9\videowidget.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="..\..\..\3rdparty\phonon\ds9\videowidget.h;C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DPHONON_MAKE_QT_ONLY_BACKEND -DQT_DLL -DQT_PLUGIN -DQT_PHONON_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;..\..\..\..\include\QtCore&quot; -I&quot;..\..\..\..\include\QtGui&quot; -I&quot;..\..\..\..\include\phonon&quot; -I&quot;..\..\..\..\include&quot; -I&quot;..\..\..\..\include\ActiveQt&quot; -I&quot;..\..\..\..\include\phonon_compat&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 ..\..\..\3rdparty\phonon\ds9\videowidget.h -o tmp\moc\debug_shared\moc_videowidget.cpp"
+						Description="MOC ..\..\..\3rdparty\phonon\ds9\videowidget.h"
+						Outputs="tmp\moc\debug_shared\moc_videowidget.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="..\..\..\3rdparty\phonon\ds9\videowidget.h;C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DPHONON_MAKE_QT_ONLY_BACKEND -DQT_DLL -DQT_NO_DEBUG -DQT_PLUGIN -DQT_PHONON_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;..\..\..\..\include\QtCore&quot; -I&quot;..\..\..\..\include\QtGui&quot; -I&quot;..\..\..\..\include\phonon&quot; -I&quot;..\..\..\..\include&quot; -I&quot;..\..\..\..\include\ActiveQt&quot; -I&quot;..\..\..\..\include\phonon_compat&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 ..\..\..\3rdparty\phonon\ds9\videowidget.h -o tmp\moc\release_shared\moc_videowidget.cpp"
+						Description="MOC ..\..\..\3rdparty\phonon\ds9\videowidget.h"
+						Outputs="tmp\moc\release_shared\moc_videowidget.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="..\..\..\3rdparty\phonon\ds9\volumeeffect.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="..\..\..\3rdparty\phonon\ds9\volumeeffect.h;C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DPHONON_MAKE_QT_ONLY_BACKEND -DQT_DLL -DQT_PLUGIN -DQT_PHONON_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;..\..\..\..\include\QtCore&quot; -I&quot;..\..\..\..\include\QtGui&quot; -I&quot;..\..\..\..\include\phonon&quot; -I&quot;..\..\..\..\include&quot; -I&quot;..\..\..\..\include\ActiveQt&quot; -I&quot;..\..\..\..\include\phonon_compat&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 ..\..\..\3rdparty\phonon\ds9\volumeeffect.h -o tmp\moc\debug_shared\moc_volumeeffect.cpp"
+						Description="MOC ..\..\..\3rdparty\phonon\ds9\volumeeffect.h"
+						Outputs="tmp\moc\debug_shared\moc_volumeeffect.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="..\..\..\3rdparty\phonon\ds9\volumeeffect.h;C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DPHONON_MAKE_QT_ONLY_BACKEND -DQT_DLL -DQT_NO_DEBUG -DQT_PLUGIN -DQT_PHONON_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;..\..\..\..\include\QtCore&quot; -I&quot;..\..\..\..\include\QtGui&quot; -I&quot;..\..\..\..\include\phonon&quot; -I&quot;..\..\..\..\include&quot; -I&quot;..\..\..\..\include\ActiveQt&quot; -I&quot;..\..\..\..\include\phonon_compat&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 ..\..\..\3rdparty\phonon\ds9\volumeeffect.h -o tmp\moc\release_shared\moc_volumeeffect.cpp"
+						Description="MOC ..\..\..\3rdparty\phonon\ds9\volumeeffect.h"
+						Outputs="tmp\moc\release_shared\moc_volumeeffect.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+		</Filter>
+		<File
+			RelativePath="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\src\plugins\phonon\ds9\phonon_ds9_resource.rc">
+			<FileConfiguration
+				Name="Debug|Win32"
+				ExcludedFromBuild="true" />
+		</File>
+		<File
+			RelativePath="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\src\plugins\phonon\ds9\phonon_ds9d_resource.rc">
+			<FileConfiguration
+				Name="Release|Win32"
+				ExcludedFromBuild="true" />
+		</File>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>

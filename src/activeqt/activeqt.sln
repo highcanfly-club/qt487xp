@@ -1,0 +1,27 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "QAxContainer", "C:/novasulf-II/qt-everywhere-opensource-src-4.8.7/src/activeqt/container\QAxContainer.vcxproj", "{745D09CF-D805-3684-9CFE-E75159C8BAD9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "QAxServer", "C:/novasulf-II/qt-everywhere-opensource-src-4.8.7/src/activeqt/control\QAxServer.vcxproj", "{61BBF62A-3EEA-3057-8B80-01EC00849272}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{745D09CF-D805-3684-9CFE-E75159C8BAD9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{745D09CF-D805-3684-9CFE-E75159C8BAD9}.Debug|Win32.Build.0 = Debug|Win32
+		{745D09CF-D805-3684-9CFE-E75159C8BAD9}.Release|Win32.ActiveCfg = Release|Win32
+		{745D09CF-D805-3684-9CFE-E75159C8BAD9}.Release|Win32.Build.0 = Release|Win32
+		{61BBF62A-3EEA-3057-8B80-01EC00849272}.Debug|Win32.ActiveCfg = Debug|Win32
+		{61BBF62A-3EEA-3057-8B80-01EC00849272}.Debug|Win32.Build.0 = Debug|Win32
+		{61BBF62A-3EEA-3057-8B80-01EC00849272}.Release|Win32.ActiveCfg = Release|Win32
+		{61BBF62A-3EEA-3057-8B80-01EC00849272}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

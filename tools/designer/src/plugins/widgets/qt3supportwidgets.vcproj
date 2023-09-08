@@ -1,0 +1,910 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="7.00"
+	Name="qt3supportwidgets"
+	ProjectGUID="{B05A48F1-C9C4-36C2-8061-01EFE32CA15C}"
+	Keyword="Qt4VSv1.0">
+	<Platforms>
+		<Platform
+			Name="Win32" />
+	</Platforms>
+	<Configurations>
+		<Configuration
+			Name="Debug|Win32"
+			OutputDirectory="..\..\..\..\..\plugins\designer\"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			ConfigurationType="2"
+			IntermediateDirectory="tmp\obj\debug_shared\"
+			UseOfMfc="0">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="&quot;..\..\..\..\..\include\QtDesigner&quot;,&quot;..\..\..\..\..\include\QtCore&quot;,&quot;..\..\..\..\..\include\QtGui&quot;,&quot;..\..\..\..\..\include\QtXml&quot;,&quot;..\..\..\..\..\include\Qt3Support&quot;,&quot;..\..\..\..\..\include\QtScript&quot;,&quot;..\..\..\..\..\include&quot;,&quot;.&quot;,&quot;q3iconview&quot;,&quot;q3listview&quot;,&quot;q3mainwindow&quot;,&quot;q3toolbar&quot;,&quot;q3widgetstack&quot;,&quot;q3wizard&quot;,&quot;q3listbox&quot;,&quot;q3table&quot;,&quot;q3textedit&quot;,&quot;q3widgets&quot;,&quot;..\..\..\..\..\include\ActiveQt&quot;,&quot;tmp\moc\debug_shared&quot;,..\..\..\..\..\mkspecs\win32-msvc2003"
+				AdditionalOptions="-Zm300 -w34100 -w34189"
+				AssemblerListingLocation="tmp\obj\debug_shared\"
+				DebugInformationFormat="3"
+				ExceptionHandling="true"
+				GeneratePreprocessedFile="0"
+				ObjectFile="tmp\obj\debug_shared\"
+				Optimization ="4"
+				PreprocessorDefinitions="_WINDOWS,UNICODE,WIN32,QT_DLL,QT_PLUGIN,QT_SCRIPT_LIB,QT_QT3SUPPORT_LIB,QT3_SUPPORT,QT_XML_LIB,QT_GUI_LIB,QT_CORE_LIB,QT_HAVE_MMX,QT_HAVE_3DNOW,QT_HAVE_SSE,QT_HAVE_MMXEXT,QT_HAVE_SSE2,QDESIGNER_EXPORT_WIDGETS,QT_THREAD_SUPPORT"
+				ProgramDataBaseFileName=".\"
+				RuntimeLibrary="3"
+				RuntimeTypeInfo="true"
+				SuppressStartupBanner="true"
+				WarningLevel="3" />
+			<Tool
+				Name="VCCustomBuildTool" />
+			<Tool
+				Name="VCLinkerTool"
+				AdditionalDependencies="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib\QtScriptd4.lib c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib\Qt3Supportd4.lib c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib\QtXmld4.lib c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib\QtGuid4.lib c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib\QtCored4.lib c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib\QtDesignerd4.lib"
+				AdditionalLibraryDirectories="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib,c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib"
+				GenerateDebugInformation="true"
+				IgnoreImportLibrary="true"
+				LinkTimeCodeGeneration="0"
+				OutputFile="$(OutDir)\qt3supportwidgetsd.dll"
+				ProgramDatabaseFile=""
+				SubSystem="0"
+				SuppressStartupBanner="true" />
+			<Tool
+				Name="VCMIDLTool"
+				DefaultCharType="0"
+				EnableErrorChecks="1"
+				WarningLevel="0" />
+			<Tool
+				Name="VCPostBuildEventTool" />
+			<Tool
+				Name="VCPreBuildEventTool" />
+			<Tool
+				Name="VCPreLinkEventTool" />
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_WINDOWS,UNICODE,WIN32,QT_DLL,QT_PLUGIN,QT_SCRIPT_LIB,QT_QT3SUPPORT_LIB,QT3_SUPPORT,QT_XML_LIB,QT_GUI_LIB,QT_CORE_LIB,QT_HAVE_MMX,QT_HAVE_3DNOW,QT_HAVE_SSE,QT_HAVE_MMXEXT,QT_HAVE_SSE2,QDESIGNER_EXPORT_WIDGETS,QT_THREAD_SUPPORT,_DEBUG" />
+		</Configuration>
+		<Configuration
+			Name="Release|Win32"
+			OutputDirectory="..\..\..\..\..\plugins\designer\"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			ConfigurationType="2"
+			IntermediateDirectory="tmp\obj\release_shared\"
+			UseOfMfc="0">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="&quot;..\..\..\..\..\include\QtDesigner&quot;,&quot;..\..\..\..\..\include\QtCore&quot;,&quot;..\..\..\..\..\include\QtGui&quot;,&quot;..\..\..\..\..\include\QtXml&quot;,&quot;..\..\..\..\..\include\Qt3Support&quot;,&quot;..\..\..\..\..\include\QtScript&quot;,&quot;..\..\..\..\..\include&quot;,&quot;.&quot;,&quot;q3iconview&quot;,&quot;q3listview&quot;,&quot;q3mainwindow&quot;,&quot;q3toolbar&quot;,&quot;q3widgetstack&quot;,&quot;q3wizard&quot;,&quot;q3listbox&quot;,&quot;q3table&quot;,&quot;q3textedit&quot;,&quot;q3widgets&quot;,&quot;..\..\..\..\..\include\ActiveQt&quot;,&quot;tmp\moc\release_shared&quot;,..\..\..\..\..\mkspecs\win32-msvc2003"
+				AdditionalOptions="-Zm300 -w34100 -w34189"
+				AssemblerListingLocation="tmp\obj\release_shared\"
+				DebugInformationFormat="0"
+				ExceptionHandling="true"
+				GeneratePreprocessedFile="0"
+				ObjectFile="tmp\obj\release_shared\"
+				Optimization ="2"
+				PreprocessorDefinitions="_WINDOWS,UNICODE,WIN32,QT_DLL,QT_NO_DEBUG,QT_PLUGIN,QT_SCRIPT_LIB,QT_QT3SUPPORT_LIB,QT3_SUPPORT,QT_XML_LIB,QT_GUI_LIB,QT_CORE_LIB,QT_HAVE_MMX,QT_HAVE_3DNOW,QT_HAVE_SSE,QT_HAVE_MMXEXT,QT_HAVE_SSE2,QDESIGNER_EXPORT_WIDGETS,QT_THREAD_SUPPORT,NDEBUG"
+				ProgramDataBaseFileName=".\"
+				RuntimeLibrary="2"
+				RuntimeTypeInfo="true"
+				SuppressStartupBanner="true"
+				WarningLevel="3" />
+			<Tool
+				Name="VCCustomBuildTool" />
+			<Tool
+				Name="VCLinkerTool"
+				AdditionalDependencies="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib\QtScript4.lib c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib\Qt3Support4.lib c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib\QtXml4.lib c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib\QtGui4.lib c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib\QtCore4.lib c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib\QtDesigner4.lib"
+				AdditionalLibraryDirectories="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib,c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib"
+				GenerateDebugInformation="false"
+				IgnoreImportLibrary="true"
+				LinkIncremental="1"
+				LinkTimeCodeGeneration="0"
+				OutputFile="$(OutDir)\qt3supportwidgets.dll"
+				ProgramDatabaseFile=""
+				SubSystem="0"
+				SuppressStartupBanner="true" />
+			<Tool
+				Name="VCMIDLTool"
+				DefaultCharType="0"
+				EnableErrorChecks="1"
+				WarningLevel="0" />
+			<Tool
+				Name="VCPostBuildEventTool" />
+			<Tool
+				Name="VCPreBuildEventTool" />
+			<Tool
+				Name="VCPreLinkEventTool" />
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_WINDOWS,UNICODE,WIN32,QT_DLL,QT_NO_DEBUG,QT_PLUGIN,QT_SCRIPT_LIB,QT_QT3SUPPORT_LIB,QT3_SUPPORT,QT_XML_LIB,QT_GUI_LIB,QT_CORE_LIB,QT_HAVE_MMX,QT_HAVE_3DNOW,QT_HAVE_SSE,QT_HAVE_MMXEXT,QT_HAVE_SSE2,QDESIGNER_EXPORT_WIDGETS,QT_THREAD_SUPPORT" />
+		</Configuration>
+	</Configurations>
+	<Files>
+		<Filter
+			Name="Source Files"
+			Filter="cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx"
+			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}">
+			<File
+				RelativePath="q3iconview\q3iconview_extrainfo.cpp" />
+			<File
+				RelativePath="q3iconview\q3iconview_plugin.cpp" />
+			<File
+				RelativePath="q3listbox\q3listbox_extrainfo.cpp" />
+			<File
+				RelativePath="q3listbox\q3listbox_plugin.cpp" />
+			<File
+				RelativePath="q3listview\q3listview_extrainfo.cpp" />
+			<File
+				RelativePath="q3listview\q3listview_plugin.cpp" />
+			<File
+				RelativePath="q3mainwindow\q3mainwindow_container.cpp" />
+			<File
+				RelativePath="q3mainwindow\q3mainwindow_plugin.cpp" />
+			<File
+				RelativePath="q3table\q3table_extrainfo.cpp" />
+			<File
+				RelativePath="q3table\q3table_plugin.cpp" />
+			<File
+				RelativePath="q3textedit\q3textedit_extrainfo.cpp" />
+			<File
+				RelativePath="q3textedit\q3textedit_plugin.cpp" />
+			<File
+				RelativePath="q3toolbar\q3toolbar_extrainfo.cpp" />
+			<File
+				RelativePath="q3toolbar\q3toolbar_plugin.cpp" />
+			<File
+				RelativePath="q3widgets\q3widget_plugins.cpp" />
+			<File
+				RelativePath="q3widgetstack\q3widgetstack_container.cpp" />
+			<File
+				RelativePath="q3widgetstack\q3widgetstack_plugin.cpp" />
+			<File
+				RelativePath="q3wizard\q3wizard_container.cpp" />
+			<File
+				RelativePath="q3wizard\q3wizard_plugin.cpp" />
+			<File
+				RelativePath="q3widgetstack\qdesigner_q3widgetstack.cpp" />
+			<File
+				RelativePath="qt3supportwidgets.cpp" />
+		</Filter>
+		<Filter
+			Name="Header Files"
+			Filter="h;hpp;hxx;hm;inl;inc;xsd"
+			UniqueIdentifier="{93995380-89BD-4b04-88EB-625FBE52EBFB}">
+			<File
+				RelativePath="q3iconview\q3iconview_extrainfo.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;q3iconview\q3iconview_extrainfo.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_PLUGIN -DQT_SCRIPT_LIB -DQT_QT3SUPPORT_LIB -DQT3_SUPPORT -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQDESIGNER_EXPORT_WIDGETS -DQT_THREAD_SUPPORT -I&quot;..\..\..\..\..\include\QtDesigner&quot; -I&quot;..\..\..\..\..\include\QtCore&quot; -I&quot;..\..\..\..\..\include\QtGui&quot; -I&quot;..\..\..\..\..\include\QtXml&quot; -I&quot;..\..\..\..\..\include\Qt3Support&quot; -I&quot;..\..\..\..\..\include\QtScript&quot; -I&quot;..\..\..\..\..\include&quot; -I&quot;.&quot; -I&quot;q3iconview&quot; -I&quot;q3listview&quot; -I&quot;q3mainwindow&quot; -I&quot;q3toolbar&quot; -I&quot;q3widgetstack&quot; -I&quot;q3wizard&quot; -I&quot;q3listbox&quot; -I&quot;q3table&quot; -I&quot;q3textedit&quot; -I&quot;q3widgets&quot; -I&quot;..\..\..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 q3iconview\q3iconview_extrainfo.h -o tmp\moc\debug_shared\moc_q3iconview_extrainfo.cpp"
+						Description="MOC q3iconview\q3iconview_extrainfo.h"
+						Outputs="tmp\moc\debug_shared\moc_q3iconview_extrainfo.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;q3iconview\q3iconview_extrainfo.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_NO_DEBUG -DQT_PLUGIN -DQT_SCRIPT_LIB -DQT_QT3SUPPORT_LIB -DQT3_SUPPORT -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQDESIGNER_EXPORT_WIDGETS -DQT_THREAD_SUPPORT -I&quot;..\..\..\..\..\include\QtDesigner&quot; -I&quot;..\..\..\..\..\include\QtCore&quot; -I&quot;..\..\..\..\..\include\QtGui&quot; -I&quot;..\..\..\..\..\include\QtXml&quot; -I&quot;..\..\..\..\..\include\Qt3Support&quot; -I&quot;..\..\..\..\..\include\QtScript&quot; -I&quot;..\..\..\..\..\include&quot; -I&quot;.&quot; -I&quot;q3iconview&quot; -I&quot;q3listview&quot; -I&quot;q3mainwindow&quot; -I&quot;q3toolbar&quot; -I&quot;q3widgetstack&quot; -I&quot;q3wizard&quot; -I&quot;q3listbox&quot; -I&quot;q3table&quot; -I&quot;q3textedit&quot; -I&quot;q3widgets&quot; -I&quot;..\..\..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 q3iconview\q3iconview_extrainfo.h -o tmp\moc\release_shared\moc_q3iconview_extrainfo.cpp"
+						Description="MOC q3iconview\q3iconview_extrainfo.h"
+						Outputs="tmp\moc\release_shared\moc_q3iconview_extrainfo.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="q3iconview\q3iconview_plugin.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;q3iconview\q3iconview_plugin.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_PLUGIN -DQT_SCRIPT_LIB -DQT_QT3SUPPORT_LIB -DQT3_SUPPORT -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQDESIGNER_EXPORT_WIDGETS -DQT_THREAD_SUPPORT -I&quot;..\..\..\..\..\include\QtDesigner&quot; -I&quot;..\..\..\..\..\include\QtCore&quot; -I&quot;..\..\..\..\..\include\QtGui&quot; -I&quot;..\..\..\..\..\include\QtXml&quot; -I&quot;..\..\..\..\..\include\Qt3Support&quot; -I&quot;..\..\..\..\..\include\QtScript&quot; -I&quot;..\..\..\..\..\include&quot; -I&quot;.&quot; -I&quot;q3iconview&quot; -I&quot;q3listview&quot; -I&quot;q3mainwindow&quot; -I&quot;q3toolbar&quot; -I&quot;q3widgetstack&quot; -I&quot;q3wizard&quot; -I&quot;q3listbox&quot; -I&quot;q3table&quot; -I&quot;q3textedit&quot; -I&quot;q3widgets&quot; -I&quot;..\..\..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 q3iconview\q3iconview_plugin.h -o tmp\moc\debug_shared\moc_q3iconview_plugin.cpp"
+						Description="MOC q3iconview\q3iconview_plugin.h"
+						Outputs="tmp\moc\debug_shared\moc_q3iconview_plugin.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;q3iconview\q3iconview_plugin.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_NO_DEBUG -DQT_PLUGIN -DQT_SCRIPT_LIB -DQT_QT3SUPPORT_LIB -DQT3_SUPPORT -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQDESIGNER_EXPORT_WIDGETS -DQT_THREAD_SUPPORT -I&quot;..\..\..\..\..\include\QtDesigner&quot; -I&quot;..\..\..\..\..\include\QtCore&quot; -I&quot;..\..\..\..\..\include\QtGui&quot; -I&quot;..\..\..\..\..\include\QtXml&quot; -I&quot;..\..\..\..\..\include\Qt3Support&quot; -I&quot;..\..\..\..\..\include\QtScript&quot; -I&quot;..\..\..\..\..\include&quot; -I&quot;.&quot; -I&quot;q3iconview&quot; -I&quot;q3listview&quot; -I&quot;q3mainwindow&quot; -I&quot;q3toolbar&quot; -I&quot;q3widgetstack&quot; -I&quot;q3wizard&quot; -I&quot;q3listbox&quot; -I&quot;q3table&quot; -I&quot;q3textedit&quot; -I&quot;q3widgets&quot; -I&quot;..\..\..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 q3iconview\q3iconview_plugin.h -o tmp\moc\release_shared\moc_q3iconview_plugin.cpp"
+						Description="MOC q3iconview\q3iconview_plugin.h"
+						Outputs="tmp\moc\release_shared\moc_q3iconview_plugin.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="q3listbox\q3listbox_extrainfo.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;q3listbox\q3listbox_extrainfo.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_PLUGIN -DQT_SCRIPT_LIB -DQT_QT3SUPPORT_LIB -DQT3_SUPPORT -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQDESIGNER_EXPORT_WIDGETS -DQT_THREAD_SUPPORT -I&quot;..\..\..\..\..\include\QtDesigner&quot; -I&quot;..\..\..\..\..\include\QtCore&quot; -I&quot;..\..\..\..\..\include\QtGui&quot; -I&quot;..\..\..\..\..\include\QtXml&quot; -I&quot;..\..\..\..\..\include\Qt3Support&quot; -I&quot;..\..\..\..\..\include\QtScript&quot; -I&quot;..\..\..\..\..\include&quot; -I&quot;.&quot; -I&quot;q3iconview&quot; -I&quot;q3listview&quot; -I&quot;q3mainwindow&quot; -I&quot;q3toolbar&quot; -I&quot;q3widgetstack&quot; -I&quot;q3wizard&quot; -I&quot;q3listbox&quot; -I&quot;q3table&quot; -I&quot;q3textedit&quot; -I&quot;q3widgets&quot; -I&quot;..\..\..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 q3listbox\q3listbox_extrainfo.h -o tmp\moc\debug_shared\moc_q3listbox_extrainfo.cpp"
+						Description="MOC q3listbox\q3listbox_extrainfo.h"
+						Outputs="tmp\moc\debug_shared\moc_q3listbox_extrainfo.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;q3listbox\q3listbox_extrainfo.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_NO_DEBUG -DQT_PLUGIN -DQT_SCRIPT_LIB -DQT_QT3SUPPORT_LIB -DQT3_SUPPORT -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQDESIGNER_EXPORT_WIDGETS -DQT_THREAD_SUPPORT -I&quot;..\..\..\..\..\include\QtDesigner&quot; -I&quot;..\..\..\..\..\include\QtCore&quot; -I&quot;..\..\..\..\..\include\QtGui&quot; -I&quot;..\..\..\..\..\include\QtXml&quot; -I&quot;..\..\..\..\..\include\Qt3Support&quot; -I&quot;..\..\..\..\..\include\QtScript&quot; -I&quot;..\..\..\..\..\include&quot; -I&quot;.&quot; -I&quot;q3iconview&quot; -I&quot;q3listview&quot; -I&quot;q3mainwindow&quot; -I&quot;q3toolbar&quot; -I&quot;q3widgetstack&quot; -I&quot;q3wizard&quot; -I&quot;q3listbox&quot; -I&quot;q3table&quot; -I&quot;q3textedit&quot; -I&quot;q3widgets&quot; -I&quot;..\..\..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 q3listbox\q3listbox_extrainfo.h -o tmp\moc\release_shared\moc_q3listbox_extrainfo.cpp"
+						Description="MOC q3listbox\q3listbox_extrainfo.h"
+						Outputs="tmp\moc\release_shared\moc_q3listbox_extrainfo.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="q3listbox\q3listbox_plugin.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;q3listbox\q3listbox_plugin.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_PLUGIN -DQT_SCRIPT_LIB -DQT_QT3SUPPORT_LIB -DQT3_SUPPORT -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQDESIGNER_EXPORT_WIDGETS -DQT_THREAD_SUPPORT -I&quot;..\..\..\..\..\include\QtDesigner&quot; -I&quot;..\..\..\..\..\include\QtCore&quot; -I&quot;..\..\..\..\..\include\QtGui&quot; -I&quot;..\..\..\..\..\include\QtXml&quot; -I&quot;..\..\..\..\..\include\Qt3Support&quot; -I&quot;..\..\..\..\..\include\QtScript&quot; -I&quot;..\..\..\..\..\include&quot; -I&quot;.&quot; -I&quot;q3iconview&quot; -I&quot;q3listview&quot; -I&quot;q3mainwindow&quot; -I&quot;q3toolbar&quot; -I&quot;q3widgetstack&quot; -I&quot;q3wizard&quot; -I&quot;q3listbox&quot; -I&quot;q3table&quot; -I&quot;q3textedit&quot; -I&quot;q3widgets&quot; -I&quot;..\..\..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 q3listbox\q3listbox_plugin.h -o tmp\moc\debug_shared\moc_q3listbox_plugin.cpp"
+						Description="MOC q3listbox\q3listbox_plugin.h"
+						Outputs="tmp\moc\debug_shared\moc_q3listbox_plugin.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;q3listbox\q3listbox_plugin.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_NO_DEBUG -DQT_PLUGIN -DQT_SCRIPT_LIB -DQT_QT3SUPPORT_LIB -DQT3_SUPPORT -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQDESIGNER_EXPORT_WIDGETS -DQT_THREAD_SUPPORT -I&quot;..\..\..\..\..\include\QtDesigner&quot; -I&quot;..\..\..\..\..\include\QtCore&quot; -I&quot;..\..\..\..\..\include\QtGui&quot; -I&quot;..\..\..\..\..\include\QtXml&quot; -I&quot;..\..\..\..\..\include\Qt3Support&quot; -I&quot;..\..\..\..\..\include\QtScript&quot; -I&quot;..\..\..\..\..\include&quot; -I&quot;.&quot; -I&quot;q3iconview&quot; -I&quot;q3listview&quot; -I&quot;q3mainwindow&quot; -I&quot;q3toolbar&quot; -I&quot;q3widgetstack&quot; -I&quot;q3wizard&quot; -I&quot;q3listbox&quot; -I&quot;q3table&quot; -I&quot;q3textedit&quot; -I&quot;q3widgets&quot; -I&quot;..\..\..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 q3listbox\q3listbox_plugin.h -o tmp\moc\release_shared\moc_q3listbox_plugin.cpp"
+						Description="MOC q3listbox\q3listbox_plugin.h"
+						Outputs="tmp\moc\release_shared\moc_q3listbox_plugin.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="q3listview\q3listview_extrainfo.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;q3listview\q3listview_extrainfo.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_PLUGIN -DQT_SCRIPT_LIB -DQT_QT3SUPPORT_LIB -DQT3_SUPPORT -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQDESIGNER_EXPORT_WIDGETS -DQT_THREAD_SUPPORT -I&quot;..\..\..\..\..\include\QtDesigner&quot; -I&quot;..\..\..\..\..\include\QtCore&quot; -I&quot;..\..\..\..\..\include\QtGui&quot; -I&quot;..\..\..\..\..\include\QtXml&quot; -I&quot;..\..\..\..\..\include\Qt3Support&quot; -I&quot;..\..\..\..\..\include\QtScript&quot; -I&quot;..\..\..\..\..\include&quot; -I&quot;.&quot; -I&quot;q3iconview&quot; -I&quot;q3listview&quot; -I&quot;q3mainwindow&quot; -I&quot;q3toolbar&quot; -I&quot;q3widgetstack&quot; -I&quot;q3wizard&quot; -I&quot;q3listbox&quot; -I&quot;q3table&quot; -I&quot;q3textedit&quot; -I&quot;q3widgets&quot; -I&quot;..\..\..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 q3listview\q3listview_extrainfo.h -o tmp\moc\debug_shared\moc_q3listview_extrainfo.cpp"
+						Description="MOC q3listview\q3listview_extrainfo.h"
+						Outputs="tmp\moc\debug_shared\moc_q3listview_extrainfo.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;q3listview\q3listview_extrainfo.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_NO_DEBUG -DQT_PLUGIN -DQT_SCRIPT_LIB -DQT_QT3SUPPORT_LIB -DQT3_SUPPORT -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQDESIGNER_EXPORT_WIDGETS -DQT_THREAD_SUPPORT -I&quot;..\..\..\..\..\include\QtDesigner&quot; -I&quot;..\..\..\..\..\include\QtCore&quot; -I&quot;..\..\..\..\..\include\QtGui&quot; -I&quot;..\..\..\..\..\include\QtXml&quot; -I&quot;..\..\..\..\..\include\Qt3Support&quot; -I&quot;..\..\..\..\..\include\QtScript&quot; -I&quot;..\..\..\..\..\include&quot; -I&quot;.&quot; -I&quot;q3iconview&quot; -I&quot;q3listview&quot; -I&quot;q3mainwindow&quot; -I&quot;q3toolbar&quot; -I&quot;q3widgetstack&quot; -I&quot;q3wizard&quot; -I&quot;q3listbox&quot; -I&quot;q3table&quot; -I&quot;q3textedit&quot; -I&quot;q3widgets&quot; -I&quot;..\..\..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 q3listview\q3listview_extrainfo.h -o tmp\moc\release_shared\moc_q3listview_extrainfo.cpp"
+						Description="MOC q3listview\q3listview_extrainfo.h"
+						Outputs="tmp\moc\release_shared\moc_q3listview_extrainfo.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="q3listview\q3listview_plugin.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;q3listview\q3listview_plugin.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_PLUGIN -DQT_SCRIPT_LIB -DQT_QT3SUPPORT_LIB -DQT3_SUPPORT -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQDESIGNER_EXPORT_WIDGETS -DQT_THREAD_SUPPORT -I&quot;..\..\..\..\..\include\QtDesigner&quot; -I&quot;..\..\..\..\..\include\QtCore&quot; -I&quot;..\..\..\..\..\include\QtGui&quot; -I&quot;..\..\..\..\..\include\QtXml&quot; -I&quot;..\..\..\..\..\include\Qt3Support&quot; -I&quot;..\..\..\..\..\include\QtScript&quot; -I&quot;..\..\..\..\..\include&quot; -I&quot;.&quot; -I&quot;q3iconview&quot; -I&quot;q3listview&quot; -I&quot;q3mainwindow&quot; -I&quot;q3toolbar&quot; -I&quot;q3widgetstack&quot; -I&quot;q3wizard&quot; -I&quot;q3listbox&quot; -I&quot;q3table&quot; -I&quot;q3textedit&quot; -I&quot;q3widgets&quot; -I&quot;..\..\..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 q3listview\q3listview_plugin.h -o tmp\moc\debug_shared\moc_q3listview_plugin.cpp"
+						Description="MOC q3listview\q3listview_plugin.h"
+						Outputs="tmp\moc\debug_shared\moc_q3listview_plugin.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;q3listview\q3listview_plugin.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_NO_DEBUG -DQT_PLUGIN -DQT_SCRIPT_LIB -DQT_QT3SUPPORT_LIB -DQT3_SUPPORT -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQDESIGNER_EXPORT_WIDGETS -DQT_THREAD_SUPPORT -I&quot;..\..\..\..\..\include\QtDesigner&quot; -I&quot;..\..\..\..\..\include\QtCore&quot; -I&quot;..\..\..\..\..\include\QtGui&quot; -I&quot;..\..\..\..\..\include\QtXml&quot; -I&quot;..\..\..\..\..\include\Qt3Support&quot; -I&quot;..\..\..\..\..\include\QtScript&quot; -I&quot;..\..\..\..\..\include&quot; -I&quot;.&quot; -I&quot;q3iconview&quot; -I&quot;q3listview&quot; -I&quot;q3mainwindow&quot; -I&quot;q3toolbar&quot; -I&quot;q3widgetstack&quot; -I&quot;q3wizard&quot; -I&quot;q3listbox&quot; -I&quot;q3table&quot; -I&quot;q3textedit&quot; -I&quot;q3widgets&quot; -I&quot;..\..\..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 q3listview\q3listview_plugin.h -o tmp\moc\release_shared\moc_q3listview_plugin.cpp"
+						Description="MOC q3listview\q3listview_plugin.h"
+						Outputs="tmp\moc\release_shared\moc_q3listview_plugin.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="q3mainwindow\q3mainwindow_container.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;q3mainwindow\q3mainwindow_container.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_PLUGIN -DQT_SCRIPT_LIB -DQT_QT3SUPPORT_LIB -DQT3_SUPPORT -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQDESIGNER_EXPORT_WIDGETS -DQT_THREAD_SUPPORT -I&quot;..\..\..\..\..\include\QtDesigner&quot; -I&quot;..\..\..\..\..\include\QtCore&quot; -I&quot;..\..\..\..\..\include\QtGui&quot; -I&quot;..\..\..\..\..\include\QtXml&quot; -I&quot;..\..\..\..\..\include\Qt3Support&quot; -I&quot;..\..\..\..\..\include\QtScript&quot; -I&quot;..\..\..\..\..\include&quot; -I&quot;.&quot; -I&quot;q3iconview&quot; -I&quot;q3listview&quot; -I&quot;q3mainwindow&quot; -I&quot;q3toolbar&quot; -I&quot;q3widgetstack&quot; -I&quot;q3wizard&quot; -I&quot;q3listbox&quot; -I&quot;q3table&quot; -I&quot;q3textedit&quot; -I&quot;q3widgets&quot; -I&quot;..\..\..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 q3mainwindow\q3mainwindow_container.h -o tmp\moc\debug_shared\moc_q3mainwindow_container.cpp"
+						Description="MOC q3mainwindow\q3mainwindow_container.h"
+						Outputs="tmp\moc\debug_shared\moc_q3mainwindow_container.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;q3mainwindow\q3mainwindow_container.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_NO_DEBUG -DQT_PLUGIN -DQT_SCRIPT_LIB -DQT_QT3SUPPORT_LIB -DQT3_SUPPORT -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQDESIGNER_EXPORT_WIDGETS -DQT_THREAD_SUPPORT -I&quot;..\..\..\..\..\include\QtDesigner&quot; -I&quot;..\..\..\..\..\include\QtCore&quot; -I&quot;..\..\..\..\..\include\QtGui&quot; -I&quot;..\..\..\..\..\include\QtXml&quot; -I&quot;..\..\..\..\..\include\Qt3Support&quot; -I&quot;..\..\..\..\..\include\QtScript&quot; -I&quot;..\..\..\..\..\include&quot; -I&quot;.&quot; -I&quot;q3iconview&quot; -I&quot;q3listview&quot; -I&quot;q3mainwindow&quot; -I&quot;q3toolbar&quot; -I&quot;q3widgetstack&quot; -I&quot;q3wizard&quot; -I&quot;q3listbox&quot; -I&quot;q3table&quot; -I&quot;q3textedit&quot; -I&quot;q3widgets&quot; -I&quot;..\..\..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 q3mainwindow\q3mainwindow_container.h -o tmp\moc\release_shared\moc_q3mainwindow_container.cpp"
+						Description="MOC q3mainwindow\q3mainwindow_container.h"
+						Outputs="tmp\moc\release_shared\moc_q3mainwindow_container.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="q3mainwindow\q3mainwindow_plugin.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;q3mainwindow\q3mainwindow_plugin.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_PLUGIN -DQT_SCRIPT_LIB -DQT_QT3SUPPORT_LIB -DQT3_SUPPORT -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQDESIGNER_EXPORT_WIDGETS -DQT_THREAD_SUPPORT -I&quot;..\..\..\..\..\include\QtDesigner&quot; -I&quot;..\..\..\..\..\include\QtCore&quot; -I&quot;..\..\..\..\..\include\QtGui&quot; -I&quot;..\..\..\..\..\include\QtXml&quot; -I&quot;..\..\..\..\..\include\Qt3Support&quot; -I&quot;..\..\..\..\..\include\QtScript&quot; -I&quot;..\..\..\..\..\include&quot; -I&quot;.&quot; -I&quot;q3iconview&quot; -I&quot;q3listview&quot; -I&quot;q3mainwindow&quot; -I&quot;q3toolbar&quot; -I&quot;q3widgetstack&quot; -I&quot;q3wizard&quot; -I&quot;q3listbox&quot; -I&quot;q3table&quot; -I&quot;q3textedit&quot; -I&quot;q3widgets&quot; -I&quot;..\..\..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 q3mainwindow\q3mainwindow_plugin.h -o tmp\moc\debug_shared\moc_q3mainwindow_plugin.cpp"
+						Description="MOC q3mainwindow\q3mainwindow_plugin.h"
+						Outputs="tmp\moc\debug_shared\moc_q3mainwindow_plugin.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;q3mainwindow\q3mainwindow_plugin.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_NO_DEBUG -DQT_PLUGIN -DQT_SCRIPT_LIB -DQT_QT3SUPPORT_LIB -DQT3_SUPPORT -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQDESIGNER_EXPORT_WIDGETS -DQT_THREAD_SUPPORT -I&quot;..\..\..\..\..\include\QtDesigner&quot; -I&quot;..\..\..\..\..\include\QtCore&quot; -I&quot;..\..\..\..\..\include\QtGui&quot; -I&quot;..\..\..\..\..\include\QtXml&quot; -I&quot;..\..\..\..\..\include\Qt3Support&quot; -I&quot;..\..\..\..\..\include\QtScript&quot; -I&quot;..\..\..\..\..\include&quot; -I&quot;.&quot; -I&quot;q3iconview&quot; -I&quot;q3listview&quot; -I&quot;q3mainwindow&quot; -I&quot;q3toolbar&quot; -I&quot;q3widgetstack&quot; -I&quot;q3wizard&quot; -I&quot;q3listbox&quot; -I&quot;q3table&quot; -I&quot;q3textedit&quot; -I&quot;q3widgets&quot; -I&quot;..\..\..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 q3mainwindow\q3mainwindow_plugin.h -o tmp\moc\release_shared\moc_q3mainwindow_plugin.cpp"
+						Description="MOC q3mainwindow\q3mainwindow_plugin.h"
+						Outputs="tmp\moc\release_shared\moc_q3mainwindow_plugin.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="q3table\q3table_extrainfo.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;q3table\q3table_extrainfo.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_PLUGIN -DQT_SCRIPT_LIB -DQT_QT3SUPPORT_LIB -DQT3_SUPPORT -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQDESIGNER_EXPORT_WIDGETS -DQT_THREAD_SUPPORT -I&quot;..\..\..\..\..\include\QtDesigner&quot; -I&quot;..\..\..\..\..\include\QtCore&quot; -I&quot;..\..\..\..\..\include\QtGui&quot; -I&quot;..\..\..\..\..\include\QtXml&quot; -I&quot;..\..\..\..\..\include\Qt3Support&quot; -I&quot;..\..\..\..\..\include\QtScript&quot; -I&quot;..\..\..\..\..\include&quot; -I&quot;.&quot; -I&quot;q3iconview&quot; -I&quot;q3listview&quot; -I&quot;q3mainwindow&quot; -I&quot;q3toolbar&quot; -I&quot;q3widgetstack&quot; -I&quot;q3wizard&quot; -I&quot;q3listbox&quot; -I&quot;q3table&quot; -I&quot;q3textedit&quot; -I&quot;q3widgets&quot; -I&quot;..\..\..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 q3table\q3table_extrainfo.h -o tmp\moc\debug_shared\moc_q3table_extrainfo.cpp"
+						Description="MOC q3table\q3table_extrainfo.h"
+						Outputs="tmp\moc\debug_shared\moc_q3table_extrainfo.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;q3table\q3table_extrainfo.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_NO_DEBUG -DQT_PLUGIN -DQT_SCRIPT_LIB -DQT_QT3SUPPORT_LIB -DQT3_SUPPORT -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQDESIGNER_EXPORT_WIDGETS -DQT_THREAD_SUPPORT -I&quot;..\..\..\..\..\include\QtDesigner&quot; -I&quot;..\..\..\..\..\include\QtCore&quot; -I&quot;..\..\..\..\..\include\QtGui&quot; -I&quot;..\..\..\..\..\include\QtXml&quot; -I&quot;..\..\..\..\..\include\Qt3Support&quot; -I&quot;..\..\..\..\..\include\QtScript&quot; -I&quot;..\..\..\..\..\include&quot; -I&quot;.&quot; -I&quot;q3iconview&quot; -I&quot;q3listview&quot; -I&quot;q3mainwindow&quot; -I&quot;q3toolbar&quot; -I&quot;q3widgetstack&quot; -I&quot;q3wizard&quot; -I&quot;q3listbox&quot; -I&quot;q3table&quot; -I&quot;q3textedit&quot; -I&quot;q3widgets&quot; -I&quot;..\..\..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 q3table\q3table_extrainfo.h -o tmp\moc\release_shared\moc_q3table_extrainfo.cpp"
+						Description="MOC q3table\q3table_extrainfo.h"
+						Outputs="tmp\moc\release_shared\moc_q3table_extrainfo.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="q3table\q3table_plugin.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;q3table\q3table_plugin.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_PLUGIN -DQT_SCRIPT_LIB -DQT_QT3SUPPORT_LIB -DQT3_SUPPORT -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQDESIGNER_EXPORT_WIDGETS -DQT_THREAD_SUPPORT -I&quot;..\..\..\..\..\include\QtDesigner&quot; -I&quot;..\..\..\..\..\include\QtCore&quot; -I&quot;..\..\..\..\..\include\QtGui&quot; -I&quot;..\..\..\..\..\include\QtXml&quot; -I&quot;..\..\..\..\..\include\Qt3Support&quot; -I&quot;..\..\..\..\..\include\QtScript&quot; -I&quot;..\..\..\..\..\include&quot; -I&quot;.&quot; -I&quot;q3iconview&quot; -I&quot;q3listview&quot; -I&quot;q3mainwindow&quot; -I&quot;q3toolbar&quot; -I&quot;q3widgetstack&quot; -I&quot;q3wizard&quot; -I&quot;q3listbox&quot; -I&quot;q3table&quot; -I&quot;q3textedit&quot; -I&quot;q3widgets&quot; -I&quot;..\..\..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 q3table\q3table_plugin.h -o tmp\moc\debug_shared\moc_q3table_plugin.cpp"
+						Description="MOC q3table\q3table_plugin.h"
+						Outputs="tmp\moc\debug_shared\moc_q3table_plugin.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;q3table\q3table_plugin.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_NO_DEBUG -DQT_PLUGIN -DQT_SCRIPT_LIB -DQT_QT3SUPPORT_LIB -DQT3_SUPPORT -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQDESIGNER_EXPORT_WIDGETS -DQT_THREAD_SUPPORT -I&quot;..\..\..\..\..\include\QtDesigner&quot; -I&quot;..\..\..\..\..\include\QtCore&quot; -I&quot;..\..\..\..\..\include\QtGui&quot; -I&quot;..\..\..\..\..\include\QtXml&quot; -I&quot;..\..\..\..\..\include\Qt3Support&quot; -I&quot;..\..\..\..\..\include\QtScript&quot; -I&quot;..\..\..\..\..\include&quot; -I&quot;.&quot; -I&quot;q3iconview&quot; -I&quot;q3listview&quot; -I&quot;q3mainwindow&quot; -I&quot;q3toolbar&quot; -I&quot;q3widgetstack&quot; -I&quot;q3wizard&quot; -I&quot;q3listbox&quot; -I&quot;q3table&quot; -I&quot;q3textedit&quot; -I&quot;q3widgets&quot; -I&quot;..\..\..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 q3table\q3table_plugin.h -o tmp\moc\release_shared\moc_q3table_plugin.cpp"
+						Description="MOC q3table\q3table_plugin.h"
+						Outputs="tmp\moc\release_shared\moc_q3table_plugin.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="q3textedit\q3textedit_extrainfo.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;q3textedit\q3textedit_extrainfo.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_PLUGIN -DQT_SCRIPT_LIB -DQT_QT3SUPPORT_LIB -DQT3_SUPPORT -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQDESIGNER_EXPORT_WIDGETS -DQT_THREAD_SUPPORT -I&quot;..\..\..\..\..\include\QtDesigner&quot; -I&quot;..\..\..\..\..\include\QtCore&quot; -I&quot;..\..\..\..\..\include\QtGui&quot; -I&quot;..\..\..\..\..\include\QtXml&quot; -I&quot;..\..\..\..\..\include\Qt3Support&quot; -I&quot;..\..\..\..\..\include\QtScript&quot; -I&quot;..\..\..\..\..\include&quot; -I&quot;.&quot; -I&quot;q3iconview&quot; -I&quot;q3listview&quot; -I&quot;q3mainwindow&quot; -I&quot;q3toolbar&quot; -I&quot;q3widgetstack&quot; -I&quot;q3wizard&quot; -I&quot;q3listbox&quot; -I&quot;q3table&quot; -I&quot;q3textedit&quot; -I&quot;q3widgets&quot; -I&quot;..\..\..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 q3textedit\q3textedit_extrainfo.h -o tmp\moc\debug_shared\moc_q3textedit_extrainfo.cpp"
+						Description="MOC q3textedit\q3textedit_extrainfo.h"
+						Outputs="tmp\moc\debug_shared\moc_q3textedit_extrainfo.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;q3textedit\q3textedit_extrainfo.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_NO_DEBUG -DQT_PLUGIN -DQT_SCRIPT_LIB -DQT_QT3SUPPORT_LIB -DQT3_SUPPORT -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQDESIGNER_EXPORT_WIDGETS -DQT_THREAD_SUPPORT -I&quot;..\..\..\..\..\include\QtDesigner&quot; -I&quot;..\..\..\..\..\include\QtCore&quot; -I&quot;..\..\..\..\..\include\QtGui&quot; -I&quot;..\..\..\..\..\include\QtXml&quot; -I&quot;..\..\..\..\..\include\Qt3Support&quot; -I&quot;..\..\..\..\..\include\QtScript&quot; -I&quot;..\..\..\..\..\include&quot; -I&quot;.&quot; -I&quot;q3iconview&quot; -I&quot;q3listview&quot; -I&quot;q3mainwindow&quot; -I&quot;q3toolbar&quot; -I&quot;q3widgetstack&quot; -I&quot;q3wizard&quot; -I&quot;q3listbox&quot; -I&quot;q3table&quot; -I&quot;q3textedit&quot; -I&quot;q3widgets&quot; -I&quot;..\..\..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 q3textedit\q3textedit_extrainfo.h -o tmp\moc\release_shared\moc_q3textedit_extrainfo.cpp"
+						Description="MOC q3textedit\q3textedit_extrainfo.h"
+						Outputs="tmp\moc\release_shared\moc_q3textedit_extrainfo.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="q3textedit\q3textedit_plugin.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;q3textedit\q3textedit_plugin.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_PLUGIN -DQT_SCRIPT_LIB -DQT_QT3SUPPORT_LIB -DQT3_SUPPORT -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQDESIGNER_EXPORT_WIDGETS -DQT_THREAD_SUPPORT -I&quot;..\..\..\..\..\include\QtDesigner&quot; -I&quot;..\..\..\..\..\include\QtCore&quot; -I&quot;..\..\..\..\..\include\QtGui&quot; -I&quot;..\..\..\..\..\include\QtXml&quot; -I&quot;..\..\..\..\..\include\Qt3Support&quot; -I&quot;..\..\..\..\..\include\QtScript&quot; -I&quot;..\..\..\..\..\include&quot; -I&quot;.&quot; -I&quot;q3iconview&quot; -I&quot;q3listview&quot; -I&quot;q3mainwindow&quot; -I&quot;q3toolbar&quot; -I&quot;q3widgetstack&quot; -I&quot;q3wizard&quot; -I&quot;q3listbox&quot; -I&quot;q3table&quot; -I&quot;q3textedit&quot; -I&quot;q3widgets&quot; -I&quot;..\..\..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 q3textedit\q3textedit_plugin.h -o tmp\moc\debug_shared\moc_q3textedit_plugin.cpp"
+						Description="MOC q3textedit\q3textedit_plugin.h"
+						Outputs="tmp\moc\debug_shared\moc_q3textedit_plugin.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;q3textedit\q3textedit_plugin.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_NO_DEBUG -DQT_PLUGIN -DQT_SCRIPT_LIB -DQT_QT3SUPPORT_LIB -DQT3_SUPPORT -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQDESIGNER_EXPORT_WIDGETS -DQT_THREAD_SUPPORT -I&quot;..\..\..\..\..\include\QtDesigner&quot; -I&quot;..\..\..\..\..\include\QtCore&quot; -I&quot;..\..\..\..\..\include\QtGui&quot; -I&quot;..\..\..\..\..\include\QtXml&quot; -I&quot;..\..\..\..\..\include\Qt3Support&quot; -I&quot;..\..\..\..\..\include\QtScript&quot; -I&quot;..\..\..\..\..\include&quot; -I&quot;.&quot; -I&quot;q3iconview&quot; -I&quot;q3listview&quot; -I&quot;q3mainwindow&quot; -I&quot;q3toolbar&quot; -I&quot;q3widgetstack&quot; -I&quot;q3wizard&quot; -I&quot;q3listbox&quot; -I&quot;q3table&quot; -I&quot;q3textedit&quot; -I&quot;q3widgets&quot; -I&quot;..\..\..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 q3textedit\q3textedit_plugin.h -o tmp\moc\release_shared\moc_q3textedit_plugin.cpp"
+						Description="MOC q3textedit\q3textedit_plugin.h"
+						Outputs="tmp\moc\release_shared\moc_q3textedit_plugin.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="q3toolbar\q3toolbar_extrainfo.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;q3toolbar\q3toolbar_extrainfo.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_PLUGIN -DQT_SCRIPT_LIB -DQT_QT3SUPPORT_LIB -DQT3_SUPPORT -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQDESIGNER_EXPORT_WIDGETS -DQT_THREAD_SUPPORT -I&quot;..\..\..\..\..\include\QtDesigner&quot; -I&quot;..\..\..\..\..\include\QtCore&quot; -I&quot;..\..\..\..\..\include\QtGui&quot; -I&quot;..\..\..\..\..\include\QtXml&quot; -I&quot;..\..\..\..\..\include\Qt3Support&quot; -I&quot;..\..\..\..\..\include\QtScript&quot; -I&quot;..\..\..\..\..\include&quot; -I&quot;.&quot; -I&quot;q3iconview&quot; -I&quot;q3listview&quot; -I&quot;q3mainwindow&quot; -I&quot;q3toolbar&quot; -I&quot;q3widgetstack&quot; -I&quot;q3wizard&quot; -I&quot;q3listbox&quot; -I&quot;q3table&quot; -I&quot;q3textedit&quot; -I&quot;q3widgets&quot; -I&quot;..\..\..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 q3toolbar\q3toolbar_extrainfo.h -o tmp\moc\debug_shared\moc_q3toolbar_extrainfo.cpp"
+						Description="MOC q3toolbar\q3toolbar_extrainfo.h"
+						Outputs="tmp\moc\debug_shared\moc_q3toolbar_extrainfo.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;q3toolbar\q3toolbar_extrainfo.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_NO_DEBUG -DQT_PLUGIN -DQT_SCRIPT_LIB -DQT_QT3SUPPORT_LIB -DQT3_SUPPORT -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQDESIGNER_EXPORT_WIDGETS -DQT_THREAD_SUPPORT -I&quot;..\..\..\..\..\include\QtDesigner&quot; -I&quot;..\..\..\..\..\include\QtCore&quot; -I&quot;..\..\..\..\..\include\QtGui&quot; -I&quot;..\..\..\..\..\include\QtXml&quot; -I&quot;..\..\..\..\..\include\Qt3Support&quot; -I&quot;..\..\..\..\..\include\QtScript&quot; -I&quot;..\..\..\..\..\include&quot; -I&quot;.&quot; -I&quot;q3iconview&quot; -I&quot;q3listview&quot; -I&quot;q3mainwindow&quot; -I&quot;q3toolbar&quot; -I&quot;q3widgetstack&quot; -I&quot;q3wizard&quot; -I&quot;q3listbox&quot; -I&quot;q3table&quot; -I&quot;q3textedit&quot; -I&quot;q3widgets&quot; -I&quot;..\..\..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 q3toolbar\q3toolbar_extrainfo.h -o tmp\moc\release_shared\moc_q3toolbar_extrainfo.cpp"
+						Description="MOC q3toolbar\q3toolbar_extrainfo.h"
+						Outputs="tmp\moc\release_shared\moc_q3toolbar_extrainfo.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="q3toolbar\q3toolbar_plugin.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;q3toolbar\q3toolbar_plugin.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_PLUGIN -DQT_SCRIPT_LIB -DQT_QT3SUPPORT_LIB -DQT3_SUPPORT -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQDESIGNER_EXPORT_WIDGETS -DQT_THREAD_SUPPORT -I&quot;..\..\..\..\..\include\QtDesigner&quot; -I&quot;..\..\..\..\..\include\QtCore&quot; -I&quot;..\..\..\..\..\include\QtGui&quot; -I&quot;..\..\..\..\..\include\QtXml&quot; -I&quot;..\..\..\..\..\include\Qt3Support&quot; -I&quot;..\..\..\..\..\include\QtScript&quot; -I&quot;..\..\..\..\..\include&quot; -I&quot;.&quot; -I&quot;q3iconview&quot; -I&quot;q3listview&quot; -I&quot;q3mainwindow&quot; -I&quot;q3toolbar&quot; -I&quot;q3widgetstack&quot; -I&quot;q3wizard&quot; -I&quot;q3listbox&quot; -I&quot;q3table&quot; -I&quot;q3textedit&quot; -I&quot;q3widgets&quot; -I&quot;..\..\..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 q3toolbar\q3toolbar_plugin.h -o tmp\moc\debug_shared\moc_q3toolbar_plugin.cpp"
+						Description="MOC q3toolbar\q3toolbar_plugin.h"
+						Outputs="tmp\moc\debug_shared\moc_q3toolbar_plugin.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;q3toolbar\q3toolbar_plugin.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_NO_DEBUG -DQT_PLUGIN -DQT_SCRIPT_LIB -DQT_QT3SUPPORT_LIB -DQT3_SUPPORT -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQDESIGNER_EXPORT_WIDGETS -DQT_THREAD_SUPPORT -I&quot;..\..\..\..\..\include\QtDesigner&quot; -I&quot;..\..\..\..\..\include\QtCore&quot; -I&quot;..\..\..\..\..\include\QtGui&quot; -I&quot;..\..\..\..\..\include\QtXml&quot; -I&quot;..\..\..\..\..\include\Qt3Support&quot; -I&quot;..\..\..\..\..\include\QtScript&quot; -I&quot;..\..\..\..\..\include&quot; -I&quot;.&quot; -I&quot;q3iconview&quot; -I&quot;q3listview&quot; -I&quot;q3mainwindow&quot; -I&quot;q3toolbar&quot; -I&quot;q3widgetstack&quot; -I&quot;q3wizard&quot; -I&quot;q3listbox&quot; -I&quot;q3table&quot; -I&quot;q3textedit&quot; -I&quot;q3widgets&quot; -I&quot;..\..\..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 q3toolbar\q3toolbar_plugin.h -o tmp\moc\release_shared\moc_q3toolbar_plugin.cpp"
+						Description="MOC q3toolbar\q3toolbar_plugin.h"
+						Outputs="tmp\moc\release_shared\moc_q3toolbar_plugin.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="q3widgets\q3widget_plugins.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;q3widgets\q3widget_plugins.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_PLUGIN -DQT_SCRIPT_LIB -DQT_QT3SUPPORT_LIB -DQT3_SUPPORT -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQDESIGNER_EXPORT_WIDGETS -DQT_THREAD_SUPPORT -I&quot;..\..\..\..\..\include\QtDesigner&quot; -I&quot;..\..\..\..\..\include\QtCore&quot; -I&quot;..\..\..\..\..\include\QtGui&quot; -I&quot;..\..\..\..\..\include\QtXml&quot; -I&quot;..\..\..\..\..\include\Qt3Support&quot; -I&quot;..\..\..\..\..\include\QtScript&quot; -I&quot;..\..\..\..\..\include&quot; -I&quot;.&quot; -I&quot;q3iconview&quot; -I&quot;q3listview&quot; -I&quot;q3mainwindow&quot; -I&quot;q3toolbar&quot; -I&quot;q3widgetstack&quot; -I&quot;q3wizard&quot; -I&quot;q3listbox&quot; -I&quot;q3table&quot; -I&quot;q3textedit&quot; -I&quot;q3widgets&quot; -I&quot;..\..\..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 q3widgets\q3widget_plugins.h -o tmp\moc\debug_shared\moc_q3widget_plugins.cpp"
+						Description="MOC q3widgets\q3widget_plugins.h"
+						Outputs="tmp\moc\debug_shared\moc_q3widget_plugins.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;q3widgets\q3widget_plugins.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_NO_DEBUG -DQT_PLUGIN -DQT_SCRIPT_LIB -DQT_QT3SUPPORT_LIB -DQT3_SUPPORT -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQDESIGNER_EXPORT_WIDGETS -DQT_THREAD_SUPPORT -I&quot;..\..\..\..\..\include\QtDesigner&quot; -I&quot;..\..\..\..\..\include\QtCore&quot; -I&quot;..\..\..\..\..\include\QtGui&quot; -I&quot;..\..\..\..\..\include\QtXml&quot; -I&quot;..\..\..\..\..\include\Qt3Support&quot; -I&quot;..\..\..\..\..\include\QtScript&quot; -I&quot;..\..\..\..\..\include&quot; -I&quot;.&quot; -I&quot;q3iconview&quot; -I&quot;q3listview&quot; -I&quot;q3mainwindow&quot; -I&quot;q3toolbar&quot; -I&quot;q3widgetstack&quot; -I&quot;q3wizard&quot; -I&quot;q3listbox&quot; -I&quot;q3table&quot; -I&quot;q3textedit&quot; -I&quot;q3widgets&quot; -I&quot;..\..\..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 q3widgets\q3widget_plugins.h -o tmp\moc\release_shared\moc_q3widget_plugins.cpp"
+						Description="MOC q3widgets\q3widget_plugins.h"
+						Outputs="tmp\moc\release_shared\moc_q3widget_plugins.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="q3widgetstack\q3widgetstack_container.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;q3widgetstack\q3widgetstack_container.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_PLUGIN -DQT_SCRIPT_LIB -DQT_QT3SUPPORT_LIB -DQT3_SUPPORT -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQDESIGNER_EXPORT_WIDGETS -DQT_THREAD_SUPPORT -I&quot;..\..\..\..\..\include\QtDesigner&quot; -I&quot;..\..\..\..\..\include\QtCore&quot; -I&quot;..\..\..\..\..\include\QtGui&quot; -I&quot;..\..\..\..\..\include\QtXml&quot; -I&quot;..\..\..\..\..\include\Qt3Support&quot; -I&quot;..\..\..\..\..\include\QtScript&quot; -I&quot;..\..\..\..\..\include&quot; -I&quot;.&quot; -I&quot;q3iconview&quot; -I&quot;q3listview&quot; -I&quot;q3mainwindow&quot; -I&quot;q3toolbar&quot; -I&quot;q3widgetstack&quot; -I&quot;q3wizard&quot; -I&quot;q3listbox&quot; -I&quot;q3table&quot; -I&quot;q3textedit&quot; -I&quot;q3widgets&quot; -I&quot;..\..\..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 q3widgetstack\q3widgetstack_container.h -o tmp\moc\debug_shared\moc_q3widgetstack_container.cpp"
+						Description="MOC q3widgetstack\q3widgetstack_container.h"
+						Outputs="tmp\moc\debug_shared\moc_q3widgetstack_container.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;q3widgetstack\q3widgetstack_container.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_NO_DEBUG -DQT_PLUGIN -DQT_SCRIPT_LIB -DQT_QT3SUPPORT_LIB -DQT3_SUPPORT -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQDESIGNER_EXPORT_WIDGETS -DQT_THREAD_SUPPORT -I&quot;..\..\..\..\..\include\QtDesigner&quot; -I&quot;..\..\..\..\..\include\QtCore&quot; -I&quot;..\..\..\..\..\include\QtGui&quot; -I&quot;..\..\..\..\..\include\QtXml&quot; -I&quot;..\..\..\..\..\include\Qt3Support&quot; -I&quot;..\..\..\..\..\include\QtScript&quot; -I&quot;..\..\..\..\..\include&quot; -I&quot;.&quot; -I&quot;q3iconview&quot; -I&quot;q3listview&quot; -I&quot;q3mainwindow&quot; -I&quot;q3toolbar&quot; -I&quot;q3widgetstack&quot; -I&quot;q3wizard&quot; -I&quot;q3listbox&quot; -I&quot;q3table&quot; -I&quot;q3textedit&quot; -I&quot;q3widgets&quot; -I&quot;..\..\..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 q3widgetstack\q3widgetstack_container.h -o tmp\moc\release_shared\moc_q3widgetstack_container.cpp"
+						Description="MOC q3widgetstack\q3widgetstack_container.h"
+						Outputs="tmp\moc\release_shared\moc_q3widgetstack_container.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="q3widgetstack\q3widgetstack_plugin.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;q3widgetstack\q3widgetstack_plugin.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_PLUGIN -DQT_SCRIPT_LIB -DQT_QT3SUPPORT_LIB -DQT3_SUPPORT -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQDESIGNER_EXPORT_WIDGETS -DQT_THREAD_SUPPORT -I&quot;..\..\..\..\..\include\QtDesigner&quot; -I&quot;..\..\..\..\..\include\QtCore&quot; -I&quot;..\..\..\..\..\include\QtGui&quot; -I&quot;..\..\..\..\..\include\QtXml&quot; -I&quot;..\..\..\..\..\include\Qt3Support&quot; -I&quot;..\..\..\..\..\include\QtScript&quot; -I&quot;..\..\..\..\..\include&quot; -I&quot;.&quot; -I&quot;q3iconview&quot; -I&quot;q3listview&quot; -I&quot;q3mainwindow&quot; -I&quot;q3toolbar&quot; -I&quot;q3widgetstack&quot; -I&quot;q3wizard&quot; -I&quot;q3listbox&quot; -I&quot;q3table&quot; -I&quot;q3textedit&quot; -I&quot;q3widgets&quot; -I&quot;..\..\..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 q3widgetstack\q3widgetstack_plugin.h -o tmp\moc\debug_shared\moc_q3widgetstack_plugin.cpp"
+						Description="MOC q3widgetstack\q3widgetstack_plugin.h"
+						Outputs="tmp\moc\debug_shared\moc_q3widgetstack_plugin.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;q3widgetstack\q3widgetstack_plugin.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_NO_DEBUG -DQT_PLUGIN -DQT_SCRIPT_LIB -DQT_QT3SUPPORT_LIB -DQT3_SUPPORT -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQDESIGNER_EXPORT_WIDGETS -DQT_THREAD_SUPPORT -I&quot;..\..\..\..\..\include\QtDesigner&quot; -I&quot;..\..\..\..\..\include\QtCore&quot; -I&quot;..\..\..\..\..\include\QtGui&quot; -I&quot;..\..\..\..\..\include\QtXml&quot; -I&quot;..\..\..\..\..\include\Qt3Support&quot; -I&quot;..\..\..\..\..\include\QtScript&quot; -I&quot;..\..\..\..\..\include&quot; -I&quot;.&quot; -I&quot;q3iconview&quot; -I&quot;q3listview&quot; -I&quot;q3mainwindow&quot; -I&quot;q3toolbar&quot; -I&quot;q3widgetstack&quot; -I&quot;q3wizard&quot; -I&quot;q3listbox&quot; -I&quot;q3table&quot; -I&quot;q3textedit&quot; -I&quot;q3widgets&quot; -I&quot;..\..\..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 q3widgetstack\q3widgetstack_plugin.h -o tmp\moc\release_shared\moc_q3widgetstack_plugin.cpp"
+						Description="MOC q3widgetstack\q3widgetstack_plugin.h"
+						Outputs="tmp\moc\release_shared\moc_q3widgetstack_plugin.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="q3wizard\q3wizard_container.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;q3wizard\q3wizard_container.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_PLUGIN -DQT_SCRIPT_LIB -DQT_QT3SUPPORT_LIB -DQT3_SUPPORT -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQDESIGNER_EXPORT_WIDGETS -DQT_THREAD_SUPPORT -I&quot;..\..\..\..\..\include\QtDesigner&quot; -I&quot;..\..\..\..\..\include\QtCore&quot; -I&quot;..\..\..\..\..\include\QtGui&quot; -I&quot;..\..\..\..\..\include\QtXml&quot; -I&quot;..\..\..\..\..\include\Qt3Support&quot; -I&quot;..\..\..\..\..\include\QtScript&quot; -I&quot;..\..\..\..\..\include&quot; -I&quot;.&quot; -I&quot;q3iconview&quot; -I&quot;q3listview&quot; -I&quot;q3mainwindow&quot; -I&quot;q3toolbar&quot; -I&quot;q3widgetstack&quot; -I&quot;q3wizard&quot; -I&quot;q3listbox&quot; -I&quot;q3table&quot; -I&quot;q3textedit&quot; -I&quot;q3widgets&quot; -I&quot;..\..\..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 q3wizard\q3wizard_container.h -o tmp\moc\debug_shared\moc_q3wizard_container.cpp"
+						Description="MOC q3wizard\q3wizard_container.h"
+						Outputs="tmp\moc\debug_shared\moc_q3wizard_container.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;q3wizard\q3wizard_container.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_NO_DEBUG -DQT_PLUGIN -DQT_SCRIPT_LIB -DQT_QT3SUPPORT_LIB -DQT3_SUPPORT -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQDESIGNER_EXPORT_WIDGETS -DQT_THREAD_SUPPORT -I&quot;..\..\..\..\..\include\QtDesigner&quot; -I&quot;..\..\..\..\..\include\QtCore&quot; -I&quot;..\..\..\..\..\include\QtGui&quot; -I&quot;..\..\..\..\..\include\QtXml&quot; -I&quot;..\..\..\..\..\include\Qt3Support&quot; -I&quot;..\..\..\..\..\include\QtScript&quot; -I&quot;..\..\..\..\..\include&quot; -I&quot;.&quot; -I&quot;q3iconview&quot; -I&quot;q3listview&quot; -I&quot;q3mainwindow&quot; -I&quot;q3toolbar&quot; -I&quot;q3widgetstack&quot; -I&quot;q3wizard&quot; -I&quot;q3listbox&quot; -I&quot;q3table&quot; -I&quot;q3textedit&quot; -I&quot;q3widgets&quot; -I&quot;..\..\..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 q3wizard\q3wizard_container.h -o tmp\moc\release_shared\moc_q3wizard_container.cpp"
+						Description="MOC q3wizard\q3wizard_container.h"
+						Outputs="tmp\moc\release_shared\moc_q3wizard_container.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="q3wizard\q3wizard_plugin.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;q3wizard\q3wizard_plugin.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_PLUGIN -DQT_SCRIPT_LIB -DQT_QT3SUPPORT_LIB -DQT3_SUPPORT -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQDESIGNER_EXPORT_WIDGETS -DQT_THREAD_SUPPORT -I&quot;..\..\..\..\..\include\QtDesigner&quot; -I&quot;..\..\..\..\..\include\QtCore&quot; -I&quot;..\..\..\..\..\include\QtGui&quot; -I&quot;..\..\..\..\..\include\QtXml&quot; -I&quot;..\..\..\..\..\include\Qt3Support&quot; -I&quot;..\..\..\..\..\include\QtScript&quot; -I&quot;..\..\..\..\..\include&quot; -I&quot;.&quot; -I&quot;q3iconview&quot; -I&quot;q3listview&quot; -I&quot;q3mainwindow&quot; -I&quot;q3toolbar&quot; -I&quot;q3widgetstack&quot; -I&quot;q3wizard&quot; -I&quot;q3listbox&quot; -I&quot;q3table&quot; -I&quot;q3textedit&quot; -I&quot;q3widgets&quot; -I&quot;..\..\..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 q3wizard\q3wizard_plugin.h -o tmp\moc\debug_shared\moc_q3wizard_plugin.cpp"
+						Description="MOC q3wizard\q3wizard_plugin.h"
+						Outputs="tmp\moc\debug_shared\moc_q3wizard_plugin.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;q3wizard\q3wizard_plugin.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_NO_DEBUG -DQT_PLUGIN -DQT_SCRIPT_LIB -DQT_QT3SUPPORT_LIB -DQT3_SUPPORT -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQDESIGNER_EXPORT_WIDGETS -DQT_THREAD_SUPPORT -I&quot;..\..\..\..\..\include\QtDesigner&quot; -I&quot;..\..\..\..\..\include\QtCore&quot; -I&quot;..\..\..\..\..\include\QtGui&quot; -I&quot;..\..\..\..\..\include\QtXml&quot; -I&quot;..\..\..\..\..\include\Qt3Support&quot; -I&quot;..\..\..\..\..\include\QtScript&quot; -I&quot;..\..\..\..\..\include&quot; -I&quot;.&quot; -I&quot;q3iconview&quot; -I&quot;q3listview&quot; -I&quot;q3mainwindow&quot; -I&quot;q3toolbar&quot; -I&quot;q3widgetstack&quot; -I&quot;q3wizard&quot; -I&quot;q3listbox&quot; -I&quot;q3table&quot; -I&quot;q3textedit&quot; -I&quot;q3widgets&quot; -I&quot;..\..\..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 q3wizard\q3wizard_plugin.h -o tmp\moc\release_shared\moc_q3wizard_plugin.cpp"
+						Description="MOC q3wizard\q3wizard_plugin.h"
+						Outputs="tmp\moc\release_shared\moc_q3wizard_plugin.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="q3widgetstack\qdesigner_q3widgetstack_p.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;q3widgetstack\qdesigner_q3widgetstack_p.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_PLUGIN -DQT_SCRIPT_LIB -DQT_QT3SUPPORT_LIB -DQT3_SUPPORT -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQDESIGNER_EXPORT_WIDGETS -DQT_THREAD_SUPPORT -I&quot;..\..\..\..\..\include\QtDesigner&quot; -I&quot;..\..\..\..\..\include\QtCore&quot; -I&quot;..\..\..\..\..\include\QtGui&quot; -I&quot;..\..\..\..\..\include\QtXml&quot; -I&quot;..\..\..\..\..\include\Qt3Support&quot; -I&quot;..\..\..\..\..\include\QtScript&quot; -I&quot;..\..\..\..\..\include&quot; -I&quot;.&quot; -I&quot;q3iconview&quot; -I&quot;q3listview&quot; -I&quot;q3mainwindow&quot; -I&quot;q3toolbar&quot; -I&quot;q3widgetstack&quot; -I&quot;q3wizard&quot; -I&quot;q3listbox&quot; -I&quot;q3table&quot; -I&quot;q3textedit&quot; -I&quot;q3widgets&quot; -I&quot;..\..\..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 q3widgetstack\qdesigner_q3widgetstack_p.h -o tmp\moc\debug_shared\moc_qdesigner_q3widgetstack_p.cpp"
+						Description="MOC q3widgetstack\qdesigner_q3widgetstack_p.h"
+						Outputs="tmp\moc\debug_shared\moc_qdesigner_q3widgetstack_p.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;q3widgetstack\qdesigner_q3widgetstack_p.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_NO_DEBUG -DQT_PLUGIN -DQT_SCRIPT_LIB -DQT_QT3SUPPORT_LIB -DQT3_SUPPORT -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQDESIGNER_EXPORT_WIDGETS -DQT_THREAD_SUPPORT -I&quot;..\..\..\..\..\include\QtDesigner&quot; -I&quot;..\..\..\..\..\include\QtCore&quot; -I&quot;..\..\..\..\..\include\QtGui&quot; -I&quot;..\..\..\..\..\include\QtXml&quot; -I&quot;..\..\..\..\..\include\Qt3Support&quot; -I&quot;..\..\..\..\..\include\QtScript&quot; -I&quot;..\..\..\..\..\include&quot; -I&quot;.&quot; -I&quot;q3iconview&quot; -I&quot;q3listview&quot; -I&quot;q3mainwindow&quot; -I&quot;q3toolbar&quot; -I&quot;q3widgetstack&quot; -I&quot;q3wizard&quot; -I&quot;q3listbox&quot; -I&quot;q3table&quot; -I&quot;q3textedit&quot; -I&quot;q3widgets&quot; -I&quot;..\..\..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 q3widgetstack\qdesigner_q3widgetstack_p.h -o tmp\moc\release_shared\moc_qdesigner_q3widgetstack_p.cpp"
+						Description="MOC q3widgetstack\qdesigner_q3widgetstack_p.h"
+						Outputs="tmp\moc\release_shared\moc_qdesigner_q3widgetstack_p.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+		</Filter>
+		<Filter
+			Name="Generated Files"
+			Filter="cpp;c;cxx;moc;h;def;odl;idl;res;"
+			UniqueIdentifier="{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}">
+			<File
+				RelativePath="tmp\moc\debug_shared\moc_q3iconview_extrainfo.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\moc_q3iconview_extrainfo.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\debug_shared\moc_q3iconview_plugin.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\moc_q3iconview_plugin.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\debug_shared\moc_q3listbox_extrainfo.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\moc_q3listbox_extrainfo.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\debug_shared\moc_q3listbox_plugin.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\moc_q3listbox_plugin.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\debug_shared\moc_q3listview_extrainfo.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\moc_q3listview_extrainfo.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\debug_shared\moc_q3listview_plugin.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\moc_q3listview_plugin.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\debug_shared\moc_q3mainwindow_container.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\moc_q3mainwindow_container.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\debug_shared\moc_q3mainwindow_plugin.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\moc_q3mainwindow_plugin.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\debug_shared\moc_q3table_extrainfo.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\moc_q3table_extrainfo.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\debug_shared\moc_q3table_plugin.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\moc_q3table_plugin.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\debug_shared\moc_q3textedit_extrainfo.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\moc_q3textedit_extrainfo.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\debug_shared\moc_q3textedit_plugin.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\moc_q3textedit_plugin.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\debug_shared\moc_q3toolbar_extrainfo.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\moc_q3toolbar_extrainfo.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\debug_shared\moc_q3toolbar_plugin.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\moc_q3toolbar_plugin.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\debug_shared\moc_q3widget_plugins.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\moc_q3widget_plugins.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\debug_shared\moc_q3widgetstack_container.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\moc_q3widgetstack_container.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\debug_shared\moc_q3widgetstack_plugin.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\moc_q3widgetstack_plugin.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\debug_shared\moc_q3wizard_container.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\moc_q3wizard_container.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\debug_shared\moc_q3wizard_plugin.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\moc_q3wizard_plugin.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\debug_shared\moc_qdesigner_q3widgetstack_p.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\moc_qdesigner_q3widgetstack_p.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\debug_shared\qt3supportwidgets.moc">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;qt3supportwidgets.cpp"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_PLUGIN -DQT_SCRIPT_LIB -DQT_QT3SUPPORT_LIB -DQT3_SUPPORT -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQDESIGNER_EXPORT_WIDGETS -DQT_THREAD_SUPPORT -I&quot;..\..\..\..\..\include\QtDesigner&quot; -I&quot;..\..\..\..\..\include\QtCore&quot; -I&quot;..\..\..\..\..\include\QtGui&quot; -I&quot;..\..\..\..\..\include\QtXml&quot; -I&quot;..\..\..\..\..\include\Qt3Support&quot; -I&quot;..\..\..\..\..\include\QtScript&quot; -I&quot;..\..\..\..\..\include&quot; -I&quot;.&quot; -I&quot;q3iconview&quot; -I&quot;q3listview&quot; -I&quot;q3mainwindow&quot; -I&quot;q3toolbar&quot; -I&quot;q3widgetstack&quot; -I&quot;q3wizard&quot; -I&quot;q3listbox&quot; -I&quot;q3table&quot; -I&quot;q3textedit&quot; -I&quot;q3widgets&quot; -I&quot;..\..\..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 qt3supportwidgets.cpp -o tmp\moc\debug_shared\qt3supportwidgets.moc"
+						Description="MOC qt3supportwidgets.cpp"
+						Outputs="tmp\moc\debug_shared\qt3supportwidgets.moc"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\qt3supportwidgets.moc">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;qt3supportwidgets.cpp"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_NO_DEBUG -DQT_PLUGIN -DQT_SCRIPT_LIB -DQT_QT3SUPPORT_LIB -DQT3_SUPPORT -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQDESIGNER_EXPORT_WIDGETS -DQT_THREAD_SUPPORT -I&quot;..\..\..\..\..\include\QtDesigner&quot; -I&quot;..\..\..\..\..\include\QtCore&quot; -I&quot;..\..\..\..\..\include\QtGui&quot; -I&quot;..\..\..\..\..\include\QtXml&quot; -I&quot;..\..\..\..\..\include\Qt3Support&quot; -I&quot;..\..\..\..\..\include\QtScript&quot; -I&quot;..\..\..\..\..\include&quot; -I&quot;.&quot; -I&quot;q3iconview&quot; -I&quot;q3listview&quot; -I&quot;q3mainwindow&quot; -I&quot;q3toolbar&quot; -I&quot;q3widgetstack&quot; -I&quot;q3wizard&quot; -I&quot;q3listbox&quot; -I&quot;q3table&quot; -I&quot;q3textedit&quot; -I&quot;q3widgets&quot; -I&quot;..\..\..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 qt3supportwidgets.cpp -o tmp\moc\release_shared\qt3supportwidgets.moc"
+						Description="MOC qt3supportwidgets.cpp"
+						Outputs="tmp\moc\release_shared\qt3supportwidgets.moc"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+		</Filter>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>

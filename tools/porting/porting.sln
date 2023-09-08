@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "qt3to4", "C:/novasulf-II/qt-everywhere-opensource-src-4.8.7/tools/porting/src\qt3to4.vcxproj", "{F561236D-EFDF-3A2C-B445-FCEF3E4F442C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F561236D-EFDF-3A2C-B445-FCEF3E4F442C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F561236D-EFDF-3A2C-B445-FCEF3E4F442C}.Debug|Win32.Build.0 = Debug|Win32
+		{F561236D-EFDF-3A2C-B445-FCEF3E4F442C}.Release|Win32.ActiveCfg = Release|Win32
+		{F561236D-EFDF-3A2C-B445-FCEF3E4F442C}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

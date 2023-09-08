@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="7.00"
+	Name="qjpeg"
+	ProjectGUID="{328C8624-7B9A-31F4-9B72-BDAF260BAA26}"
+	Keyword="Qt4VSv1.0">
+	<Platforms>
+		<Platform
+			Name="Win32" />
+	</Platforms>
+	<Configurations>
+		<Configuration
+			Name="Debug|Win32"
+			OutputDirectory="..\..\..\..\plugins\imageformats\"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			ConfigurationType="2"
+			IntermediateDirectory="tmp\obj\debug_shared\"
+			UseOfMfc="0">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="&quot;..\..\..\..\include\QtCore&quot;,&quot;..\..\..\..\include\QtGui&quot;,&quot;..\..\..\..\include&quot;,&quot;..\..\..\gui\image&quot;,&quot;..\..\..\3rdparty\libjpeg&quot;,&quot;..\..\..\..\include\ActiveQt&quot;,&quot;tmp\moc\debug_shared&quot;,..\..\..\..\mkspecs\win32-msvc2003"
+				AdditionalOptions="-Zm300 -w34100 -w34189"
+				AssemblerListingLocation="tmp\obj\debug_shared\"
+				DebugInformationFormat="3"
+				ExceptionHandling="true"
+				GeneratePreprocessedFile="0"
+				ObjectFile="tmp\obj\debug_shared\"
+				Optimization ="4"
+				PreprocessorDefinitions="_WINDOWS,UNICODE,WIN32,QT_DLL,QT_PLUGIN,QT_GUI_LIB,QT_CORE_LIB,QT_HAVE_MMX,QT_HAVE_3DNOW,QT_HAVE_SSE,QT_HAVE_MMXEXT,QT_HAVE_SSE2,QT_THREAD_SUPPORT"
+				ProgramDataBaseFileName=".\"
+				RuntimeLibrary="3"
+				RuntimeTypeInfo="true"
+				SuppressStartupBanner="true"
+				WarningLevel="3" />
+			<Tool
+				Name="VCCustomBuildTool" />
+			<Tool
+				Name="VCLinkerTool"
+				AdditionalDependencies="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib\QtGuid4.lib c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib\QtCored4.lib"
+				AdditionalLibraryDirectories="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib,c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib"
+				GenerateDebugInformation="true"
+				IgnoreImportLibrary="true"
+				LinkTimeCodeGeneration="0"
+				OutputFile="$(OutDir)\qjpegd4.dll"
+				ProgramDatabaseFile=""
+				SubSystem="0"
+				SuppressStartupBanner="true"
+				Version="4.87" />
+			<Tool
+				Name="VCMIDLTool"
+				DefaultCharType="0"
+				EnableErrorChecks="1"
+				WarningLevel="0" />
+			<Tool
+				Name="VCPostBuildEventTool" />
+			<Tool
+				Name="VCPreBuildEventTool" />
+			<Tool
+				Name="VCPreLinkEventTool" />
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_WINDOWS,UNICODE,WIN32,QT_DLL,QT_PLUGIN,QT_GUI_LIB,QT_CORE_LIB,QT_HAVE_MMX,QT_HAVE_3DNOW,QT_HAVE_SSE,QT_HAVE_MMXEXT,QT_HAVE_SSE2,QT_THREAD_SUPPORT,_DEBUG" />
+		</Configuration>
+		<Configuration
+			Name="Release|Win32"
+			OutputDirectory="..\..\..\..\plugins\imageformats\"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			ConfigurationType="2"
+			IntermediateDirectory="tmp\obj\release_shared\"
+			UseOfMfc="0">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="&quot;..\..\..\..\include\QtCore&quot;,&quot;..\..\..\..\include\QtGui&quot;,&quot;..\..\..\..\include&quot;,&quot;..\..\..\gui\image&quot;,&quot;..\..\..\3rdparty\libjpeg&quot;,&quot;..\..\..\..\include\ActiveQt&quot;,&quot;tmp\moc\release_shared&quot;,..\..\..\..\mkspecs\win32-msvc2003"
+				AdditionalOptions="-Zm300 -w34100 -w34189"
+				AssemblerListingLocation="tmp\obj\release_shared\"
+				DebugInformationFormat="0"
+				ExceptionHandling="true"
+				GeneratePreprocessedFile="0"
+				ObjectFile="tmp\obj\release_shared\"
+				Optimization ="2"
+				PreprocessorDefinitions="_WINDOWS,UNICODE,WIN32,QT_DLL,QT_NO_DEBUG,QT_PLUGIN,QT_GUI_LIB,QT_CORE_LIB,QT_HAVE_MMX,QT_HAVE_3DNOW,QT_HAVE_SSE,QT_HAVE_MMXEXT,QT_HAVE_SSE2,QT_THREAD_SUPPORT,NDEBUG"
+				ProgramDataBaseFileName=".\"
+				RuntimeLibrary="2"
+				RuntimeTypeInfo="true"
+				SuppressStartupBanner="true"
+				WarningLevel="3" />
+			<Tool
+				Name="VCCustomBuildTool" />
+			<Tool
+				Name="VCLinkerTool"
+				AdditionalDependencies="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib\QtGui4.lib c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib\QtCore4.lib"
+				AdditionalLibraryDirectories="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib,c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib"
+				GenerateDebugInformation="false"
+				IgnoreImportLibrary="true"
+				LinkIncremental="1"
+				LinkTimeCodeGeneration="0"
+				OutputFile="$(OutDir)\qjpeg4.dll"
+				ProgramDatabaseFile=""
+				SubSystem="0"
+				SuppressStartupBanner="true"
+				Version="4.87" />
+			<Tool
+				Name="VCMIDLTool"
+				DefaultCharType="0"
+				EnableErrorChecks="1"
+				WarningLevel="0" />
+			<Tool
+				Name="VCPostBuildEventTool" />
+			<Tool
+				Name="VCPreBuildEventTool" />
+			<Tool
+				Name="VCPreLinkEventTool" />
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_WINDOWS,UNICODE,WIN32,QT_DLL,QT_NO_DEBUG,QT_PLUGIN,QT_GUI_LIB,QT_CORE_LIB,QT_HAVE_MMX,QT_HAVE_3DNOW,QT_HAVE_SSE,QT_HAVE_MMXEXT,QT_HAVE_SSE2,QT_THREAD_SUPPORT" />
+		</Configuration>
+	</Configurations>
+	<Files>
+		<Filter
+			Name="Source Files"
+			Filter="cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx"
+			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}">
+			<File
+				RelativePath="..\..\..\3rdparty\libjpeg\jaricom.c" />
+			<File
+				RelativePath="..\..\..\3rdparty\libjpeg\jcapimin.c" />
+			<File
+				RelativePath="..\..\..\3rdparty\libjpeg\jcapistd.c" />
+			<File
+				RelativePath="..\..\..\3rdparty\libjpeg\jcarith.c" />
+			<File
+				RelativePath="..\..\..\3rdparty\libjpeg\jccoefct.c" />
+			<File
+				RelativePath="..\..\..\3rdparty\libjpeg\jccolor.c" />
+			<File
+				RelativePath="..\..\..\3rdparty\libjpeg\jcdctmgr.c" />
+			<File
+				RelativePath="..\..\..\3rdparty\libjpeg\jchuff.c" />
+			<File
+				RelativePath="..\..\..\3rdparty\libjpeg\jcinit.c" />
+			<File
+				RelativePath="..\..\..\3rdparty\libjpeg\jcmainct.c" />
+			<File
+				RelativePath="..\..\..\3rdparty\libjpeg\jcmarker.c" />
+			<File
+				RelativePath="..\..\..\3rdparty\libjpeg\jcmaster.c" />
+			<File
+				RelativePath="..\..\..\3rdparty\libjpeg\jcomapi.c" />
+			<File
+				RelativePath="..\..\..\3rdparty\libjpeg\jcparam.c" />
+			<File
+				RelativePath="..\..\..\3rdparty\libjpeg\jcprepct.c" />
+			<File
+				RelativePath="..\..\..\3rdparty\libjpeg\jcsample.c" />
+			<File
+				RelativePath="..\..\..\3rdparty\libjpeg\jctrans.c" />
+			<File
+				RelativePath="..\..\..\3rdparty\libjpeg\jdapimin.c" />
+			<File
+				RelativePath="..\..\..\3rdparty\libjpeg\jdapistd.c" />
+			<File
+				RelativePath="..\..\..\3rdparty\libjpeg\jdarith.c" />
+			<File
+				RelativePath="..\..\..\3rdparty\libjpeg\jdatadst.c" />
+			<File
+				RelativePath="..\..\..\3rdparty\libjpeg\jdatasrc.c" />
+			<File
+				RelativePath="..\..\..\3rdparty\libjpeg\jdcoefct.c" />
+			<File
+				RelativePath="..\..\..\3rdparty\libjpeg\jdcolor.c" />
+			<File
+				RelativePath="..\..\..\3rdparty\libjpeg\jddctmgr.c" />
+			<File
+				RelativePath="..\..\..\3rdparty\libjpeg\jdhuff.c" />
+			<File
+				RelativePath="..\..\..\3rdparty\libjpeg\jdinput.c" />
+			<File
+				RelativePath="..\..\..\3rdparty\libjpeg\jdmainct.c" />
+			<File
+				RelativePath="..\..\..\3rdparty\libjpeg\jdmarker.c" />
+			<File
+				RelativePath="..\..\..\3rdparty\libjpeg\jdmaster.c" />
+			<File
+				RelativePath="..\..\..\3rdparty\libjpeg\jdmerge.c" />
+			<File
+				RelativePath="..\..\..\3rdparty\libjpeg\jdpostct.c" />
+			<File
+				RelativePath="..\..\..\3rdparty\libjpeg\jdsample.c" />
+			<File
+				RelativePath="..\..\..\3rdparty\libjpeg\jdtrans.c" />
+			<File
+				RelativePath="..\..\..\3rdparty\libjpeg\jerror.c" />
+			<File
+				RelativePath="..\..\..\3rdparty\libjpeg\jfdctflt.c" />
+			<File
+				RelativePath="..\..\..\3rdparty\libjpeg\jfdctfst.c" />
+			<File
+				RelativePath="..\..\..\3rdparty\libjpeg\jfdctint.c" />
+			<File
+				RelativePath="..\..\..\3rdparty\libjpeg\jidctflt.c" />
+			<File
+				RelativePath="..\..\..\3rdparty\libjpeg\jidctfst.c" />
+			<File
+				RelativePath="..\..\..\3rdparty\libjpeg\jidctint.c" />
+			<File
+				RelativePath="..\..\..\3rdparty\libjpeg\jmemmgr.c" />
+			<File
+				RelativePath="..\..\..\3rdparty\libjpeg\jmemnobs.c" />
+			<File
+				RelativePath="..\..\..\3rdparty\libjpeg\jquant1.c" />
+			<File
+				RelativePath="..\..\..\3rdparty\libjpeg\jquant2.c" />
+			<File
+				RelativePath="..\..\..\3rdparty\libjpeg\jutils.c" />
+			<File
+				RelativePath="main.cpp" />
+			<File
+				RelativePath="..\..\..\gui\image\qjpeghandler.cpp" />
+		</Filter>
+		<Filter
+			Name="Header Files"
+			Filter="h;hpp;hxx;hm;inl;inc;xsd"
+			UniqueIdentifier="{93995380-89BD-4b04-88EB-625FBE52EBFB}">
+			<File
+				RelativePath="..\..\..\gui\image\qjpeghandler_p.h" />
+		</Filter>
+		<File
+			RelativePath="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\src\plugins\imageformats\jpeg\qjpeg_resource.rc">
+			<FileConfiguration
+				Name="Debug|Win32"
+				ExcludedFromBuild="true" />
+		</File>
+		<File
+			RelativePath="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\src\plugins\imageformats\jpeg\qjpegd_resource.rc">
+			<FileConfiguration
+				Name="Release|Win32"
+				ExcludedFromBuild="true" />
+		</File>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>

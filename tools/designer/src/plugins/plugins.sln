@@ -1,0 +1,33 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "qt3supportwidgets", "C:/Users/dev/source/repos/eltorio/novasulf-II/qt-everywhere-opensource-src-4.8.7/tools/designer/src/plugins/widgets\qt3supportwidgets.vcxproj", "{E2D89BB1-2FF1-3D18-BFC1-EBAF535DDE2B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "qaxwidget", "C:/Users/dev/source/repos/eltorio/novasulf-II/qt-everywhere-opensource-src-4.8.7/tools/designer/src/plugins/activeqt\qaxwidget.vcxproj", "{B0C69C01-015D-3E76-A102-BACE8F0E75FC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "phononwidgets", "C:/Users/dev/source/repos/eltorio/novasulf-II/qt-everywhere-opensource-src-4.8.7/tools/designer/src/plugins/phononwidgets\phononwidgets.vcxproj", "{30556DC9-D58C-32C8-8B34-CCF01DB3D633}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E2D89BB1-2FF1-3D18-BFC1-EBAF535DDE2B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E2D89BB1-2FF1-3D18-BFC1-EBAF535DDE2B}.Debug|Win32.Build.0 = Debug|Win32
+		{E2D89BB1-2FF1-3D18-BFC1-EBAF535DDE2B}.Release|Win32.ActiveCfg = Release|Win32
+		{E2D89BB1-2FF1-3D18-BFC1-EBAF535DDE2B}.Release|Win32.Build.0 = Release|Win32
+		{B0C69C01-015D-3E76-A102-BACE8F0E75FC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B0C69C01-015D-3E76-A102-BACE8F0E75FC}.Debug|Win32.Build.0 = Debug|Win32
+		{B0C69C01-015D-3E76-A102-BACE8F0E75FC}.Release|Win32.ActiveCfg = Release|Win32
+		{B0C69C01-015D-3E76-A102-BACE8F0E75FC}.Release|Win32.Build.0 = Release|Win32
+		{30556DC9-D58C-32C8-8B34-CCF01DB3D633}.Debug|Win32.ActiveCfg = Debug|Win32
+		{30556DC9-D58C-32C8-8B34-CCF01DB3D633}.Debug|Win32.Build.0 = Debug|Win32
+		{30556DC9-D58C-32C8-8B34-CCF01DB3D633}.Release|Win32.ActiveCfg = Release|Win32
+		{30556DC9-D58C-32C8-8B34-CCF01DB3D633}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

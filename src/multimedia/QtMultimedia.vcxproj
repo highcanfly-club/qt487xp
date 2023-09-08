@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{2D0C70F6-B2D6-395D-AC66-1FBE8D4A21DF}</ProjectGuid>
+    <RootNamespace>QtMultimedia</RootNamespace>
+    <Keyword>Qt4VSv1.0</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;" Label="Configuration">
+    <OutputDirectory>..\..\lib\</OutputDirectory>
+    <ATLMinimizesCRunTimeLibraryUsage>false</ATLMinimizesCRunTimeLibraryUsage>
+    <CharacterSet>NotSet</CharacterSet>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <IntermediateDirectory>tmp\obj\debug_static\</IntermediateDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;" Label="Configuration">
+    <OutputDirectory>..\..\lib\</OutputDirectory>
+    <ATLMinimizesCRunTimeLibraryUsage>false</ATLMinimizesCRunTimeLibraryUsage>
+    <CharacterSet>NotSet</CharacterSet>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <IntermediateDirectory>tmp\obj\release_static\</IntermediateDirectory>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists(&apos;$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props&apos;)" />
+  </ImportGroup>
+  <ImportGroup Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists(&apos;$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props&apos;)" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <OutDir Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">..\..\lib\</OutDir>
+    <IntDir Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">tmp\obj\debug_static\</IntDir>
+    <IgnoreImportLibrary Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">true</IgnoreImportLibrary>
+    <OutDir Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">..\..\lib\</OutDir>
+    <IntDir Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">tmp\obj\release_static\</IntDir>
+    <IgnoreImportLibrary Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">true</IgnoreImportLibrary>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">
+    <ClCompile>
+      <AdditionalIncludeDirectories>&quot;..\..\include\QtCore&quot;;&quot;..\..\include\QtGui&quot;;&quot;..\..\include&quot;;&quot;..\..\include\QtMultimedia&quot;;&quot;tmp\rcc\debug_static&quot;;&quot;tmp&quot;;&quot;video&quot;;&quot;..\..\include\ActiveQt&quot;;&quot;tmp\moc\debug_static&quot;;..\..\mkspecs\win32-msvc2017;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>-Zm200 -w34100 -w34189 %(AdditionalOptions)</AdditionalOptions>
+      <AssemblerListingLocation>tmp\obj\debug_static\</AssemblerListingLocation>
+      <BrowseInformation>false</BrowseInformation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ObjectFileName>tmp\obj\debug_static\</ObjectFileName>
+      <PreprocessorDefinitions>_MSC_VER=1916;WIN32;_USING_V140_SDK71_;_WINDOWS;UNICODE;WIN32;QT_BUILD_MULTIMEDIA_LIB;QT_NO_USING_NAMESPACE;QT_NO_CAST_TO_ASCII;QT_ASCII_CAST_WARNINGS;QT3_SUPPORT;QT_MOC_COMPAT;QT_USE_QSTRINGBUILDER;_USE_MATH_DEFINES;QT_GUI_LIB;QT_CORE_LIB;QT_HAVE_MMX;QT_HAVE_3DNOW;QT_THREAD_SUPPORT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessToFile>false</PreprocessToFile>
+      <ProgramDataBaseFileName>.\</ProgramDataBaseFileName>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+    <Link>
+      <IgnoreImportLibrary>true</IgnoreImportLibrary>
+    </Link>
+    <Midl>
+      <DefaultCharType>Unsigned</DefaultCharType>
+      <EnableErrorChecks>None</EnableErrorChecks>
+      <WarningLevel>0</WarningLevel>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_MSC_VER=1916;WIN32;_USING_V140_SDK71_;_WINDOWS;UNICODE;WIN32;QT_BUILD_MULTIMEDIA_LIB;QT_NO_USING_NAMESPACE;QT_NO_CAST_TO_ASCII;QT_ASCII_CAST_WARNINGS;QT3_SUPPORT;QT_MOC_COMPAT;QT_USE_QSTRINGBUILDER;_USE_MATH_DEFINES;QT_GUI_LIB;QT_CORE_LIB;QT_HAVE_MMX;QT_HAVE_3DNOW;QT_THREAD_SUPPORT;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ResourceOutputFileName>$(OutDir)\$(InputName).res</ResourceOutputFileName>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">
+    <ClCompile>
+      <AdditionalIncludeDirectories>&quot;..\..\include\QtCore&quot;;&quot;..\..\include\QtGui&quot;;&quot;..\..\include&quot;;&quot;..\..\include\QtMultimedia&quot;;&quot;tmp\rcc\debug_static&quot;;&quot;tmp&quot;;&quot;video&quot;;&quot;..\..\include\ActiveQt&quot;;&quot;tmp\moc\release_static&quot;;..\..\mkspecs\win32-msvc2017;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>-Zm200 -w34100 -w34189 %(AdditionalOptions)</AdditionalOptions>
+      <AssemblerListingLocation>tmp\obj\release_static\</AssemblerListingLocation>
+      <BrowseInformation>false</BrowseInformation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ObjectFileName>tmp\obj\release_static\</ObjectFileName>
+      <Optimization>MaxSpeed</Optimization>
+      <PreprocessorDefinitions>_MSC_VER=1916;WIN32;_USING_V140_SDK71_;_WINDOWS;UNICODE;WIN32;QT_BUILD_MULTIMEDIA_LIB;QT_NO_USING_NAMESPACE;QT_NO_CAST_TO_ASCII;QT_ASCII_CAST_WARNINGS;QT3_SUPPORT;QT_MOC_COMPAT;QT_USE_QSTRINGBUILDER;_USE_MATH_DEFINES;QT_NO_DEBUG;QT_GUI_LIB;QT_CORE_LIB;QT_HAVE_MMX;QT_HAVE_3DNOW;QT_THREAD_SUPPORT;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessToFile>false</PreprocessToFile>
+      <ProgramDataBaseFileName>.\</ProgramDataBaseFileName>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+    <Link>
+      <IgnoreImportLibrary>true</IgnoreImportLibrary>
+    </Link>
+    <Midl>
+      <DefaultCharType>Unsigned</DefaultCharType>
+      <EnableErrorChecks>None</EnableErrorChecks>
+      <WarningLevel>0</WarningLevel>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_MSC_VER=1916;WIN32;_USING_V140_SDK71_;_WINDOWS;UNICODE;WIN32;QT_BUILD_MULTIMEDIA_LIB;QT_NO_USING_NAMESPACE;QT_NO_CAST_TO_ASCII;QT_ASCII_CAST_WARNINGS;QT3_SUPPORT;QT_MOC_COMPAT;QT_USE_QSTRINGBUILDER;_USE_MATH_DEFINES;QT_NO_DEBUG;QT_GUI_LIB;QT_CORE_LIB;QT_HAVE_MMX;QT_HAVE_3DNOW;QT_THREAD_SUPPORT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ResourceOutputFileName>$(OutDir)\$(InputName).res</ResourceOutputFileName>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="video\qabstractvideobuffer.cpp" />
+    <ClCompile Include="video\qabstractvideosurface.cpp" />
+    <ClCompile Include="audio\qaudio.cpp" />
+    <ClCompile Include="audio\qaudiodevicefactory.cpp" />
+    <ClCompile Include="audio\qaudiodeviceinfo.cpp" />
+    <ClCompile Include="audio\qaudiodeviceinfo_win32_p.cpp" />
+    <ClCompile Include="audio\qaudioengine.cpp" />
+    <ClCompile Include="audio\qaudioengineplugin.cpp" />
+    <ClCompile Include="audio\qaudioformat.cpp" />
+    <ClCompile Include="audio\qaudioinput.cpp" />
+    <ClCompile Include="audio\qaudioinput_win32_p.cpp" />
+    <ClCompile Include="audio\qaudiooutput.cpp" />
+    <ClCompile Include="audio\qaudiooutput_win32_p.cpp" />
+    <ClCompile Include="video\qimagevideobuffer.cpp" />
+    <ClCompile Include="video\qmemoryvideobuffer.cpp" />
+    <ClCompile Include="video\qvideoframe.cpp" />
+    <ClCompile Include="video\qvideosurfaceformat.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="video\qabstractvideobuffer.h" />
+    <ClInclude Include="video\qabstractvideobuffer_p.h" />
+    <CustomBuild Include="video\qabstractvideosurface.h">
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">C:\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;video\qabstractvideosurface.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">C:\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_MULTIMEDIA_LIB -DQT_NO_USING_NAMESPACE -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include\QtGui&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtMultimedia&quot; -I&quot;tmp\rcc\debug_static&quot; -I&quot;tmp&quot; -I&quot;video&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_static&quot; -I..\..\mkspecs\win32-msvc2017 -D_MSC_VER=1916 -DWIN32 -D_USING_V140_SDK71_ video\qabstractvideosurface.h -o tmp\moc\debug_static\moc_qabstractvideosurface.cpp</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">MOC video\qabstractvideosurface.h</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">tmp\moc\debug_static\moc_qabstractvideosurface.cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">C:\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;video\qabstractvideosurface.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">C:\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_MULTIMEDIA_LIB -DQT_NO_USING_NAMESPACE -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include\QtGui&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtMultimedia&quot; -I&quot;tmp\rcc\debug_static&quot; -I&quot;tmp&quot; -I&quot;video&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_static&quot; -I..\..\mkspecs\win32-msvc2017 -D_MSC_VER=1916 -DWIN32 -D_USING_V140_SDK71_ video\qabstractvideosurface.h -o tmp\moc\release_static\moc_qabstractvideosurface.cpp</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">MOC video\qabstractvideosurface.h</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">tmp\moc\release_static\moc_qabstractvideosurface.cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <ClInclude Include="video\qabstractvideosurface_p.h" />
+    <ClInclude Include="audio\qaudio.h" />
+    <ClInclude Include="audio\qaudiodevicefactory_p.h" />
+    <ClInclude Include="audio\qaudiodeviceinfo.h" />
+    <CustomBuild Include="audio\qaudiodeviceinfo_win32_p.h">
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">C:\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;audio\qaudiodeviceinfo_win32_p.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">C:\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_MULTIMEDIA_LIB -DQT_NO_USING_NAMESPACE -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include\QtGui&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtMultimedia&quot; -I&quot;tmp\rcc\debug_static&quot; -I&quot;tmp&quot; -I&quot;video&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_static&quot; -I..\..\mkspecs\win32-msvc2017 -D_MSC_VER=1916 -DWIN32 -D_USING_V140_SDK71_ audio\qaudiodeviceinfo_win32_p.h -o tmp\moc\debug_static\moc_qaudiodeviceinfo_win32_p.cpp</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">MOC audio\qaudiodeviceinfo_win32_p.h</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">tmp\moc\debug_static\moc_qaudiodeviceinfo_win32_p.cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">C:\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;audio\qaudiodeviceinfo_win32_p.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">C:\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_MULTIMEDIA_LIB -DQT_NO_USING_NAMESPACE -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include\QtGui&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtMultimedia&quot; -I&quot;tmp\rcc\debug_static&quot; -I&quot;tmp&quot; -I&quot;video&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_static&quot; -I..\..\mkspecs\win32-msvc2017 -D_MSC_VER=1916 -DWIN32 -D_USING_V140_SDK71_ audio\qaudiodeviceinfo_win32_p.h -o tmp\moc\release_static\moc_qaudiodeviceinfo_win32_p.cpp</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">MOC audio\qaudiodeviceinfo_win32_p.h</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">tmp\moc\release_static\moc_qaudiodeviceinfo_win32_p.cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="audio\qaudioengine.h">
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">C:\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;audio\qaudioengine.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">C:\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_MULTIMEDIA_LIB -DQT_NO_USING_NAMESPACE -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include\QtGui&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtMultimedia&quot; -I&quot;tmp\rcc\debug_static&quot; -I&quot;tmp&quot; -I&quot;video&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_static&quot; -I..\..\mkspecs\win32-msvc2017 -D_MSC_VER=1916 -DWIN32 -D_USING_V140_SDK71_ audio\qaudioengine.h -o tmp\moc\debug_static\moc_qaudioengine.cpp</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">MOC audio\qaudioengine.h</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">tmp\moc\debug_static\moc_qaudioengine.cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">C:\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;audio\qaudioengine.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">C:\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_MULTIMEDIA_LIB -DQT_NO_USING_NAMESPACE -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include\QtGui&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtMultimedia&quot; -I&quot;tmp\rcc\debug_static&quot; -I&quot;tmp&quot; -I&quot;video&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_static&quot; -I..\..\mkspecs\win32-msvc2017 -D_MSC_VER=1916 -DWIN32 -D_USING_V140_SDK71_ audio\qaudioengine.h -o tmp\moc\release_static\moc_qaudioengine.cpp</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">MOC audio\qaudioengine.h</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">tmp\moc\release_static\moc_qaudioengine.cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="audio\qaudioengineplugin.h">
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">C:\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;audio\qaudioengineplugin.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">C:\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_MULTIMEDIA_LIB -DQT_NO_USING_NAMESPACE -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include\QtGui&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtMultimedia&quot; -I&quot;tmp\rcc\debug_static&quot; -I&quot;tmp&quot; -I&quot;video&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_static&quot; -I..\..\mkspecs\win32-msvc2017 -D_MSC_VER=1916 -DWIN32 -D_USING_V140_SDK71_ audio\qaudioengineplugin.h -o tmp\moc\debug_static\moc_qaudioengineplugin.cpp</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">MOC audio\qaudioengineplugin.h</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">tmp\moc\debug_static\moc_qaudioengineplugin.cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">C:\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;audio\qaudioengineplugin.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">C:\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_MULTIMEDIA_LIB -DQT_NO_USING_NAMESPACE -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include\QtGui&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtMultimedia&quot; -I&quot;tmp\rcc\debug_static&quot; -I&quot;tmp&quot; -I&quot;video&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_static&quot; -I..\..\mkspecs\win32-msvc2017 -D_MSC_VER=1916 -DWIN32 -D_USING_V140_SDK71_ audio\qaudioengineplugin.h -o tmp\moc\release_static\moc_qaudioengineplugin.cpp</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">MOC audio\qaudioengineplugin.h</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">tmp\moc\release_static\moc_qaudioengineplugin.cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <ClInclude Include="audio\qaudioformat.h" />
+    <CustomBuild Include="audio\qaudioinput.h">
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">C:\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;audio\qaudioinput.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">C:\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_MULTIMEDIA_LIB -DQT_NO_USING_NAMESPACE -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include\QtGui&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtMultimedia&quot; -I&quot;tmp\rcc\debug_static&quot; -I&quot;tmp&quot; -I&quot;video&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_static&quot; -I..\..\mkspecs\win32-msvc2017 -D_MSC_VER=1916 -DWIN32 -D_USING_V140_SDK71_ audio\qaudioinput.h -o tmp\moc\debug_static\moc_qaudioinput.cpp</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">MOC audio\qaudioinput.h</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">tmp\moc\debug_static\moc_qaudioinput.cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">C:\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;audio\qaudioinput.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">C:\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_MULTIMEDIA_LIB -DQT_NO_USING_NAMESPACE -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include\QtGui&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtMultimedia&quot; -I&quot;tmp\rcc\debug_static&quot; -I&quot;tmp&quot; -I&quot;video&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_static&quot; -I..\..\mkspecs\win32-msvc2017 -D_MSC_VER=1916 -DWIN32 -D_USING_V140_SDK71_ audio\qaudioinput.h -o tmp\moc\release_static\moc_qaudioinput.cpp</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">MOC audio\qaudioinput.h</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">tmp\moc\release_static\moc_qaudioinput.cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="audio\qaudioinput_win32_p.h">
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">C:\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;audio\qaudioinput_win32_p.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">C:\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_MULTIMEDIA_LIB -DQT_NO_USING_NAMESPACE -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include\QtGui&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtMultimedia&quot; -I&quot;tmp\rcc\debug_static&quot; -I&quot;tmp&quot; -I&quot;video&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_static&quot; -I..\..\mkspecs\win32-msvc2017 -D_MSC_VER=1916 -DWIN32 -D_USING_V140_SDK71_ audio\qaudioinput_win32_p.h -o tmp\moc\debug_static\moc_qaudioinput_win32_p.cpp</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">MOC audio\qaudioinput_win32_p.h</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">tmp\moc\debug_static\moc_qaudioinput_win32_p.cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">C:\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;audio\qaudioinput_win32_p.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">C:\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_MULTIMEDIA_LIB -DQT_NO_USING_NAMESPACE -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include\QtGui&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtMultimedia&quot; -I&quot;tmp\rcc\debug_static&quot; -I&quot;tmp&quot; -I&quot;video&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_static&quot; -I..\..\mkspecs\win32-msvc2017 -D_MSC_VER=1916 -DWIN32 -D_USING_V140_SDK71_ audio\qaudioinput_win32_p.h -o tmp\moc\release_static\moc_qaudioinput_win32_p.cpp</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">MOC audio\qaudioinput_win32_p.h</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">tmp\moc\release_static\moc_qaudioinput_win32_p.cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="audio\qaudiooutput.h">
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">C:\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;audio\qaudiooutput.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">C:\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_MULTIMEDIA_LIB -DQT_NO_USING_NAMESPACE -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include\QtGui&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtMultimedia&quot; -I&quot;tmp\rcc\debug_static&quot; -I&quot;tmp&quot; -I&quot;video&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_static&quot; -I..\..\mkspecs\win32-msvc2017 -D_MSC_VER=1916 -DWIN32 -D_USING_V140_SDK71_ audio\qaudiooutput.h -o tmp\moc\debug_static\moc_qaudiooutput.cpp</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">MOC audio\qaudiooutput.h</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">tmp\moc\debug_static\moc_qaudiooutput.cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">C:\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;audio\qaudiooutput.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">C:\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_MULTIMEDIA_LIB -DQT_NO_USING_NAMESPACE -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include\QtGui&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtMultimedia&quot; -I&quot;tmp\rcc\debug_static&quot; -I&quot;tmp&quot; -I&quot;video&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_static&quot; -I..\..\mkspecs\win32-msvc2017 -D_MSC_VER=1916 -DWIN32 -D_USING_V140_SDK71_ audio\qaudiooutput.h -o tmp\moc\release_static\moc_qaudiooutput.cpp</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">MOC audio\qaudiooutput.h</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">tmp\moc\release_static\moc_qaudiooutput.cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="audio\qaudiooutput_win32_p.h">
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">C:\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;audio\qaudiooutput_win32_p.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">C:\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_MULTIMEDIA_LIB -DQT_NO_USING_NAMESPACE -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include\QtGui&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtMultimedia&quot; -I&quot;tmp\rcc\debug_static&quot; -I&quot;tmp&quot; -I&quot;video&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_static&quot; -I..\..\mkspecs\win32-msvc2017 -D_MSC_VER=1916 -DWIN32 -D_USING_V140_SDK71_ audio\qaudiooutput_win32_p.h -o tmp\moc\debug_static\moc_qaudiooutput_win32_p.cpp</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">MOC audio\qaudiooutput_win32_p.h</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">tmp\moc\debug_static\moc_qaudiooutput_win32_p.cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">C:\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;audio\qaudiooutput_win32_p.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">C:\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_MULTIMEDIA_LIB -DQT_NO_USING_NAMESPACE -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include\QtGui&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtMultimedia&quot; -I&quot;tmp\rcc\debug_static&quot; -I&quot;tmp&quot; -I&quot;video&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_static&quot; -I..\..\mkspecs\win32-msvc2017 -D_MSC_VER=1916 -DWIN32 -D_USING_V140_SDK71_ audio\qaudiooutput_win32_p.h -o tmp\moc\release_static\moc_qaudiooutput_win32_p.cpp</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">MOC audio\qaudiooutput_win32_p.h</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">tmp\moc\release_static\moc_qaudiooutput_win32_p.cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <ClInclude Include="video\qimagevideobuffer_p.h" />
+    <ClInclude Include="video\qmemoryvideobuffer_p.h" />
+    <ClInclude Include="video\qvideoframe.h" />
+    <ClInclude Include="video\qvideosurfaceformat.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="tmp\moc\debug_static\moc_qabstractvideosurface.cpp">
+      <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tmp\moc\release_static\moc_qabstractvideosurface.cpp">
+      <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tmp\moc\debug_static\moc_qaudiodeviceinfo_win32_p.cpp">
+      <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tmp\moc\release_static\moc_qaudiodeviceinfo_win32_p.cpp">
+      <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tmp\moc\debug_static\moc_qaudioengine.cpp">
+      <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tmp\moc\release_static\moc_qaudioengine.cpp">
+      <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tmp\moc\debug_static\moc_qaudioengineplugin.cpp">
+      <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tmp\moc\release_static\moc_qaudioengineplugin.cpp">
+      <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tmp\moc\debug_static\moc_qaudioinput.cpp">
+      <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tmp\moc\release_static\moc_qaudioinput.cpp">
+      <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tmp\moc\debug_static\moc_qaudioinput_win32_p.cpp">
+      <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tmp\moc\release_static\moc_qaudioinput_win32_p.cpp">
+      <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tmp\moc\debug_static\moc_qaudiooutput.cpp">
+      <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tmp\moc\release_static\moc_qaudiooutput.cpp">
+      <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tmp\moc\debug_static\moc_qaudiooutput_win32_p.cpp">
+      <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tmp\moc\release_static\moc_qaudiooutput_win32_p.cpp">
+      <ExcludedFromBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">true</ExcludedFromBuild>
+    </ClCompile>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets" />
+</Project>

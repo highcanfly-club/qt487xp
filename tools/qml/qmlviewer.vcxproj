@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B0FA3982-AFED-30EE-9D22-E486B289EC71}</ProjectGuid>
+    <RootNamespace>qmlviewer</RootNamespace>
+    <Keyword>Qt4VSv1.0</Keyword>
+    <WindowsTargetPlatformVersion>7.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <OutputDirectory>..\..\bin\</OutputDirectory>
+    <ATLMinimizesCRunTimeLibraryUsage>false</ATLMinimizesCRunTimeLibraryUsage>
+    <CharacterSet>NotSet</CharacterSet>
+    <ConfigurationType>Application</ConfigurationType>
+    <IntermediateDirectory>tmp\obj\release_shared\</IntermediateDirectory>
+    <PlatformToolset>v141_xp</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <OutputDirectory>..\..\bin\</OutputDirectory>
+    <ATLMinimizesCRunTimeLibraryUsage>false</ATLMinimizesCRunTimeLibraryUsage>
+    <CharacterSet>NotSet</CharacterSet>
+    <ConfigurationType>Application</ConfigurationType>
+    <IntermediateDirectory>tmp\obj\debug_shared\</IntermediateDirectory>
+    <PlatformToolset>v141_xp</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">tmp\obj\release_shared\</IntDir>
+    <IgnoreImportLibrary Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</IgnoreImportLibrary>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">tmp\obj\debug_shared\</IntDir>
+    <IgnoreImportLibrary Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</IgnoreImportLibrary>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>"..\..\include\QtCore";"..\..\include\QtNetwork";"..\..\include\QtGui";"..\..\include\QtOpenGL";"..\..\include\QtSql";"..\..\include\QtScript";"..\..\include\QtDeclarative";"..\..\include";".";"..\..\include\QtDeclarative";"..\..\src\declarative\util";"..\..\src\declarative\graphicsitems";".";"..\..\include\ActiveQt";"tmp\moc\release_shared";..\..\mkspecs\win32-msvc2015;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>-Zm200 -FS -w34100 -w34189 %(AdditionalOptions)</AdditionalOptions>
+      <AssemblerListingLocation>tmp\obj\release_shared\</AssemblerListingLocation>
+      <BrowseInformation>false</BrowseInformation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ObjectFileName>tmp\obj\release_shared\</ObjectFileName>
+      <Optimization>MaxSpeed</Optimization>
+      <PreprocessorDefinitions>_WINDOWS;UNICODE;WIN32;GL_SUPPORTED;QT_NO_CAST_FROM_ASCII;QT_NO_CAST_TO_ASCII;QT_DECLARATIVE_DEBUG;QT_DLL;QT_NO_DEBUG;QT_DECLARATIVE_LIB;QT_SCRIPT_LIB;QT_SQL_LIB;QT_OPENGL_LIB;QT_GUI_LIB;QT_NETWORK_LIB;QT_CORE_LIB;QT_HAVE_MMX;QT_HAVE_3DNOW;QT_HAVE_SSE;QT_HAVE_MMXEXT;QT_HAVE_SSE2;QT_THREAD_SUPPORT;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessToFile>false</PreprocessToFile>
+      <ProgramDataBaseFileName>.\</ProgramDataBaseFileName>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>glu32.lib;opengl32.lib;gdi32.lib;user32.lib;$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\lib\qtmain.lib;$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\lib\QtDeclarative4.lib;$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\lib\QtScript4.lib;$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\lib\QtSql4.lib;$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\lib\QtOpenGL4.lib;$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\lib\QtGui4.lib;$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\lib\QtNetwork4.lib;$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\lib\QtCore4.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\lib;$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>"/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'" %(AdditionalOptions)</AdditionalOptions>
+      <DataExecutionPrevention>true</DataExecutionPrevention>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreImportLibrary>true</IgnoreImportLibrary>
+      <LinkIncremental>false</LinkIncremental>
+      <OutputFile>$(OutDir)\qmlviewer.exe</OutputFile>
+      <RandomizedBaseAddress>true</RandomizedBaseAddress>
+      <SubSystem>Windows</SubSystem>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Link>
+    <Midl>
+      <DefaultCharType>Unsigned</DefaultCharType>
+      <EnableErrorChecks>None</EnableErrorChecks>
+      <WarningLevel>0</WarningLevel>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_WINDOWS;UNICODE;WIN32;GL_SUPPORTED;QT_NO_CAST_FROM_ASCII;QT_NO_CAST_TO_ASCII;QT_DECLARATIVE_DEBUG;QT_DLL;QT_NO_DEBUG;QT_DECLARATIVE_LIB;QT_SCRIPT_LIB;QT_SQL_LIB;QT_OPENGL_LIB;QT_GUI_LIB;QT_NETWORK_LIB;QT_CORE_LIB;QT_HAVE_MMX;QT_HAVE_3DNOW;QT_HAVE_SSE;QT_HAVE_MMXEXT;QT_HAVE_SSE2;QT_THREAD_SUPPORT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>"..\..\include\QtCore";"..\..\include\QtNetwork";"..\..\include\QtGui";"..\..\include\QtOpenGL";"..\..\include\QtSql";"..\..\include\QtScript";"..\..\include\QtDeclarative";"..\..\include";".";"..\..\include\QtDeclarative";"..\..\src\declarative\util";"..\..\src\declarative\graphicsitems";".";"..\..\include\ActiveQt";"tmp\moc\debug_shared";..\..\mkspecs\win32-msvc2015;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>-Zm200 -FS -w34100 -w34189 %(AdditionalOptions)</AdditionalOptions>
+      <AssemblerListingLocation>tmp\obj\debug_shared\</AssemblerListingLocation>
+      <BrowseInformation>false</BrowseInformation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ObjectFileName>tmp\obj\debug_shared\</ObjectFileName>
+      <PreprocessorDefinitions>_WINDOWS;UNICODE;WIN32;GL_SUPPORTED;QT_NO_CAST_FROM_ASCII;QT_NO_CAST_TO_ASCII;QT_DECLARATIVE_DEBUG;QT_DLL;QT_DECLARATIVE_LIB;QT_SCRIPT_LIB;QT_SQL_LIB;QT_OPENGL_LIB;QT_GUI_LIB;QT_NETWORK_LIB;QT_CORE_LIB;QT_HAVE_MMX;QT_HAVE_3DNOW;QT_HAVE_SSE;QT_HAVE_MMXEXT;QT_HAVE_SSE2;QT_THREAD_SUPPORT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessToFile>false</PreprocessToFile>
+      <ProgramDataBaseFileName>.\</ProgramDataBaseFileName>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>glu32.lib;opengl32.lib;gdi32.lib;user32.lib;$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\lib\qtmaind.lib;$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\lib\QtDeclaratived4.lib;$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\lib\QtScriptd4.lib;$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\lib\QtSqld4.lib;$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\lib\QtOpenGLd4.lib;$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\lib\QtGuid4.lib;$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\lib\QtNetworkd4.lib;$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\lib\QtCored4.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\lib;$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>"/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'" %(AdditionalOptions)</AdditionalOptions>
+      <DataExecutionPrevention>true</DataExecutionPrevention>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreImportLibrary>true</IgnoreImportLibrary>
+      <OutputFile>$(OutDir)\qmlviewer.exe</OutputFile>
+      <RandomizedBaseAddress>true</RandomizedBaseAddress>
+      <SubSystem>Windows</SubSystem>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Link>
+    <Midl>
+      <DefaultCharType>Unsigned</DefaultCharType>
+      <EnableErrorChecks>None</EnableErrorChecks>
+      <WarningLevel>0</WarningLevel>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_WINDOWS;UNICODE;WIN32;GL_SUPPORTED;QT_NO_CAST_FROM_ASCII;QT_NO_CAST_TO_ASCII;QT_DECLARATIVE_DEBUG;QT_DLL;QT_DECLARATIVE_LIB;QT_SCRIPT_LIB;QT_SQL_LIB;QT_OPENGL_LIB;QT_GUI_LIB;QT_NETWORK_LIB;QT_CORE_LIB;QT_HAVE_MMX;QT_HAVE_3DNOW;QT_HAVE_SSE;QT_HAVE_MMXEXT;QT_HAVE_SSE2;QT_THREAD_SUPPORT;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="deviceorientation.cpp" />
+    <ClCompile Include="loggerwidget.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="proxysettings.cpp" />
+    <ClCompile Include="qdeclarativetester.cpp" />
+    <ClCompile Include="qmlruntime.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="deviceorientation.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;deviceorientation.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DGL_SUPPORTED -DQT_NO_CAST_FROM_ASCII -DQT_NO_CAST_TO_ASCII -DQT_DECLARATIVE_DEBUG -DQT_DLL -DQT_NO_DEBUG -DQT_DECLARATIVE_LIB -DQT_SCRIPT_LIB -DQT_SQL_LIB -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I"..\..\include\QtCore" -I"..\..\include\QtNetwork" -I"..\..\include\QtGui" -I"..\..\include\QtOpenGL" -I"..\..\include\QtSql" -I"..\..\include\QtScript" -I"..\..\include\QtDeclarative" -I"..\..\include" -I"." -I"..\..\include\QtDeclarative" -I"..\..\src\declarative\util" -I"..\..\src\declarative\graphicsitems" -I"." -I"..\..\include\ActiveQt" -I"tmp\moc\release_shared" -I..\..\mkspecs\win32-msvc2015 -D_MSC_VER=1900 -DWIN32 deviceorientation.h -o tmp\moc\release_shared\moc_deviceorientation.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MOC deviceorientation.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">tmp\moc\release_shared\moc_deviceorientation.cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;deviceorientation.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DGL_SUPPORTED -DQT_NO_CAST_FROM_ASCII -DQT_NO_CAST_TO_ASCII -DQT_DECLARATIVE_DEBUG -DQT_DLL -DQT_DECLARATIVE_LIB -DQT_SCRIPT_LIB -DQT_SQL_LIB -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I"..\..\include\QtCore" -I"..\..\include\QtNetwork" -I"..\..\include\QtGui" -I"..\..\include\QtOpenGL" -I"..\..\include\QtSql" -I"..\..\include\QtScript" -I"..\..\include\QtDeclarative" -I"..\..\include" -I"." -I"..\..\include\QtDeclarative" -I"..\..\src\declarative\util" -I"..\..\src\declarative\graphicsitems" -I"." -I"..\..\include\ActiveQt" -I"tmp\moc\debug_shared" -I..\..\mkspecs\win32-msvc2015 -D_MSC_VER=1900 -DWIN32 deviceorientation.h -o tmp\moc\debug_shared\moc_deviceorientation.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MOC deviceorientation.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">tmp\moc\debug_shared\moc_deviceorientation.cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="loggerwidget.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;loggerwidget.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DGL_SUPPORTED -DQT_NO_CAST_FROM_ASCII -DQT_NO_CAST_TO_ASCII -DQT_DECLARATIVE_DEBUG -DQT_DLL -DQT_NO_DEBUG -DQT_DECLARATIVE_LIB -DQT_SCRIPT_LIB -DQT_SQL_LIB -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I"..\..\include\QtCore" -I"..\..\include\QtNetwork" -I"..\..\include\QtGui" -I"..\..\include\QtOpenGL" -I"..\..\include\QtSql" -I"..\..\include\QtScript" -I"..\..\include\QtDeclarative" -I"..\..\include" -I"." -I"..\..\include\QtDeclarative" -I"..\..\src\declarative\util" -I"..\..\src\declarative\graphicsitems" -I"." -I"..\..\include\ActiveQt" -I"tmp\moc\release_shared" -I..\..\mkspecs\win32-msvc2015 -D_MSC_VER=1900 -DWIN32 loggerwidget.h -o tmp\moc\release_shared\moc_loggerwidget.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MOC loggerwidget.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">tmp\moc\release_shared\moc_loggerwidget.cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;loggerwidget.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DGL_SUPPORTED -DQT_NO_CAST_FROM_ASCII -DQT_NO_CAST_TO_ASCII -DQT_DECLARATIVE_DEBUG -DQT_DLL -DQT_DECLARATIVE_LIB -DQT_SCRIPT_LIB -DQT_SQL_LIB -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I"..\..\include\QtCore" -I"..\..\include\QtNetwork" -I"..\..\include\QtGui" -I"..\..\include\QtOpenGL" -I"..\..\include\QtSql" -I"..\..\include\QtScript" -I"..\..\include\QtDeclarative" -I"..\..\include" -I"." -I"..\..\include\QtDeclarative" -I"..\..\src\declarative\util" -I"..\..\src\declarative\graphicsitems" -I"." -I"..\..\include\ActiveQt" -I"tmp\moc\debug_shared" -I..\..\mkspecs\win32-msvc2015 -D_MSC_VER=1900 -DWIN32 loggerwidget.h -o tmp\moc\debug_shared\moc_loggerwidget.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MOC loggerwidget.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">tmp\moc\debug_shared\moc_loggerwidget.cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="proxysettings.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;proxysettings.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DGL_SUPPORTED -DQT_NO_CAST_FROM_ASCII -DQT_NO_CAST_TO_ASCII -DQT_DECLARATIVE_DEBUG -DQT_DLL -DQT_NO_DEBUG -DQT_DECLARATIVE_LIB -DQT_SCRIPT_LIB -DQT_SQL_LIB -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I"..\..\include\QtCore" -I"..\..\include\QtNetwork" -I"..\..\include\QtGui" -I"..\..\include\QtOpenGL" -I"..\..\include\QtSql" -I"..\..\include\QtScript" -I"..\..\include\QtDeclarative" -I"..\..\include" -I"." -I"..\..\include\QtDeclarative" -I"..\..\src\declarative\util" -I"..\..\src\declarative\graphicsitems" -I"." -I"..\..\include\ActiveQt" -I"tmp\moc\release_shared" -I..\..\mkspecs\win32-msvc2015 -D_MSC_VER=1900 -DWIN32 proxysettings.h -o tmp\moc\release_shared\moc_proxysettings.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MOC proxysettings.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">tmp\moc\release_shared\moc_proxysettings.cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;proxysettings.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DGL_SUPPORTED -DQT_NO_CAST_FROM_ASCII -DQT_NO_CAST_TO_ASCII -DQT_DECLARATIVE_DEBUG -DQT_DLL -DQT_DECLARATIVE_LIB -DQT_SCRIPT_LIB -DQT_SQL_LIB -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I"..\..\include\QtCore" -I"..\..\include\QtNetwork" -I"..\..\include\QtGui" -I"..\..\include\QtOpenGL" -I"..\..\include\QtSql" -I"..\..\include\QtScript" -I"..\..\include\QtDeclarative" -I"..\..\include" -I"." -I"..\..\include\QtDeclarative" -I"..\..\src\declarative\util" -I"..\..\src\declarative\graphicsitems" -I"." -I"..\..\include\ActiveQt" -I"tmp\moc\debug_shared" -I..\..\mkspecs\win32-msvc2015 -D_MSC_VER=1900 -DWIN32 proxysettings.h -o tmp\moc\debug_shared\moc_proxysettings.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MOC proxysettings.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">tmp\moc\debug_shared\moc_proxysettings.cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="qdeclarativetester.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;qdeclarativetester.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DGL_SUPPORTED -DQT_NO_CAST_FROM_ASCII -DQT_NO_CAST_TO_ASCII -DQT_DECLARATIVE_DEBUG -DQT_DLL -DQT_NO_DEBUG -DQT_DECLARATIVE_LIB -DQT_SCRIPT_LIB -DQT_SQL_LIB -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I"..\..\include\QtCore" -I"..\..\include\QtNetwork" -I"..\..\include\QtGui" -I"..\..\include\QtOpenGL" -I"..\..\include\QtSql" -I"..\..\include\QtScript" -I"..\..\include\QtDeclarative" -I"..\..\include" -I"." -I"..\..\include\QtDeclarative" -I"..\..\src\declarative\util" -I"..\..\src\declarative\graphicsitems" -I"." -I"..\..\include\ActiveQt" -I"tmp\moc\release_shared" -I..\..\mkspecs\win32-msvc2015 -D_MSC_VER=1900 -DWIN32 qdeclarativetester.h -o tmp\moc\release_shared\moc_qdeclarativetester.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MOC qdeclarativetester.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">tmp\moc\release_shared\moc_qdeclarativetester.cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;qdeclarativetester.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DGL_SUPPORTED -DQT_NO_CAST_FROM_ASCII -DQT_NO_CAST_TO_ASCII -DQT_DECLARATIVE_DEBUG -DQT_DLL -DQT_DECLARATIVE_LIB -DQT_SCRIPT_LIB -DQT_SQL_LIB -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I"..\..\include\QtCore" -I"..\..\include\QtNetwork" -I"..\..\include\QtGui" -I"..\..\include\QtOpenGL" -I"..\..\include\QtSql" -I"..\..\include\QtScript" -I"..\..\include\QtDeclarative" -I"..\..\include" -I"." -I"..\..\include\QtDeclarative" -I"..\..\src\declarative\util" -I"..\..\src\declarative\graphicsitems" -I"." -I"..\..\include\ActiveQt" -I"tmp\moc\debug_shared" -I..\..\mkspecs\win32-msvc2015 -D_MSC_VER=1900 -DWIN32 qdeclarativetester.h -o tmp\moc\debug_shared\moc_qdeclarativetester.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MOC qdeclarativetester.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">tmp\moc\debug_shared\moc_qdeclarativetester.cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="qmlruntime.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;qmlruntime.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DGL_SUPPORTED -DQT_NO_CAST_FROM_ASCII -DQT_NO_CAST_TO_ASCII -DQT_DECLARATIVE_DEBUG -DQT_DLL -DQT_NO_DEBUG -DQT_DECLARATIVE_LIB -DQT_SCRIPT_LIB -DQT_SQL_LIB -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I"..\..\include\QtCore" -I"..\..\include\QtNetwork" -I"..\..\include\QtGui" -I"..\..\include\QtOpenGL" -I"..\..\include\QtSql" -I"..\..\include\QtScript" -I"..\..\include\QtDeclarative" -I"..\..\include" -I"." -I"..\..\include\QtDeclarative" -I"..\..\src\declarative\util" -I"..\..\src\declarative\graphicsitems" -I"." -I"..\..\include\ActiveQt" -I"tmp\moc\release_shared" -I..\..\mkspecs\win32-msvc2015 -D_MSC_VER=1900 -DWIN32 qmlruntime.h -o tmp\moc\release_shared\moc_qmlruntime.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MOC qmlruntime.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">tmp\moc\release_shared\moc_qmlruntime.cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;qmlruntime.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DGL_SUPPORTED -DQT_NO_CAST_FROM_ASCII -DQT_NO_CAST_TO_ASCII -DQT_DECLARATIVE_DEBUG -DQT_DLL -DQT_DECLARATIVE_LIB -DQT_SCRIPT_LIB -DQT_SQL_LIB -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I"..\..\include\QtCore" -I"..\..\include\QtNetwork" -I"..\..\include\QtGui" -I"..\..\include\QtOpenGL" -I"..\..\include\QtSql" -I"..\..\include\QtScript" -I"..\..\include\QtDeclarative" -I"..\..\include" -I"." -I"..\..\include\QtDeclarative" -I"..\..\src\declarative\util" -I"..\..\src\declarative\graphicsitems" -I"." -I"..\..\include\ActiveQt" -I"tmp\moc\debug_shared" -I..\..\mkspecs\win32-msvc2015 -D_MSC_VER=1900 -DWIN32 qmlruntime.h -o tmp\moc\debug_shared\moc_qmlruntime.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MOC qmlruntime.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">tmp\moc\debug_shared\moc_qmlruntime.cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="tmp\moc\debug_shared\deviceorientation.moc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;deviceorientation.cpp;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DGL_SUPPORTED -DQT_NO_CAST_FROM_ASCII -DQT_NO_CAST_TO_ASCII -DQT_DECLARATIVE_DEBUG -DQT_DLL -DQT_DECLARATIVE_LIB -DQT_SCRIPT_LIB -DQT_SQL_LIB -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I"..\..\include\QtCore" -I"..\..\include\QtNetwork" -I"..\..\include\QtGui" -I"..\..\include\QtOpenGL" -I"..\..\include\QtSql" -I"..\..\include\QtScript" -I"..\..\include\QtDeclarative" -I"..\..\include" -I"." -I"..\..\include\QtDeclarative" -I"..\..\src\declarative\util" -I"..\..\src\declarative\graphicsitems" -I"." -I"..\..\include\ActiveQt" -I"tmp\moc\debug_shared" -I..\..\mkspecs\win32-msvc2015 -D_MSC_VER=1900 -DWIN32 deviceorientation.cpp -o tmp\moc\debug_shared\deviceorientation.moc</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MOC deviceorientation.cpp</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">tmp\moc\debug_shared\deviceorientation.moc;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="tmp\moc\release_shared\deviceorientation.moc">
+      <FileType>Document</FileType>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;deviceorientation.cpp;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DGL_SUPPORTED -DQT_NO_CAST_FROM_ASCII -DQT_NO_CAST_TO_ASCII -DQT_DECLARATIVE_DEBUG -DQT_DLL -DQT_NO_DEBUG -DQT_DECLARATIVE_LIB -DQT_SCRIPT_LIB -DQT_SQL_LIB -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I"..\..\include\QtCore" -I"..\..\include\QtNetwork" -I"..\..\include\QtGui" -I"..\..\include\QtOpenGL" -I"..\..\include\QtSql" -I"..\..\include\QtScript" -I"..\..\include\QtDeclarative" -I"..\..\include" -I"." -I"..\..\include\QtDeclarative" -I"..\..\src\declarative\util" -I"..\..\src\declarative\graphicsitems" -I"." -I"..\..\include\ActiveQt" -I"tmp\moc\release_shared" -I..\..\mkspecs\win32-msvc2015 -D_MSC_VER=1900 -DWIN32 deviceorientation.cpp -o tmp\moc\release_shared\deviceorientation.moc</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MOC deviceorientation.cpp</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">tmp\moc\release_shared\deviceorientation.moc;%(Outputs)</Outputs>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </CustomBuild>
+    <CustomBuild Include="tmp\moc\debug_shared\main.moc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;main.cpp;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DGL_SUPPORTED -DQT_NO_CAST_FROM_ASCII -DQT_NO_CAST_TO_ASCII -DQT_DECLARATIVE_DEBUG -DQT_DLL -DQT_DECLARATIVE_LIB -DQT_SCRIPT_LIB -DQT_SQL_LIB -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I"..\..\include\QtCore" -I"..\..\include\QtNetwork" -I"..\..\include\QtGui" -I"..\..\include\QtOpenGL" -I"..\..\include\QtSql" -I"..\..\include\QtScript" -I"..\..\include\QtDeclarative" -I"..\..\include" -I"." -I"..\..\include\QtDeclarative" -I"..\..\src\declarative\util" -I"..\..\src\declarative\graphicsitems" -I"." -I"..\..\include\ActiveQt" -I"tmp\moc\debug_shared" -I..\..\mkspecs\win32-msvc2015 -D_MSC_VER=1900 -DWIN32 main.cpp -o tmp\moc\debug_shared\main.moc</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MOC main.cpp</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">tmp\moc\debug_shared\main.moc;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="tmp\moc\release_shared\main.moc">
+      <FileType>Document</FileType>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;main.cpp;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DGL_SUPPORTED -DQT_NO_CAST_FROM_ASCII -DQT_NO_CAST_TO_ASCII -DQT_DECLARATIVE_DEBUG -DQT_DLL -DQT_NO_DEBUG -DQT_DECLARATIVE_LIB -DQT_SCRIPT_LIB -DQT_SQL_LIB -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I"..\..\include\QtCore" -I"..\..\include\QtNetwork" -I"..\..\include\QtGui" -I"..\..\include\QtOpenGL" -I"..\..\include\QtSql" -I"..\..\include\QtScript" -I"..\..\include\QtDeclarative" -I"..\..\include" -I"." -I"..\..\include\QtDeclarative" -I"..\..\src\declarative\util" -I"..\..\src\declarative\graphicsitems" -I"." -I"..\..\include\ActiveQt" -I"tmp\moc\release_shared" -I..\..\mkspecs\win32-msvc2015 -D_MSC_VER=1900 -DWIN32 main.cpp -o tmp\moc\release_shared\main.moc</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MOC main.cpp</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">tmp\moc\release_shared\main.moc;%(Outputs)</Outputs>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </CustomBuild>
+    <ClCompile Include="tmp\moc\debug_shared\moc_deviceorientation.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tmp\moc\release_shared\moc_deviceorientation.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tmp\moc\debug_shared\moc_loggerwidget.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tmp\moc\release_shared\moc_loggerwidget.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tmp\moc\debug_shared\moc_proxysettings.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tmp\moc\release_shared\moc_proxysettings.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tmp\moc\debug_shared\moc_qdeclarativetester.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tmp\moc\release_shared\moc_qdeclarativetester.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tmp\moc\debug_shared\moc_qmlruntime.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tmp\moc\release_shared\moc_qmlruntime.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <CustomBuild Include="tmp\moc\debug_shared\qmlruntime.moc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;qmlruntime.cpp;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DGL_SUPPORTED -DQT_NO_CAST_FROM_ASCII -DQT_NO_CAST_TO_ASCII -DQT_DECLARATIVE_DEBUG -DQT_DLL -DQT_DECLARATIVE_LIB -DQT_SCRIPT_LIB -DQT_SQL_LIB -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I"..\..\include\QtCore" -I"..\..\include\QtNetwork" -I"..\..\include\QtGui" -I"..\..\include\QtOpenGL" -I"..\..\include\QtSql" -I"..\..\include\QtScript" -I"..\..\include\QtDeclarative" -I"..\..\include" -I"." -I"..\..\include\QtDeclarative" -I"..\..\src\declarative\util" -I"..\..\src\declarative\graphicsitems" -I"." -I"..\..\include\ActiveQt" -I"tmp\moc\debug_shared" -I..\..\mkspecs\win32-msvc2015 -D_MSC_VER=1900 -DWIN32 qmlruntime.cpp -o tmp\moc\debug_shared\qmlruntime.moc</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MOC qmlruntime.cpp</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">tmp\moc\debug_shared\qmlruntime.moc;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="tmp\moc\release_shared\qmlruntime.moc">
+      <FileType>Document</FileType>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;qmlruntime.cpp;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DUNICODE -DWIN32 -DGL_SUPPORTED -DQT_NO_CAST_FROM_ASCII -DQT_NO_CAST_TO_ASCII -DQT_DECLARATIVE_DEBUG -DQT_DLL -DQT_NO_DEBUG -DQT_DECLARATIVE_LIB -DQT_SCRIPT_LIB -DQT_SQL_LIB -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I"..\..\include\QtCore" -I"..\..\include\QtNetwork" -I"..\..\include\QtGui" -I"..\..\include\QtOpenGL" -I"..\..\include\QtSql" -I"..\..\include\QtScript" -I"..\..\include\QtDeclarative" -I"..\..\include" -I"." -I"..\..\include\QtDeclarative" -I"..\..\src\declarative\util" -I"..\..\src\declarative\graphicsitems" -I"." -I"..\..\include\ActiveQt" -I"tmp\moc\release_shared" -I..\..\mkspecs\win32-msvc2015 -D_MSC_VER=1900 -DWIN32 qmlruntime.cpp -o tmp\moc\release_shared\qmlruntime.moc</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MOC qmlruntime.cpp</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">tmp\moc\release_shared\qmlruntime.moc;%(Outputs)</Outputs>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </CustomBuild>
+    <ClCompile Include="tmp\rcc\debug_shared\qrc_browser.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tmp\rcc\release_shared\qrc_browser.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tmp\rcc\debug_shared\qrc_startup.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tmp\rcc\release_shared\qrc_startup.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClInclude Include="ui_proxysettings.h" />
+    <ClInclude Include="ui_recopts.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="proxysettings.ui">
+      <FileType>Document</FileType>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\uic.exe;proxysettings.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\uic.exe proxysettings.ui -o ui_proxysettings.h</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">UIC proxysettings.ui</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">ui_proxysettings.h;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\uic.exe;proxysettings.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\uic.exe proxysettings.ui -o ui_proxysettings.h</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">UIC proxysettings.ui</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ui_proxysettings.h;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="recopts.ui">
+      <FileType>Document</FileType>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\uic.exe;recopts.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\uic.exe recopts.ui -o ui_recopts.h</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">UIC recopts.ui</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">ui_recopts.h;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\uic.exe;recopts.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\uic.exe recopts.ui -o ui_recopts.h</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">UIC recopts.ui</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ui_recopts.h;%(Outputs)</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="browser\Browser.qml" />
+    <None Include="startup\Logo.qml" />
+    <CustomBuild Include="browser\browser.qrc">
+      <FileType>Document</FileType>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\rcc.exe;browser\Browser.qml;browser\browser.qrc;browser\images\folder.png;browser\images\titlebar.png;browser\images\titlebar.sci;browser\images\up.png;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\rcc.exe -name browser browser\browser.qrc -o tmp\rcc\release_shared\qrc_browser.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">RCC browser\browser.qrc</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">tmp\rcc\release_shared\qrc_browser.cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\rcc.exe;browser\Browser.qml;browser\browser.qrc;browser\images\folder.png;browser\images\titlebar.png;browser\images\titlebar.sci;browser\images\up.png;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\rcc.exe -name browser browser\browser.qrc -o tmp\rcc\debug_shared\qrc_browser.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">RCC browser\browser.qrc</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">tmp\rcc\debug_shared\qrc_browser.cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <None Include="browser\images\folder.png" />
+    <None Include="startup\qt-back.png" />
+    <None Include="startup\qt-blue.jpg" />
+    <None Include="startup\qt-front.png" />
+    <None Include="startup\qt-sketch.jpg" />
+    <None Include="startup\qt-text.png" />
+    <None Include="startup\quick-blur.png" />
+    <None Include="startup\quick-regular.png" />
+    <None Include="startup\shadow.png" />
+    <None Include="startup\startup.qml" />
+    <CustomBuild Include="startup\startup.qrc">
+      <FileType>Document</FileType>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\rcc.exe;startup\Logo.qml;startup\qt-back.png;startup\qt-blue.jpg;startup\qt-front.png;startup\qt-sketch.jpg;startup\qt-text.png;startup\quick-blur.png;startup\quick-regular.png;startup\shadow.png;startup\startup.qml;startup\startup.qrc;startup\white-star.png;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\rcc.exe -name startup startup\startup.qrc -o tmp\rcc\release_shared\qrc_startup.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">RCC startup\startup.qrc</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">tmp\rcc\release_shared\qrc_startup.cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\rcc.exe;startup\Logo.qml;startup\qt-back.png;startup\qt-blue.jpg;startup\qt-front.png;startup\qt-sketch.jpg;startup\qt-text.png;startup\quick-blur.png;startup\quick-regular.png;startup\shadow.png;startup\startup.qml;startup\startup.qrc;startup\white-star.png;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Solutiondir)\qt-everywhere-opensource-src-4.8.7\bin\rcc.exe -name startup startup\startup.qrc -o tmp\rcc\debug_shared\qrc_startup.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">RCC startup\startup.qrc</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">tmp\rcc\debug_shared\qrc_startup.cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <None Include="browser\images\titlebar.png" />
+    <None Include="browser\images\titlebar.sci" />
+    <None Include="browser\images\up.png" />
+    <None Include="startup\white-star.png" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets" />
+</Project>

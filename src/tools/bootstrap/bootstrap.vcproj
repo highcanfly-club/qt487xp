@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="7.00"
+	Name="bootstrap"
+	ProjectGUID="{A092CD5D-3E77-320F-8FBA-E7B6B80A8D87}"
+	Keyword="Qt4VSv1.0">
+	<Platforms>
+		<Platform
+			Name="Win32" />
+	</Platforms>
+	<Configurations>
+		<Configuration
+			Name="Debug|Win32"
+			OutputDirectory="debug\"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			ConfigurationType="4"
+			IntermediateDirectory="tmp\obj\debug_shared\"
+			UseOfMfc="0">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="&quot;..\..\..\include&quot;,&quot;..\..\..\include\QtCore&quot;,&quot;..\..\..\include\QtXml&quot;,&quot;..\..\3rdparty\zlib&quot;,..\..\..\mkspecs\win32-msvc2003"
+				AdditionalOptions="-Zm300 -w34100 -w34189"
+				AssemblerListingLocation="tmp\obj\debug_shared\"
+				DebugInformationFormat="3"
+				ExceptionHandling="true"
+				GeneratePreprocessedFile="0"
+				ObjectFile="tmp\obj\debug_shared\"
+				Optimization ="4"
+				PreprocessorDefinitions="_CONSOLE,UNICODE,WIN32,QT_BOOTSTRAPPED,QT_LITE_UNICODE,QT_NO_CAST_FROM_ASCII,QT_NO_CAST_TO_ASCII,QT_NO_CODECS,QT_NO_DATASTREAM,QT_NO_GEOM_VARIANT,QT_NO_LIBRARY,QT_NO_QOBJECT,QT_NO_STL,QT_NO_SYSTEMLOCALE,QT_NO_TEXTSTREAM,QT_NO_THREAD,QT_NO_UNICODETABLES,QT_NO_USING_NAMESPACE,QT_NO_DEPRECATED,QT_NODLL"
+				ProgramDataBaseFileName=".\"
+				RuntimeLibrary="3"
+				RuntimeTypeInfo="true"
+				SuppressStartupBanner="true"
+				WarningLevel="3" />
+			<Tool
+				Name="VCCustomBuildTool" />
+			<Tool
+				Name="VCLibrarianTool"
+				OutputFile="$(OutDir)\bootstrap.lib"
+				SuppressStartupBanner="true" />
+			<Tool
+				Name="VCMIDLTool"
+				DefaultCharType="0"
+				EnableErrorChecks="1"
+				WarningLevel="0" />
+			<Tool
+				Name="VCPostBuildEventTool" />
+			<Tool
+				Name="VCPreBuildEventTool" />
+			<Tool
+				Name="VCPreLinkEventTool" />
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_CONSOLE,UNICODE,WIN32,QT_BOOTSTRAPPED,QT_LITE_UNICODE,QT_NO_CAST_FROM_ASCII,QT_NO_CAST_TO_ASCII,QT_NO_CODECS,QT_NO_DATASTREAM,QT_NO_GEOM_VARIANT,QT_NO_LIBRARY,QT_NO_QOBJECT,QT_NO_STL,QT_NO_SYSTEMLOCALE,QT_NO_TEXTSTREAM,QT_NO_THREAD,QT_NO_UNICODETABLES,QT_NO_USING_NAMESPACE,QT_NO_DEPRECATED,QT_NODLL,_DEBUG"
+				ResourceOutputFileName="$(OutDir)\$(InputName).res" />
+		</Configuration>
+		<Configuration
+			Name="Release|Win32"
+			OutputDirectory="release\"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			ConfigurationType="4"
+			IntermediateDirectory="tmp\obj\release_shared\"
+			UseOfMfc="0">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="&quot;..\..\..\include&quot;,&quot;..\..\..\include\QtCore&quot;,&quot;..\..\..\include\QtXml&quot;,&quot;..\..\3rdparty\zlib&quot;,..\..\..\mkspecs\win32-msvc2003"
+				AdditionalOptions="-Zm300 -w34100 -w34189"
+				AssemblerListingLocation="tmp\obj\release_shared\"
+				DebugInformationFormat="0"
+				ExceptionHandling="true"
+				GeneratePreprocessedFile="0"
+				ObjectFile="tmp\obj\release_shared\"
+				Optimization ="2"
+				PreprocessorDefinitions="_CONSOLE,UNICODE,WIN32,QT_BOOTSTRAPPED,QT_LITE_UNICODE,QT_NO_CAST_FROM_ASCII,QT_NO_CAST_TO_ASCII,QT_NO_CODECS,QT_NO_DATASTREAM,QT_NO_GEOM_VARIANT,QT_NO_LIBRARY,QT_NO_QOBJECT,QT_NO_STL,QT_NO_SYSTEMLOCALE,QT_NO_TEXTSTREAM,QT_NO_THREAD,QT_NO_UNICODETABLES,QT_NO_USING_NAMESPACE,QT_NO_DEPRECATED,QT_NODLL,NDEBUG"
+				ProgramDataBaseFileName=".\"
+				RuntimeLibrary="2"
+				RuntimeTypeInfo="true"
+				SuppressStartupBanner="true"
+				WarningLevel="3" />
+			<Tool
+				Name="VCCustomBuildTool" />
+			<Tool
+				Name="VCLibrarianTool"
+				OutputFile="$(OutDir)\bootstrap.lib"
+				SuppressStartupBanner="true" />
+			<Tool
+				Name="VCMIDLTool"
+				DefaultCharType="0"
+				EnableErrorChecks="1"
+				WarningLevel="0" />
+			<Tool
+				Name="VCPostBuildEventTool" />
+			<Tool
+				Name="VCPreBuildEventTool" />
+			<Tool
+				Name="VCPreLinkEventTool" />
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_CONSOLE,UNICODE,WIN32,QT_BOOTSTRAPPED,QT_LITE_UNICODE,QT_NO_CAST_FROM_ASCII,QT_NO_CAST_TO_ASCII,QT_NO_CODECS,QT_NO_DATASTREAM,QT_NO_GEOM_VARIANT,QT_NO_LIBRARY,QT_NO_QOBJECT,QT_NO_STL,QT_NO_SYSTEMLOCALE,QT_NO_TEXTSTREAM,QT_NO_THREAD,QT_NO_UNICODETABLES,QT_NO_USING_NAMESPACE,QT_NO_DEPRECATED,QT_NODLL"
+				ResourceOutputFileName="$(OutDir)\$(InputName).res" />
+		</Configuration>
+	</Configurations>
+	<Files>
+		<Filter
+			Name="Source Files"
+			Filter="cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx"
+			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}">
+			<File
+				RelativePath="..\..\3rdparty\zlib\adler32.c" />
+			<File
+				RelativePath="..\..\3rdparty\zlib\compress.c" />
+			<File
+				RelativePath="..\..\3rdparty\zlib\crc32.c" />
+			<File
+				RelativePath="..\..\3rdparty\zlib\deflate.c" />
+			<File
+				RelativePath="..\..\3rdparty\zlib\gzclose.c" />
+			<File
+				RelativePath="..\..\3rdparty\zlib\gzlib.c" />
+			<File
+				RelativePath="..\..\3rdparty\zlib\gzread.c" />
+			<File
+				RelativePath="..\..\3rdparty\zlib\gzwrite.c" />
+			<File
+				RelativePath="..\..\3rdparty\zlib\infback.c" />
+			<File
+				RelativePath="..\..\3rdparty\zlib\inffast.c" />
+			<File
+				RelativePath="..\..\3rdparty\zlib\inflate.c" />
+			<File
+				RelativePath="..\..\3rdparty\zlib\inftrees.c" />
+			<File
+				RelativePath="..\..\corelib\io\qabstractfileengine.cpp" />
+			<File
+				RelativePath="..\..\corelib\tools\qbitarray.cpp" />
+			<File
+				RelativePath="..\..\corelib\io\qbuffer.cpp" />
+			<File
+				RelativePath="..\..\corelib\tools\qbytearray.cpp" />
+			<File
+				RelativePath="..\..\corelib\tools\qbytearraymatcher.cpp" />
+			<File
+				RelativePath="..\..\corelib\io\qdatastream.cpp" />
+			<File
+				RelativePath="..\..\corelib\tools\qdatetime.cpp" />
+			<File
+				RelativePath="..\..\corelib\io\qdir.cpp" />
+			<File
+				RelativePath="..\..\corelib\io\qdiriterator.cpp" />
+			<File
+				RelativePath="..\..\xml\dom\qdom.cpp" />
+			<File
+				RelativePath="..\..\corelib\io\qfile.cpp" />
+			<File
+				RelativePath="..\..\corelib\io\qfileinfo.cpp" />
+			<File
+				RelativePath="..\..\corelib\io\qfilesystemengine.cpp" />
+			<File
+				RelativePath="..\..\corelib\io\qfilesystemengine_win.cpp" />
+			<File
+				RelativePath="..\..\corelib\io\qfilesystementry.cpp" />
+			<File
+				RelativePath="..\..\corelib\io\qfilesystemiterator_win.cpp" />
+			<File
+				RelativePath="..\..\corelib\io\qfsfileengine.cpp" />
+			<File
+				RelativePath="..\..\corelib\io\qfsfileengine_iterator.cpp" />
+			<File
+				RelativePath="..\..\corelib\io\qfsfileengine_win.cpp" />
+			<File
+				RelativePath="..\..\corelib\global\qglobal.cpp" />
+			<File
+				RelativePath="..\..\corelib\tools\qhash.cpp" />
+			<File
+				RelativePath="..\..\corelib\io\qiodevice.cpp" />
+			<File
+				RelativePath="..\..\corelib\codecs\qisciicodec.cpp" />
+			<File
+				RelativePath="..\..\corelib\codecs\qlatincodec.cpp" />
+			<File
+				RelativePath="..\..\corelib\tools\qlist.cpp" />
+			<File
+				RelativePath="..\..\corelib\tools\qlocale.cpp" />
+			<File
+				RelativePath="..\..\corelib\tools\qlocale_tools.cpp" />
+			<File
+				RelativePath="..\..\corelib\tools\qlocale_win.cpp" />
+			<File
+				RelativePath="..\..\corelib\global\qmalloc.cpp" />
+			<File
+				RelativePath="..\..\corelib\tools\qmap.cpp" />
+			<File
+				RelativePath="..\..\corelib\kernel\qmetatype.cpp" />
+			<File
+				RelativePath="..\..\corelib\global\qnumeric.cpp" />
+			<File
+				RelativePath="..\..\corelib\tools\qregexp.cpp" />
+			<File
+				RelativePath="..\..\corelib\codecs\qsimplecodec.cpp" />
+			<File
+				RelativePath="..\..\corelib\tools\qstring.cpp" />
+			<File
+				RelativePath="..\..\corelib\tools\qstringlist.cpp" />
+			<File
+				RelativePath="..\..\corelib\kernel\qsystemerror.cpp" />
+			<File
+				RelativePath="..\..\corelib\plugin\qsystemlibrary.cpp" />
+			<File
+				RelativePath="..\..\corelib\io\qtemporaryfile.cpp" />
+			<File
+				RelativePath="..\..\corelib\codecs\qtextcodec.cpp" />
+			<File
+				RelativePath="..\..\corelib\io\qtextstream.cpp" />
+			<File
+				RelativePath="..\..\corelib\codecs\qtsciicodec.cpp" />
+			<File
+				RelativePath="..\..\corelib\codecs\qutfcodec.cpp" />
+			<File
+				RelativePath="..\..\corelib\kernel\qvariant.cpp" />
+			<File
+				RelativePath="..\..\corelib\tools\qvector.cpp" />
+			<File
+				RelativePath="..\..\corelib\tools\qvsnprintf.cpp" />
+			<File
+				RelativePath="..\..\xml\sax\qxml.cpp" />
+			<File
+				RelativePath="..\..\corelib\xml\qxmlstream.cpp" />
+			<File
+				RelativePath="..\..\corelib\xml\qxmlutils.cpp" />
+			<File
+				RelativePath="..\..\3rdparty\zlib\trees.c" />
+			<File
+				RelativePath="..\..\3rdparty\zlib\uncompr.c" />
+			<File
+				RelativePath="..\..\3rdparty\zlib\zutil.c" />
+		</Filter>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>

@@ -1,0 +1,1745 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="7.00"
+	Name="QtXmlPatterns"
+	ProjectGUID="{FEA6BFB8-8A5B-35B5-8F9B-4D3EDA12C961}"
+	Keyword="Qt4VSv1.0">
+	<Platforms>
+		<Platform
+			Name="Win32" />
+	</Platforms>
+	<Configurations>
+		<Configuration
+			Name="Debug|Win32"
+			OutputDirectory="..\..\lib\"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			ConfigurationType="2"
+			IntermediateDirectory="tmp\obj\debug_shared\"
+			UseOfMfc="0">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="&quot;..\..\include\QtCore&quot;,&quot;..\..\include\QtNetwork&quot;,&quot;..\..\include&quot;,&quot;..\..\include\QtXmlPatterns&quot;,&quot;tmp\rcc\debug_shared&quot;,&quot;tmp&quot;,&quot;acceltree&quot;,&quot;data&quot;,&quot;api&quot;,&quot;environment&quot;,&quot;expr&quot;,&quot;functions&quot;,&quot;iterators&quot;,&quot;janitors&quot;,&quot;parser&quot;,&quot;schema&quot;,&quot;type&quot;,&quot;utils&quot;,&quot;..\..\include\ActiveQt&quot;,&quot;tmp\moc\debug_shared&quot;,..\..\mkspecs\win32-msvc2003"
+				AdditionalOptions="-Zm300 -w34100 -w34189"
+				AssemblerListingLocation="tmp\obj\debug_shared\"
+				DebugInformationFormat="3"
+				ExceptionHandling="true"
+				ForcedIncludeFiles="..\corelib\global\qt_pch.h"
+				GeneratePreprocessedFile="0"
+				ObjectFile="tmp\obj\debug_shared\"
+				Optimization ="4"
+				PrecompiledHeaderFile="$(IntDir)\QtXmlPatternsd.pch"
+				PrecompiledHeaderThrough="..\corelib\global\qt_pch.h"
+				PreprocessorDefinitions="_WINDOWS,UNICODE,WIN32,QT_BUILD_XMLPATTERNS_LIB,QT_NO_USING_NAMESPACE,QT_MAKEDLL,QT_NO_CAST_TO_ASCII,QT_ASCII_CAST_WARNINGS,QT3_SUPPORT,QT_MOC_COMPAT,QT_USE_QSTRINGBUILDER,_USE_MATH_DEFINES,QT_DLL,QT_NETWORK_LIB,QT_CORE_LIB,QT_HAVE_MMX,QT_HAVE_3DNOW,QT_HAVE_SSE,QT_HAVE_MMXEXT,QT_HAVE_SSE2,QT_SHARED,QT_THREAD_SUPPORT"
+				ProgramDataBaseFileName=".\"
+				RuntimeLibrary="3"
+				RuntimeTypeInfo="true"
+				SuppressStartupBanner="true"
+				UsePrecompiledHeader="3"
+				WarningLevel="3" />
+			<Tool
+				Name="VCCustomBuildTool" />
+			<Tool
+				Name="VCLinkerTool"
+				AdditionalDependencies="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib\QtNetworkd4.lib c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib\QtCored4.lib"
+				AdditionalLibraryDirectories="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib,c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib"
+				BaseAddress="0x61000000"
+				GenerateDebugInformation="true"
+				IgnoreImportLibrary="true"
+				LinkTimeCodeGeneration="0"
+				OutputFile="$(OutDir)\QtXmlPatternsd4.dll"
+				ProgramDatabaseFile=""
+				SubSystem="0"
+				SuppressStartupBanner="true"
+				Version="4.87" />
+			<Tool
+				Name="VCMIDLTool"
+				DefaultCharType="0"
+				EnableErrorChecks="1"
+				WarningLevel="0" />
+			<Tool
+				Name="VCPostBuildEventTool"
+				CommandLine="copy  &quot;$(TargetPath)&quot; &quot;..\..\bin&quot;"
+				Description="Copy QtXmlPatternsd4.dll to ..\..\bin"
+				ExcludedFromBuild="false" />
+			<Tool
+				Name="VCPreBuildEventTool" />
+			<Tool
+				Name="VCPreLinkEventTool" />
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_WINDOWS,UNICODE,WIN32,QT_BUILD_XMLPATTERNS_LIB,QT_NO_USING_NAMESPACE,QT_MAKEDLL,QT_NO_CAST_TO_ASCII,QT_ASCII_CAST_WARNINGS,QT3_SUPPORT,QT_MOC_COMPAT,QT_USE_QSTRINGBUILDER,_USE_MATH_DEFINES,QT_DLL,QT_NETWORK_LIB,QT_CORE_LIB,QT_HAVE_MMX,QT_HAVE_3DNOW,QT_HAVE_SSE,QT_HAVE_MMXEXT,QT_HAVE_SSE2,QT_SHARED,QT_THREAD_SUPPORT,_DEBUG" />
+		</Configuration>
+		<Configuration
+			Name="Release|Win32"
+			OutputDirectory="..\..\lib\"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			ConfigurationType="2"
+			IntermediateDirectory="tmp\obj\release_shared\"
+			UseOfMfc="0">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="&quot;..\..\include\QtCore&quot;,&quot;..\..\include\QtNetwork&quot;,&quot;..\..\include&quot;,&quot;..\..\include\QtXmlPatterns&quot;,&quot;tmp\rcc\debug_shared&quot;,&quot;tmp&quot;,&quot;acceltree&quot;,&quot;data&quot;,&quot;api&quot;,&quot;environment&quot;,&quot;expr&quot;,&quot;functions&quot;,&quot;iterators&quot;,&quot;janitors&quot;,&quot;parser&quot;,&quot;schema&quot;,&quot;type&quot;,&quot;utils&quot;,&quot;..\..\include\ActiveQt&quot;,&quot;tmp\moc\release_shared&quot;,..\..\mkspecs\win32-msvc2003"
+				AdditionalOptions="-Zm300 -w34100 -w34189"
+				AssemblerListingLocation="tmp\obj\release_shared\"
+				DebugInformationFormat="0"
+				ExceptionHandling="true"
+				ForcedIncludeFiles="..\corelib\global\qt_pch.h"
+				GeneratePreprocessedFile="0"
+				ObjectFile="tmp\obj\release_shared\"
+				Optimization ="2"
+				PrecompiledHeaderFile="$(IntDir)\QtXmlPatterns.pch"
+				PrecompiledHeaderThrough="..\corelib\global\qt_pch.h"
+				PreprocessorDefinitions="_WINDOWS,UNICODE,WIN32,QT_BUILD_XMLPATTERNS_LIB,QT_NO_USING_NAMESPACE,QT_MAKEDLL,QT_NO_CAST_TO_ASCII,QT_ASCII_CAST_WARNINGS,QT3_SUPPORT,QT_MOC_COMPAT,QT_USE_QSTRINGBUILDER,_USE_MATH_DEFINES,QT_DLL,QT_NO_DEBUG,QT_NETWORK_LIB,QT_CORE_LIB,QT_HAVE_MMX,QT_HAVE_3DNOW,QT_HAVE_SSE,QT_HAVE_MMXEXT,QT_HAVE_SSE2,QT_SHARED,QT_THREAD_SUPPORT,NDEBUG"
+				ProgramDataBaseFileName=".\"
+				RuntimeLibrary="2"
+				RuntimeTypeInfo="true"
+				SuppressStartupBanner="true"
+				UsePrecompiledHeader="3"
+				WarningLevel="3" />
+			<Tool
+				Name="VCCustomBuildTool" />
+			<Tool
+				Name="VCLinkerTool"
+				AdditionalDependencies="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib\QtNetwork4.lib c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib\QtCore4.lib"
+				AdditionalLibraryDirectories="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib,c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib"
+				BaseAddress="0x61000000"
+				GenerateDebugInformation="false"
+				IgnoreImportLibrary="true"
+				LinkIncremental="1"
+				LinkTimeCodeGeneration="0"
+				OutputFile="$(OutDir)\QtXmlPatterns4.dll"
+				ProgramDatabaseFile=""
+				SubSystem="0"
+				SuppressStartupBanner="true"
+				Version="4.87" />
+			<Tool
+				Name="VCMIDLTool"
+				DefaultCharType="0"
+				EnableErrorChecks="1"
+				WarningLevel="0" />
+			<Tool
+				Name="VCPostBuildEventTool"
+				CommandLine="copy  &quot;$(TargetPath)&quot; &quot;..\..\bin&quot;"
+				Description="Copy QtXmlPatterns4.dll to ..\..\bin"
+				ExcludedFromBuild="false" />
+			<Tool
+				Name="VCPreBuildEventTool" />
+			<Tool
+				Name="VCPreLinkEventTool" />
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_WINDOWS,UNICODE,WIN32,QT_BUILD_XMLPATTERNS_LIB,QT_NO_USING_NAMESPACE,QT_MAKEDLL,QT_NO_CAST_TO_ASCII,QT_ASCII_CAST_WARNINGS,QT3_SUPPORT,QT_MOC_COMPAT,QT_USE_QSTRINGBUILDER,_USE_MATH_DEFINES,QT_DLL,QT_NO_DEBUG,QT_NETWORK_LIB,QT_CORE_LIB,QT_HAVE_MMX,QT_HAVE_3DNOW,QT_HAVE_SSE,QT_HAVE_MMXEXT,QT_HAVE_SSE2,QT_SHARED,QT_THREAD_SUPPORT" />
+		</Configuration>
+	</Configurations>
+	<Files>
+		<Filter
+			Name="Source Files"
+			Filter="cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx"
+			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}">
+			<File
+				RelativePath="data\qabstractdatetime.cpp" />
+			<File
+				RelativePath="data\qabstractduration.cpp" />
+			<File
+				RelativePath="functions\qabstractfunctionfactory.cpp" />
+			<File
+				RelativePath="api\qabstractmessagehandler.cpp" />
+			<File
+				RelativePath="type\qabstractnodetest.cpp" />
+			<File
+				RelativePath="api\qabstracturiresolver.cpp" />
+			<File
+				RelativePath="api\qabstractxmlnodemodel.cpp" />
+			<File
+				RelativePath="api\qabstractxmlpullprovider.cpp" />
+			<File
+				RelativePath="api\qabstractxmlreceiver.cpp" />
+			<File
+				RelativePath="acceltree\qacceliterators.cpp" />
+			<File
+				RelativePath="acceltree\qacceltree.cpp" />
+			<File
+				RelativePath="acceltree\qacceltreeresourceloader.cpp" />
+			<File
+				RelativePath="functions\qaccessorfns.cpp" />
+			<File
+				RelativePath="functions\qaggregatefns.cpp" />
+			<File
+				RelativePath="functions\qaggregator.cpp" />
+			<File
+				RelativePath="expr\qandexpression.cpp" />
+			<File
+				RelativePath="type\qanyitemtype.cpp" />
+			<File
+				RelativePath="type\qanynodetype.cpp" />
+			<File
+				RelativePath="type\qanysimpletype.cpp" />
+			<File
+				RelativePath="type\qanytype.cpp" />
+			<File
+				RelativePath="data\qanyuri.cpp" />
+			<File
+				RelativePath="expr\qapplytemplate.cpp" />
+			<File
+				RelativePath="janitors\qargumentconverter.cpp" />
+			<File
+				RelativePath="expr\qargumentreference.cpp" />
+			<File
+				RelativePath="expr\qarithmeticexpression.cpp" />
+			<File
+				RelativePath="functions\qassemblestringfns.cpp" />
+			<File
+				RelativePath="data\qatomiccaster.cpp" />
+			<File
+				RelativePath="type\qatomiccasterlocator.cpp" />
+			<File
+				RelativePath="data\qatomiccasters.cpp" />
+			<File
+				RelativePath="data\qatomiccomparator.cpp" />
+			<File
+				RelativePath="type\qatomiccomparatorlocator.cpp" />
+			<File
+				RelativePath="data\qatomiccomparators.cpp" />
+			<File
+				RelativePath="data\qatomicmathematician.cpp" />
+			<File
+				RelativePath="type\qatomicmathematicianlocator.cpp" />
+			<File
+				RelativePath="data\qatomicmathematicians.cpp" />
+			<File
+				RelativePath="data\qatomicstring.cpp" />
+			<File
+				RelativePath="type\qatomictype.cpp" />
+			<File
+				RelativePath="data\qatomicvalue.cpp" />
+			<File
+				RelativePath="janitors\qatomizer.cpp" />
+			<File
+				RelativePath="expr\qattributeconstructor.cpp" />
+			<File
+				RelativePath="expr\qattributenamevalidator.cpp" />
+			<File
+				RelativePath="expr\qaxisstep.cpp" />
+			<File
+				RelativePath="data\qbase64binary.cpp" />
+			<File
+				RelativePath="type\qbasictypesfactory.cpp" />
+			<File
+				RelativePath="data\qboolean.cpp" />
+			<File
+				RelativePath="functions\qbooleanfns.cpp" />
+			<File
+				RelativePath="type\qbuiltinatomictype.cpp" />
+			<File
+				RelativePath="type\qbuiltinatomictypes.cpp" />
+			<File
+				RelativePath="iterators\qcachingiterator.cpp" />
+			<File
+				RelativePath="expr\qcallsite.cpp" />
+			<File
+				RelativePath="expr\qcalltargetdescription.cpp" />
+			<File
+				RelativePath="expr\qcalltemplate.cpp" />
+			<File
+				RelativePath="type\qcardinality.cpp" />
+			<File
+				RelativePath="janitors\qcardinalityverifier.cpp" />
+			<File
+				RelativePath="expr\qcastableas.cpp" />
+			<File
+				RelativePath="expr\qcastas.cpp" />
+			<File
+				RelativePath="expr\qcollationchecker.cpp" />
+			<File
+				RelativePath="api\qcoloringmessagehandler.cpp" />
+			<File
+				RelativePath="api\qcoloroutput.cpp" />
+			<File
+				RelativePath="expr\qcombinenodes.cpp" />
+			<File
+				RelativePath="expr\qcommentconstructor.cpp" />
+			<File
+				RelativePath="type\qcommonsequencetypes.cpp" />
+			<File
+				RelativePath="data\qcommonvalues.cpp" />
+			<File
+				RelativePath="functions\qcomparescaseaware.cpp" />
+			<File
+				RelativePath="functions\qcomparestringfns.cpp" />
+			<File
+				RelativePath="data\qcomparisonfactory.cpp" />
+			<File
+				RelativePath="acceltree\qcompressedwhitespace.cpp" />
+			<File
+				RelativePath="expr\qcomputednamespaceconstructor.cpp" />
+			<File
+				RelativePath="functions\qconstructorfunctionsfactory.cpp" />
+			<File
+				RelativePath="functions\qcontextfns.cpp" />
+			<File
+				RelativePath="expr\qcontextitem.cpp" />
+			<File
+				RelativePath="functions\qcontextnodechecker.cpp" />
+			<File
+				RelativePath="expr\qcopyof.cpp" />
+			<File
+				RelativePath="functions\qcurrentfn.cpp" />
+			<File
+				RelativePath="environment\qcurrentitemcontext.cpp" />
+			<File
+				RelativePath="expr\qcurrentitemstore.cpp" />
+			<File
+				RelativePath="data\qdate.cpp" />
+			<File
+				RelativePath="functions\qdatetimefn.cpp" />
+			<File
+				RelativePath="data\qdaytimeduration.cpp" />
+			<File
+				RelativePath="data\qdecimal.cpp" />
+			<File
+				RelativePath="iterators\qdeduplicateiterator.cpp" />
+			<File
+				RelativePath="functions\qdeepequalfn.cpp" />
+			<File
+				RelativePath="environment\qdelegatingdynamiccontext.cpp" />
+			<File
+				RelativePath="utils\qdelegatingnamespaceresolver.cpp" />
+			<File
+				RelativePath="environment\qdelegatingstaticcontext.cpp" />
+			<File
+				RelativePath="iterators\qdistinctiterator.cpp" />
+			<File
+				RelativePath="expr\qdocumentconstructor.cpp" />
+			<File
+				RelativePath="expr\qdocumentcontentvalidator.cpp" />
+			<File
+				RelativePath="functions\qdocumentfn.cpp" />
+			<File
+				RelativePath="projection\qdocumentprojector.cpp" />
+			<File
+				RelativePath="data\qduration.cpp" />
+			<File
+				RelativePath="environment\qdynamiccontext.cpp" />
+			<File
+				RelativePath="expr\qdynamiccontextstore.cpp" />
+			<File
+				RelativePath="janitors\qebvextractor.cpp" />
+			<File
+				RelativePath="type\qebvtype.cpp" />
+			<File
+				RelativePath="functions\qelementavailablefn.cpp" />
+			<File
+				RelativePath="expr\qelementconstructor.cpp" />
+			<File
+				RelativePath="expr\qemptycontainer.cpp" />
+			<File
+				RelativePath="expr\qemptysequence.cpp" />
+			<File
+				RelativePath="type\qemptysequencetype.cpp" />
+			<File
+				RelativePath="functions\qerrorfn.cpp" />
+			<File
+				RelativePath="iterators\qexceptiterator.cpp" />
+			<File
+				RelativePath="expr\qexpression.cpp" />
+			<File
+				RelativePath="expr\qexpressionfactory.cpp" />
+			<File
+				RelativePath="expr\qexpressionsequence.cpp" />
+			<File
+				RelativePath="expr\qexpressionvariablereference.cpp" />
+			<File
+				RelativePath="expr\qexternalvariableloader.cpp" />
+			<File
+				RelativePath="expr\qexternalvariablereference.cpp" />
+			<File
+				RelativePath="expr\qfirstitempredicate.cpp" />
+			<File
+				RelativePath="environment\qfocus.cpp" />
+			<File
+				RelativePath="expr\qforclause.cpp" />
+			<File
+				RelativePath="functions\qfunctionargument.cpp" />
+			<File
+				RelativePath="functions\qfunctionavailablefn.cpp" />
+			<File
+				RelativePath="functions\qfunctioncall.cpp" />
+			<File
+				RelativePath="functions\qfunctionfactory.cpp" />
+			<File
+				RelativePath="functions\qfunctionfactorycollection.cpp" />
+			<File
+				RelativePath="functions\qfunctionsignature.cpp" />
+			<File
+				RelativePath="data\qgday.cpp" />
+			<File
+				RelativePath="expr\qgeneralcomparison.cpp" />
+			<File
+				RelativePath="functions\qgenerateidfn.cpp" />
+			<File
+				RelativePath="environment\qgenericdynamiccontext.cpp" />
+			<File
+				RelativePath="utils\qgenericnamespaceresolver.cpp" />
+			<File
+				RelativePath="expr\qgenericpredicate.cpp" />
+			<File
+				RelativePath="type\qgenericsequencetype.cpp" />
+			<File
+				RelativePath="environment\qgenericstaticcontext.cpp" />
+			<File
+				RelativePath="data\qgmonth.cpp" />
+			<File
+				RelativePath="data\qgmonthday.cpp" />
+			<File
+				RelativePath="data\qgyear.cpp" />
+			<File
+				RelativePath="data\qgyearmonth.cpp" />
+			<File
+				RelativePath="data\qhexbinary.cpp" />
+			<File
+				RelativePath="expr\qifthenclause.cpp" />
+			<File
+				RelativePath="iterators\qindexofiterator.cpp" />
+			<File
+				RelativePath="iterators\qinsertioniterator.cpp" />
+			<File
+				RelativePath="expr\qinstanceof.cpp" />
+			<File
+				RelativePath="data\qinteger.cpp" />
+			<File
+				RelativePath="iterators\qintersectiterator.cpp" />
+			<File
+				RelativePath="api\qiodevicedelegate.cpp" />
+			<File
+				RelativePath="data\qitem.cpp" />
+			<File
+				RelativePath="type\qitemtype.cpp" />
+			<File
+				RelativePath="janitors\qitemverifier.cpp" />
+			<File
+				RelativePath="expr\qletclause.cpp" />
+			<File
+				RelativePath="expr\qliteral.cpp" />
+			<File
+				RelativePath="expr\qliteralsequence.cpp" />
+			<File
+				RelativePath="type\qlocalnametest.cpp" />
+			<File
+				RelativePath="type\qmultiitemtype.cpp" />
+			<File
+				RelativePath="type\qnamedschemacomponent.cpp" />
+			<File
+				RelativePath="utils\qnamepool.cpp" />
+			<File
+				RelativePath="expr\qnamespaceconstructor.cpp" />
+			<File
+				RelativePath="type\qnamespacenametest.cpp" />
+			<File
+				RelativePath="utils\qnamespaceresolver.cpp" />
+			<File
+				RelativePath="schema\qnamespacesupport.cpp" />
+			<File
+				RelativePath="expr\qncnameconstructor.cpp" />
+			<File
+				RelativePath="api\qnetworkaccessdelegator.cpp" />
+			<File
+				RelativePath="data\qnodebuilder.cpp" />
+			<File
+				RelativePath="expr\qnodecomparison.cpp" />
+			<File
+				RelativePath="functions\qnodefns.cpp" />
+			<File
+				RelativePath="data\qnodemodel.cpp" />
+			<File
+				RelativePath="utils\qnodenamespaceresolver.cpp" />
+			<File
+				RelativePath="expr\qnodesort.cpp" />
+			<File
+				RelativePath="type\qnonetype.cpp" />
+			<File
+				RelativePath="functions\qnumericfns.cpp" />
+			<File
+				RelativePath="type\qnumerictype.cpp" />
+			<File
+				RelativePath="expr\qoptimizationpasses.cpp" />
+			<File
+				RelativePath="expr\qoptimizerblocks.cpp" />
+			<File
+				RelativePath="expr\qoptimizerframework.cpp" />
+			<File
+				RelativePath="expr\qorderby.cpp" />
+			<File
+				RelativePath="expr\qorexpression.cpp" />
+			<File
+				RelativePath="utils\qoutputvalidator.cpp" />
+			<File
+				RelativePath="expr\qpaircontainer.cpp" />
+			<File
+				RelativePath="expr\qparentnodeaxis.cpp" />
+			<File
+				RelativePath="parser\qparsercontext.cpp" />
+			<File
+				RelativePath="expr\qpath.cpp" />
+			<File
+				RelativePath="utils\qpatternistlocale.cpp" />
+			<File
+				RelativePath="functions\qpatternmatchingfns.cpp" />
+			<File
+				RelativePath="functions\qpatternplatform.cpp" />
+			<File
+				RelativePath="expr\qpositionalvariablereference.cpp" />
+			<File
+				RelativePath="expr\qprocessinginstructionconstructor.cpp" />
+			<File
+				RelativePath="api\qpullbridge.cpp" />
+			<File
+				RelativePath="expr\qqnameconstructor.cpp" />
+			<File
+				RelativePath="functions\qqnamefns.cpp" />
+			<File
+				RelativePath="type\qqnametest.cpp" />
+			<File
+				RelativePath="data\qqnamevalue.cpp" />
+			<File
+				RelativePath="expr\qquantifiedexpression.cpp" />
+			<File
+				RelativePath="parser\qquerytransformparser.cpp" />
+			<File
+				RelativePath="expr\qrangeexpression.cpp" />
+			<File
+				RelativePath="iterators\qrangeiterator.cpp" />
+			<File
+				RelativePath="expr\qrangevariablereference.cpp" />
+			<File
+				RelativePath="environment\qreceiverdynamiccontext.cpp" />
+			<File
+				RelativePath="iterators\qremovaliterator.cpp" />
+			<File
+				RelativePath="environment\qreportcontext.cpp" />
+			<File
+				RelativePath="functions\qresolveurifn.cpp" />
+			<File
+				RelativePath="api\qresourcedelegator.cpp" />
+			<File
+				RelativePath="data\qresourceloader.cpp" />
+			<File
+				RelativePath="expr\qreturnorderby.cpp" />
+			<File
+				RelativePath="type\qschemacomponent.cpp" />
+			<File
+				RelativePath="data\qschemadatetime.cpp" />
+			<File
+				RelativePath="data\qschemanumeric.cpp" />
+			<File
+				RelativePath="data\qschematime.cpp" />
+			<File
+				RelativePath="type\qschematype.cpp" />
+			<File
+				RelativePath="type\qschematypefactory.cpp" />
+			<File
+				RelativePath="functions\qsequencefns.cpp" />
+			<File
+				RelativePath="functions\qsequencegeneratingfns.cpp" />
+			<File
+				RelativePath="type\qsequencetype.cpp" />
+			<File
+				RelativePath="expr\qsimplecontentconstructor.cpp" />
+			<File
+				RelativePath="api\qsimplexmlnodemodel.cpp" />
+			<File
+				RelativePath="expr\qsinglecontainer.cpp" />
+			<File
+				RelativePath="data\qsorttuple.cpp" />
+			<File
+				RelativePath="api\qsourcelocation.cpp" />
+			<File
+				RelativePath="expr\qsourcelocationreflection.cpp" />
+			<File
+				RelativePath="environment\qstaticbaseuricontext.cpp" />
+			<File
+				RelativePath="expr\qstaticbaseuristore.cpp" />
+			<File
+				RelativePath="environment\qstaticcompatibilitycontext.cpp" />
+			<File
+				RelativePath="expr\qstaticcompatibilitystore.cpp" />
+			<File
+				RelativePath="environment\qstaticcontext.cpp" />
+			<File
+				RelativePath="environment\qstaticcurrentcontext.cpp" />
+			<File
+				RelativePath="environment\qstaticfocuscontext.cpp" />
+			<File
+				RelativePath="environment\qstaticnamespacecontext.cpp" />
+			<File
+				RelativePath="functions\qstaticnamespacescontainer.cpp" />
+			<File
+				RelativePath="functions\qstringvaluefns.cpp" />
+			<File
+				RelativePath="iterators\qsubsequenceiterator.cpp" />
+			<File
+				RelativePath="functions\qsubstringfns.cpp" />
+			<File
+				RelativePath="functions\qsystempropertyfn.cpp" />
+			<File
+				RelativePath="expr\qtemplate.cpp" />
+			<File
+				RelativePath="expr\qtemplateinvoker.cpp" />
+			<File
+				RelativePath="expr\qtemplatemode.cpp" />
+			<File
+				RelativePath="expr\qtemplateparameterreference.cpp" />
+			<File
+				RelativePath="expr\qtextnodeconstructor.cpp" />
+			<File
+				RelativePath="functions\qtimezonefns.cpp" />
+			<File
+				RelativePath="iterators\qtocodepointsiterator.cpp" />
+			<File
+				RelativePath="parser\qtokenrevealer.cpp" />
+			<File
+				RelativePath="parser\qtokensource.cpp" />
+			<File
+				RelativePath="functions\qtracefn.cpp" />
+			<File
+				RelativePath="expr\qtreatas.cpp" />
+			<File
+				RelativePath="expr\qtriplecontainer.cpp" />
+			<File
+				RelativePath="expr\qtruthpredicate.cpp" />
+			<File
+				RelativePath="functions\qtypeavailablefn.cpp" />
+			<File
+				RelativePath="type\qtypechecker.cpp" />
+			<File
+				RelativePath="expr\qunaryexpression.cpp" />
+			<File
+				RelativePath="iterators\qunioniterator.cpp" />
+			<File
+				RelativePath="expr\qunlimitedcontainer.cpp" />
+			<File
+				RelativePath="functions\qunparsedentitypublicidfn.cpp" />
+			<File
+				RelativePath="functions\qunparsedentityurifn.cpp" />
+			<File
+				RelativePath="functions\qunparsedtextavailablefn.cpp" />
+			<File
+				RelativePath="functions\qunparsedtextfn.cpp" />
+			<File
+				RelativePath="expr\qunresolvedvariablereference.cpp" />
+			<File
+				RelativePath="type\quntyped.cpp" />
+			<File
+				RelativePath="data\quntypedatomic.cpp" />
+			<File
+				RelativePath="janitors\quntypedatomicconverter.cpp" />
+			<File
+				RelativePath="api\quriloader.cpp" />
+			<File
+				RelativePath="expr\quserfunction.cpp" />
+			<File
+				RelativePath="expr\quserfunctioncallsite.cpp" />
+			<File
+				RelativePath="expr\qvalidate.cpp" />
+			<File
+				RelativePath="data\qvalidationerror.cpp" />
+			<File
+				RelativePath="expr\qvaluecomparison.cpp" />
+			<File
+				RelativePath="data\qvaluefactory.cpp" />
+			<File
+				RelativePath="expr\qvariabledeclaration.cpp" />
+			<File
+				RelativePath="api\qvariableloader.cpp" />
+			<File
+				RelativePath="expr\qvariablereference.cpp" />
+			<File
+				RelativePath="api\qxmlformatter.cpp" />
+			<File
+				RelativePath="api\qxmlname.cpp" />
+			<File
+				RelativePath="api\qxmlnamepool.cpp" />
+			<File
+				RelativePath="api\qxmlquery.cpp" />
+			<File
+				RelativePath="api\qxmlresultitems.cpp" />
+			<File
+				RelativePath="api\qxmlschema.cpp" />
+			<File
+				RelativePath="api\qxmlschema_p.cpp" />
+			<File
+				RelativePath="api\qxmlschemavalidator.cpp" />
+			<File
+				RelativePath="api\qxmlserializer.cpp" />
+			<File
+				RelativePath="functions\qxpath10corefunctions.cpp" />
+			<File
+				RelativePath="functions\qxpath20corefunctions.cpp" />
+			<File
+				RelativePath="utils\qxpathhelper.cpp" />
+			<File
+				RelativePath="parser\qxquerytokenizer.cpp" />
+			<File
+				RelativePath="schema\qxsdalternative.cpp" />
+			<File
+				RelativePath="schema\qxsdannotated.cpp" />
+			<File
+				RelativePath="schema\qxsdannotation.cpp" />
+			<File
+				RelativePath="schema\qxsdapplicationinformation.cpp" />
+			<File
+				RelativePath="schema\qxsdassertion.cpp" />
+			<File
+				RelativePath="schema\qxsdattribute.cpp" />
+			<File
+				RelativePath="schema\qxsdattributegroup.cpp" />
+			<File
+				RelativePath="schema\qxsdattributereference.cpp" />
+			<File
+				RelativePath="schema\qxsdattributeterm.cpp" />
+			<File
+				RelativePath="schema\qxsdattributeuse.cpp" />
+			<File
+				RelativePath="schema\qxsdcomplextype.cpp" />
+			<File
+				RelativePath="schema\qxsddocumentation.cpp" />
+			<File
+				RelativePath="schema\qxsdelement.cpp" />
+			<File
+				RelativePath="schema\qxsdfacet.cpp" />
+			<File
+				RelativePath="schema\qxsdidcache.cpp" />
+			<File
+				RelativePath="schema\qxsdidchelper.cpp" />
+			<File
+				RelativePath="schema\qxsdidentityconstraint.cpp" />
+			<File
+				RelativePath="schema\qxsdinstancereader.cpp" />
+			<File
+				RelativePath="schema\qxsdmodelgroup.cpp" />
+			<File
+				RelativePath="schema\qxsdnotation.cpp" />
+			<File
+				RelativePath="schema\qxsdparticle.cpp" />
+			<File
+				RelativePath="schema\qxsdparticlechecker.cpp" />
+			<File
+				RelativePath="schema\qxsdreference.cpp" />
+			<File
+				RelativePath="schema\qxsdschema.cpp" />
+			<File
+				RelativePath="schema\qxsdschemachecker.cpp" />
+			<File
+				RelativePath="schema\qxsdschemachecker_setup.cpp" />
+			<File
+				RelativePath="schema\qxsdschemacontext.cpp" />
+			<File
+				RelativePath="schema\qxsdschemadebugger.cpp" />
+			<File
+				RelativePath="schema\qxsdschemahelper.cpp" />
+			<File
+				RelativePath="schema\qxsdschemamerger.cpp" />
+			<File
+				RelativePath="schema\qxsdschemaparser.cpp" />
+			<File
+				RelativePath="schema\qxsdschemaparser_setup.cpp" />
+			<File
+				RelativePath="schema\qxsdschemaparsercontext.cpp" />
+			<File
+				RelativePath="schema\qxsdschemaresolver.cpp" />
+			<File
+				RelativePath="schema\qxsdschematoken.cpp" />
+			<File
+				RelativePath="schema\qxsdschematypesfactory.cpp" />
+			<File
+				RelativePath="schema\qxsdsimpletype.cpp" />
+			<File
+				RelativePath="schema\qxsdstatemachinebuilder.cpp" />
+			<File
+				RelativePath="schema\qxsdterm.cpp" />
+			<File
+				RelativePath="schema\qxsdtypechecker.cpp" />
+			<File
+				RelativePath="schema\qxsdvalidatedxmlnodemodel.cpp" />
+			<File
+				RelativePath="schema\qxsdvalidatinginstancereader.cpp" />
+			<File
+				RelativePath="schema\qxsdwildcard.cpp" />
+			<File
+				RelativePath="schema\qxsdxpathexpression.cpp" />
+			<File
+				RelativePath="functions\qxslt20corefunctions.cpp" />
+			<File
+				RelativePath="type\qxsltnodetest.cpp" />
+			<File
+				RelativePath="expr\qxsltsimplecontentconstructor.cpp" />
+			<File
+				RelativePath="parser\qxslttokenizer.cpp" />
+			<File
+				RelativePath="parser\qxslttokenlookup.cpp" />
+			<File
+				RelativePath="data\qyearmonthduration.cpp" />
+		</Filter>
+		<Filter
+			Name="Header Files"
+			Filter="h;hpp;hxx;hm;inl;inc;xsd"
+			UniqueIdentifier="{93995380-89BD-4b04-88EB-625FBE52EBFB}">
+			<File
+				RelativePath="data\qabstractdatetime_p.h" />
+			<File
+				RelativePath="data\qabstractduration_p.h" />
+			<File
+				RelativePath="data\qabstractfloat_p.h" />
+			<File
+				RelativePath="data\qabstractfloatcasters_p.h" />
+			<File
+				RelativePath="data\qabstractfloatmathematician_p.h" />
+			<File
+				RelativePath="functions\qabstractfunctionfactory_p.h" />
+			<File
+				RelativePath="api\qabstractmessagehandler.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;api\qabstractmessagehandler.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_XMLPATTERNS_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include\QtNetwork&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtXmlPatterns&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;acceltree&quot; -I&quot;data&quot; -I&quot;api&quot; -I&quot;environment&quot; -I&quot;expr&quot; -I&quot;functions&quot; -I&quot;iterators&quot; -I&quot;janitors&quot; -I&quot;parser&quot; -I&quot;schema&quot; -I&quot;type&quot; -I&quot;utils&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 api\qabstractmessagehandler.h -o tmp\moc\debug_shared\moc_qabstractmessagehandler.cpp"
+						Description="MOC api\qabstractmessagehandler.h"
+						Outputs="tmp\moc\debug_shared\moc_qabstractmessagehandler.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;api\qabstractmessagehandler.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_XMLPATTERNS_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_NO_DEBUG -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include\QtNetwork&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtXmlPatterns&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;acceltree&quot; -I&quot;data&quot; -I&quot;api&quot; -I&quot;environment&quot; -I&quot;expr&quot; -I&quot;functions&quot; -I&quot;iterators&quot; -I&quot;janitors&quot; -I&quot;parser&quot; -I&quot;schema&quot; -I&quot;type&quot; -I&quot;utils&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 api\qabstractmessagehandler.h -o tmp\moc\release_shared\moc_qabstractmessagehandler.cpp"
+						Description="MOC api\qabstractmessagehandler.h"
+						Outputs="tmp\moc\release_shared\moc_qabstractmessagehandler.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="type\qabstractnodetest_p.h" />
+			<File
+				RelativePath="api\qabstracturiresolver.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;api\qabstracturiresolver.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_XMLPATTERNS_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include\QtNetwork&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtXmlPatterns&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;acceltree&quot; -I&quot;data&quot; -I&quot;api&quot; -I&quot;environment&quot; -I&quot;expr&quot; -I&quot;functions&quot; -I&quot;iterators&quot; -I&quot;janitors&quot; -I&quot;parser&quot; -I&quot;schema&quot; -I&quot;type&quot; -I&quot;utils&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 api\qabstracturiresolver.h -o tmp\moc\debug_shared\moc_qabstracturiresolver.cpp"
+						Description="MOC api\qabstracturiresolver.h"
+						Outputs="tmp\moc\debug_shared\moc_qabstracturiresolver.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;api\qabstracturiresolver.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_XMLPATTERNS_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_NO_DEBUG -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include\QtNetwork&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtXmlPatterns&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;acceltree&quot; -I&quot;data&quot; -I&quot;api&quot; -I&quot;environment&quot; -I&quot;expr&quot; -I&quot;functions&quot; -I&quot;iterators&quot; -I&quot;janitors&quot; -I&quot;parser&quot; -I&quot;schema&quot; -I&quot;type&quot; -I&quot;utils&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 api\qabstracturiresolver.h -o tmp\moc\release_shared\moc_qabstracturiresolver.cpp"
+						Description="MOC api\qabstracturiresolver.h"
+						Outputs="tmp\moc\release_shared\moc_qabstracturiresolver.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="api\qabstractxmlforwarditerator_p.h" />
+			<File
+				RelativePath="api\qabstractxmlnodemodel.h" />
+			<File
+				RelativePath="api\qabstractxmlnodemodel_p.h" />
+			<File
+				RelativePath="api\qabstractxmlpullprovider_p.h" />
+			<File
+				RelativePath="api\qabstractxmlreceiver.h" />
+			<File
+				RelativePath="api\qabstractxmlreceiver_p.h" />
+			<File
+				RelativePath="acceltree\qacceliterators_p.h" />
+			<File
+				RelativePath="acceltree\qacceltree_p.h" />
+			<File
+				RelativePath="acceltree\qacceltreebuilder_p.h" />
+			<File
+				RelativePath="acceltree\qacceltreeresourceloader_p.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;acceltree\qacceltreeresourceloader_p.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_XMLPATTERNS_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include\QtNetwork&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtXmlPatterns&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;acceltree&quot; -I&quot;data&quot; -I&quot;api&quot; -I&quot;environment&quot; -I&quot;expr&quot; -I&quot;functions&quot; -I&quot;iterators&quot; -I&quot;janitors&quot; -I&quot;parser&quot; -I&quot;schema&quot; -I&quot;type&quot; -I&quot;utils&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 acceltree\qacceltreeresourceloader_p.h -o tmp\moc\debug_shared\moc_qacceltreeresourceloader_p.cpp"
+						Description="MOC acceltree\qacceltreeresourceloader_p.h"
+						Outputs="tmp\moc\debug_shared\moc_qacceltreeresourceloader_p.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;acceltree\qacceltreeresourceloader_p.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_XMLPATTERNS_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_NO_DEBUG -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include\QtNetwork&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtXmlPatterns&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;acceltree&quot; -I&quot;data&quot; -I&quot;api&quot; -I&quot;environment&quot; -I&quot;expr&quot; -I&quot;functions&quot; -I&quot;iterators&quot; -I&quot;janitors&quot; -I&quot;parser&quot; -I&quot;schema&quot; -I&quot;type&quot; -I&quot;utils&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 acceltree\qacceltreeresourceloader_p.h -o tmp\moc\release_shared\moc_qacceltreeresourceloader_p.cpp"
+						Description="MOC acceltree\qacceltreeresourceloader_p.h"
+						Outputs="tmp\moc\release_shared\moc_qacceltreeresourceloader_p.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="functions\qaccessorfns_p.h" />
+			<File
+				RelativePath="functions\qaggregatefns_p.h" />
+			<File
+				RelativePath="functions\qaggregator_p.h" />
+			<File
+				RelativePath="expr\qandexpression_p.h" />
+			<File
+				RelativePath="type\qanyitemtype_p.h" />
+			<File
+				RelativePath="type\qanynodetype_p.h" />
+			<File
+				RelativePath="type\qanysimpletype_p.h" />
+			<File
+				RelativePath="type\qanytype_p.h" />
+			<File
+				RelativePath="data\qanyuri_p.h" />
+			<File
+				RelativePath="expr\qapplytemplate_p.h" />
+			<File
+				RelativePath="janitors\qargumentconverter_p.h" />
+			<File
+				RelativePath="expr\qargumentreference_p.h" />
+			<File
+				RelativePath="expr\qarithmeticexpression_p.h" />
+			<File
+				RelativePath="functions\qassemblestringfns_p.h" />
+			<File
+				RelativePath="data\qatomiccaster_p.h" />
+			<File
+				RelativePath="type\qatomiccasterlocator_p.h" />
+			<File
+				RelativePath="type\qatomiccasterlocators_p.h" />
+			<File
+				RelativePath="data\qatomiccasters_p.h" />
+			<File
+				RelativePath="data\qatomiccomparator_p.h" />
+			<File
+				RelativePath="type\qatomiccomparatorlocator_p.h" />
+			<File
+				RelativePath="type\qatomiccomparatorlocators_p.h" />
+			<File
+				RelativePath="data\qatomiccomparators_p.h" />
+			<File
+				RelativePath="data\qatomicmathematician_p.h" />
+			<File
+				RelativePath="type\qatomicmathematicianlocator_p.h" />
+			<File
+				RelativePath="type\qatomicmathematicianlocators_p.h" />
+			<File
+				RelativePath="data\qatomicmathematicians_p.h" />
+			<File
+				RelativePath="data\qatomicstring_p.h" />
+			<File
+				RelativePath="type\qatomictype_p.h" />
+			<File
+				RelativePath="type\qatomictypedispatch_p.h" />
+			<File
+				RelativePath="janitors\qatomizer_p.h" />
+			<File
+				RelativePath="expr\qattributeconstructor_p.h" />
+			<File
+				RelativePath="expr\qattributenamevalidator_p.h" />
+			<File
+				RelativePath="utils\qautoptr_p.h" />
+			<File
+				RelativePath="expr\qaxisstep_p.h" />
+			<File
+				RelativePath="data\qbase64binary_p.h" />
+			<File
+				RelativePath="type\qbasictypesfactory_p.h" />
+			<File
+				RelativePath="data\qboolean_p.h" />
+			<File
+				RelativePath="functions\qbooleanfns_p.h" />
+			<File
+				RelativePath="type\qbuiltinatomictype_p.h" />
+			<File
+				RelativePath="type\qbuiltinatomictypes_p.h" />
+			<File
+				RelativePath="type\qbuiltinnodetype_p.h" />
+			<File
+				RelativePath="type\qbuiltintypes_p.h" />
+			<File
+				RelativePath="expr\qcachecells_p.h" />
+			<File
+				RelativePath="iterators\qcachingiterator_p.h" />
+			<File
+				RelativePath="expr\qcallsite_p.h" />
+			<File
+				RelativePath="expr\qcalltargetdescription_p.h" />
+			<File
+				RelativePath="expr\qcalltemplate_p.h" />
+			<File
+				RelativePath="type\qcardinality_p.h" />
+			<File
+				RelativePath="janitors\qcardinalityverifier_p.h" />
+			<File
+				RelativePath="expr\qcastableas_p.h" />
+			<File
+				RelativePath="expr\qcastas_p.h" />
+			<File
+				RelativePath="expr\qcastingplatform_p.h" />
+			<File
+				RelativePath="expr\qcollationchecker_p.h" />
+			<File
+				RelativePath="api\qcoloringmessagehandler_p.h" />
+			<File
+				RelativePath="api\qcoloroutput_p.h" />
+			<File
+				RelativePath="expr\qcombinenodes_p.h" />
+			<File
+				RelativePath="expr\qcommentconstructor_p.h" />
+			<File
+				RelativePath="utils\qcommonnamespaces_p.h" />
+			<File
+				RelativePath="type\qcommonsequencetypes_p.h" />
+			<File
+				RelativePath="data\qcommonvalues_p.h" />
+			<File
+				RelativePath="functions\qcomparescaseaware_p.h" />
+			<File
+				RelativePath="functions\qcomparestringfns_p.h" />
+			<File
+				RelativePath="functions\qcomparingaggregator_p.h" />
+			<File
+				RelativePath="data\qcomparisonfactory_p.h" />
+			<File
+				RelativePath="expr\qcomparisonplatform_p.h" />
+			<File
+				RelativePath="acceltree\qcompressedwhitespace_p.h" />
+			<File
+				RelativePath="expr\qcomputednamespaceconstructor_p.h" />
+			<File
+				RelativePath="functions\qconstructorfunctionsfactory_p.h" />
+			<File
+				RelativePath="functions\qcontextfns_p.h" />
+			<File
+				RelativePath="expr\qcontextitem_p.h" />
+			<File
+				RelativePath="functions\qcontextnodechecker_p.h" />
+			<File
+				RelativePath="expr\qcopyof_p.h" />
+			<File
+				RelativePath="utils\qcppcastinghelper_p.h" />
+			<File
+				RelativePath="functions\qcurrentfn_p.h" />
+			<File
+				RelativePath="environment\qcurrentitemcontext_p.h" />
+			<File
+				RelativePath="expr\qcurrentitemstore_p.h" />
+			<File
+				RelativePath="data\qdate_p.h" />
+			<File
+				RelativePath="functions\qdatetimefn_p.h" />
+			<File
+				RelativePath="functions\qdatetimefns_p.h" />
+			<File
+				RelativePath="data\qdaytimeduration_p.h" />
+			<File
+				RelativePath="utils\qdebug_p.h" />
+			<File
+				RelativePath="data\qdecimal_p.h" />
+			<File
+				RelativePath="iterators\qdeduplicateiterator_p.h" />
+			<File
+				RelativePath="functions\qdeepequalfn_p.h" />
+			<File
+				RelativePath="environment\qdelegatingdynamiccontext_p.h" />
+			<File
+				RelativePath="utils\qdelegatingnamespaceresolver_p.h" />
+			<File
+				RelativePath="environment\qdelegatingstaticcontext_p.h" />
+			<File
+				RelativePath="data\qderivedinteger_p.h" />
+			<File
+				RelativePath="data\qderivedstring_p.h" />
+			<File
+				RelativePath="api\qdeviceresourceloader_p.h" />
+			<File
+				RelativePath="iterators\qdistinctiterator_p.h" />
+			<File
+				RelativePath="expr\qdocumentconstructor_p.h" />
+			<File
+				RelativePath="expr\qdocumentcontentvalidator_p.h" />
+			<File
+				RelativePath="functions\qdocumentfn_p.h" />
+			<File
+				RelativePath="projection\qdocumentprojector_p.h" />
+			<File
+				RelativePath="data\qduration_p.h" />
+			<File
+				RelativePath="environment\qdynamiccontext_p.h" />
+			<File
+				RelativePath="expr\qdynamiccontextstore_p.h" />
+			<File
+				RelativePath="janitors\qebvextractor_p.h" />
+			<File
+				RelativePath="type\qebvtype_p.h" />
+			<File
+				RelativePath="functions\qelementavailablefn_p.h" />
+			<File
+				RelativePath="expr\qelementconstructor_p.h" />
+			<File
+				RelativePath="expr\qemptycontainer_p.h" />
+			<File
+				RelativePath="iterators\qemptyiterator_p.h" />
+			<File
+				RelativePath="expr\qemptysequence_p.h" />
+			<File
+				RelativePath="type\qemptysequencetype_p.h" />
+			<File
+				RelativePath="functions\qerrorfn_p.h" />
+			<File
+				RelativePath="expr\qevaluationcache_p.h" />
+			<File
+				RelativePath="iterators\qexceptiterator_p.h" />
+			<File
+				RelativePath="expr\qexpression_p.h" />
+			<File
+				RelativePath="expr\qexpressiondispatch_p.h" />
+			<File
+				RelativePath="expr\qexpressionfactory_p.h" />
+			<File
+				RelativePath="expr\qexpressionsequence_p.h" />
+			<File
+				RelativePath="expr\qexpressionvariablereference_p.h" />
+			<File
+				RelativePath="expr\qexternalvariableloader_p.h" />
+			<File
+				RelativePath="expr\qexternalvariablereference_p.h" />
+			<File
+				RelativePath="expr\qfirstitempredicate_p.h" />
+			<File
+				RelativePath="environment\qfocus_p.h" />
+			<File
+				RelativePath="expr\qforclause_p.h" />
+			<File
+				RelativePath="functions\qfunctionargument_p.h" />
+			<File
+				RelativePath="functions\qfunctionavailablefn_p.h" />
+			<File
+				RelativePath="functions\qfunctioncall_p.h" />
+			<File
+				RelativePath="functions\qfunctionfactory_p.h" />
+			<File
+				RelativePath="functions\qfunctionfactorycollection_p.h" />
+			<File
+				RelativePath="functions\qfunctionsignature_p.h" />
+			<File
+				RelativePath="data\qgday_p.h" />
+			<File
+				RelativePath="expr\qgeneralcomparison_p.h" />
+			<File
+				RelativePath="functions\qgenerateidfn_p.h" />
+			<File
+				RelativePath="environment\qgenericdynamiccontext_p.h" />
+			<File
+				RelativePath="utils\qgenericnamespaceresolver_p.h" />
+			<File
+				RelativePath="expr\qgenericpredicate_p.h" />
+			<File
+				RelativePath="type\qgenericsequencetype_p.h" />
+			<File
+				RelativePath="environment\qgenericstaticcontext_p.h" />
+			<File
+				RelativePath="data\qgmonth_p.h" />
+			<File
+				RelativePath="data\qgmonthday_p.h" />
+			<File
+				RelativePath="data\qgyear_p.h" />
+			<File
+				RelativePath="data\qgyearmonth_p.h" />
+			<File
+				RelativePath="data\qhexbinary_p.h" />
+			<File
+				RelativePath="expr\qifthenclause_p.h" />
+			<File
+				RelativePath="iterators\qindexofiterator_p.h" />
+			<File
+				RelativePath="iterators\qinsertioniterator_p.h" />
+			<File
+				RelativePath="expr\qinstanceof_p.h" />
+			<File
+				RelativePath="data\qinteger_p.h" />
+			<File
+				RelativePath="iterators\qintersectiterator_p.h" />
+			<File
+				RelativePath="api\qiodevicedelegate_p.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;api\qiodevicedelegate_p.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_XMLPATTERNS_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include\QtNetwork&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtXmlPatterns&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;acceltree&quot; -I&quot;data&quot; -I&quot;api&quot; -I&quot;environment&quot; -I&quot;expr&quot; -I&quot;functions&quot; -I&quot;iterators&quot; -I&quot;janitors&quot; -I&quot;parser&quot; -I&quot;schema&quot; -I&quot;type&quot; -I&quot;utils&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 api\qiodevicedelegate_p.h -o tmp\moc\debug_shared\moc_qiodevicedelegate_p.cpp"
+						Description="MOC api\qiodevicedelegate_p.h"
+						Outputs="tmp\moc\debug_shared\moc_qiodevicedelegate_p.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;api\qiodevicedelegate_p.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQT_BUILD_XMLPATTERNS_LIB -DQT_NO_USING_NAMESPACE -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT_ASCII_CAST_WARNINGS -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_NO_DEBUG -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\include\QtCore&quot; -I&quot;..\..\include\QtNetwork&quot; -I&quot;..\..\include&quot; -I&quot;..\..\include\QtXmlPatterns&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;acceltree&quot; -I&quot;data&quot; -I&quot;api&quot; -I&quot;environment&quot; -I&quot;expr&quot; -I&quot;functions&quot; -I&quot;iterators&quot; -I&quot;janitors&quot; -I&quot;parser&quot; -I&quot;schema&quot; -I&quot;type&quot; -I&quot;utils&quot; -I&quot;..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 api\qiodevicedelegate_p.h -o tmp\moc\release_shared\moc_qiodevicedelegate_p.cpp"
+						Description="MOC api\qiodevicedelegate_p.h"
+						Outputs="tmp\moc\release_shared\moc_qiodevicedelegate_p.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="data\qitem_p.h" />
+			<File
+				RelativePath="iterators\qitemmappingiterator_p.h" />
+			<File
+				RelativePath="type\qitemtype_p.h" />
+			<File
+				RelativePath="janitors\qitemverifier_p.h" />
+			<File
+				RelativePath="expr\qletclause_p.h" />
+			<File
+				RelativePath="expr\qliteral_p.h" />
+			<File
+				RelativePath="expr\qliteralsequence_p.h" />
+			<File
+				RelativePath="type\qlocalnametest_p.h" />
+			<File
+				RelativePath="parser\qmaintainingreader_p.h" />
+			<File
+				RelativePath="type\qmultiitemtype_p.h" />
+			<File
+				RelativePath="type\qnamedschemacomponent_p.h" />
+			<File
+				RelativePath="utils\qnamepool_p.h" />
+			<File
+				RelativePath="expr\qnamespaceconstructor_p.h" />
+			<File
+				RelativePath="type\qnamespacenametest_p.h" />
+			<File
+				RelativePath="utils\qnamespaceresolver_p.h" />
+			<File
+				RelativePath="schema\qnamespacesupport_p.h" />
+			<File
+				RelativePath="expr\qncnameconstructor_p.h" />
+			<File
+				RelativePath="api\qnetworkaccessdelegator_p.h" />
+			<File
+				RelativePath="data\qnodebuilder_p.h" />
+			<File
+				RelativePath="expr\qnodecomparison_p.h" />
+			<File
+				RelativePath="functions\qnodefns_p.h" />
+			<File
+				RelativePath="utils\qnodenamespaceresolver_p.h" />
+			<File
+				RelativePath="expr\qnodesort_p.h" />
+			<File
+				RelativePath="type\qnonetype_p.h" />
+			<File
+				RelativePath="functions\qnumericfns_p.h" />
+			<File
+				RelativePath="type\qnumerictype_p.h" />
+			<File
+				RelativePath="expr\qoperandsiterator_p.h" />
+			<File
+				RelativePath="expr\qoptimizationpasses_p.h" />
+			<File
+				RelativePath="expr\qoptimizerblocks_p.h" />
+			<File
+				RelativePath="expr\qoptimizerframework_p.h" />
+			<File
+				RelativePath="expr\qorderby_p.h" />
+			<File
+				RelativePath="expr\qorexpression_p.h" />
+			<File
+				RelativePath="utils\qoutputvalidator_p.h" />
+			<File
+				RelativePath="expr\qpaircontainer_p.h" />
+			<File
+				RelativePath="expr\qparentnodeaxis_p.h" />
+			<File
+				RelativePath="parser\qparsercontext_p.h" />
+			<File
+				RelativePath="expr\qpath_p.h" />
+			<File
+				RelativePath="utils\qpatternistlocale_p.h" />
+			<File
+				RelativePath="functions\qpatternmatchingfns_p.h" />
+			<File
+				RelativePath="functions\qpatternplatform_p.h" />
+			<File
+				RelativePath="expr\qpositionalvariablereference_p.h" />
+			<File
+				RelativePath="type\qprimitives_p.h" />
+			<File
+				RelativePath="expr\qprocessinginstructionconstructor_p.h" />
+			<File
+				RelativePath="projection\qprojectedexpression_p.h" />
+			<File
+				RelativePath="api\qpullbridge_p.h" />
+			<File
+				RelativePath="expr\qqnameconstructor_p.h" />
+			<File
+				RelativePath="functions\qqnamefns_p.h" />
+			<File
+				RelativePath="type\qqnametest_p.h" />
+			<File
+				RelativePath="data\qqnamevalue_p.h" />
+			<File
+				RelativePath="expr\qquantifiedexpression_p.h" />
+			<File
+				RelativePath="parser\qquerytransformparser_p.h" />
+			<File
+				RelativePath="expr\qrangeexpression_p.h" />
+			<File
+				RelativePath="iterators\qrangeiterator_p.h" />
+			<File
+				RelativePath="expr\qrangevariablereference_p.h" />
+			<File
+				RelativePath="environment\qreceiverdynamiccontext_p.h" />
+			<File
+				RelativePath="iterators\qremovaliterator_p.h" />
+			<File
+				RelativePath="environment\qreportcontext_p.h" />
+			<File
+				RelativePath="functions\qresolveurifn_p.h" />
+			<File
+				RelativePath="api\qresourcedelegator_p.h" />
+			<File
+				RelativePath="data\qresourceloader_p.h" />
+			<File
+				RelativePath="expr\qreturnorderby_p.h" />
+			<File
+				RelativePath="type\qschemacomponent_p.h" />
+			<File
+				RelativePath="data\qschemadatetime_p.h" />
+			<File
+				RelativePath="data\qschemanumeric_p.h" />
+			<File
+				RelativePath="data\qschematime_p.h" />
+			<File
+				RelativePath="type\qschematype_p.h" />
+			<File
+				RelativePath="type\qschematypefactory_p.h" />
+			<File
+				RelativePath="functions\qsequencefns_p.h" />
+			<File
+				RelativePath="functions\qsequencegeneratingfns_p.h" />
+			<File
+				RelativePath="iterators\qsequencemappingiterator_p.h" />
+			<File
+				RelativePath="type\qsequencetype_p.h" />
+			<File
+				RelativePath="expr\qsimplecontentconstructor_p.h" />
+			<File
+				RelativePath="api\qsimplexmlnodemodel.h" />
+			<File
+				RelativePath="expr\qsinglecontainer_p.h" />
+			<File
+				RelativePath="iterators\qsingletoniterator_p.h" />
+			<File
+				RelativePath="data\qsorttuple.cpp" />
+			<File
+				RelativePath="api\qsourcelocation.h" />
+			<File
+				RelativePath="expr\qsourcelocationreflection_p.h" />
+			<File
+				RelativePath="environment\qstackcontextbase_p.h" />
+			<File
+				RelativePath="functions\qstaticbaseuricontainer_p.h" />
+			<File
+				RelativePath="environment\qstaticbaseuricontext_p.h" />
+			<File
+				RelativePath="expr\qstaticbaseuristore_p.h" />
+			<File
+				RelativePath="environment\qstaticcompatibilitycontext_p.h" />
+			<File
+				RelativePath="expr\qstaticcompatibilitystore_p.h" />
+			<File
+				RelativePath="environment\qstaticcontext_p.h" />
+			<File
+				RelativePath="environment\qstaticcurrentcontext_p.h" />
+			<File
+				RelativePath="environment\qstaticfocuscontext_p.h" />
+			<File
+				RelativePath="environment\qstaticnamespacecontext_p.h" />
+			<File
+				RelativePath="functions\qstaticnamespacescontainer_p.h" />
+			<File
+				RelativePath="functions\qstringvaluefns_p.h" />
+			<File
+				RelativePath="iterators\qsubsequenceiterator_p.h" />
+			<File
+				RelativePath="functions\qsubstringfns_p.h" />
+			<File
+				RelativePath="functions\qsystempropertyfn_p.h" />
+			<File
+				RelativePath="..\corelib\global\qt_pch.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						CommandLine="echo /*-------------------------------------------------------------------- >..\corelib\global\qt_pch.h.cpp&#x000D;&#x000A;if errorlevel 1 goto VCReportError&#x000D;&#x000A;echo * Precompiled header source file used by Visual Studio.NET to generate>>..\corelib\global\qt_pch.h.cpp&#x000D;&#x000A;if errorlevel 1 goto VCReportError&#x000D;&#x000A;echo * the .pch file.>>..\corelib\global\qt_pch.h.cpp&#x000D;&#x000A;if errorlevel 1 goto VCReportError&#x000D;&#x000A;echo *>>..\corelib\global\qt_pch.h.cpp&#x000D;&#x000A;if errorlevel 1 goto VCReportError&#x000D;&#x000A;echo * Due to issues with the dependencies checker within the IDE, it>>..\corelib\global\qt_pch.h.cpp&#x000D;&#x000A;if errorlevel 1 goto VCReportError&#x000D;&#x000A;echo * sometimes fails to recompile the PCH file, if we force the IDE to>>..\corelib\global\qt_pch.h.cpp&#x000D;&#x000A;if errorlevel 1 goto VCReportError&#x000D;&#x000A;echo * create the PCH file directly from the header file.>>..\corelib\global\qt_pch.h.cpp&#x000D;&#x000A;if errorlevel 1 goto VCReportError&#x000D;&#x000A;echo *>>..\corelib\global\qt_pch.h.cpp&#x000D;&#x000A;if errorlevel 1 goto VCReportError&#x000D;&#x000A;echo * This file is auto-generated by qmake since no PRECOMPILED_SOURCE was>>..\corelib\global\qt_pch.h.cpp&#x000D;&#x000A;if errorlevel 1 goto VCReportError&#x000D;&#x000A;echo * specified, and is used as the common stdafx.cpp. The file is only>>..\corelib\global\qt_pch.h.cpp&#x000D;&#x000A;if errorlevel 1 goto VCReportError&#x000D;&#x000A;echo * generated when creating .vcproj project files, and is not used for>>..\corelib\global\qt_pch.h.cpp&#x000D;&#x000A;if errorlevel 1 goto VCReportError&#x000D;&#x000A;echo * command line compilations by nmake.>>..\corelib\global\qt_pch.h.cpp&#x000D;&#x000A;if errorlevel 1 goto VCReportError&#x000D;&#x000A;echo *>>..\corelib\global\qt_pch.h.cpp&#x000D;&#x000A;if errorlevel 1 goto VCReportError&#x000D;&#x000A;echo * WARNING: All changes made in this file will be lost.>>..\corelib\global\qt_pch.h.cpp&#x000D;&#x000A;if errorlevel 1 goto VCReportError&#x000D;&#x000A;echo --------------------------------------------------------------------*/>>..\corelib\global\qt_pch.h.cpp&#x000D;&#x000A;if errorlevel 1 goto VCReportError&#x000D;&#x000A;echo #include &quot;qt_pch.h&quot;>>..\corelib\global\qt_pch.h.cpp"
+						Description="Generating precompiled header source file &apos;..\corelib\global\qt_pch.h.cpp&apos; ..."
+						Outputs="..\corelib\global\qt_pch.h.cpp" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						CommandLine="echo /*-------------------------------------------------------------------- >..\corelib\global\qt_pch.h.cpp&#x000D;&#x000A;if errorlevel 1 goto VCReportError&#x000D;&#x000A;echo * Precompiled header source file used by Visual Studio.NET to generate>>..\corelib\global\qt_pch.h.cpp&#x000D;&#x000A;if errorlevel 1 goto VCReportError&#x000D;&#x000A;echo * the .pch file.>>..\corelib\global\qt_pch.h.cpp&#x000D;&#x000A;if errorlevel 1 goto VCReportError&#x000D;&#x000A;echo *>>..\corelib\global\qt_pch.h.cpp&#x000D;&#x000A;if errorlevel 1 goto VCReportError&#x000D;&#x000A;echo * Due to issues with the dependencies checker within the IDE, it>>..\corelib\global\qt_pch.h.cpp&#x000D;&#x000A;if errorlevel 1 goto VCReportError&#x000D;&#x000A;echo * sometimes fails to recompile the PCH file, if we force the IDE to>>..\corelib\global\qt_pch.h.cpp&#x000D;&#x000A;if errorlevel 1 goto VCReportError&#x000D;&#x000A;echo * create the PCH file directly from the header file.>>..\corelib\global\qt_pch.h.cpp&#x000D;&#x000A;if errorlevel 1 goto VCReportError&#x000D;&#x000A;echo *>>..\corelib\global\qt_pch.h.cpp&#x000D;&#x000A;if errorlevel 1 goto VCReportError&#x000D;&#x000A;echo * This file is auto-generated by qmake since no PRECOMPILED_SOURCE was>>..\corelib\global\qt_pch.h.cpp&#x000D;&#x000A;if errorlevel 1 goto VCReportError&#x000D;&#x000A;echo * specified, and is used as the common stdafx.cpp. The file is only>>..\corelib\global\qt_pch.h.cpp&#x000D;&#x000A;if errorlevel 1 goto VCReportError&#x000D;&#x000A;echo * generated when creating .vcproj project files, and is not used for>>..\corelib\global\qt_pch.h.cpp&#x000D;&#x000A;if errorlevel 1 goto VCReportError&#x000D;&#x000A;echo * command line compilations by nmake.>>..\corelib\global\qt_pch.h.cpp&#x000D;&#x000A;if errorlevel 1 goto VCReportError&#x000D;&#x000A;echo *>>..\corelib\global\qt_pch.h.cpp&#x000D;&#x000A;if errorlevel 1 goto VCReportError&#x000D;&#x000A;echo * WARNING: All changes made in this file will be lost.>>..\corelib\global\qt_pch.h.cpp&#x000D;&#x000A;if errorlevel 1 goto VCReportError&#x000D;&#x000A;echo --------------------------------------------------------------------*/>>..\corelib\global\qt_pch.h.cpp&#x000D;&#x000A;if errorlevel 1 goto VCReportError&#x000D;&#x000A;echo #include &quot;qt_pch.h&quot;>>..\corelib\global\qt_pch.h.cpp"
+						Description="Generating precompiled header source file &apos;..\corelib\global\qt_pch.h.cpp&apos; ..."
+						Outputs="..\corelib\global\qt_pch.h.cpp" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="expr\qtemplate_p.h" />
+			<File
+				RelativePath="expr\qtemplatemode_p.h" />
+			<File
+				RelativePath="expr\qtemplateparameterreference_p.h" />
+			<File
+				RelativePath="expr\qtemplatepattern_p.h" />
+			<File
+				RelativePath="expr\qtextnodeconstructor_p.h" />
+			<File
+				RelativePath="functions\qtimezonefns_p.h" />
+			<File
+				RelativePath="iterators\qtocodepointsiterator_p.h" />
+			<File
+				RelativePath="parser\qtokenizer_p.h" />
+			<File
+				RelativePath="parser\qtokenrevealer_p.h" />
+			<File
+				RelativePath="parser\qtokensource_p.h" />
+			<File
+				RelativePath="functions\qtracefn_p.h" />
+			<File
+				RelativePath="expr\qtreatas_p.h" />
+			<File
+				RelativePath="expr\qtriplecontainer_p.h" />
+			<File
+				RelativePath="expr\qtruthpredicate_p.h" />
+			<File
+				RelativePath="functions\qtypeavailablefn_p.h" />
+			<File
+				RelativePath="type\qtypechecker_p.h" />
+			<File
+				RelativePath="expr\qunaryexpression_p.h" />
+			<File
+				RelativePath="iterators\qunioniterator_p.h" />
+			<File
+				RelativePath="expr\qunlimitedcontainer_p.h" />
+			<File
+				RelativePath="functions\qunparsedentitypublicidfn_p.h" />
+			<File
+				RelativePath="functions\qunparsedentityurifn_p.h" />
+			<File
+				RelativePath="functions\qunparsedtextavailablefn_p.h" />
+			<File
+				RelativePath="functions\qunparsedtextfn_p.h" />
+			<File
+				RelativePath="expr\qunresolvedvariablereference_p.h" />
+			<File
+				RelativePath="type\quntyped_p.h" />
+			<File
+				RelativePath="data\quntypedatomic_p.h" />
+			<File
+				RelativePath="janitors\quntypedatomicconverter_p.h" />
+			<File
+				RelativePath="api\quriloader_p.h" />
+			<File
+				RelativePath="expr\quserfunction_p.h" />
+			<File
+				RelativePath="expr\quserfunctioncallsite_p.h" />
+			<File
+				RelativePath="expr\qvalidate_p.h" />
+			<File
+				RelativePath="data\qvalidationerror_p.h" />
+			<File
+				RelativePath="expr\qvaluecomparison_p.h" />
+			<File
+				RelativePath="data\qvaluefactory_p.h" />
+			<File
+				RelativePath="expr\qvariabledeclaration_p.h" />
+			<File
+				RelativePath="api\qvariableloader_p.h" />
+			<File
+				RelativePath="expr\qvariablereference_p.h" />
+			<File
+				RelativePath="expr\qwithparam_p.h" />
+			<File
+				RelativePath="api\qxmlformatter.h" />
+			<File
+				RelativePath="api\qxmlname.h" />
+			<File
+				RelativePath="api\qxmlnamepool.h" />
+			<File
+				RelativePath="api\qxmlpatternistcli_p.h" />
+			<File
+				RelativePath="api\qxmlquery.h" />
+			<File
+				RelativePath="api\qxmlquery_p.h" />
+			<File
+				RelativePath="api\qxmlresultitems.h" />
+			<File
+				RelativePath="api\qxmlresultitems_p.h" />
+			<File
+				RelativePath="api\qxmlschema.h" />
+			<File
+				RelativePath="api\qxmlschema_p.h" />
+			<File
+				RelativePath="api\qxmlschemavalidator.h" />
+			<File
+				RelativePath="api\qxmlschemavalidator_p.h" />
+			<File
+				RelativePath="api\qxmlserializer.h" />
+			<File
+				RelativePath="api\qxmlserializer_p.h" />
+			<File
+				RelativePath="functions\qxpath10corefunctions_p.h" />
+			<File
+				RelativePath="functions\qxpath20corefunctions_p.h" />
+			<File
+				RelativePath="utils\qxpathhelper_p.h" />
+			<File
+				RelativePath="parser\qxquerytokenizer_p.h" />
+			<File
+				RelativePath="schema\qxsdalternative_p.h" />
+			<File
+				RelativePath="schema\qxsdannotated_p.h" />
+			<File
+				RelativePath="schema\qxsdannotation_p.h" />
+			<File
+				RelativePath="schema\qxsdapplicationinformation_p.h" />
+			<File
+				RelativePath="schema\qxsdassertion_p.h" />
+			<File
+				RelativePath="schema\qxsdattribute_p.h" />
+			<File
+				RelativePath="schema\qxsdattributegroup_p.h" />
+			<File
+				RelativePath="schema\qxsdattributereference_p.h" />
+			<File
+				RelativePath="schema\qxsdattributeterm_p.h" />
+			<File
+				RelativePath="schema\qxsdattributeuse_p.h" />
+			<File
+				RelativePath="schema\qxsdcomplextype_p.h" />
+			<File
+				RelativePath="schema\qxsddocumentation_p.h" />
+			<File
+				RelativePath="schema\qxsdelement_p.h" />
+			<File
+				RelativePath="schema\qxsdfacet_p.h" />
+			<File
+				RelativePath="schema\qxsdidcache_p.h" />
+			<File
+				RelativePath="schema\qxsdidchelper_p.h" />
+			<File
+				RelativePath="schema\qxsdidentityconstraint_p.h" />
+			<File
+				RelativePath="schema\qxsdinstancereader_p.h" />
+			<File
+				RelativePath="schema\qxsdmodelgroup_p.h" />
+			<File
+				RelativePath="schema\qxsdnotation_p.h" />
+			<File
+				RelativePath="schema\qxsdparticle_p.h" />
+			<File
+				RelativePath="schema\qxsdparticlechecker_p.h" />
+			<File
+				RelativePath="schema\qxsdreference_p.h" />
+			<File
+				RelativePath="schema\qxsdschema_p.h" />
+			<File
+				RelativePath="schema\qxsdschemachecker_p.h" />
+			<File
+				RelativePath="schema\qxsdschemacontext_p.h" />
+			<File
+				RelativePath="schema\qxsdschemadebugger_p.h" />
+			<File
+				RelativePath="schema\qxsdschemahelper_p.h" />
+			<File
+				RelativePath="schema\qxsdschemamerger_p.h" />
+			<File
+				RelativePath="schema\qxsdschemaparser_p.h" />
+			<File
+				RelativePath="schema\qxsdschemaparsercontext_p.h" />
+			<File
+				RelativePath="schema\qxsdschemaresolver_p.h" />
+			<File
+				RelativePath="schema\qxsdschematoken_p.h" />
+			<File
+				RelativePath="schema\qxsdschematypesfactory_p.h" />
+			<File
+				RelativePath="schema\qxsdsimpletype_p.h" />
+			<File
+				RelativePath="schema\qxsdstatemachine_p.h" />
+			<File
+				RelativePath="schema\qxsdstatemachinebuilder_p.h" />
+			<File
+				RelativePath="schema\qxsdterm_p.h" />
+			<File
+				RelativePath="schema\qxsdtypechecker_p.h" />
+			<File
+				RelativePath="schema\qxsduserschematype_p.h" />
+			<File
+				RelativePath="schema\qxsdvalidatedxmlnodemodel_p.h" />
+			<File
+				RelativePath="schema\qxsdvalidatinginstancereader_p.h" />
+			<File
+				RelativePath="schema\qxsdwildcard_p.h" />
+			<File
+				RelativePath="schema\qxsdxpathexpression_p.h" />
+			<File
+				RelativePath="functions\qxslt20corefunctions_p.h" />
+			<File
+				RelativePath="type\qxsltnodetest_p.h" />
+			<File
+				RelativePath="expr\qxsltsimplecontentconstructor_p.h" />
+			<File
+				RelativePath="parser\qxslttokenizer_p.h" />
+			<File
+				RelativePath="parser\qxslttokenlookup_p.h" />
+			<File
+				RelativePath="data\qyearmonthduration_p.h" />
+		</Filter>
+		<Filter
+			Name="Generated Files"
+			Filter="cpp;c;cxx;moc;h;def;odl;idl;res;"
+			UniqueIdentifier="{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}">
+			<File
+				RelativePath="tmp\moc\debug_shared\moc_qabstractmessagehandler.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\moc_qabstractmessagehandler.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\debug_shared\moc_qabstracturiresolver.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\moc_qabstracturiresolver.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\debug_shared\moc_qacceltreeresourceloader_p.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\moc_qacceltreeresourceloader_p.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\debug_shared\moc_qiodevicedelegate_p.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\moc_qiodevicedelegate_p.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\rcc\debug_shared\qrc_builtinschemas.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\rcc\release_shared\qrc_builtinschemas.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="..\corelib\global\qt_pch.h.cpp">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						ForcedIncludeFiles="$(NOINHERIT)"
+						PrecompiledHeaderThrough="qt_pch.h"
+						UsePrecompiledHeader="1" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						ForcedIncludeFiles="$(NOINHERIT)"
+						PrecompiledHeaderThrough="qt_pch.h"
+						UsePrecompiledHeader="1" />
+				</FileConfiguration>
+			</File>
+		</Filter>
+		<Filter
+			Name="Resource Files"
+			Filter="qrc;*"
+			UniqueIdentifier="{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}"
+			ParseFiles="false">
+			<File
+				RelativePath="schema\builtinschemas.qrc">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\rcc.exe;schema\builtinschemas.qrc"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\rcc.exe -name builtinschemas schema\builtinschemas.qrc -o tmp\rcc\debug_shared\qrc_builtinschemas.cpp"
+						Description="RCC schema\builtinschemas.qrc"
+						Outputs="tmp\rcc\debug_shared\qrc_builtinschemas.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\rcc.exe;schema\builtinschemas.qrc"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\rcc.exe -name builtinschemas schema\builtinschemas.qrc -o tmp\rcc\release_shared\qrc_builtinschemas.cpp"
+						Description="RCC schema\builtinschemas.qrc"
+						Outputs="tmp\rcc\release_shared\qrc_builtinschemas.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+		</Filter>
+		<File
+			RelativePath="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\src\xmlpatterns\QtXmlPatterns_resource.rc">
+			<FileConfiguration
+				Name="Debug|Win32"
+				ExcludedFromBuild="true" />
+		</File>
+		<File
+			RelativePath="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\src\xmlpatterns\QtXmlPatternsd_resource.rc">
+			<FileConfiguration
+				Name="Release|Win32"
+				ExcludedFromBuild="true" />
+		</File>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>

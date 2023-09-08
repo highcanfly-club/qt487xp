@@ -1,0 +1,935 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="7.00"
+	Name="QtHelp"
+	ProjectGUID="{7E6B6E34-C6B1-3667-8F00-76B4295384D0}"
+	Keyword="Qt4VSv1.0">
+	<Platforms>
+		<Platform
+			Name="Win32" />
+	</Platforms>
+	<Configurations>
+		<Configuration
+			Name="Debug|Win32"
+			OutputDirectory="..\..\..\lib\"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			ConfigurationType="2"
+			IntermediateDirectory="tmp\obj\debug_shared\"
+			UseOfMfc="0">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="&quot;..\..\..\include\QtCore&quot;,&quot;..\..\..\include\QtNetwork&quot;,&quot;..\..\..\include\QtGui&quot;,&quot;..\..\..\include\QtSql&quot;,&quot;..\..\..\include&quot;,&quot;..\..\..\include\QtHelp&quot;,&quot;tmp\rcc\debug_shared&quot;,&quot;tmp&quot;,&quot;..\..\..\include\ActiveQt&quot;,&quot;tmp\moc\debug_shared&quot;,..\..\..\mkspecs\win32-msvc2003"
+				AdditionalOptions="-Zm300 -w34100 -w34189"
+				AssemblerListingLocation="tmp\obj\debug_shared\"
+				DebugInformationFormat="3"
+				ExceptionHandling="true"
+				GeneratePreprocessedFile="0"
+				ObjectFile="tmp\obj\debug_shared\"
+				Optimization ="4"
+				PreprocessorDefinitions="_WINDOWS,UNICODE,WIN32,QHELP_LIB,QT_CLUCENE_SUPPORT,QT_MAKEDLL,QT_NO_CAST_TO_ASCII,QT3_SUPPORT,QT_MOC_COMPAT,QT_USE_QSTRINGBUILDER,_USE_MATH_DEFINES,QT_DLL,QT_SQL_LIB,QT_GUI_LIB,QT_NETWORK_LIB,QT_CORE_LIB,QT_HAVE_MMX,QT_HAVE_3DNOW,QT_HAVE_SSE,QT_HAVE_MMXEXT,QT_HAVE_SSE2,QT_SHARED,QT_THREAD_SUPPORT"
+				ProgramDataBaseFileName=".\"
+				RuntimeLibrary="3"
+				RuntimeTypeInfo="true"
+				SuppressStartupBanner="true"
+				WarningLevel="3" />
+			<Tool
+				Name="VCCustomBuildTool" />
+			<Tool
+				Name="VCLinkerTool"
+				AdditionalDependencies="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib\QtSqld4.lib c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib\QtGuid4.lib c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib\QtNetworkd4.lib c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib\QtCored4.lib c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib\QtCLucened4.lib"
+				AdditionalLibraryDirectories="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib,c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib"
+				GenerateDebugInformation="true"
+				IgnoreImportLibrary="true"
+				LinkTimeCodeGeneration="0"
+				OutputFile="$(OutDir)\QtHelpd4.dll"
+				ProgramDatabaseFile=""
+				SubSystem="0"
+				SuppressStartupBanner="true"
+				Version="4.87" />
+			<Tool
+				Name="VCMIDLTool"
+				DefaultCharType="0"
+				EnableErrorChecks="1"
+				WarningLevel="0" />
+			<Tool
+				Name="VCPostBuildEventTool"
+				CommandLine="copy  &quot;$(TargetPath)&quot; &quot;..\..\..\bin&quot;"
+				Description="Copy QtHelpd4.dll to ..\..\..\bin"
+				ExcludedFromBuild="false" />
+			<Tool
+				Name="VCPreBuildEventTool" />
+			<Tool
+				Name="VCPreLinkEventTool" />
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_WINDOWS,UNICODE,WIN32,QHELP_LIB,QT_CLUCENE_SUPPORT,QT_MAKEDLL,QT_NO_CAST_TO_ASCII,QT3_SUPPORT,QT_MOC_COMPAT,QT_USE_QSTRINGBUILDER,_USE_MATH_DEFINES,QT_DLL,QT_SQL_LIB,QT_GUI_LIB,QT_NETWORK_LIB,QT_CORE_LIB,QT_HAVE_MMX,QT_HAVE_3DNOW,QT_HAVE_SSE,QT_HAVE_MMXEXT,QT_HAVE_SSE2,QT_SHARED,QT_THREAD_SUPPORT,_DEBUG" />
+		</Configuration>
+		<Configuration
+			Name="Release|Win32"
+			OutputDirectory="..\..\..\lib\"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			ConfigurationType="2"
+			IntermediateDirectory="tmp\obj\release_shared\"
+			UseOfMfc="0">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="&quot;..\..\..\include\QtCore&quot;,&quot;..\..\..\include\QtNetwork&quot;,&quot;..\..\..\include\QtGui&quot;,&quot;..\..\..\include\QtSql&quot;,&quot;..\..\..\include&quot;,&quot;..\..\..\include\QtHelp&quot;,&quot;tmp\rcc\debug_shared&quot;,&quot;tmp&quot;,&quot;..\..\..\include\ActiveQt&quot;,&quot;tmp\moc\release_shared&quot;,..\..\..\mkspecs\win32-msvc2003"
+				AdditionalOptions="-Zm300 -w34100 -w34189"
+				AssemblerListingLocation="tmp\obj\release_shared\"
+				DebugInformationFormat="0"
+				ExceptionHandling="true"
+				GeneratePreprocessedFile="0"
+				ObjectFile="tmp\obj\release_shared\"
+				Optimization ="2"
+				PreprocessorDefinitions="_WINDOWS,UNICODE,WIN32,QHELP_LIB,QT_CLUCENE_SUPPORT,QT_MAKEDLL,QT_NO_CAST_TO_ASCII,QT3_SUPPORT,QT_MOC_COMPAT,QT_USE_QSTRINGBUILDER,_USE_MATH_DEFINES,QT_DLL,QT_NO_DEBUG,QT_SQL_LIB,QT_GUI_LIB,QT_NETWORK_LIB,QT_CORE_LIB,QT_HAVE_MMX,QT_HAVE_3DNOW,QT_HAVE_SSE,QT_HAVE_MMXEXT,QT_HAVE_SSE2,QT_SHARED,QT_THREAD_SUPPORT,NDEBUG"
+				ProgramDataBaseFileName=".\"
+				RuntimeLibrary="2"
+				RuntimeTypeInfo="true"
+				SuppressStartupBanner="true"
+				WarningLevel="3" />
+			<Tool
+				Name="VCCustomBuildTool" />
+			<Tool
+				Name="VCLinkerTool"
+				AdditionalDependencies="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib\QtSql4.lib c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib\QtGui4.lib c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib\QtNetwork4.lib c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib\QtCore4.lib c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib\QtCLucene4.lib"
+				AdditionalLibraryDirectories="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib,c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\lib"
+				GenerateDebugInformation="false"
+				IgnoreImportLibrary="true"
+				LinkIncremental="1"
+				LinkTimeCodeGeneration="0"
+				OutputFile="$(OutDir)\QtHelp4.dll"
+				ProgramDatabaseFile=""
+				SubSystem="0"
+				SuppressStartupBanner="true"
+				Version="4.87" />
+			<Tool
+				Name="VCMIDLTool"
+				DefaultCharType="0"
+				EnableErrorChecks="1"
+				WarningLevel="0" />
+			<Tool
+				Name="VCPostBuildEventTool"
+				CommandLine="copy  &quot;$(TargetPath)&quot; &quot;..\..\..\bin&quot;"
+				Description="Copy QtHelp4.dll to ..\..\..\bin"
+				ExcludedFromBuild="false" />
+			<Tool
+				Name="VCPreBuildEventTool" />
+			<Tool
+				Name="VCPreLinkEventTool" />
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_WINDOWS,UNICODE,WIN32,QHELP_LIB,QT_CLUCENE_SUPPORT,QT_MAKEDLL,QT_NO_CAST_TO_ASCII,QT3_SUPPORT,QT_MOC_COMPAT,QT_USE_QSTRINGBUILDER,_USE_MATH_DEFINES,QT_DLL,QT_NO_DEBUG,QT_SQL_LIB,QT_GUI_LIB,QT_NETWORK_LIB,QT_CORE_LIB,QT_HAVE_MMX,QT_HAVE_3DNOW,QT_HAVE_SSE,QT_HAVE_MMXEXT,QT_HAVE_SSE2,QT_SHARED,QT_THREAD_SUPPORT" />
+		</Configuration>
+	</Configurations>
+	<Files>
+		<Filter
+			Name="Source Files"
+			Filter="cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx"
+			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}">
+			<File
+				RelativePath="qclucenefieldnames.cpp" />
+			<File
+				RelativePath="qhelp_global.cpp" />
+			<File
+				RelativePath="qhelpcollectionhandler.cpp" />
+			<File
+				RelativePath="qhelpcontentwidget.cpp" />
+			<File
+				RelativePath="qhelpdatainterface.cpp" />
+			<File
+				RelativePath="qhelpdbreader.cpp" />
+			<File
+				RelativePath="qhelpengine.cpp" />
+			<File
+				RelativePath="qhelpenginecore.cpp" />
+			<File
+				RelativePath="qhelpgenerator.cpp" />
+			<File
+				RelativePath="qhelpindexwidget.cpp" />
+			<File
+				RelativePath="qhelpprojectdata.cpp" />
+			<File
+				RelativePath="qhelpsearchengine.cpp" />
+			<File
+				RelativePath="qhelpsearchindex_default.cpp" />
+			<File
+				RelativePath="qhelpsearchindexreader.cpp" />
+			<File
+				RelativePath="qhelpsearchindexreader_clucene.cpp" />
+			<File
+				RelativePath="qhelpsearchindexreader_default.cpp" />
+			<File
+				RelativePath="qhelpsearchindexwriter_clucene.cpp" />
+			<File
+				RelativePath="qhelpsearchindexwriter_default.cpp" />
+			<File
+				RelativePath="qhelpsearchquerywidget.cpp" />
+			<File
+				RelativePath="qhelpsearchresultwidget.cpp" />
+		</Filter>
+		<Filter
+			Name="Header Files"
+			Filter="h;hpp;hxx;hm;inl;inc;xsd"
+			UniqueIdentifier="{93995380-89BD-4b04-88EB-625FBE52EBFB}">
+			<File
+				RelativePath="qclucenefieldnames_p.h" />
+			<File
+				RelativePath="qhelp_global.h" />
+			<File
+				RelativePath="qhelpcollectionhandler_p.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;qhelpcollectionhandler_p.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQHELP_LIB -DQT_CLUCENE_SUPPORT -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_SQL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\..\include\QtCore&quot; -I&quot;..\..\..\include\QtNetwork&quot; -I&quot;..\..\..\include\QtGui&quot; -I&quot;..\..\..\include\QtSql&quot; -I&quot;..\..\..\include&quot; -I&quot;..\..\..\include\QtHelp&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 qhelpcollectionhandler_p.h -o tmp\moc\debug_shared\moc_qhelpcollectionhandler_p.cpp"
+						Description="MOC qhelpcollectionhandler_p.h"
+						Outputs="tmp\moc\debug_shared\moc_qhelpcollectionhandler_p.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;qhelpcollectionhandler_p.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQHELP_LIB -DQT_CLUCENE_SUPPORT -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\..\include\QtCore&quot; -I&quot;..\..\..\include\QtNetwork&quot; -I&quot;..\..\..\include\QtGui&quot; -I&quot;..\..\..\include\QtSql&quot; -I&quot;..\..\..\include&quot; -I&quot;..\..\..\include\QtHelp&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 qhelpcollectionhandler_p.h -o tmp\moc\release_shared\moc_qhelpcollectionhandler_p.cpp"
+						Description="MOC qhelpcollectionhandler_p.h"
+						Outputs="tmp\moc\release_shared\moc_qhelpcollectionhandler_p.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="qhelpcontentwidget.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;qhelpcontentwidget.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQHELP_LIB -DQT_CLUCENE_SUPPORT -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_SQL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\..\include\QtCore&quot; -I&quot;..\..\..\include\QtNetwork&quot; -I&quot;..\..\..\include\QtGui&quot; -I&quot;..\..\..\include\QtSql&quot; -I&quot;..\..\..\include&quot; -I&quot;..\..\..\include\QtHelp&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 qhelpcontentwidget.h -o tmp\moc\debug_shared\moc_qhelpcontentwidget.cpp"
+						Description="MOC qhelpcontentwidget.h"
+						Outputs="tmp\moc\debug_shared\moc_qhelpcontentwidget.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;qhelpcontentwidget.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQHELP_LIB -DQT_CLUCENE_SUPPORT -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\..\include\QtCore&quot; -I&quot;..\..\..\include\QtNetwork&quot; -I&quot;..\..\..\include\QtGui&quot; -I&quot;..\..\..\include\QtSql&quot; -I&quot;..\..\..\include&quot; -I&quot;..\..\..\include\QtHelp&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 qhelpcontentwidget.h -o tmp\moc\release_shared\moc_qhelpcontentwidget.cpp"
+						Description="MOC qhelpcontentwidget.h"
+						Outputs="tmp\moc\release_shared\moc_qhelpcontentwidget.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="qhelpdatainterface_p.h" />
+			<File
+				RelativePath="qhelpdbreader_p.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;qhelpdbreader_p.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQHELP_LIB -DQT_CLUCENE_SUPPORT -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_SQL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\..\include\QtCore&quot; -I&quot;..\..\..\include\QtNetwork&quot; -I&quot;..\..\..\include\QtGui&quot; -I&quot;..\..\..\include\QtSql&quot; -I&quot;..\..\..\include&quot; -I&quot;..\..\..\include\QtHelp&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 qhelpdbreader_p.h -o tmp\moc\debug_shared\moc_qhelpdbreader_p.cpp"
+						Description="MOC qhelpdbreader_p.h"
+						Outputs="tmp\moc\debug_shared\moc_qhelpdbreader_p.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;qhelpdbreader_p.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQHELP_LIB -DQT_CLUCENE_SUPPORT -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\..\include\QtCore&quot; -I&quot;..\..\..\include\QtNetwork&quot; -I&quot;..\..\..\include\QtGui&quot; -I&quot;..\..\..\include\QtSql&quot; -I&quot;..\..\..\include&quot; -I&quot;..\..\..\include\QtHelp&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 qhelpdbreader_p.h -o tmp\moc\release_shared\moc_qhelpdbreader_p.cpp"
+						Description="MOC qhelpdbreader_p.h"
+						Outputs="tmp\moc\release_shared\moc_qhelpdbreader_p.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="qhelpengine.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;qhelpengine.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQHELP_LIB -DQT_CLUCENE_SUPPORT -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_SQL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\..\include\QtCore&quot; -I&quot;..\..\..\include\QtNetwork&quot; -I&quot;..\..\..\include\QtGui&quot; -I&quot;..\..\..\include\QtSql&quot; -I&quot;..\..\..\include&quot; -I&quot;..\..\..\include\QtHelp&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 qhelpengine.h -o tmp\moc\debug_shared\moc_qhelpengine.cpp"
+						Description="MOC qhelpengine.h"
+						Outputs="tmp\moc\debug_shared\moc_qhelpengine.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;qhelpengine.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQHELP_LIB -DQT_CLUCENE_SUPPORT -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\..\include\QtCore&quot; -I&quot;..\..\..\include\QtNetwork&quot; -I&quot;..\..\..\include\QtGui&quot; -I&quot;..\..\..\include\QtSql&quot; -I&quot;..\..\..\include&quot; -I&quot;..\..\..\include\QtHelp&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 qhelpengine.h -o tmp\moc\release_shared\moc_qhelpengine.cpp"
+						Description="MOC qhelpengine.h"
+						Outputs="tmp\moc\release_shared\moc_qhelpengine.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="qhelpengine_p.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;qhelpengine_p.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQHELP_LIB -DQT_CLUCENE_SUPPORT -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_SQL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\..\include\QtCore&quot; -I&quot;..\..\..\include\QtNetwork&quot; -I&quot;..\..\..\include\QtGui&quot; -I&quot;..\..\..\include\QtSql&quot; -I&quot;..\..\..\include&quot; -I&quot;..\..\..\include\QtHelp&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 qhelpengine_p.h -o tmp\moc\debug_shared\moc_qhelpengine_p.cpp"
+						Description="MOC qhelpengine_p.h"
+						Outputs="tmp\moc\debug_shared\moc_qhelpengine_p.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;qhelpengine_p.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQHELP_LIB -DQT_CLUCENE_SUPPORT -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\..\include\QtCore&quot; -I&quot;..\..\..\include\QtNetwork&quot; -I&quot;..\..\..\include\QtGui&quot; -I&quot;..\..\..\include\QtSql&quot; -I&quot;..\..\..\include&quot; -I&quot;..\..\..\include\QtHelp&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 qhelpengine_p.h -o tmp\moc\release_shared\moc_qhelpengine_p.cpp"
+						Description="MOC qhelpengine_p.h"
+						Outputs="tmp\moc\release_shared\moc_qhelpengine_p.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="qhelpenginecore.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;qhelpenginecore.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQHELP_LIB -DQT_CLUCENE_SUPPORT -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_SQL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\..\include\QtCore&quot; -I&quot;..\..\..\include\QtNetwork&quot; -I&quot;..\..\..\include\QtGui&quot; -I&quot;..\..\..\include\QtSql&quot; -I&quot;..\..\..\include&quot; -I&quot;..\..\..\include\QtHelp&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 qhelpenginecore.h -o tmp\moc\debug_shared\moc_qhelpenginecore.cpp"
+						Description="MOC qhelpenginecore.h"
+						Outputs="tmp\moc\debug_shared\moc_qhelpenginecore.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;qhelpenginecore.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQHELP_LIB -DQT_CLUCENE_SUPPORT -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\..\include\QtCore&quot; -I&quot;..\..\..\include\QtNetwork&quot; -I&quot;..\..\..\include\QtGui&quot; -I&quot;..\..\..\include\QtSql&quot; -I&quot;..\..\..\include&quot; -I&quot;..\..\..\include\QtHelp&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 qhelpenginecore.h -o tmp\moc\release_shared\moc_qhelpenginecore.cpp"
+						Description="MOC qhelpenginecore.h"
+						Outputs="tmp\moc\release_shared\moc_qhelpenginecore.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="qhelpgenerator_p.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;qhelpgenerator_p.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQHELP_LIB -DQT_CLUCENE_SUPPORT -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_SQL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\..\include\QtCore&quot; -I&quot;..\..\..\include\QtNetwork&quot; -I&quot;..\..\..\include\QtGui&quot; -I&quot;..\..\..\include\QtSql&quot; -I&quot;..\..\..\include&quot; -I&quot;..\..\..\include\QtHelp&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 qhelpgenerator_p.h -o tmp\moc\debug_shared\moc_qhelpgenerator_p.cpp"
+						Description="MOC qhelpgenerator_p.h"
+						Outputs="tmp\moc\debug_shared\moc_qhelpgenerator_p.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;qhelpgenerator_p.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQHELP_LIB -DQT_CLUCENE_SUPPORT -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\..\include\QtCore&quot; -I&quot;..\..\..\include\QtNetwork&quot; -I&quot;..\..\..\include\QtGui&quot; -I&quot;..\..\..\include\QtSql&quot; -I&quot;..\..\..\include&quot; -I&quot;..\..\..\include\QtHelp&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 qhelpgenerator_p.h -o tmp\moc\release_shared\moc_qhelpgenerator_p.cpp"
+						Description="MOC qhelpgenerator_p.h"
+						Outputs="tmp\moc\release_shared\moc_qhelpgenerator_p.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="qhelpindexwidget.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;qhelpindexwidget.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQHELP_LIB -DQT_CLUCENE_SUPPORT -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_SQL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\..\include\QtCore&quot; -I&quot;..\..\..\include\QtNetwork&quot; -I&quot;..\..\..\include\QtGui&quot; -I&quot;..\..\..\include\QtSql&quot; -I&quot;..\..\..\include&quot; -I&quot;..\..\..\include\QtHelp&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 qhelpindexwidget.h -o tmp\moc\debug_shared\moc_qhelpindexwidget.cpp"
+						Description="MOC qhelpindexwidget.h"
+						Outputs="tmp\moc\debug_shared\moc_qhelpindexwidget.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;qhelpindexwidget.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQHELP_LIB -DQT_CLUCENE_SUPPORT -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\..\include\QtCore&quot; -I&quot;..\..\..\include\QtNetwork&quot; -I&quot;..\..\..\include\QtGui&quot; -I&quot;..\..\..\include\QtSql&quot; -I&quot;..\..\..\include&quot; -I&quot;..\..\..\include\QtHelp&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 qhelpindexwidget.h -o tmp\moc\release_shared\moc_qhelpindexwidget.cpp"
+						Description="MOC qhelpindexwidget.h"
+						Outputs="tmp\moc\release_shared\moc_qhelpindexwidget.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="qhelpprojectdata_p.h" />
+			<File
+				RelativePath="qhelpsearchengine.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;qhelpsearchengine.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQHELP_LIB -DQT_CLUCENE_SUPPORT -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_SQL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\..\include\QtCore&quot; -I&quot;..\..\..\include\QtNetwork&quot; -I&quot;..\..\..\include\QtGui&quot; -I&quot;..\..\..\include\QtSql&quot; -I&quot;..\..\..\include&quot; -I&quot;..\..\..\include\QtHelp&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 qhelpsearchengine.h -o tmp\moc\debug_shared\moc_qhelpsearchengine.cpp"
+						Description="MOC qhelpsearchengine.h"
+						Outputs="tmp\moc\debug_shared\moc_qhelpsearchengine.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;qhelpsearchengine.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQHELP_LIB -DQT_CLUCENE_SUPPORT -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\..\include\QtCore&quot; -I&quot;..\..\..\include\QtNetwork&quot; -I&quot;..\..\..\include\QtGui&quot; -I&quot;..\..\..\include\QtSql&quot; -I&quot;..\..\..\include&quot; -I&quot;..\..\..\include\QtHelp&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 qhelpsearchengine.h -o tmp\moc\release_shared\moc_qhelpsearchengine.cpp"
+						Description="MOC qhelpsearchengine.h"
+						Outputs="tmp\moc\release_shared\moc_qhelpsearchengine.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="qhelpsearchindex_default_p.h" />
+			<File
+				RelativePath="qhelpsearchindexreader_clucene_p.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;qhelpsearchindexreader_clucene_p.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQHELP_LIB -DQT_CLUCENE_SUPPORT -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_SQL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\..\include\QtCore&quot; -I&quot;..\..\..\include\QtNetwork&quot; -I&quot;..\..\..\include\QtGui&quot; -I&quot;..\..\..\include\QtSql&quot; -I&quot;..\..\..\include&quot; -I&quot;..\..\..\include\QtHelp&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 qhelpsearchindexreader_clucene_p.h -o tmp\moc\debug_shared\moc_qhelpsearchindexreader_clucene_p.cpp"
+						Description="MOC qhelpsearchindexreader_clucene_p.h"
+						Outputs="tmp\moc\debug_shared\moc_qhelpsearchindexreader_clucene_p.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;qhelpsearchindexreader_clucene_p.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQHELP_LIB -DQT_CLUCENE_SUPPORT -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\..\include\QtCore&quot; -I&quot;..\..\..\include\QtNetwork&quot; -I&quot;..\..\..\include\QtGui&quot; -I&quot;..\..\..\include\QtSql&quot; -I&quot;..\..\..\include&quot; -I&quot;..\..\..\include\QtHelp&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 qhelpsearchindexreader_clucene_p.h -o tmp\moc\release_shared\moc_qhelpsearchindexreader_clucene_p.cpp"
+						Description="MOC qhelpsearchindexreader_clucene_p.h"
+						Outputs="tmp\moc\release_shared\moc_qhelpsearchindexreader_clucene_p.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="qhelpsearchindexreader_default_p.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;qhelpsearchindexreader_default_p.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQHELP_LIB -DQT_CLUCENE_SUPPORT -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_SQL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\..\include\QtCore&quot; -I&quot;..\..\..\include\QtNetwork&quot; -I&quot;..\..\..\include\QtGui&quot; -I&quot;..\..\..\include\QtSql&quot; -I&quot;..\..\..\include&quot; -I&quot;..\..\..\include\QtHelp&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 qhelpsearchindexreader_default_p.h -o tmp\moc\debug_shared\moc_qhelpsearchindexreader_default_p.cpp"
+						Description="MOC qhelpsearchindexreader_default_p.h"
+						Outputs="tmp\moc\debug_shared\moc_qhelpsearchindexreader_default_p.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;qhelpsearchindexreader_default_p.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQHELP_LIB -DQT_CLUCENE_SUPPORT -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\..\include\QtCore&quot; -I&quot;..\..\..\include\QtNetwork&quot; -I&quot;..\..\..\include\QtGui&quot; -I&quot;..\..\..\include\QtSql&quot; -I&quot;..\..\..\include&quot; -I&quot;..\..\..\include\QtHelp&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 qhelpsearchindexreader_default_p.h -o tmp\moc\release_shared\moc_qhelpsearchindexreader_default_p.cpp"
+						Description="MOC qhelpsearchindexreader_default_p.h"
+						Outputs="tmp\moc\release_shared\moc_qhelpsearchindexreader_default_p.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="qhelpsearchindexreader_p.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;qhelpsearchindexreader_p.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQHELP_LIB -DQT_CLUCENE_SUPPORT -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_SQL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\..\include\QtCore&quot; -I&quot;..\..\..\include\QtNetwork&quot; -I&quot;..\..\..\include\QtGui&quot; -I&quot;..\..\..\include\QtSql&quot; -I&quot;..\..\..\include&quot; -I&quot;..\..\..\include\QtHelp&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 qhelpsearchindexreader_p.h -o tmp\moc\debug_shared\moc_qhelpsearchindexreader_p.cpp"
+						Description="MOC qhelpsearchindexreader_p.h"
+						Outputs="tmp\moc\debug_shared\moc_qhelpsearchindexreader_p.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;qhelpsearchindexreader_p.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQHELP_LIB -DQT_CLUCENE_SUPPORT -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\..\include\QtCore&quot; -I&quot;..\..\..\include\QtNetwork&quot; -I&quot;..\..\..\include\QtGui&quot; -I&quot;..\..\..\include\QtSql&quot; -I&quot;..\..\..\include&quot; -I&quot;..\..\..\include\QtHelp&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 qhelpsearchindexreader_p.h -o tmp\moc\release_shared\moc_qhelpsearchindexreader_p.cpp"
+						Description="MOC qhelpsearchindexreader_p.h"
+						Outputs="tmp\moc\release_shared\moc_qhelpsearchindexreader_p.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="qhelpsearchindexwriter_clucene_p.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;qhelpsearchindexwriter_clucene_p.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQHELP_LIB -DQT_CLUCENE_SUPPORT -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_SQL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\..\include\QtCore&quot; -I&quot;..\..\..\include\QtNetwork&quot; -I&quot;..\..\..\include\QtGui&quot; -I&quot;..\..\..\include\QtSql&quot; -I&quot;..\..\..\include&quot; -I&quot;..\..\..\include\QtHelp&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 qhelpsearchindexwriter_clucene_p.h -o tmp\moc\debug_shared\moc_qhelpsearchindexwriter_clucene_p.cpp"
+						Description="MOC qhelpsearchindexwriter_clucene_p.h"
+						Outputs="tmp\moc\debug_shared\moc_qhelpsearchindexwriter_clucene_p.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;qhelpsearchindexwriter_clucene_p.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQHELP_LIB -DQT_CLUCENE_SUPPORT -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\..\include\QtCore&quot; -I&quot;..\..\..\include\QtNetwork&quot; -I&quot;..\..\..\include\QtGui&quot; -I&quot;..\..\..\include\QtSql&quot; -I&quot;..\..\..\include&quot; -I&quot;..\..\..\include\QtHelp&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 qhelpsearchindexwriter_clucene_p.h -o tmp\moc\release_shared\moc_qhelpsearchindexwriter_clucene_p.cpp"
+						Description="MOC qhelpsearchindexwriter_clucene_p.h"
+						Outputs="tmp\moc\release_shared\moc_qhelpsearchindexwriter_clucene_p.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="qhelpsearchindexwriter_default_p.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;qhelpsearchindexwriter_default_p.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQHELP_LIB -DQT_CLUCENE_SUPPORT -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_SQL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\..\include\QtCore&quot; -I&quot;..\..\..\include\QtNetwork&quot; -I&quot;..\..\..\include\QtGui&quot; -I&quot;..\..\..\include\QtSql&quot; -I&quot;..\..\..\include&quot; -I&quot;..\..\..\include\QtHelp&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 qhelpsearchindexwriter_default_p.h -o tmp\moc\debug_shared\moc_qhelpsearchindexwriter_default_p.cpp"
+						Description="MOC qhelpsearchindexwriter_default_p.h"
+						Outputs="tmp\moc\debug_shared\moc_qhelpsearchindexwriter_default_p.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;qhelpsearchindexwriter_default_p.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQHELP_LIB -DQT_CLUCENE_SUPPORT -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\..\include\QtCore&quot; -I&quot;..\..\..\include\QtNetwork&quot; -I&quot;..\..\..\include\QtGui&quot; -I&quot;..\..\..\include\QtSql&quot; -I&quot;..\..\..\include&quot; -I&quot;..\..\..\include\QtHelp&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 qhelpsearchindexwriter_default_p.h -o tmp\moc\release_shared\moc_qhelpsearchindexwriter_default_p.cpp"
+						Description="MOC qhelpsearchindexwriter_default_p.h"
+						Outputs="tmp\moc\release_shared\moc_qhelpsearchindexwriter_default_p.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="qhelpsearchquerywidget.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;qhelpsearchquerywidget.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQHELP_LIB -DQT_CLUCENE_SUPPORT -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_SQL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\..\include\QtCore&quot; -I&quot;..\..\..\include\QtNetwork&quot; -I&quot;..\..\..\include\QtGui&quot; -I&quot;..\..\..\include\QtSql&quot; -I&quot;..\..\..\include&quot; -I&quot;..\..\..\include\QtHelp&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 qhelpsearchquerywidget.h -o tmp\moc\debug_shared\moc_qhelpsearchquerywidget.cpp"
+						Description="MOC qhelpsearchquerywidget.h"
+						Outputs="tmp\moc\debug_shared\moc_qhelpsearchquerywidget.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;qhelpsearchquerywidget.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQHELP_LIB -DQT_CLUCENE_SUPPORT -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\..\include\QtCore&quot; -I&quot;..\..\..\include\QtNetwork&quot; -I&quot;..\..\..\include\QtGui&quot; -I&quot;..\..\..\include\QtSql&quot; -I&quot;..\..\..\include&quot; -I&quot;..\..\..\include\QtHelp&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 qhelpsearchquerywidget.h -o tmp\moc\release_shared\moc_qhelpsearchquerywidget.cpp"
+						Description="MOC qhelpsearchquerywidget.h"
+						Outputs="tmp\moc\release_shared\moc_qhelpsearchquerywidget.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="qhelpsearchresultwidget.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;qhelpsearchresultwidget.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQHELP_LIB -DQT_CLUCENE_SUPPORT -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_SQL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\..\include\QtCore&quot; -I&quot;..\..\..\include\QtNetwork&quot; -I&quot;..\..\..\include\QtGui&quot; -I&quot;..\..\..\include\QtSql&quot; -I&quot;..\..\..\include&quot; -I&quot;..\..\..\include\QtHelp&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 qhelpsearchresultwidget.h -o tmp\moc\debug_shared\moc_qhelpsearchresultwidget.cpp"
+						Description="MOC qhelpsearchresultwidget.h"
+						Outputs="tmp\moc\debug_shared\moc_qhelpsearchresultwidget.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;qhelpsearchresultwidget.h"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQHELP_LIB -DQT_CLUCENE_SUPPORT -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\..\include\QtCore&quot; -I&quot;..\..\..\include\QtNetwork&quot; -I&quot;..\..\..\include\QtGui&quot; -I&quot;..\..\..\include\QtSql&quot; -I&quot;..\..\..\include&quot; -I&quot;..\..\..\include\QtHelp&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 qhelpsearchresultwidget.h -o tmp\moc\release_shared\moc_qhelpsearchresultwidget.cpp"
+						Description="MOC qhelpsearchresultwidget.h"
+						Outputs="tmp\moc\release_shared\moc_qhelpsearchresultwidget.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+		</Filter>
+		<Filter
+			Name="Generated Files"
+			Filter="cpp;c;cxx;moc;h;def;odl;idl;res;"
+			UniqueIdentifier="{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}">
+			<File
+				RelativePath="tmp\moc\debug_shared\moc_qhelpcollectionhandler_p.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\moc_qhelpcollectionhandler_p.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\debug_shared\moc_qhelpcontentwidget.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\moc_qhelpcontentwidget.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\debug_shared\moc_qhelpdbreader_p.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\moc_qhelpdbreader_p.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\debug_shared\moc_qhelpengine.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\moc_qhelpengine.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\debug_shared\moc_qhelpengine_p.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\moc_qhelpengine_p.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\debug_shared\moc_qhelpenginecore.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\moc_qhelpenginecore.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\debug_shared\moc_qhelpgenerator_p.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\moc_qhelpgenerator_p.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\debug_shared\moc_qhelpindexwidget.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\moc_qhelpindexwidget.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\debug_shared\moc_qhelpsearchengine.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\moc_qhelpsearchengine.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\debug_shared\moc_qhelpsearchindexreader_clucene_p.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\moc_qhelpsearchindexreader_clucene_p.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\debug_shared\moc_qhelpsearchindexreader_default_p.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\moc_qhelpsearchindexreader_default_p.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\debug_shared\moc_qhelpsearchindexreader_p.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\moc_qhelpsearchindexreader_p.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\debug_shared\moc_qhelpsearchindexwriter_clucene_p.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\moc_qhelpsearchindexwriter_clucene_p.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\debug_shared\moc_qhelpsearchindexwriter_default_p.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\moc_qhelpsearchindexwriter_default_p.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\debug_shared\moc_qhelpsearchquerywidget.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\moc_qhelpsearchquerywidget.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\debug_shared\moc_qhelpsearchresultwidget.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\moc_qhelpsearchresultwidget.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\debug_shared\qhelpcontentwidget.moc">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;qhelpcontentwidget.cpp"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQHELP_LIB -DQT_CLUCENE_SUPPORT -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_SQL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\..\include\QtCore&quot; -I&quot;..\..\..\include\QtNetwork&quot; -I&quot;..\..\..\include\QtGui&quot; -I&quot;..\..\..\include\QtSql&quot; -I&quot;..\..\..\include&quot; -I&quot;..\..\..\include\QtHelp&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 qhelpcontentwidget.cpp -o tmp\moc\debug_shared\qhelpcontentwidget.moc"
+						Description="MOC qhelpcontentwidget.cpp"
+						Outputs="tmp\moc\debug_shared\qhelpcontentwidget.moc"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\qhelpcontentwidget.moc">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;qhelpcontentwidget.cpp"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQHELP_LIB -DQT_CLUCENE_SUPPORT -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\..\include\QtCore&quot; -I&quot;..\..\..\include\QtNetwork&quot; -I&quot;..\..\..\include\QtGui&quot; -I&quot;..\..\..\include\QtSql&quot; -I&quot;..\..\..\include&quot; -I&quot;..\..\..\include\QtHelp&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 qhelpcontentwidget.cpp -o tmp\moc\release_shared\qhelpcontentwidget.moc"
+						Description="MOC qhelpcontentwidget.cpp"
+						Outputs="tmp\moc\release_shared\qhelpcontentwidget.moc"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="tmp\moc\debug_shared\qhelpsearchengine.moc">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;qhelpsearchengine.cpp"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQHELP_LIB -DQT_CLUCENE_SUPPORT -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_SQL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\..\include\QtCore&quot; -I&quot;..\..\..\include\QtNetwork&quot; -I&quot;..\..\..\include\QtGui&quot; -I&quot;..\..\..\include\QtSql&quot; -I&quot;..\..\..\include&quot; -I&quot;..\..\..\include\QtHelp&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 qhelpsearchengine.cpp -o tmp\moc\debug_shared\qhelpsearchengine.moc"
+						Description="MOC qhelpsearchengine.cpp"
+						Outputs="tmp\moc\debug_shared\qhelpsearchengine.moc"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\qhelpsearchengine.moc">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;qhelpsearchengine.cpp"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQHELP_LIB -DQT_CLUCENE_SUPPORT -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\..\include\QtCore&quot; -I&quot;..\..\..\include\QtNetwork&quot; -I&quot;..\..\..\include\QtGui&quot; -I&quot;..\..\..\include\QtSql&quot; -I&quot;..\..\..\include&quot; -I&quot;..\..\..\include\QtHelp&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 qhelpsearchengine.cpp -o tmp\moc\release_shared\qhelpsearchengine.moc"
+						Description="MOC qhelpsearchengine.cpp"
+						Outputs="tmp\moc\release_shared\qhelpsearchengine.moc"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="tmp\moc\debug_shared\qhelpsearchquerywidget.moc">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;qhelpsearchquerywidget.cpp"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQHELP_LIB -DQT_CLUCENE_SUPPORT -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_SQL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\..\include\QtCore&quot; -I&quot;..\..\..\include\QtNetwork&quot; -I&quot;..\..\..\include\QtGui&quot; -I&quot;..\..\..\include\QtSql&quot; -I&quot;..\..\..\include&quot; -I&quot;..\..\..\include\QtHelp&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 qhelpsearchquerywidget.cpp -o tmp\moc\debug_shared\qhelpsearchquerywidget.moc"
+						Description="MOC qhelpsearchquerywidget.cpp"
+						Outputs="tmp\moc\debug_shared\qhelpsearchquerywidget.moc"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\qhelpsearchquerywidget.moc">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;qhelpsearchquerywidget.cpp"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQHELP_LIB -DQT_CLUCENE_SUPPORT -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\..\include\QtCore&quot; -I&quot;..\..\..\include\QtNetwork&quot; -I&quot;..\..\..\include\QtGui&quot; -I&quot;..\..\..\include\QtSql&quot; -I&quot;..\..\..\include&quot; -I&quot;..\..\..\include\QtHelp&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 qhelpsearchquerywidget.cpp -o tmp\moc\release_shared\qhelpsearchquerywidget.moc"
+						Description="MOC qhelpsearchquerywidget.cpp"
+						Outputs="tmp\moc\release_shared\qhelpsearchquerywidget.moc"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="tmp\moc\debug_shared\qhelpsearchresultwidget.moc">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;qhelpsearchresultwidget.cpp"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQHELP_LIB -DQT_CLUCENE_SUPPORT -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_SQL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\..\include\QtCore&quot; -I&quot;..\..\..\include\QtNetwork&quot; -I&quot;..\..\..\include\QtGui&quot; -I&quot;..\..\..\include\QtSql&quot; -I&quot;..\..\..\include&quot; -I&quot;..\..\..\include\QtHelp&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\debug_shared&quot; -I..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 qhelpsearchresultwidget.cpp -o tmp\moc\debug_shared\qhelpsearchresultwidget.moc"
+						Description="MOC qhelpsearchresultwidget.cpp"
+						Outputs="tmp\moc\debug_shared\qhelpsearchresultwidget.moc"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\moc\release_shared\qhelpsearchresultwidget.moc">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe;qhelpsearchresultwidget.cpp"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\moc.exe  -DQT_SHARED -DQT_THREAD_SUPPORT -DUNICODE -DWIN32 -DQHELP_LIB -DQT_CLUCENE_SUPPORT -DQT_MAKEDLL -DQT_NO_CAST_TO_ASCII -DQT3_SUPPORT -DQT_MOC_COMPAT -DQT_USE_QSTRINGBUILDER -D_USE_MATH_DEFINES -DQT_DLL -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -I&quot;..\..\..\include\QtCore&quot; -I&quot;..\..\..\include\QtNetwork&quot; -I&quot;..\..\..\include\QtGui&quot; -I&quot;..\..\..\include\QtSql&quot; -I&quot;..\..\..\include&quot; -I&quot;..\..\..\include\QtHelp&quot; -I&quot;tmp\rcc\debug_shared&quot; -I&quot;tmp&quot; -I&quot;..\..\..\include\ActiveQt&quot; -I&quot;tmp\moc\release_shared&quot; -I..\..\..\mkspecs\win32-msvc2003 -D_MSC_VER=1310 -DWIN32 qhelpsearchresultwidget.cpp -o tmp\moc\release_shared\qhelpsearchresultwidget.moc"
+						Description="MOC qhelpsearchresultwidget.cpp"
+						Outputs="tmp\moc\release_shared\qhelpsearchresultwidget.moc"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="tmp\rcc\debug_shared\qrc_helpsystem.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="tmp\rcc\release_shared\qrc_helpsystem.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+		</Filter>
+		<Filter
+			Name="Resource Files"
+			Filter="qrc;*"
+			UniqueIdentifier="{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}"
+			ParseFiles="false">
+			<File
+				RelativePath="helpsystem.qrc">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\rcc.exe;helpsystem.qrc"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\rcc.exe -name helpsystem helpsystem.qrc -o tmp\rcc\debug_shared\qrc_helpsystem.cpp"
+						Description="RCC helpsystem.qrc"
+						Outputs="tmp\rcc\debug_shared\qrc_helpsystem.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\rcc.exe;helpsystem.qrc"
+						CommandLine="C:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin\rcc.exe -name helpsystem helpsystem.qrc -o tmp\rcc\release_shared\qrc_helpsystem.cpp"
+						Description="RCC helpsystem.qrc"
+						Outputs="tmp\rcc\release_shared\qrc_helpsystem.cpp"
+						Path="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\bin" />
+				</FileConfiguration>
+			</File>
+		</Filter>
+		<File
+			RelativePath="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\tools\assistant\lib\QtHelp_resource.rc">
+			<FileConfiguration
+				Name="Debug|Win32"
+				ExcludedFromBuild="true" />
+		</File>
+		<File
+			RelativePath="c:\Users\dev\source\repos\eltorio\novasulf-II\qt-everywhere-opensource-src-4.8.7\tools\assistant\lib\QtHelpd_resource.rc">
+			<FileConfiguration
+				Name="Release|Win32"
+				ExcludedFromBuild="true" />
+		</File>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>

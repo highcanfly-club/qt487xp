@@ -1,0 +1,33 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "qsvg", "C:/novasulf-II/qt-everywhere-opensource-src-4.8.7/src/plugins/imageformats/svg\qsvg.vcxproj", "{63AE1779-757B-3F89-B0D7-DD085ECACB3D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "qico", "C:/novasulf-II/qt-everywhere-opensource-src-4.8.7/src/plugins/imageformats/ico\qico.vcxproj", "{203283EC-6DBC-3651-88BB-A907DFF7AA0D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "qtga", "C:/novasulf-II/qt-everywhere-opensource-src-4.8.7/src/plugins/imageformats/tga\qtga.vcxproj", "{3F418898-BD46-396E-94DE-CADB3DEF99BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{63AE1779-757B-3F89-B0D7-DD085ECACB3D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{63AE1779-757B-3F89-B0D7-DD085ECACB3D}.Debug|Win32.Build.0 = Debug|Win32
+		{63AE1779-757B-3F89-B0D7-DD085ECACB3D}.Release|Win32.ActiveCfg = Release|Win32
+		{63AE1779-757B-3F89-B0D7-DD085ECACB3D}.Release|Win32.Build.0 = Release|Win32
+		{203283EC-6DBC-3651-88BB-A907DFF7AA0D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{203283EC-6DBC-3651-88BB-A907DFF7AA0D}.Debug|Win32.Build.0 = Debug|Win32
+		{203283EC-6DBC-3651-88BB-A907DFF7AA0D}.Release|Win32.ActiveCfg = Release|Win32
+		{203283EC-6DBC-3651-88BB-A907DFF7AA0D}.Release|Win32.Build.0 = Release|Win32
+		{3F418898-BD46-396E-94DE-CADB3DEF99BF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3F418898-BD46-396E-94DE-CADB3DEF99BF}.Debug|Win32.Build.0 = Debug|Win32
+		{3F418898-BD46-396E-94DE-CADB3DEF99BF}.Release|Win32.ActiveCfg = Release|Win32
+		{3F418898-BD46-396E-94DE-CADB3DEF99BF}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

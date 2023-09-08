@@ -1,0 +1,39 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "qmlfolderlistmodelplugin", "C:/Users/dev/source/repos/eltorio/novasulf-II/qt-everywhere-opensource-src-4.8.7/src/imports/folderlistmodel\qmlfolderlistmodelplugin.vcxproj", "{98713005-122C-3D4E-845F-D86A8C07EA7A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "qmlparticlesplugin", "C:/Users/dev/source/repos/eltorio/novasulf-II/qt-everywhere-opensource-src-4.8.7/src/imports/particles\qmlparticlesplugin.vcxproj", "{B128A451-009D-3CBF-8B8D-F9151499FDEB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "qmlgesturesplugin", "C:/Users/dev/source/repos/eltorio/novasulf-II/qt-everywhere-opensource-src-4.8.7/src/imports/gestures\qmlgesturesplugin.vcxproj", "{381B2820-0ED5-3648-B028-9A4FCA0F8C4F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "qmlshadersplugin", "C:/Users/dev/source/repos/eltorio/novasulf-II/qt-everywhere-opensource-src-4.8.7/src/imports/shaders\qmlshadersplugin.vcxproj", "{CDAD6905-6D40-388B-AC84-CCA93061DE65}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{98713005-122C-3D4E-845F-D86A8C07EA7A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{98713005-122C-3D4E-845F-D86A8C07EA7A}.Debug|Win32.Build.0 = Debug|Win32
+		{98713005-122C-3D4E-845F-D86A8C07EA7A}.Release|Win32.ActiveCfg = Release|Win32
+		{98713005-122C-3D4E-845F-D86A8C07EA7A}.Release|Win32.Build.0 = Release|Win32
+		{B128A451-009D-3CBF-8B8D-F9151499FDEB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B128A451-009D-3CBF-8B8D-F9151499FDEB}.Debug|Win32.Build.0 = Debug|Win32
+		{B128A451-009D-3CBF-8B8D-F9151499FDEB}.Release|Win32.ActiveCfg = Release|Win32
+		{B128A451-009D-3CBF-8B8D-F9151499FDEB}.Release|Win32.Build.0 = Release|Win32
+		{381B2820-0ED5-3648-B028-9A4FCA0F8C4F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{381B2820-0ED5-3648-B028-9A4FCA0F8C4F}.Debug|Win32.Build.0 = Debug|Win32
+		{381B2820-0ED5-3648-B028-9A4FCA0F8C4F}.Release|Win32.ActiveCfg = Release|Win32
+		{381B2820-0ED5-3648-B028-9A4FCA0F8C4F}.Release|Win32.Build.0 = Release|Win32
+		{CDAD6905-6D40-388B-AC84-CCA93061DE65}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CDAD6905-6D40-388B-AC84-CCA93061DE65}.Debug|Win32.Build.0 = Debug|Win32
+		{CDAD6905-6D40-388B-AC84-CCA93061DE65}.Release|Win32.ActiveCfg = Release|Win32
+		{CDAD6905-6D40-388B-AC84-CCA93061DE65}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
