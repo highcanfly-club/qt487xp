@@ -1,4 +1,4 @@
--static 
+-shared 
 -opensource 
 -nomake 
 examples 
@@ -11,5 +11,6 @@ win32-msvc2017
 -no-sse2 
 -no-sse 
 -no-opengl 
+-no-directwrite 
 -debug-and-release 
 -confirm-license 

@@ -1,7 +1,6 @@
-QMAKE_PRL_BUILD_DIR = C:/novasulf-II/qt-everywhere-opensource-src-4.8.7/src/xml
+QMAKE_PRL_BUILD_DIR = C:/qt487xp/src/xml/
 QMAKE_PRO_INPUT = xml.pro
 QMAKE_PRL_TARGET = QtXmld
-QMAKE_PRL_DEFINES = QT_THREAD_SUPPORT
-QMAKE_PRL_CONFIG = include_source_dir lex yacc warn_on debug uic resources incremental_off windows debug DebugBuild Debug build_pass qt warn_on incremental flat link_prl precompile_header autogen_precompile_source copy_dir_files debug_and_release debug_and_release_target embed_manifest_dll embed_manifest_exe debug static stl exceptions rtti mmx 3dnow largefile minimal-config small-config medium-config large-config full-config build_all debug incremental create_prl link_prl depend_includepath QTDIR_build debug DebugBuild Debug build_pass qt_install_headers qt warn_on depend_includepath qmake_cache target_qt debug_and_release largefile static debug DebugBuild Debug build_pass no_autoqmake staticlib static moc thread
+QMAKE_PRL_DEFINES = QT_SHARED QT_THREAD_SUPPORT
+QMAKE_PRL_CONFIG = include_source_dir lex yacc warn_on debug uic resources incremental_off windows debug DebugBuild Debug build_pass qt warn_on incremental flat link_prl precompile_header autogen_precompile_source copy_dir_files debug_and_release debug_and_release_target embed_manifest_dll embed_manifest_exe debug shared stl exceptions rtti mmx 3dnow largefile minimal-config small-config medium-config large-config full-config build_all debug incremental create_prl link_prl depend_includepath QTDIR_build debug DebugBuild Debug build_pass qt_install_headers qt warn_on depend_includepath qmake_cache target_qt debug_and_release largefile debug DebugBuild Debug build_pass no_autoqmake moc thread dll shared
 QMAKE_PRL_VERSION = 4
-QMAKE_PRL_LIBS = c:\\novasulf-II\\qt-everywhere-opensource-src-4.8.7\\lib\\QtCored.lib kernel32.lib user32.lib shell32.lib uuid.lib ole32.lib advapi32.lib ws2_32.lib  

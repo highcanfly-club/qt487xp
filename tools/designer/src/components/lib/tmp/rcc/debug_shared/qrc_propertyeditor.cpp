@@ -9,7 +9,7 @@
 #include <QtCore/qglobal.h>
 
 static const unsigned char qt_resource_data[] = {
-  // C:/Users/dev/source/repos/eltorio/novasulf-II/qt-everywhere-opensource-src-4.8.7/tools/designer/src/components/propertyeditor/fontmapping.xml
+  // C:/qt487xp/tools/designer/src/components/propertyeditor/fontmapping.xml
   0x0,0x0,0x3,0x94,
   0x0,
   0x0,0x10,0xc9,0x78,0x9c,0xed,0x56,0xef,0x6b,0xdb,0x48,0x10,0xfd,0x1e,0xc8,0xff,

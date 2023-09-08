@@ -1,5 +1,8 @@
 /* Everything */
 
+#ifndef QT_DLL
+#define QT_DLL
+#endif
 
 /* License information */
 #define QT_PRODUCT_LICENSEE "Open Source"
@@ -36,12 +39,6 @@
 // Compile time features
 #define QT_ARCH_WINDOWS
 #define QT_LARGEFILE_SUPPORT 64
-#if defined(QT_BUILTIN_GIF_READER) && defined(QT_NO_BUILTIN_GIF_READER)
-# undef QT_BUILTIN_GIF_READER
-#elif !defined(QT_BUILTIN_GIF_READER)
-# define QT_BUILTIN_GIF_READER 1
-#endif
-
 #if defined(QT_GRAPHICSSYSTEM_RASTER) && defined(QT_NO_GRAPHICSSYSTEM_RASTER)
 # undef QT_GRAPHICSSYSTEM_RASTER
 #elif !defined(QT_GRAPHICSSYSTEM_RASTER)
@@ -70,6 +67,24 @@
 # undef QT_NO_FREETYPE
 #elif !defined(QT_NO_FREETYPE)
 # define QT_NO_FREETYPE
+#endif
+
+#if defined(QT_NO_IMAGEFORMAT_JPEG) && defined(QT_IMAGEFORMAT_JPEG)
+# undef QT_NO_IMAGEFORMAT_JPEG
+#elif !defined(QT_NO_IMAGEFORMAT_JPEG)
+# define QT_NO_IMAGEFORMAT_JPEG
+#endif
+
+#if defined(QT_NO_IMAGEFORMAT_MNG) && defined(QT_IMAGEFORMAT_MNG)
+# undef QT_NO_IMAGEFORMAT_MNG
+#elif !defined(QT_NO_IMAGEFORMAT_MNG)
+# define QT_NO_IMAGEFORMAT_MNG
+#endif
+
+#if defined(QT_NO_IMAGEFORMAT_TIFF) && defined(QT_IMAGEFORMAT_TIFF)
+# undef QT_NO_IMAGEFORMAT_TIFF
+#elif !defined(QT_NO_IMAGEFORMAT_TIFF)
+# define QT_NO_IMAGEFORMAT_TIFF
 #endif
 
 #if defined(QT_NO_NIS) && defined(QT_NIS)
@@ -136,12 +151,6 @@
 # undef QT_NO_WEBKIT
 #elif !defined(QT_NO_WEBKIT)
 # define QT_NO_WEBKIT
-#endif
-
-#if defined(QT_SQL_SQLITE) && defined(QT_NO_SQL_SQLITE)
-# undef QT_SQL_SQLITE
-#elif !defined(QT_SQL_SQLITE)
-# define QT_SQL_SQLITE
 #endif
 
 #define QT_NO_INOTIFY

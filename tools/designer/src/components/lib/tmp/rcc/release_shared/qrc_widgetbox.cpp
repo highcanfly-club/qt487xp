@@ -9,7 +9,7 @@
 #include <QtCore/qglobal.h>
 
 static const unsigned char qt_resource_data[] = {
-  // C:/Users/dev/source/repos/eltorio/novasulf-II/qt-everywhere-opensource-src-4.8.7/tools/designer/src/components/widgetbox/widgetbox.xml
+  // C:/qt487xp/tools/designer/src/components/widgetbox/widgetbox.xml
   0x0,0x0,0xb,0xc5,
   0x0,
   0x0,0x89,0x5c,0x78,0x9c,0xed,0x5d,0x5b,0x6f,0xdb,0x38,0x16,0x7e,0x1f,0x60,0xfe,

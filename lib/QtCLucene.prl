@@ -1,7 +1,6 @@
-QMAKE_PRL_BUILD_DIR = C:/novasulf-II/qt-everywhere-opensource-src-4.8.7/tools/assistant/lib/fulltextsearch
+QMAKE_PRL_BUILD_DIR = C:/qt487xp/tools/assistant/lib/fulltextsearch/
 QMAKE_PRO_INPUT = fulltextsearch.pro
 QMAKE_PRL_TARGET = QtCLucene
-QMAKE_PRL_DEFINES = QT_THREAD_SUPPORT
-QMAKE_PRL_CONFIG = include_source_dir lex yacc uic resources incremental_off windows release ReleaseBuild Release build_pass qt release incremental flat link_prl precompile_header autogen_precompile_source copy_dir_files debug_and_release debug_and_release_target embed_manifest_dll embed_manifest_exe static stl exceptions rtti mmx 3dnow largefile minimal-config small-config medium-config large-config full-config build_all incremental create_prl link_prl depend_includepath QTDIR_build release ReleaseBuild Release build_pass qt_install_headers qt depend_includepath qmake_cache target_qt debug_and_release largefile static qt warn_off exceptions release ReleaseBuild Release build_pass no_autoqmake moc thread staticlib static
+QMAKE_PRL_DEFINES = QT_SHARED QT_THREAD_SUPPORT
+QMAKE_PRL_CONFIG = include_source_dir lex yacc uic resources incremental_off windows release ReleaseBuild Release build_pass qt release incremental flat link_prl precompile_header autogen_precompile_source copy_dir_files debug_and_release debug_and_release_target embed_manifest_dll embed_manifest_exe shared stl exceptions rtti mmx 3dnow largefile minimal-config small-config medium-config large-config full-config build_all incremental create_prl link_prl depend_includepath QTDIR_build release ReleaseBuild Release build_pass qt_install_headers qt depend_includepath qmake_cache target_qt debug_and_release largefile qt warn_off exceptions release ReleaseBuild Release build_pass no_autoqmake moc thread dll shared
 QMAKE_PRL_VERSION = 4
-QMAKE_PRL_LIBS = c:\\novasulf-II\\qt-everywhere-opensource-src-4.8.7\\lib\\QtCore.lib kernel32.lib user32.lib shell32.lib uuid.lib ole32.lib advapi32.lib ws2_32.lib  
